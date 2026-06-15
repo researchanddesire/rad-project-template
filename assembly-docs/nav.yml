@@ -1,0 +1,5 @@
+site_name: PRODUCT_NAME
+nav:
+  - Overview: index.md
+  - Bill of Materials: bom.md
+  - Assembly Guide: assembly-guide.md

@@ -1,0 +1,24 @@
+name: Trigger dev-docs rebuild
+
+# Requires DOCS_DISPATCH_TOKEN in this product repo. Use a fine-grained PAT or
+# organization secret with permission to send repository_dispatch events to
+# researchanddesire/dev-docs. The default GITHUB_TOKEN is scoped to this repo
+# and cannot reliably trigger sibling-repo workflows.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'developer-docs/**'
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request dev-docs site rebuild
+        run: |
+          curl -sS --fail-with-body -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.DOCS_DISPATCH_TOKEN }}" \
+            https://api.github.com/repos/researchanddesire/dev-docs/dispatches \
+            -d '{"event_type":"dev-docs-rebuild","client_payload":{"repo":"PRODUCT_REPO","ref":"'"${{ github.ref_name }}"'"}}'

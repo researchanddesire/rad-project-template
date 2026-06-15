@@ -1,0 +1,31 @@
+---
+description: BOM standard for hardware/<product>/bom.csv
+globs: hardware/**/bom.csv
+alwaysApply: false
+---
+
+# BOM standard (RAD)
+
+When creating or editing any `hardware/<product>/bom.csv`, follow the canonical
+RAD BOM standard.
+
+Full reference: https://dev.researchanddesire.com/meta/bom-standard/
+
+The vendored schema lives at `.github/workflows/scripts/bom.schema.json`; do not
+hand-edit it.
+
+## Header
+
+```csv
+#,Part Name,Category,Description,Qty,UOM,Manufacturer,MFG PN,Vendor,Vendor PN,Source,Notes
+```
+
+## Conventions
+
+- Use the header exactly, in the same order.
+- Use only canonical category codes from the standard.
+- Use an en dash `–` for empty values; do not leave blank cells.
+- `Qty` must parse as a number.
+- `Source` should prefer an in-repo source path when one exists.
+
+Run `python .github/workflows/scripts/bom_lint.py` after edits.

@@ -1,0 +1,12 @@
+site_name: PRODUCT_NAME Developer Docs
+use_directory_urls: false
+theme:
+  name: material
+plugins:
+  - search
+  - awesome-pages
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables

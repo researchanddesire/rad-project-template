@@ -1,0 +1,5 @@
+title: PRODUCT_NAME
+nav:
+  - index.md
+  - architecture.md
+  - testing.md

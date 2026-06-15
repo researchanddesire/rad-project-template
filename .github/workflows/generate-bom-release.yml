@@ -1,0 +1,16 @@
+name: Generate BOM release artifact
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  bom:
+    uses: researchanddesire/assembly-docs/.github/workflows/bom-release.yml@main
+    permissions:
+      contents: write
+    with:
+      product: PRODUCT_NAME
+      repo_url: https://github.com/researchanddesire/PRODUCT_REPO
+      license: PRODUCT_LICENSE

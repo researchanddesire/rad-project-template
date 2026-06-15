@@ -1,0 +1,7 @@
+Replace this file with the product's license text before publishing.
+
+Recommended defaults for R+D hardware/firmware product repos:
+
+- Hardware: CERN-OHL-S v2
+- Firmware: MPL-2.0
+- Documentation: CC BY-SA 4.0, unless product-specific terms say otherwise
