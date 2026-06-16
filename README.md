@@ -9,8 +9,9 @@ Replace `PRODUCT_NAME`, `PRODUCT_REPO`, `PRODUCT_SLUG`, and
 
 | Content | Source of truth | Published at |
 | --- | --- | --- |
-| Assembly guide, BOM page text, assembly images | `assembly-docs/` in this repo | `ohai.researchanddesire.com/PRODUCT_SLUG` |
+| Assembly guide, BOM page text, PCB overview, cable harness pages, assembly images | `assembly-docs/` in this repo | `ohai.researchanddesire.com/PRODUCT_SLUG` |
 | BOM data | `hardware/bom.csv` in this repo | Rendered into assembly docs at build time |
+| Hardware source assets | `hardware/cad/`, `hardware/pcb/`, `hardware/cables/` | Linked from assembly docs and BOM source fields |
 | Developer notes, architecture, tests, integration behavior | `developer-docs/docs/` in this repo | `dev.researchanddesire.com/PRODUCT_SLUG` |
 | End-user guides, quick starts, support docs | `simple-docs` repo | `docs.researchanddesire.com` |
 
@@ -22,8 +23,11 @@ table.
 
 ```text
 assembly-docs/
+  site.yml
   nav.yml
   index.md
+  pcb-overview.md
+  cable-harnesses.md
   bom.md
   assembly-guide.md
   assets/
@@ -37,6 +41,7 @@ developer-docs/
 hardware/
   bom.csv
   cad/
+  cables/
   pcb/
 .github/workflows/
   trigger-assembly-docs.yml
@@ -49,9 +54,10 @@ hardware/
 ## Setup checklist
 
 1. Replace placeholders throughout this template.
-2. Add the repo to `assembly-docs/scripts/assemble-docs.sh` and
-   `dev-docs/scripts/assemble-docs.sh`.
-3. Add top-level nav entries or placeholders in the aggregator repos.
+2. Replace `assembly-docs/site.yml` with real `slug`, `title`, `license`, and
+   `nav_order` values.
+3. Add the GitHub topic `ohai-assembly-docs` only after placeholders are gone
+   and local assembly/build checks pass. Do not add this topic to the template.
 4. Configure `DOCS_DISPATCH_TOKEN` in this product repo so product pushes can
    dispatch rebuilds to `assembly-docs` and `dev-docs`. The default
    `GITHUB_TOKEN` cannot trigger these cross-repo rebuild workflows.

@@ -7,8 +7,9 @@ Edit docs where they are owned:
 | Change | Edit |
 | --- | --- |
 | Firmware, hardware, API, or integration behavior | `developer-docs/docs/` |
-| Assembly steps, assembly photos, BOM page prose | `assembly-docs/` |
+| Assembly steps, assembly photos, BOM page prose, PCB overview, cable harness pages | `assembly-docs/` |
 | BOM line items | `hardware/bom.csv` |
+| CAD, PCB, and cable harness source assets | `hardware/cad/`, `hardware/pcb/`, `hardware/cables/` |
 | User-facing guides, FAQs, support docs | `simple-docs` repo |
 
 Published docs:
@@ -27,6 +28,10 @@ gate: if it passes, the CSV conforms to the shared standard.
 
 Do not edit `.github/workflows/scripts/bom.schema.json` by hand. It is vendored
 from `dev-docs` and synced by workflow.
+
+Cable harnesses are product-level BOM line items. Detailed child cable BOMs
+belong to Wireviz output, such as generated `.bom.tsv` artifacts linked from
+`assembly-docs/cable-harnesses.md`.
 
 ## Pull Requests
 

@@ -8,10 +8,28 @@ Guidance for agents working in this product repository.
 - Developer documentation lives in `developer-docs/docs/`.
 - End-user documentation lives in the separate `simple-docs` repository.
 - BOM data lives in `hardware/bom.csv` and is human-owned.
+- Hardware source folders are `hardware/cad/`, `hardware/pcb/`, and
+  `hardware/cables/`.
 
 Do not commit generated assembly-site output to this repo. The assembly docs
 aggregator renders `hardware/bom.csv` into the copied `assembly-docs/bom.md`
 page at build time.
+
+## Ohai Assembly Package
+
+An Ohai-eligible product repo must keep these files present and non-placeholder:
+
+- `assembly-docs/site.yml`
+- `assembly-docs/nav.yml`
+- `assembly-docs/index.md`
+- `assembly-docs/pcb-overview.md`
+- `assembly-docs/cable-harnesses.md`
+- `assembly-docs/bom.md`
+- `assembly-docs/assembly-guide.md`
+
+Only add the GitHub topic `ohai-assembly-docs` after replacing all template
+placeholders and passing local assembly/build checks. Never add that topic to
+the `rad-project-template` repo itself.
 
 ## BOM Rules
 
@@ -25,12 +43,18 @@ When editing any `hardware/**/bom.csv`, follow the RAD BOM standard:
 
 Full reference: https://dev.researchanddesire.com/meta/bom-standard/
 
+Product BOMs list cable harnesses as top-level assemblies. Detailed cable BOMs
+belong to Wireviz output. Link generated `.bom.tsv` artifacts from assembly
+docs; do not copy child cable BOM details into `hardware/bom.csv`.
+
 ## Docs Rules
 
 - Update `developer-docs/docs/` with code, API, integration, state-machine, or
   behavior changes.
 - Update `assembly-docs/` with build steps, assembly photos, tools, hardware
   source links, and BOM page prose.
+- Update `assembly-docs/cable-harnesses.md` when `hardware/cables/` gains or
+  changes Wireviz sources.
 - Open a change in `simple-docs` for customer-facing quick starts,
   troubleshooting, FAQs, and support content.
 - Keep the rendered BOM out of developer docs and simple docs.
@@ -39,5 +63,6 @@ Full reference: https://dev.researchanddesire.com/meta/bom-standard/
 
 - Do not auto-commit changes unless explicitly asked.
 - Keep changes reviewable and scoped to the request.
+- Do not commit `.DS_Store`, `cable-export/`, or generated cable render outputs.
 - Prefer existing project patterns over new abstractions.
 - If you learn lasting project-specific context, add it here.
