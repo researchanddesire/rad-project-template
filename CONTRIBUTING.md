@@ -1,4 +1,4 @@
-# Contributing to Buttplug Compass
+# Contributing to PRODUCT_NAME
 
 ## Documentation
 
@@ -12,10 +12,10 @@ Edit docs where they are owned:
 | CAD, PCB, and cable harness source assets | `hardware/cad/`, `hardware/pcb/`, `hardware/cables/` |
 | User-facing guides, FAQs, support docs | `simple-docs` repo |
 
-Planned documentation destinations (not published):
+Published docs:
 
-- Developer docs: https://dev.researchanddesire.com/buttplug/
-- Assembly docs: https://ohai.researchanddesire.com/buttplug/
+- Developer docs: https://dev.researchanddesire.com/PRODUCT_SLUG/
+- Assembly docs: https://ohai.researchanddesire.com/PRODUCT_SLUG/
 - User docs: https://docs.researchanddesire.com/
 
 ## BOMs
@@ -42,5 +42,5 @@ belong to Wireviz output, such as generated `.bom.tsv` artifacts linked from
 
 ## Licenses
 
-License selection is pending. See `LICENSE` for the template recommendations;
-choose and include actual license texts before a product release.
+See `LICENSE`. Use `PRODUCT_LICENSE` unless this repo documents a different
+split between hardware, firmware, and documentation.
