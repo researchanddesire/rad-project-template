@@ -1,101 +1,44 @@
-# PRODUCT_NAME
+# Buttplug Compass
 
-Starter repository template for a Research and Desire product.
+For AJ and other collaborators: start with [the checkpoint handoff](COLLABORATION.md).
+It distinguishes the saved CAD from the newer keyed-collar/nut/locking proposals.
 
-Replace `PRODUCT_NAME`, `PRODUCT_REPO`, `PRODUCT_SLUG`, and
-`PRODUCT_LICENSE` before publishing the repo.
+Current direction: **[manufacturing design proposal](developer-docs/docs/prototype-build-handoff.md)**
+and **[native mechanical study](hardware/cad/manufacturing-layout/README.md)**.
 
-## Documentation ownership
+Four main mechanical pieces: CNC-turned body, CNC-turned motor/thermistor cap,
+open flange tray and rear cover. The 15 mm neck remains. A separate silicone
+boot and standard insulation/foam replace the former multi-piece scaffold.
+Battery selection and the human-owned product BOM remain open.
 
-| Content | Source of truth | Published at |
-| --- | --- | --- |
-| Assembly guide, BOM page text, PCB overview, cable harness pages, assembly images | `assembly-docs/` in this repo | `ohai.researchanddesire.com/PRODUCT_SLUG` |
-| BOM data | `hardware/bom.csv` in this repo | Rendered into assembly docs at build time |
-| Hardware source assets | `hardware/cad/`, `hardware/pcb/`, `hardware/cables/` | Linked from assembly docs and BOM source fields |
-| Developer notes, architecture, tests, integration behavior | `developer-docs/docs/` in this repo | `dev.researchanddesire.com/PRODUCT_SLUG` |
-| End-user guides, quick starts, support docs | `simple-docs` repo | `docs.researchanddesire.com` |
+![Current manufacturing layout](developer-docs/docs/assets/manufacturing-layout.png)
 
-The rendered BOM belongs only in the assembly docs site. Developer docs may
-link to or explain the BOM workflow, but they should not embed the rendered BOM
-table.
+The cap has an integral motor pocket and a potted tip thermistor. The body
+PCB is foam-supported in the cap as a prewired module; flange tails connect
+only after it is threaded into the body. A turned shoulder/spigot and standard retaining ring capture the flange tray;
+a bonded socket resists torque and a silicone cuff covers the wet-side joint.
+The cover screws now close plastic only. See the [DFM review](hardware/cad/manufacturing-layout/DFM.md)
+for machining sources, tool/setup candidates and tolerance budgets.
 
-## Expected repo layout
+**Status:** mechanical DFM study, not a build/tooling release. The old P1 fit
+kit is superseded. NTC circuit/firmware, PCB mounting features, cap thread/seal
+detail, loom, boot/buttons, charger magnets and physical validation remain open.
+No fabrication, powered operation, seal or wear result is claimed.
 
-```text
-assembly-docs/
-  site.yml
-  nav.yml
-  index.md
-  pcb-overview.md
-  cable-harnesses.md
-  bom.md
-  assembly-guide.md
-  assets/
-developer-docs/
-  mkdocs.yml
-  docs/
-    .pages
-    index.md
-    architecture.md
-    testing.md
-hardware/
-  bom.csv
-  cad/
-  cables/
-  pcb/
-.github/workflows/
-  trigger-assembly-docs.yml
-  trigger-dev-docs.yml
-  generate-bom-release.yml
-  bom-lint.yml
-  sync-bom-schema.yml
-```
+| Purpose | Source |
+| --- | --- |
+| Current design and remaining work | [Proposal](developer-docs/docs/prototype-build-handoff.md) |
+| Native CAD, four STEP parts and two plastic study STLs | [Manufacturing layout](hardware/cad/manufacturing-layout/README.md) |
+| Proposed assembly | [Assembly guide](assembly-docs/assembly-guide.md) |
+| Prior circuit/routed-board reference | [R35F project](hardware/pcb/pack-pigtail-r35/candidate-f/system-r35.kicad_pro) |
+| Existing bench code and compatibility limits | [Firmware](developer-docs/docs/firmware.md) |
+| Requirements | [PRD](developer-docs/docs/prd.md) |
+| Human-owned BOM | [hardware/bom.csv](hardware/bom.csv) |
 
-## Setup checklist
+Keep the seven current developer pages updated in place. Use Git history and
+[targeted archived studies](developer-docs/docs/archive/index.md) for earlier work.
+No auto-commit or publication. See [developer site setup](developer-docs/README.md).
 
-1. Replace placeholders throughout this template.
-2. Replace `assembly-docs/site.yml` with real `slug`, `title`, `license`, and
-   `nav_order` values.
-3. Add the GitHub topic `ohai-assembly-docs` only after placeholders are gone
-   and local assembly/build checks pass. Do not add this topic to the template.
-4. Configure `DOCS_DISPATCH_TOKEN` in this product repo so product pushes can
-   dispatch rebuilds to `assembly-docs` and `dev-docs`. The default
-   `GITHUB_TOKEN` cannot trigger these cross-repo rebuild workflows.
-5. Keep `.github/workflows/scripts/bom.schema.json` synced from `dev-docs`;
-   do not edit it by hand.
-6. Add user-facing pages directly to `simple-docs`, then link them from this
-   repo if useful.
-
-## Required Secrets
-
-`DOCS_DISPATCH_TOKEN` must be a fine-grained PAT or organization secret with
-permission to send `repository_dispatch` events to:
-
-- `researchanddesire/assembly-docs`
-- `researchanddesire/dev-docs`
-
-The dispatch workflows use this secret because a product repo's default
-`GITHUB_TOKEN` is scoped to that product repo and cannot reliably start
-workflows in sibling repositories.
-
-## Local docs preview
-
-Preview developer docs from this repo:
-
-```bash
-cd developer-docs
-pip install -r requirements.txt 2>/dev/null || pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin
-mkdocs serve
-```
-
-Preview the assembled sites from the aggregator repos:
-
-```bash
-cd ../assembly-docs
-ASSEMBLE_LOCAL="$HOME/Github" ./scripts/assemble-docs.sh
-mkdocs serve
-
-cd ../dev-docs
-ASSEMBLE_LOCAL="$HOME/Github" ./scripts/assemble-docs.sh
-mkdocs serve
-```
+Forked from [researchanddesire/rad-project-template](https://github.com/researchanddesire/rad-project-template).
+Repository: `researchanddesire/buttplug`; the local folder keeps its earlier name.
+Publication and licenses remain pending. See [LICENSE](LICENSE).

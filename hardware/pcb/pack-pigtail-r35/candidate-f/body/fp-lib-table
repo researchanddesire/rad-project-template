@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib
+    (name "PrototypeR0")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../../stackup-r23/candidate-d/body/PrototypeR0.pretty")
+    (options "")
+    (descr "Unchanged R12 footprints"))
+  (lib (name "PackPigtailR35") (type "KiCad") (uri "${KIPRJMOD}/PackPigtailR35.pretty") (options "") (descr "Copper-only prototype solder lands")))

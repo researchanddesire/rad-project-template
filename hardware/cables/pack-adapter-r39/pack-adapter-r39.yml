@@ -1,0 +1,356 @@
+metadata:
+  title: R39 conditional protected-pack adapter - retained power laps
+  description: Unchanged R35F nets and starting blanks; R39 forward mate/route, D2.8 power-lap budgets and two compliant
+    cuff targets.
+  notes: Receiving conditions apply to OEM cable, pack, exits and bends. Starting blanks are trimmed on a fixture.
+    No purchase, electrical or assembly release.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J2-R35:
+    type: Copper-only body-board lands - no populated header
+    pins:
+    - 1
+    - 2S
+    - 2P
+    - 3
+    - 4
+    pinlabels:
+    - PACK_P
+    - GND_SENSE
+    - GND_POWER
+    - PACK_NTC
+    - PACK_GUARD
+    ignore_in_bom: true
+    notes: '2S and 2P are two physical lands on native logical pin 2/GND.
+
+      Do not populate the old Pico-Lock header. Pin view is numeric, not mating-face orientation.'
+  Y-RETURN:
+    type: Insulated three-way sensor return joint - process candidate
+    pins:
+    - 1
+    - 2
+    - 3
+    pinlabels:
+    - IN
+    - LOWER
+    - UPPER
+    loops:
+    - - 1
+      - 2
+    - - 1
+      - 3
+    ignore_in_bom: true
+    notes: 'Three separately stripped wire ends may be joined on a fixture.
+
+      The CAD continuous core is a geometric process budget, not a demand for midspan stripping.
+
+      Solder, insulation and force bypass must be qualified.'
+  LAP-TH1:
+    type: Two separate insulated lap joints - process candidate
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels:
+    - S-IN
+    - S-FACTORY
+    - G-IN
+    - G-FACTORY
+    loops:
+    - - 1
+      - 2
+    - - 3
+      - 4
+    ignore_in_bom: true
+    notes: 'TH1 signal and ground are separate insulated joints.
+
+      Each targets OD1.8 x5 mm; bare ends have separate offset paths.'
+  LAP-TH2:
+    type: Two separate insulated lap joints - process candidate
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels:
+    - S-IN
+    - S-FACTORY
+    - G-IN
+    - G-FACTORY
+    loops:
+    - - 1
+      - 2
+    - - 3
+      - 4
+    ignore_in_bom: true
+    notes: 'TH2 signal and ground are separate insulated joints.
+
+      Each targets OD1.8 x5 mm; bare ends have separate offset paths.'
+  TH1:
+    type: Factory-leaded NTC candidate - charge sensor
+    manufacturer: Vishay
+    mpn: NTCLE413E2103F524A
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - PACK_NTC
+    - GND_SENSE
+    notes: '52 +/-5 mm is total body-tip to wire-end length, not available lead length.
+
+      Factory leads included; do not buy four extra factory wires.
+
+      Nonpolar NTC; diagram assigns pin 1 signal, pin 2 ground.'
+  TH2:
+    type: Factory-leaded NTC candidate - independent guard
+    manufacturer: Vishay
+    mpn: NTCLE413E2103F524A
+    pins:
+    - 1
+    - 2
+    pinlabels:
+    - PACK_GUARD
+    - GND_SENSE
+    notes: 'Same factory lead and attachment restrictions as TH1.
+
+      No coating compression, hard potting or strain transfer into the heads.'
+  LAP-POWER:
+    type: Two separate insulated power lap joints - process candidate
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels:
+    - P-BODY
+    - P-OEM
+    - G-BODY
+    - G-OEM
+    loops:
+    - - 1
+      - 2
+    - - 3
+      - 4
+    ignore_in_bom: true
+    notes: D2.8 x5.5 insulated power-lap process budgets in R39, replacing sourceR37 D2.5. Separate bare cores keep0.10
+      mm nominal gap. Actual solder/insulation/current process unqualified.
+  OEM-MATE:
+    type: Prewired two-circuit pack mate candidate
+    manufacturer: Bitcraze
+    mpn: '100046015'
+    pins:
+    - 1
+    - 2
+    - 3
+    - 4
+    pinlabels:
+    - P-OEM
+    - G-OEM
+    - P-PACK
+    - G-PACK
+    loops:
+    - - 1
+      - 3
+    - - 2
+      - 4
+    notes: Pin labels define required polarity, not verified factory numbering/color. Contains included factory
+      wires; verify actual polarity against unpowered pack documentation. Actual 51006 assembly profile/OD/gauge/termination
+      receiving conditions remain open.
+    show_pincount: false
+  PACK-REF:
+    type: Unselected protected-pack interface - size/lead reference only
+    pins:
+    - P+
+    - P-
+    ignore_in_bom: true
+    notes: Battery OPEN. Stock cable, protection, finished dimensions, lead exits and compatibility must be confirmed.
+      Not permission to connect a live pack.
+cables:
+  W-BODY:
+    category: bundle
+    type: Independent prototype starting blanks - trim to fixture
+    manufacturer: Accu-Glass
+    mpn: '100690'
+    gauge: 28
+    gauge_unit: AWG
+    wirecount: 5
+    colors:
+    - BN
+    - BN
+    - BN
+    - BN
+    - BN
+    wirelabels:
+    - PACK_P
+    - GND_SENSE
+    - GND_POWER
+    - PACK_NTC
+    - PACK_GUARD
+    length: 0.15
+    length_unit: m
+    notes: Five150 mm STARTING blanks, trim to actual fixture. R39 longest coated body-power path118.967 mm plus
+      root/tail strip and process allowance. OD0.60 remains engineering allowance; actual current/temperature/process
+      unqualified.
+  W-RETURN-LEGS:
+    category: bundle
+    type: Two short sensor-return starting blanks
+    manufacturer: Accu-Glass
+    mpn: '100690'
+    gauge: 28
+    gauge_unit: AWG
+    wirecount: 2
+    colors:
+    - BN
+    - BN
+    wirelabels:
+    - TH1_GND
+    - TH2_GND
+    length: 0.03
+    length_unit: m
+    notes: 30 mm STARTING blanks; trim and strip on the joint fixture. No finished length inferred.
+  W-TH1-FACTORY:
+    category: bundle
+    type: Included TH1 factory leads - not separate purchased wire
+    wirecount: 2
+    colors:
+    - BN
+    - BN
+    wirelabels:
+    - pin1 / CAD lead1_2
+    - pin2 / CAD lead1_1
+    ignore_in_bom: true
+    notes: 'Length intentionally unspecified here. Native R36 has full coated path and bare lap target.
+
+      Do not trim at the old 4.5 mm stub or interpret total52 mm as lead length.'
+  W-TH2-FACTORY:
+    category: bundle
+    type: Included TH2 factory leads - not separate purchased wire
+    wirecount: 2
+    colors:
+    - BN
+    - BN
+    wirelabels:
+    - pin1 / CAD lead2_1
+    - pin2 / CAD lead2_2
+    ignore_in_bom: true
+    notes: Same factory-lead/process scope as TH1; no duplicate child BOM wire.
+  W-OEM:
+    category: bundle
+    type: Included factory prewired-mate leads
+    wirecount: 2
+    colors:
+    - BN
+    - BN
+    wirelabels:
+    - VERIFY P+
+    - VERIFY P-
+    ignore_in_bom: true
+    notes: Included with OEM-MATE; no duplicate purchased wire. Native target18.5 mm coated +2.5 mm restripped bare=21.0
+      mm; actual gauge/OD/strip/current/bend conditions unqualified. Colors are diagram identification only.
+  W-PACK:
+    category: bundle
+    type: Included unselected protected-pack factory leads
+    wirecount: 2
+    colors:
+    - BN
+    - BN
+    wirelabels:
+    - VERIFY P+
+    - VERIFY P-
+    ignore_in_bom: true
+    notes: 'Included unselected pack leads; source 35 mm includes housing/shrink.
+
+      R39 keeps a 21.8 mm coated route and OD1.8 engineering condition.
+
+      Paired arcs use a 12 mm centre radius and individual radii of at least 11 mm.
+
+      Actual exit, shrink, pitch, OD and bend specification remain unqualified.'
+connections:
+- - J2-R35:
+    - 1
+    - 2P
+  - W-BODY:
+    - 1
+    - 3
+  - LAP-POWER:
+    - 1
+    - 3
+- - J2-R35:
+    - 2S
+  - W-BODY:
+    - 2
+  - Y-RETURN:
+    - 1
+- - J2-R35:
+    - 3
+  - W-BODY:
+    - 4
+  - LAP-TH1:
+    - 1
+- - J2-R35:
+    - 4
+  - W-BODY:
+    - 5
+  - LAP-TH2:
+    - 1
+- - Y-RETURN:
+    - 2
+  - W-RETURN-LEGS:
+    - 1
+  - LAP-TH1:
+    - 3
+- - Y-RETURN:
+    - 3
+  - W-RETURN-LEGS:
+    - 2
+  - LAP-TH2:
+    - 3
+- - LAP-TH1:
+    - 2
+    - 4
+  - W-TH1-FACTORY:
+    - 1
+    - 2
+  - TH1:
+    - 1
+    - 2
+- - LAP-TH2:
+    - 2
+    - 4
+  - W-TH2-FACTORY:
+    - 1
+    - 2
+  - TH2:
+    - 1
+    - 2
+- - LAP-POWER:
+    - 2
+    - 4
+  - W-OEM:
+    - 1
+    - 2
+  - OEM-MATE:
+    - 1
+    - 2
+- - OEM-MATE:
+    - 3
+    - 4
+  - W-PACK:
+    - 1
+    - 2
+  - PACK-REF:
+    - P+
+    - P-
+additional_bom_items:
+- description: Solder/insulation process set - unspecified prototype target
+  qty: 7
+  unit: set
+- description: Power-lap compliant cuff target - material and preload OPEN
+  qty: 2
+  unit: piece
+tweak:
+  append: graph [label="R39 / CONDITIONAL PACK ADAPTER\nBattery OPEN; receiving dimensions and actual joint/cuff
+    process require qualification", labelloc=t, labeljust=l, fontsize=18, fontname="Arial"];

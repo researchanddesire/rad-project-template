@@ -1,0 +1,646 @@
+{
+  "status": "PASS_saved_native_history_and_envelope_screen_only",
+  "native_sha256": "77abefb32608279d34c37d6b2a6d7ac7926b7a6816d1008ff9e487aebc9a6483",
+  "geometry_report_sha256": "9d2f4343dba552e77ccb03d24ca6f29fc5d1d99adfa8b0ce9f1e24e43a0d6350",
+  "method": "Independent saved-document reopen, touch every object and force full feature-history recompute without save. Named final validity/solid/volume/bounds compare; exact waist section; metal enclosing cylinder; native numeric spreadsheet versus current JSON; STEP read. Does not replay generator or accept unresolved assembly collisions.",
+  "parts": {
+    "MetalShellLower": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 6096.774248804791,
+      "volume_difference_mm3": 1.4551915228366852e-11,
+      "max_bound_difference_mm": 0.0
+    },
+    "MetalShellUpper": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 6083.44165288252,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "FemaleNoseCap": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3250.2585306785677,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "RearClampBolt": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 98.66564427680446,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "RearClampNut": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 33.48379314675384,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "PolymerFlangeCore": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 7031.321325681921,
+      "volume_difference_mm3": 8.260030881501734e-09,
+      "max_bound_difference_mm": 4.253402322689587e-17
+    },
+    "PolymerCaptureBridge": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 7246.701649553432,
+      "volume_difference_mm3": 1.0913936421275139e-11,
+      "max_bound_difference_mm": 2.8399504969911827e-14
+    },
+    "CoreJoinBolt0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 85.51415203071417,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CoreJoinNut0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17.143702091137964,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CoreJoinBolt1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 85.51415203071416,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CoreJoinNut1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17.143702091137968,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "ElastomerFlangeCoverLower": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3803.531593121417,
+      "volume_difference_mm3": -3.637978807091713e-12,
+      "max_bound_difference_mm": 1.2880165646930193e-15
+    },
+    "ElastomerFlangeCoverUpper": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3803.5315931213418,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "ServiceCoverWithDockPorts": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 7498.02521422778,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "TBoardReservation": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1775.6659999999997,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "PackReservation": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 3959.9999999999995,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MotorReservation": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2545.0222728308495,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CellTemperatureSensors": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 141.3716694115407,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "PlacedComponentReservations": {
+      "valid": true,
+      "solids": 86,
+      "volume_mm3": 1924.1064999999985,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MatedSHPlugReservations": {
+      "valid": true,
+      "solids": 3,
+      "volume_mm3": 109.81999999999998,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "DockPitchedWireExit": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 12.54673566027423,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CarrierAnchorBolt0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 45.41538699906965,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CarrierAnchorNut0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 33.48379314675383,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CarrierAnchorBolt1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 45.41538699906965,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CarrierAnchorNut1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 33.48379314675383,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "PackRetentionCaps": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 26.40000000000001,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "PackCapRetentionTape": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 38.795999999999,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MotorModuleBolt0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 19.352210746113133,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 2.220446049250313e-16
+    },
+    "MotorModuleNut0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8.914725087391743,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MotorModuleBolt1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 19.352210746113133,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 2.220446049250313e-16
+    },
+    "MotorModuleNut1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8.914725087391744,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MotorCradleCaps": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 108.19645098963264,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MotorLiners": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 49.69999577979067,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MotorCapRetentionTape": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 26.374298645416673,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "BoardUpperCaptureFork": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 26.459999999999997,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "TipMainHarnessCorridor": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 482.4430372613277,
+      "volume_difference_mm3": -1.2839620922022732e-08,
+      "max_bound_difference_mm": 0.0
+    },
+    "J5PitchedFanoutBay": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 30.882000000000026,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MatedPH4PlugReservation": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 107.80000000000001,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "PackFourConductorCorridor": {
+      "valid": true,
+      "solids": 6,
+      "volume_mm3": 144.29985633811663,
+      "volume_difference_mm3": 7.1122201461548684e-09,
+      "max_bound_difference_mm": 1.7763568394002505e-15
+    },
+    "J2PitchedFanoutBay": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 82.40224999999953,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "PackAdapterConnectorReservation": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 420.0,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "MotorTwoWireCorridor": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 99.5886930787241,
+      "volume_difference_mm3": 1.3440597967928625e-08,
+      "max_bound_difference_mm": 0.0
+    },
+    "PackPowerLeadCorridor": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 58.34434262909433,
+      "volume_difference_mm3": -1.021547291202296e-09,
+      "max_bound_difference_mm": 3.552713678800501e-15
+    },
+    "NTCLeadCorridor0": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 45.33960437228457,
+      "volume_difference_mm3": -2.973642665438092e-09,
+      "max_bound_difference_mm": 0.0
+    },
+    "NTCLeadCorridor1": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 45.3396043944026,
+      "volume_difference_mm3": 7.285414937996393e-09,
+      "max_bound_difference_mm": 0.0
+    },
+    "TipPCB": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 14.832100870070347,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "TipComponentEnvelope": {
+      "valid": true,
+      "solids": 2,
+      "volume_mm3": 5.370375000000013,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "TipToShoeDielectricBond": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4.784548667764684,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "CapToShoeInterfacePad": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5.07043917976295,
+      "volume_difference_mm3": 7.105427357601002e-15,
+      "max_bound_difference_mm": 0.0
+    },
+    "TipSolderTerminationReservations": {
+      "valid": true,
+      "solids": 4,
+      "volume_mm3": 2.0789999999999966,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "TipFanoutWireCorridors": {
+      "valid": true,
+      "solids": 4,
+      "volume_mm3": 3.80703508083876,
+      "volume_difference_mm3": 0.0,
+      "max_bound_difference_mm": 0.0
+    },
+    "SupportedShoe": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 22.80339660756876,
+      "volume_difference_mm3": -1.7763568394002505e-14,
+      "max_bound_difference_mm": 0.0
+    },
+    "CarrierWithTipStrainRelief": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 730.4878392609991,
+      "volume_difference_mm3": -1.2369127944111824e-10,
+      "max_bound_difference_mm": 0.0
+    },
+    "RemovableMotorTipCarrier": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 240.67314546065757,
+      "volume_difference_mm3": 1.1155520951433573e-10,
+      "max_bound_difference_mm": 0.0
+    }
+  },
+  "waist_slice": {
+    "outer_x_mm": 15.0,
+    "outer_z_mm": 15.0,
+    "board_width_mm": 8.0,
+    "board_thickness_mm": 1.0,
+    "bare_board_clearance_mm": 1.9688711258507252,
+    "board_metal_overlap_mm3": 0.0
+  },
+  "metal_outside_37_338_diameter_mm3": 0.0,
+  "combined_step_valid": true,
+  "combined_step_solids": 162,
+  "spreadsheet": {
+    "body_max_diameter": {
+      "native_mm": 37.338,
+      "json_mm": 37.338,
+      "matches": true
+    },
+    "body_length": {
+      "native_mm": 98.0,
+      "json_mm": 98.0,
+      "matches": true
+    },
+    "nose_radius_study": {
+      "native_mm": 8.0,
+      "json_mm": 8.0,
+      "matches": true
+    },
+    "neck_outer_diameter": {
+      "native_mm": 15.0,
+      "json_mm": 15.0,
+      "matches": true
+    },
+    "neck_length": {
+      "native_mm": 20.0,
+      "json_mm": 20.0,
+      "matches": true
+    },
+    "radial_wall_study": {
+      "native_mm": 1.5,
+      "json_mm": 1.5,
+      "matches": true
+    },
+    "flange_ap_length": {
+      "native_mm": 90.0,
+      "json_mm": 90.0,
+      "matches": true
+    },
+    "flange_lr_width": {
+      "native_mm": 38.0,
+      "json_mm": 38,
+      "matches": true
+    },
+    "flange_depth": {
+      "native_mm": 27.5,
+      "json_mm": 27.5,
+      "matches": true
+    },
+    "flange_wall": {
+      "native_mm": 2.0,
+      "json_mm": 2.0,
+      "matches": true
+    },
+    "flange_roof": {
+      "native_mm": 3.0,
+      "json_mm": 3.0,
+      "matches": true
+    },
+    "flange_contour_radius": {
+      "native_mm": 110.0,
+      "json_mm": 110.0,
+      "matches": true
+    },
+    "posterior_contour_offset": {
+      "native_mm": 4.0,
+      "json_mm": 4.0,
+      "matches": true
+    },
+    "cover_thickness": {
+      "native_mm": 2.5,
+      "json_mm": 2.5,
+      "matches": true
+    },
+    "cover_screw_clearance": {
+      "native_mm": 2.8,
+      "json_mm": 2.8,
+      "matches": true
+    },
+    "cover_boss_bore_study": {
+      "native_mm": 3.8,
+      "json_mm": 3.8,
+      "matches": true
+    },
+    "metal_shoulder_diameter": {
+      "native_mm": 34.0,
+      "json_mm": 34,
+      "matches": true
+    },
+    "collar_bottom_y": {
+      "native_mm": -8.0,
+      "json_mm": -8,
+      "matches": true
+    },
+    "pcb_thickness": {
+      "native_mm": 1.0,
+      "json_mm": 1.0,
+      "matches": true
+    },
+    "pcb_min_z": {
+      "native_mm": -0.5,
+      "json_mm": -0.5,
+      "matches": true
+    },
+    "pcb_crossbar_length": {
+      "native_mm": 70.0,
+      "json_mm": 70.0,
+      "matches": true
+    },
+    "pcb_crossbar_depth": {
+      "native_mm": 17.0,
+      "json_mm": 17.0,
+      "matches": true
+    },
+    "pcb_crossbar_bottom_y": {
+      "native_mm": -26.0,
+      "json_mm": -26.0,
+      "matches": true
+    },
+    "pcb_neck_width": {
+      "native_mm": 8.0,
+      "json_mm": 8.0,
+      "matches": true
+    },
+    "pcb_tongue_width": {
+      "native_mm": 14.0,
+      "json_mm": 14.0,
+      "matches": true
+    },
+    "pcb_tip_y": {
+      "native_mm": 52.0,
+      "json_mm": 52.0,
+      "matches": true
+    },
+    "motor_reservation_diameter": {
+      "native_mm": 11.1,
+      "json_mm": 11.1,
+      "matches": true
+    },
+    "motor_reservation_length": {
+      "native_mm": 26.3,
+      "json_mm": 26.3,
+      "matches": true
+    },
+    "motor_start_y": {
+      "native_mm": 55.5,
+      "json_mm": 55.5,
+      "matches": true
+    },
+    "motor_center_z": {
+      "native_mm": 3.5,
+      "json_mm": 3.5,
+      "matches": true
+    },
+    "root_blend_radius": {
+      "native_mm": 3.0,
+      "json_mm": 3.0,
+      "matches": true
+    },
+    "flange_skin_thickness": {
+      "native_mm": 1.0,
+      "json_mm": 1.0,
+      "matches": true
+    },
+    "metal_split_z": {
+      "native_mm": 0.0,
+      "json_mm": 0.0,
+      "matches": true
+    },
+    "cap_seam_y": {
+      "native_mm": 73.0,
+      "json_mm": 73.0,
+      "matches": true
+    },
+    "thread_start_y": {
+      "native_mm": 73.5,
+      "json_mm": 73.5,
+      "matches": true
+    },
+    "thread_height": {
+      "native_mm": 4.0,
+      "json_mm": 4.0,
+      "matches": true
+    },
+    "thread_pitch": {
+      "native_mm": 0.75,
+      "json_mm": 0.75,
+      "matches": true
+    },
+    "thread_root_radius": {
+      "native_mm": 12.0,
+      "json_mm": 12.0,
+      "matches": true
+    },
+    "thread_crest_radius": {
+      "native_mm": 12.5,
+      "json_mm": 12.5,
+      "matches": true
+    },
+    "thread_clear_bore_radius": {
+      "native_mm": 10.5,
+      "json_mm": 10.5,
+      "matches": true
+    },
+    "female_bore_radius": {
+      "native_mm": 12.1,
+      "json_mm": 12.1,
+      "matches": true
+    },
+    "female_groove_radius": {
+      "native_mm": 12.7,
+      "json_mm": 12.7,
+      "matches": true
+    },
+    "thread_pilot_radius": {
+      "native_mm": 11.9,
+      "json_mm": 11.9,
+      "matches": true
+    },
+    "thread_pilot_y": {
+      "native_mm": 77.8,
+      "json_mm": 77.8,
+      "matches": true
+    },
+    "thread_pilot_length": {
+      "native_mm": 1.0,
+      "json_mm": 1.0,
+      "matches": true
+    },
+    "rear_bolt_x": {
+      "native_mm": -13.0,
+      "json_mm": -13.0,
+      "matches": true
+    },
+    "rear_bolt_y": {
+      "native_mm": -6.7,
+      "json_mm": -6.7,
+      "matches": true
+    },
+    "female_entry_relief_radius": {
+      "native_mm": 12.75,
+      "json_mm": 12.75,
+      "matches": true
+    },
+    "female_entry_relief_end_y": {
+      "native_mm": 73.75,
+      "json_mm": 73.75,
+      "matches": true
+    }
+  },
+  "reported_remaining_intersections": [],
+  "scope": "Functional development checkpoint only. Remaining intersections and loading/interface gates are not cleared by a valid native model. No selected battery, physical assembly, strength, seal, materials, electrical operation, comfort or wear qualification."
+}

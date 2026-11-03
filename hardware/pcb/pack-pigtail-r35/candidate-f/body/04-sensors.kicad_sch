@@ -1,0 +1,329 @@
+(kicad_sch
+  (version 20230121)
+  (generator split_schematic_r14)
+  (uuid b15d875f-146d-5544-a6ac-9749a7465aa9)
+  (paper "A3")
+  (title_block
+    (title "Body / motion and tip connector")
+    (date "2026-11-01")
+    (rev "R28 candidate")
+    (company "Research and Desire")
+    (comment 1 "ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn4"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn4" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn4_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn4_1_1"
+        (pin passive line (at -20.32 7.62 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -7.62 0) (length 5.08) (name "4" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:MC3635"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "MC3635" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "Datasheet"
+        "https://www.memsic.com/Public/Uploads/uploadfile/files/20220119/MC3635Datasheet.pdf"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "I2C address0x4C; VPP grounded; CSN high; configure active-low open-drain INTN"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "MC3635_0_1" (rectangle (start -15.24 15.24) (end 15.24 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "MC3635_1_1"
+        (pin input line (at -20.32 10.16 0) (length 5.08) (name "DOUT_A1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 5.08 0)
+          (length 5.08)
+          (name "DIN_SDA" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 0.0 0) (length 5.08) (name "SCK_SCL" (effects (font (size 1.016 1.016)))) (number "10" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -5.08 0) (length 5.08) (name "CSN" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at -20.32 -10.16 0) (length 5.08) (name "VPP" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 10.16 180) (length 5.08) (name "VDDIO" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 5.08 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 0.0 180)
+          (length 5.08)
+          (name "INTN" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+        (pin no_connect line (at 20.32 -10.16 180) (length 5.08) (name "NC" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:TMP117AIDRVR"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "TMP117AIDRVR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp117.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "TMP117 WSON6; address0x48 ADD0=GND. Mechanical thermal pad is unsoldered, no copper/paste; not an electrical seventh pin"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "TMP117AIDRVR_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "TMP117AIDRVR_1_1"
+        (pin input line (at -20.32 5.08 0) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin bidirectional line (at -20.32 0.0 0) (length 5.08) (name "SDA" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -5.08 0) (length 5.08) (name "ADD0" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 5.08 180) (length 5.08) (name "V+" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 -5.08 180)
+          (length 5.08)
+          (name "ALERT" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016))))))))
+  (sheet_instances (path "/" (page "1")))
+  (symbol
+    (lib_id "PrototypeR0:MC3635")
+    (at 101.6 78.74 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 9b7ab773-0d49-5547-9cb5-d9d0f0a61fb1)
+    (property "Reference" "U7" (at 101.6 58.419999999999995 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MC3635 candidate /0x4C" (at 101.6 60.959999999999994 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "PrototypeR0:MEMSIC_MC3635_LGA10_1.6x1.6mm_P0.4mm" (at 101.6 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "Datasheet"
+      "https://www.memsic.com/Public/Uploads/uploadfile/files/20220119/MC3635Datasheet.pdf"
+      (at 101.6 78.74 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 101.6 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 101.6 78.74 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Firmware must perform required startup writes; INT polarity/open-drain configurable, default not assumed"
+      (at 101.6 78.74 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 71b7aa51-2440-5b76-8d08-9234882b1720))
+    (pin "2" (uuid 97d1966e-5335-5314-b405-52ac49036ae3))
+    (pin "10" (uuid d5fc086c-5039-5d2e-8d62-63976591cd14))
+    (pin "9" (uuid 3589d5b7-5dd8-56a4-a59c-de6774d5690c))
+    (pin "4" (uuid f7c0c3b1-2928-57d6-b473-4bb1642c4db4))
+    (pin "6" (uuid e3998869-3ee9-5b21-83d1-50976ea1b10b))
+    (pin "7" (uuid d823ad18-cecd-5f94-a9f7-ec6baa87f0be))
+    (pin "5" (uuid f9208de2-15f5-5e7c-bfaf-bacb90488778))
+    (pin "8" (uuid 53449449-7215-5b9b-8a05-afa03582afad))
+    (pin "3" (uuid 467b907b-5fc8-5797-b3de-831c20c7ae48))
+    (instances
+      (project "body-r35" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "U7") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "U7") (unit 1)))))
+  (wire (pts (xy 81.28 68.58) (xy 76.2 68.58)) (stroke (width 0) (type default)) (uuid 6d0d89af-2a2d-5564-83d7-45985a62c2ec))
+  (global_label "GND" (shape input) (at 76.2 68.58 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid b0ad7842-a0a6-5e43-a1a6-91f47d0339b2))
+  (wire (pts (xy 81.28 73.66) (xy 76.2 73.66)) (stroke (width 0) (type default)) (uuid fc2bc879-3aa0-5509-b703-98b33880ba3c))
+  (global_label "I2C_SDA" (shape input) (at 76.2 73.66 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 52f6950d-8a89-59cd-8638-34dd2a594ff6))
+  (wire (pts (xy 81.28 78.74) (xy 76.2 78.74)) (stroke (width 0) (type default)) (uuid f54bc94e-2eab-559a-90b4-7c57c97120b2))
+  (global_label "I2C_SCL" (shape input) (at 76.2 78.74 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 78f90bcf-6e26-50e5-b2ce-65676aba300c))
+  (wire (pts (xy 81.28 83.82) (xy 76.2 83.82)) (stroke (width 0) (type default)) (uuid 7ce0d303-4576-5c05-aab0-be39f88b8223))
+  (global_label "3V3" (shape input) (at 76.2 83.82 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid d7ef8e99-5aeb-513b-80d0-4dd0a68ac397))
+  (wire (pts (xy 81.28 88.9) (xy 76.2 88.9)) (stroke (width 0) (type default)) (uuid ac88692a-9ffd-5f5e-8b55-32e571d31b30))
+  (global_label "GND" (shape input) (at 76.2 88.9 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid db43c03d-16e8-52e3-a2dd-d1dd71ad0193))
+  (wire (pts (xy 121.92 68.58) (xy 127.0 68.58)) (stroke (width 0) (type default)) (uuid dc7af129-944f-5fc7-a0b6-d88e6afc6b75))
+  (global_label "3V3" (shape input) (at 127.0 68.58 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3aa03aab-2ff8-5b0a-ad1d-6b7f2b8ba035))
+  (wire (pts (xy 121.92 73.66) (xy 127.0 73.66)) (stroke (width 0) (type default)) (uuid 687f3c19-42b2-5297-972a-beb8725ea13f))
+  (global_label "3V3" (shape input) (at 127.0 73.66 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid dd55c842-43d6-5259-80d6-a6029647c570))
+  (wire (pts (xy 121.92 78.74) (xy 127.0 78.74)) (stroke (width 0) (type default)) (uuid 8787eda9-16e8-59de-8fa3-17f90fba7ae5))
+  (global_label
+    "ACCEL_INT_N"
+    (shape input)
+    (at 127.0 78.74 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 56f2c867-90e8-5401-8922-5daaf4b33b09))
+  (wire (pts (xy 121.92 83.82) (xy 127.0 83.82)) (stroke (width 0) (type default)) (uuid cf2159c9-bcff-56f5-b6d1-081cc6165a3a))
+  (global_label "GND" (shape input) (at 127.0 83.82 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8a84b2fc-1706-57e4-93cb-00e9ce8d31ed))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 177.8 55.88 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 48f33282-d074-5a24-ab0d-c320a211c892)
+    (property "Reference" "R41" (at 186.69 54.61 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "4.7k" (at 186.69 57.150000000000006 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:R_0402_1005Metric" (at 177.8 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/28758/tnpw_e3.pdf" (at 177.8 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 177.8 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 177.8 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "TNPW04024K70BEED / 0402 candidate" (at 177.8 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid c6731dd4-d2b2-5343-9a66-5427eb2a22a6))
+    (pin "2" (uuid 74739a9a-4fea-5a06-a4dd-3caa0af45147))
+    (instances
+      (project "body-r35" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R41") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "R41") (unit 1)))))
+  (wire (pts (xy 177.8 50.8) (xy 177.8 45.72)) (stroke (width 0) (type default)) (uuid 6dd5534e-96b6-5575-be75-b812b30f8147))
+  (global_label "3V3" (shape input) (at 177.8 45.72 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid da53378a-5779-5f6c-8cb2-fc2936cdd134))
+  (wire (pts (xy 177.8 60.96) (xy 177.8 66.04)) (stroke (width 0) (type default)) (uuid 5493a54e-2ec3-5c2b-9a95-28929fed5ff3))
+  (global_label
+    "ACCEL_INT_N"
+    (shape input)
+    (at 177.8 66.04 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 8f0baa57-1b23-51ad-960a-eaf892c29122))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 215.9 55.88 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid a7e863d8-4595-5e2a-8ae3-99509518953c)
+    (property "Reference" "C41" (at 224.79000000000002 54.61 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 224.79000000000002 57.150000000000006 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Murata_GRM18_0603_Reflow" (at 215.9 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 215.9 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 215.9 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 215.9 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "Local VDD bypass; place at U7" (at 215.9 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 69cd8a1f-9219-521e-a942-6ff2f2575cc6))
+    (pin "2" (uuid 52861186-fa82-5994-8844-236a622f0319))
+    (instances
+      (project "body-r35" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C41") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C41") (unit 1)))))
+  (wire (pts (xy 215.9 50.8) (xy 215.9 45.72)) (stroke (width 0) (type default)) (uuid 7e1fb1b4-7eb9-588c-ae91-6a203089fd65))
+  (global_label "3V3" (shape input) (at 215.9 45.72 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 83d39d8c-df01-52b0-9948-701a4ab34795))
+  (wire (pts (xy 215.9 60.96) (xy 215.9 66.04)) (stroke (width 0) (type default)) (uuid a730aa33-e36e-53b3-8c21-2478162f4ede))
+  (global_label "GND" (shape input) (at 215.9 66.04 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 5ce73b3a-1e92-525f-a6c5-4e8b3a342ed0))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 254 55.88 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 8e309858-07aa-50a9-b195-d0cd18ac8722)
+    (property "Reference" "C42" (at 262.89 54.61 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 262.89 57.150000000000006 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Murata_GRM18_0603_Reflow" (at 254 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 254 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 254 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 254 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "Local VDDIO bypass; place at U7" (at 254 55.88 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 230a46a9-b540-56ef-9a98-8cd2efa78515))
+    (pin "2" (uuid 8c11e25b-0b81-51f7-b455-3132920b2931))
+    (instances
+      (project "body-r35" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C42") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "C42") (unit 1)))))
+  (wire (pts (xy 254 50.8) (xy 254.0 45.72)) (stroke (width 0) (type default)) (uuid 19819c8c-cdef-583c-b6f4-7bc98830beaf))
+  (global_label "3V3" (shape input) (at 254.0 45.72 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c5908e71-3e82-51cd-97c4-e8f4e897f257))
+  (wire (pts (xy 254 60.96) (xy 254.0 66.04)) (stroke (width 0) (type default)) (uuid f6e96f2e-71d0-5e72-9912-2005492c3461))
+  (global_label "GND" (shape input) (at 254.0 66.04 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a709c416-e24c-575b-b209-e0637f90ddb6))
+  (symbol
+    (lib_id "PrototypeR0:Conn4")
+    (at 50.8 162.56 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 0b01805a-df79-5e18-8e00-dee44995a74f)
+    (property "Reference" "J5" (at 50.8 144.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MAIN_TIP_HARNESS" (at 50.8 147.32 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "PrototypeR0:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (at 50.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 50.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 50.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 50.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Physical connector and cable specification open; pin numbering matches remoteJ101"
+      (at 50.8 162.56 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid c096e093-be4c-58f1-aa9d-73e7d821c936))
+    (pin "2" (uuid beef50dd-600b-574d-826f-3154a33039e8))
+    (pin "3" (uuid 7847bb9c-ba16-55f0-80b9-9b3ff8be6afb))
+    (pin "4" (uuid 189fc7d7-8510-5add-a846-add8910bb4e6))
+    (instances
+      (project "body-r35" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J5") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9" (reference "J5") (unit 1)))))
+  (wire (pts (xy 30.48 154.94) (xy 25.4 154.94)) (stroke (width 0) (type default)) (uuid 4d07d8ad-83c7-51cb-b357-2d137f360cd4))
+  (global_label "3V3" (shape input) (at 25.4 154.94 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 5ebde864-0211-515f-bb2d-dd7e8be54268))
+  (wire (pts (xy 30.48 160.02) (xy 25.4 160.02)) (stroke (width 0) (type default)) (uuid 5291a0b6-a0d0-5601-a721-0b18d689e061))
+  (global_label "GND" (shape input) (at 25.4 160.02 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 4a63f07a-2d9e-54c0-9b16-3a27b8936b3d))
+  (wire (pts (xy 30.48 165.1) (xy 25.4 165.1)) (stroke (width 0) (type default)) (uuid e6653c78-ee54-553d-9f52-788fa0ed7948))
+  (global_label "I2C_SDA" (shape input) (at 25.4 165.1 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid ea3707da-b7f1-503d-8de7-16c3cefb949d))
+  (wire (pts (xy 30.48 170.18) (xy 25.4 170.18)) (stroke (width 0) (type default)) (uuid 770c1411-18fb-52dd-89ca-d988fc621c52))
+  (global_label
+    "I2C_SCL"
+    (shape input)
+    (at 25.4 170.18 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 840482c4-99d5-5bc5-bb62-cf1577f0df12))
+  (text
+    "Body / motion and tip connector / partitioned native R0 circuit; physical placement R12I. No fabrication or operating release."
+    (at 15.24 15.24 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid ef7bef22-152f-58b1-8227-b3597b26676c)))

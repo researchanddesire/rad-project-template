@@ -1,0 +1,1108 @@
+(kicad_sch
+  (version 20230121)
+  (generator split_schematic_r14)
+  (uuid 80c41dc5-f63e-56b6-9421-a3743fe139a2)
+  (paper "A3")
+  (title_block
+    (title "Flange / radio, local controls and service")
+    (date "2026-11-01")
+    (rev "R28 candidate")
+    (company "Research and Desire")
+    (comment 1 "ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn6"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn6" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn6_0_1" (rectangle (start -15.24 17.78) (end 15.24 -17.78) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn6_1_1"
+        (pin passive line (at -20.32 12.7 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 7.619999999999999 0)
+          (length 5.08)
+          (name "2" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 2.539999999999999 0)
+          (length 5.08)
+          (name "3" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -2.540000000000001 0)
+          (length 5.08)
+          (name "4" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -7.620000000000001 0)
+          (length 5.08)
+          (name "5" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -12.7 0) (length 5.08) (name "6" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:ESP32_C3_MINI_1_N4X"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 30.479999999999997 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "ESP32_C3_MINI_1_N4X" (at 0 27.939999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "53-pad module; antenna lives in outward polymer flange; exact land pattern review required"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "ESP32_C3_MINI_1_N4X_0_1" (rectangle (start -15.24 25.4) (end 15.24 -25.4) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "ESP32_C3_MINI_1_N4X_1_1"
+        (pin
+          bidirectional
+          line
+          (at -20.32 20.32 0)
+          (length 5.08)
+          (name "GPIO0_ADC" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 15.24 0)
+          (length 5.08)
+          (name "GPIO1" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 10.16 0)
+          (length 5.08)
+          (name "GPIO3" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 5.08 0)
+          (length 5.08)
+          (name "GPIO4" (effects (font (size 1.016 1.016))))
+          (number "18" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 0.0 0)
+          (length 5.08)
+          (name "GPIO5" (effects (font (size 1.016 1.016))))
+          (number "19" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -5.079999999999998 0)
+          (length 5.08)
+          (name "GPIO6" (effects (font (size 1.016 1.016))))
+          (number "20" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -10.16 0)
+          (length 5.08)
+          (name "GPIO7" (effects (font (size 1.016 1.016))))
+          (number "21" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -15.240000000000002 0)
+          (length 5.08)
+          (name "GPIO10" (effects (font (size 1.016 1.016))))
+          (number "16" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 -20.32 0)
+          (length 5.08)
+          (name "GPIO20_RXD" (effects (font (size 1.016 1.016))))
+          (number "30" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 20.32 180) (length 5.08) (name "3V3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 15.24 180) (length 5.08) (name "EN" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 10.16 180)
+          (length 5.08)
+          (name "GPIO2_STRAP" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 5.08 180)
+          (length 5.08)
+          (name "GPIO8_STRAP" (effects (font (size 1.016 1.016))))
+          (number "22" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 0.0 180)
+          (length 5.08)
+          (name "GPIO9_BOOT" (effects (font (size 1.016 1.016))))
+          (number "23" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -5.079999999999998 180)
+          (length 5.08)
+          (name "GPIO18_USB_D-" (effects (font (size 1.016 1.016))))
+          (number "26" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -10.16 180)
+          (length 5.08)
+          (name "GPIO19_USB_D+" (effects (font (size 1.016 1.016))))
+          (number "27" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at 20.32 -15.240000000000002 180)
+          (length 5.08)
+          (name "GPIO21_TXD" (effects (font (size 1.016 1.016))))
+          (number "31" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -20.32 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "14" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "36" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "37" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "38" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "39" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "40" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "41" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "42" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "43" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "44" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "45" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "46" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "47" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "48" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "49" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "50" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "51" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "52" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -20.32 180)
+          (length 5.08)
+          hide
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "53" (effects (font (size 1.016 1.016)))))
+        (pin no_connect line (at 0 1.27 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 2.54 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 3.81 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 5.08 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "10" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 6.35 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 7.62 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 8.89 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "24" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 10.16 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "25" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 11.43 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "28" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 12.7 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "29" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 13.97 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "32" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 15.24 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "33" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 16.51 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "34" (effects (font (size 1.27 1.27)))))
+        (pin no_connect line (at 0 17.78 0) (length 0) hide (name "NC" (effects (font (size 1.27 1.27)))) (number "35" (effects (font (size 1.27 1.27)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:SW"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "SW" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "SW" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "SW_0_1"
+        (polyline (pts (xy 0 3.81) (xy 1.27 -2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (circle (center 0 -3.81) (radius 0.4) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "SW_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016))))))))
+  (sheet_instances (path "/" (page "1")))
+  (symbol
+    (lib_id "PrototypeR0:ESP32_C3_MINI_1_N4X")
+    (at 127 88.9 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid de6fd163-c3d3-5721-a3a0-6bc7eea1c9a7)
+    (property "Reference" "U6" (at 127 58.42000000000001 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESP32-C3-MINI-1-N4X candidate" (at 127 60.96000000000001 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "PrototypeR0:Espressif_ESP32-C3-MINI-1_53Pads" (at 127 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html" (at 127 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 127 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 127 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Full module53pads represented; NC intentionally isolated. Official-dimension candidate footprint; EPAD solder/paste, vias, RF clearances and assembly process remain review items."
+      (at 127 88.9 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "12" (uuid 30a59398-c3cb-5277-928a-5f9e528d542f))
+    (pin "13" (uuid 6599534d-2ad7-52a5-a6e3-3680fa2a1cdf))
+    (pin "6" (uuid 1f19cd48-9fe4-5f6a-b511-e4c9cca5d80f))
+    (pin "18" (uuid fadf6196-82a0-55b3-8ec1-2fcb89caaf83))
+    (pin "19" (uuid 08ce7cfb-bb3b-5b43-be0d-bba56332c9a2))
+    (pin "20" (uuid aa3ebdf8-fc25-575d-93c6-1049d82e347f))
+    (pin "21" (uuid ba67dc77-902a-5022-b43a-99f2ae878854))
+    (pin "16" (uuid f6b3c00e-99c4-5f2a-8161-b113c92d87ed))
+    (pin "30" (uuid cd9e015a-3ce2-53cd-b3f9-495d8c0a7c6b))
+    (pin "3" (uuid 26aff72b-a337-5b7b-8ff6-0dc2a33f2341))
+    (pin "8" (uuid a99fbe9d-77b1-5b9c-be57-d5029d0f509c))
+    (pin "5" (uuid c9534346-8b16-5049-816b-4baeb69262d2))
+    (pin "22" (uuid ee09c152-3141-528a-85be-1426185aaa4e))
+    (pin "23" (uuid 3358c8cd-c64d-5ff4-82fe-31405c78ef2f))
+    (pin "26" (uuid cfd4e777-b2f0-5e4f-97f4-c419b5d16a90))
+    (pin "27" (uuid 30cd36d7-eacf-53cc-ae47-1283ef7be7f1))
+    (pin "31" (uuid 3e300f9d-8f1b-5ecf-a38b-07fbc7840303))
+    (pin "1" (uuid 4db820fe-2115-5fb3-ab06-bf9a6dd656df))
+    (pin "2" (uuid f57c567e-8b39-5682-bdd4-c86182946cfb))
+    (pin "11" (uuid a21670da-829a-5eb0-8b33-a6377b19a0d0))
+    (pin "14" (uuid ae676999-352f-56eb-ac87-5905e4ba6e00))
+    (pin "36" (uuid c3de7c9c-587f-53b9-ad03-277e0517e1d3))
+    (pin "37" (uuid 3e58c215-2c77-59f9-987b-f4568afe2bb7))
+    (pin "38" (uuid 4e972063-a19a-596f-8530-cc74a208b08d))
+    (pin "39" (uuid 9c5e9358-85ab-5c21-83ed-6d4787c610cf))
+    (pin "40" (uuid f9499790-6703-54fc-b7b5-2ef4476e10fd))
+    (pin "41" (uuid 48565658-552d-5064-ba33-861a32954b07))
+    (pin "42" (uuid e03f03a4-6928-5b40-9860-dc5afda1f65c))
+    (pin "43" (uuid ffed5264-54c9-59eb-8468-53e54ceb35ae))
+    (pin "44" (uuid 17c6fe37-c200-5362-ad80-180ec6c4882f))
+    (pin "45" (uuid 31b634fd-9459-5fd7-9706-f9c17bf1eada))
+    (pin "46" (uuid 34ba422c-d53e-5f2c-a5ea-2835e2d78dd8))
+    (pin "47" (uuid 7a2f798d-4147-50f9-840b-71443bc8ccc8))
+    (pin "48" (uuid e8638a38-b372-5d74-9285-58e4e1d64b8f))
+    (pin "49" (uuid b43ffb25-564f-57f7-9c3f-c3aa542712e2))
+    (pin "50" (uuid 4de431c6-614c-5975-a0d8-b2ccc24f781d))
+    (pin "51" (uuid fa50f10b-df97-59b2-996d-b08ffe5245d2))
+    (pin "52" (uuid d88436e5-b3ba-5d28-9d28-62701c591765))
+    (pin "53" (uuid 0c7aa160-643e-5520-92b4-808e20e20b11))
+    (pin "4" (uuid dd195856-9479-529d-ab96-970625b93512))
+    (pin "7" (uuid 069c7ce0-0af5-5f8b-8822-a38677de600b))
+    (pin "9" (uuid 94316cd5-4673-5975-9487-b1d59f4489bf))
+    (pin "10" (uuid fb456204-0117-5445-81ad-cefb4de885cd))
+    (pin "15" (uuid 20e69495-365c-53df-a782-19adfe262322))
+    (pin "17" (uuid 996352c1-ddf7-56b8-abac-245e9e12c561))
+    (pin "24" (uuid 2bb6da0a-fe46-5b58-95ae-e380a7dac19e))
+    (pin "25" (uuid caf994c8-e7b7-5f9d-9613-a69f3da4397f))
+    (pin "28" (uuid 18f4fdda-776d-5eeb-8759-7643978e474b))
+    (pin "29" (uuid 28ae2cdf-6daf-50cf-8b42-00d39f179bb3))
+    (pin "32" (uuid 3a610154-c4ca-5e8c-a0ba-b9457a58a724))
+    (pin "33" (uuid d216ac4c-9659-5ba7-9ffa-8fb53ca683d5))
+    (pin "34" (uuid 43b4f241-7b60-5e0f-9eda-9753bfc51597))
+    (pin "35" (uuid 5a7d10b4-9e06-5cfa-809e-4448ebcea0d2))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "U6") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "U6") (unit 1)))))
+  (wire (pts (xy 106.68 68.58) (xy 101.6 68.58)) (stroke (width 0) (type default)) (uuid 50041b81-f1e8-51bf-b63e-9ad49193ecdc))
+  (global_label
+    "VBAT_ADC"
+    (shape input)
+    (at 101.6 68.58 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 1f9866bf-4892-5787-92f9-98630c68f54e))
+  (wire (pts (xy 106.68 73.66) (xy 101.6 73.66)) (stroke (width 0) (type default)) (uuid e9f92b2a-67ee-5b78-ba48-7a0afc7e48cf))
+  (global_label
+    "POWER_N"
+    (shape input)
+    (at 101.6 73.66 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid a084b457-9555-5165-9c73-44c40d28417d))
+  (wire (pts (xy 106.68 78.74) (xy 101.6 78.74)) (stroke (width 0) (type default)) (uuid ad20dcac-3419-5c19-8868-d169ac6ffd00))
+  (global_label "MODE_N" (shape input) (at 101.6 78.74 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 718c8e20-3122-552f-b43f-aef8a281a12c))
+  (wire (pts (xy 106.68 83.82) (xy 101.6 83.82)) (stroke (width 0) (type default)) (uuid 6b754367-e28a-5a35-a7f6-effc33a9f5ac))
+  (global_label
+    "I2C_SDA"
+    (shape input)
+    (at 101.6 83.82 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 17deab33-b9a0-5f80-bf0f-8afd9ff3d59b))
+  (wire (pts (xy 106.68 88.9) (xy 101.6 88.9)) (stroke (width 0) (type default)) (uuid 3833d20d-0ea7-5d31-af3e-e4c211bd2af1))
+  (global_label "I2C_SCL" (shape input) (at 101.6 88.9 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 7e1751c3-5ec3-5991-a027-1953fcf9cd87))
+  (wire (pts (xy 106.68 93.98) (xy 101.6 93.98)) (stroke (width 0) (type default)) (uuid d623ba6e-7d5e-57cc-ab49-afca6815f28d))
+  (global_label
+    "MOTOR_PWM"
+    (shape input)
+    (at 101.6 93.98 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 752407b1-fd0c-5a2a-a778-bf8d5eaf3820))
+  (wire (pts (xy 106.68 99.06) (xy 101.6 99.06)) (stroke (width 0) (type default)) (uuid 11d134ce-7edb-5ae9-ada6-45215e76e1de))
+  (global_label
+    "MOTOR_ARM"
+    (shape input)
+    (at 101.6 99.06 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 3460c767-e30d-508b-a2a8-7eee9ee1b635))
+  (wire (pts (xy 106.68 104.14) (xy 101.6 104.14)) (stroke (width 0) (type default)) (uuid ac132636-0ecb-5251-ae7f-8382e6790881))
+  (global_label
+    "ACCEL_INT_N"
+    (shape input)
+    (at 101.6 104.14 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 3beceea2-9b27-5287-8819-99193e2daf22))
+  (wire (pts (xy 106.68 109.22) (xy 101.6 109.22)) (stroke (width 0) (type default)) (uuid 5f5d3dfd-4e36-5a35-bc8e-5470096fed40))
+  (global_label
+    "DOCK_PRESENT_N"
+    (shape input)
+    (at 101.6 109.22 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid b3b26659-f487-57c8-8278-8e410a915938))
+  (wire (pts (xy 147.32 68.58) (xy 152.4 68.58)) (stroke (width 0) (type default)) (uuid 46885450-ee93-59fa-bc82-1883c4e95fe4))
+  (global_label "3V3" (shape input) (at 152.4 68.58 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 88547507-84f0-5d85-907a-cb571b65445c))
+  (wire (pts (xy 147.32 73.66) (xy 152.4 73.66)) (stroke (width 0) (type default)) (uuid 8c168ac3-856c-5fc1-bfc6-782125992e98))
+  (global_label "MCU_EN" (shape input) (at 152.4 73.66 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 60e2e494-bdeb-5b0b-a283-f77dd107dd6a))
+  (wire (pts (xy 147.32 78.74) (xy 152.4 78.74)) (stroke (width 0) (type default)) (uuid ea136a46-2a43-564b-b442-1ffecdeb3f66))
+  (global_label "STRAP2" (shape input) (at 152.4 78.74 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3ba16fae-8182-57f7-a57c-c6c2808652ee))
+  (wire (pts (xy 147.32 83.82) (xy 152.4 83.82)) (stroke (width 0) (type default)) (uuid 184498dd-92e8-56d7-8048-7c798c40a783))
+  (global_label "STRAP8" (shape input) (at 152.4 83.82 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 9ee13bb5-cb27-5793-ae69-2f69639172dd))
+  (wire (pts (xy 147.32 88.9) (xy 152.4 88.9)) (stroke (width 0) (type default)) (uuid 22b6b506-79a9-53b9-85c7-66582799cef0))
+  (global_label "BOOT_N" (shape input) (at 152.4 88.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid ed713716-b344-54c4-87cf-5ea5d180d39a))
+  (wire (pts (xy 147.32 93.98) (xy 152.4 93.98)) (stroke (width 0) (type default)) (uuid 541c46c3-1bcf-5bda-b61e-d7efe9fb1147))
+  (global_label "USB_DM" (shape input) (at 152.4 93.98 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 62277e9f-d238-516f-9853-b5ba6bd2494c))
+  (wire (pts (xy 147.32 99.06) (xy 152.4 99.06)) (stroke (width 0) (type default)) (uuid ad58c957-6519-5a35-a339-b819dd07ee4a))
+  (global_label "USB_DP" (shape input) (at 152.4 99.06 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8ea4639c-b7b7-51e2-a248-35fbf99bf1eb))
+  (wire (pts (xy 147.32 104.14) (xy 152.4 104.14)) (stroke (width 0) (type default)) (uuid 6cc85bfa-4a01-5505-814d-4af159b3d7e0))
+  (global_label "UART_TX" (shape input) (at 152.4 104.14 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 9d271c8f-5e0b-5d0a-9627-4f2792e37d63))
+  (wire (pts (xy 147.32 109.22) (xy 152.4 109.22)) (stroke (width 0) (type default)) (uuid ae216e77-0645-57ca-918f-dc97d8194c73))
+  (global_label "GND" (shape input) (at 152.4 109.22 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a390f400-b8f3-5e04-aae7-7f0e71f3e59a))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 228.6 50.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid bf59e295-5729-5738-8685-9dc57775e7ba)
+    (property "Reference" "C31" (at 237.49 49.529999999999994 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10uF 10V" (at 237.49 52.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Murata_GRM21_0805_Reflow" (at 228.6 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 228.6 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 228.6 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 228.6 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 228.6 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 4bb0604d-78ea-53b8-ad1f-7f956eeefba9))
+    (pin "2" (uuid 4f5d4a87-590f-5096-a7df-450b323cd1b2))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C31") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C31") (unit 1)))))
+  (wire (pts (xy 228.6 45.72) (xy 228.6 40.64)) (stroke (width 0) (type default)) (uuid 935e7427-d314-5bd0-a815-4095043bb391))
+  (global_label "3V3" (shape input) (at 228.6 40.64 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d05cc8bb-ed64-59e3-b057-f71ad2d0b0fa))
+  (wire (pts (xy 228.6 55.88) (xy 228.6 60.96)) (stroke (width 0) (type default)) (uuid 7c7e12d9-6523-5efd-8827-431856a9b9cc))
+  (global_label "GND" (shape input) (at 228.6 60.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 936557de-c3f1-52f1-a826-f4629ee66f2a))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 266.7 50.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 58712490-13b6-5fdd-a875-1b7bf6920631)
+    (property "Reference" "C32" (at 275.59 49.529999999999994 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 275.59 52.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Murata_GRM18_0603_Reflow" (at 266.7 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 266.7 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 266.7 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 266.7 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 266.7 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 12804d08-27ff-5154-aa57-f158a0b9e1ff))
+    (pin "2" (uuid 7e09a604-f2c5-5618-9ddd-6533a1d1d656))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C32") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C32") (unit 1)))))
+  (wire (pts (xy 266.7 45.72) (xy 266.7 40.64)) (stroke (width 0) (type default)) (uuid 988735c7-34af-5e03-a5cf-e93ca24429bc))
+  (global_label "3V3" (shape input) (at 266.7 40.64 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c548f6b1-bee6-5bbe-9838-1d593d67eac2))
+  (wire (pts (xy 266.7 55.88) (xy 266.7 60.96)) (stroke (width 0) (type default)) (uuid ce631472-5b27-57c5-94fb-46236c11ab14))
+  (global_label "GND" (shape input) (at 266.7 60.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 9103dddf-72db-5581-b7bb-f78d0ae5b7a3))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 304.8 50.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 35255bb8-d3cf-5e61-b59f-1bbadc3159e8)
+    (property "Reference" "C33" (at 313.69 49.529999999999994 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1uF" (at 313.69 52.07 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:TDK_C1608_0603_Reflow" (at 304.8 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 304.8 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 304.8 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 304.8 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 304.8 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 6eab2713-e002-5b9c-add9-ddf318438754))
+    (pin "2" (uuid c53a6de3-006a-5265-976e-f84c648f0e80))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C33") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C33") (unit 1)))))
+  (wire (pts (xy 304.8 45.72) (xy 304.8 40.64)) (stroke (width 0) (type default)) (uuid a6f8afcb-abef-5c5c-86f5-df4ccf53ece2))
+  (global_label "MCU_EN" (shape input) (at 304.8 40.64 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 07fd3c22-74bf-53b9-a96a-c9f27b519a0d))
+  (wire (pts (xy 304.8 55.88) (xy 304.8 60.96)) (stroke (width 0) (type default)) (uuid 1ca097bb-d71d-50a0-ab05-04360e6bdc61))
+  (global_label "GND" (shape input) (at 304.8 60.96 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid ea7c8752-d03a-5810-8f30-c79398506ae2))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 228.6 96.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid e96a7afc-18af-5818-ad41-742543fa0841)
+    (property "Reference" "R31" (at 237.49 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 237.49 97.78999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 228.6 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 228.6 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 228.6 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 228.6 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 228.6 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid dce3dd7f-7fd8-5dc2-baba-f6a799d02e24))
+    (pin "2" (uuid 2949ea02-09d7-5600-bd6d-4f911825fd99))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R31") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R31") (unit 1)))))
+  (wire (pts (xy 228.6 91.44) (xy 228.6 86.36)) (stroke (width 0) (type default)) (uuid bf59197d-2e53-528a-bf16-6db35414252a))
+  (global_label "3V3" (shape input) (at 228.6 86.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f0364642-440f-52aa-839f-f1a17b335c67))
+  (wire (pts (xy 228.6 101.6) (xy 228.6 106.68)) (stroke (width 0) (type default)) (uuid e6f93339-016f-5f2e-9909-e7deaebf37af))
+  (global_label "MCU_EN" (shape input) (at 228.6 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid b27c3494-7864-5354-88a2-e9a88610e524))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 266.7 96.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 99dd7bc1-bdde-5449-96fa-851a1861d097)
+    (property "Reference" "R32" (at 275.59 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 275.59 97.78999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 266.7 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 266.7 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 266.7 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 266.7 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 266.7 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 7d8a79f2-b357-5194-b44d-d06cf1e4716b))
+    (pin "2" (uuid 844d6ef4-3580-5189-b08c-d3add62829fd))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R32") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R32") (unit 1)))))
+  (wire (pts (xy 266.7 91.44) (xy 266.7 86.36)) (stroke (width 0) (type default)) (uuid 88d0f0c7-31f1-5b73-8523-9e5ae2b58a7a))
+  (global_label "3V3" (shape input) (at 266.7 86.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 99964ad3-8af6-5b1d-9b80-66186d3eb2e6))
+  (wire (pts (xy 266.7 101.6) (xy 266.7 106.68)) (stroke (width 0) (type default)) (uuid 8bdd6f1b-2d0c-5f01-92ac-8e49cc29a762))
+  (global_label "STRAP2" (shape input) (at 266.7 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c17609b2-b6da-5abd-a178-d2ffa80986a0))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 304.8 96.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 82df1f1c-99e2-53b5-80b6-57eecdfd21bc)
+    (property "Reference" "R33" (at 313.69 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 313.69 97.78999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 304.8 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 304.8 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 304.8 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 304.8 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 304.8 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid e09ffe63-8fd0-5ebe-b375-c42321b1e5a5))
+    (pin "2" (uuid 472a0212-a488-5a72-ba04-f0b7ae900042))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R33") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R33") (unit 1)))))
+  (wire (pts (xy 304.8 91.44) (xy 304.8 86.36)) (stroke (width 0) (type default)) (uuid 9ba8f375-fdf1-5879-9cd7-271d42ec6991))
+  (global_label "3V3" (shape input) (at 304.8 86.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid b4b784d8-6881-5f43-a575-86d1156057ae))
+  (wire (pts (xy 304.8 101.6) (xy 304.8 106.68)) (stroke (width 0) (type default)) (uuid 134a0705-b50d-5b90-8c93-a270b09ecb18))
+  (global_label "STRAP8" (shape input) (at 304.8 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f9987ed1-c34f-5018-a62b-d2712f32da0a))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 342.9 96.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 4d7f6caf-a0aa-56d0-b3d3-b3d1143300f6)
+    (property "Reference" "R34" (at 351.78999999999996 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 351.78999999999996 97.78999999999999 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 342.9 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 342.9 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 342.9 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 342.9 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 342.9 96.52 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid ca23887e-5241-5371-891f-7dc8ce429028))
+    (pin "2" (uuid 0cbf66f8-a461-5de3-9e77-db7ec98dfdc8))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R34") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R34") (unit 1)))))
+  (wire (pts (xy 342.9 91.44) (xy 342.9 86.36)) (stroke (width 0) (type default)) (uuid ffa2dcf6-fb03-5fcc-a74d-b42ee40f9263))
+  (global_label "3V3" (shape input) (at 342.9 86.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 140019a6-a3b0-58c3-b924-83d74f6aca73))
+  (wire (pts (xy 342.9 101.6) (xy 342.9 106.68)) (stroke (width 0) (type default)) (uuid fa28b651-c871-57f3-8081-1f7590d54702))
+  (global_label "BOOT_N" (shape input) (at 342.9 106.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 527a9d7f-24fb-5394-9ef6-e5d7a8288f60))
+  (symbol
+    (lib_id "PrototypeR0:SW")
+    (at 40.64 180.34 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 10fca963-6a11-5102-a3c5-d1e1f731a9c9)
+    (property "Reference" "SW1" (at 49.53 179.07 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "POWER / momentary" (at 49.53 181.61 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:SW_SPST_B3U-1000P" (at 40.64 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 40.64 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 40.64 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Local silicone actuation. Soft off/deep sleep only; not battery isolation."
+      (at 40.64 180.34 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 4ea63613-631d-5004-bc96-456f3e55a23e))
+    (pin "2" (uuid 69173936-6126-5468-b2b9-12feffcbd944))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW1") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW1") (unit 1)))))
+  (wire (pts (xy 40.64 175.26) (xy 40.64 170.18)) (stroke (width 0) (type default)) (uuid cc36eb2a-6902-55cf-b285-0b187d461356))
+  (global_label "POWER_N" (shape input) (at 40.64 170.18 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 983aa6a4-8524-5c09-972b-0765a2559214))
+  (wire (pts (xy 40.64 185.42) (xy 40.64 190.5)) (stroke (width 0) (type default)) (uuid 8148ec0e-0e78-52bd-9ed8-1f4863f35a25))
+  (global_label "GND" (shape input) (at 40.64 190.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 2b74a66f-df9e-5152-8863-09cef336083d))
+  (symbol
+    (lib_id "PrototypeR0:SW")
+    (at 81.28 180.34 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 6b3b7b27-f870-53ec-ba00-170f63e89792)
+    (property "Reference" "SW2" (at 90.17 179.07 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "MODE / momentary" (at 90.17 181.61 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:SW_SPST_B3U-1000P" (at 81.28 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 81.28 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 81.28 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 81.28 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 81.28 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 4090f001-8911-5e4c-8dbc-916a94fbf7eb))
+    (pin "2" (uuid ac117414-1add-571c-88ef-760484f0ed6d))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW2") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW2") (unit 1)))))
+  (wire (pts (xy 81.28 175.26) (xy 81.28 170.18)) (stroke (width 0) (type default)) (uuid 2e0e8be7-c7ac-5aa2-8770-e5f3524d0a60))
+  (global_label "MODE_N" (shape input) (at 81.28 170.18 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid dffa7c46-d56a-579e-9e53-796f32fbc52a))
+  (wire (pts (xy 81.28 185.42) (xy 81.28 190.5)) (stroke (width 0) (type default)) (uuid 3ea6dd5e-eef4-5e2c-a4b3-331b8bf2cce3))
+  (global_label "GND" (shape input) (at 81.28 190.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid cb5ea427-eb7f-51fe-b201-fec33912cb6b))
+  (symbol
+    (lib_id "PrototypeR0:SW")
+    (at 121.92 180.34 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 53f05630-19d0-5b41-a8ae-0501b87c2dad)
+    (property "Reference" "SW3" (at 130.81 179.07 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "RESET / service" (at 130.81 181.61 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:SW_SPST_B3U-1000P" (at 121.92 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 121.92 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 121.92 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 121.92 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 121.92 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid ea26e060-da8f-5c37-aafc-488a5d74f4da))
+    (pin "2" (uuid a2438271-9ade-511e-bf99-20a101e03a2f))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW3") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW3") (unit 1)))))
+  (wire (pts (xy 121.92 175.26) (xy 121.92 170.18)) (stroke (width 0) (type default)) (uuid a3430a4c-1aed-5933-bf1b-137cf1fd8077))
+  (global_label "MCU_EN" (shape input) (at 121.92 170.18 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 0d351f8c-c038-5274-af75-fa448b27b12d))
+  (wire (pts (xy 121.92 185.42) (xy 121.92 190.5)) (stroke (width 0) (type default)) (uuid 5e14ceb9-0d0b-5a73-a0f0-23a3d7ccd5d3))
+  (global_label "GND" (shape input) (at 121.92 190.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c2cb03c3-2bb1-5226-b6c0-f66b90048152))
+  (symbol
+    (lib_id "PrototypeR0:SW")
+    (at 162.56 180.34 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 3b289640-a8d8-5839-a4c6-cf83aee1d346)
+    (property "Reference" "SW4" (at 171.45 179.07 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "BOOT / service" (at 171.45 181.61 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:SW_SPST_B3U-1000P" (at 162.56 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 162.56 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 162.56 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 162.56 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 162.56 180.34 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 1a7e7a32-f799-56e7-b51b-5c8987247adc))
+    (pin "2" (uuid 56da0756-dc6d-55c6-921b-743f3026a123))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW4") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "SW4") (unit 1)))))
+  (wire (pts (xy 162.56 175.26) (xy 162.56 170.18)) (stroke (width 0) (type default)) (uuid abf98d73-9eae-516e-a955-f5e97ad5c406))
+  (global_label "BOOT_N" (shape input) (at 162.56 170.18 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 04c8dd95-7b1d-515a-8400-95dafd8bb2b0))
+  (wire (pts (xy 162.56 185.42) (xy 162.56 190.5)) (stroke (width 0) (type default)) (uuid 36d483af-760b-59be-ac28-8564c11a66ed))
+  (global_label "GND" (shape input) (at 162.56 190.5 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid c36eff8b-36ce-5810-9baf-ad823094004d))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 40.64 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 6b3df65b-9c3d-540b-ba8c-72d820be304f)
+    (property "Reference" "R35" (at 49.53 224.79 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 49.53 227.33 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 40.64 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 40.64 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 40.64 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 40.64 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 0c10ff81-8c21-553f-85e2-766aafb31e7a))
+    (pin "2" (uuid 9187aafe-b1d6-58a7-b6e7-32c36b5b7a52))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R35") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R35") (unit 1)))))
+  (wire (pts (xy 40.64 220.98) (xy 40.64 215.9)) (stroke (width 0) (type default)) (uuid df203433-0504-5147-9e66-ff0a6112a883))
+  (global_label "3V3" (shape input) (at 40.64 215.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 5465df47-f236-5652-80f0-4c932d4858c5))
+  (wire (pts (xy 40.64 231.14) (xy 40.64 236.22)) (stroke (width 0) (type default)) (uuid 422504b3-763d-508a-8c7b-64264bcaf690))
+  (global_label "POWER_N" (shape input) (at 40.64 236.22 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8e04f923-7f67-5d66-88c5-eaca987dc953))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 81.28 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid b5997e96-f057-57af-8c5e-71fa1d45fac0)
+    (property "Reference" "R36" (at 90.17 224.79 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10k" (at 90.17 227.33 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 81.28 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 81.28 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 81.28 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 81.28 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 81.28 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid de295849-ab49-5184-ac15-0b6c0603db6b))
+    (pin "2" (uuid 39d00fbf-909f-55ff-96b1-4953b6f6e13b))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R36") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R36") (unit 1)))))
+  (wire (pts (xy 81.28 220.98) (xy 81.28 215.9)) (stroke (width 0) (type default)) (uuid f64b62a5-ecb7-506d-9d05-f4c8d0a0b044))
+  (global_label "3V3" (shape input) (at 81.28 215.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 1a3214bf-cbc9-5d55-966b-0c7fdc5eb0ee))
+  (wire (pts (xy 81.28 231.14) (xy 81.28 236.22)) (stroke (width 0) (type default)) (uuid 4c25f07d-87c0-5033-a890-a6238bddcfcf))
+  (global_label "MODE_N" (shape input) (at 81.28 236.22 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a2dc210e-fd8d-5540-be35-d15d665da47c))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 121.92 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 9f2efe07-4c45-5922-b3ea-e410c096d1a5)
+    (property "Reference" "R37" (at 130.81 224.79 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "4.7k" (at 130.81 227.33 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 121.92 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 121.92 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 121.92 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 121.92 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 121.92 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid edcc9968-4d1b-578e-be8d-1c500dc13536))
+    (pin "2" (uuid 3b1267a2-961f-5eff-b0b2-2710537db127))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R37") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R37") (unit 1)))))
+  (wire (pts (xy 121.92 220.98) (xy 121.92 215.9)) (stroke (width 0) (type default)) (uuid 8c60d723-51fd-5f5c-950c-aa3f72da0f21))
+  (global_label "3V3" (shape input) (at 121.92 215.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 6c6ab718-f0b5-54c3-bc83-1146dfafd53a))
+  (wire (pts (xy 121.92 231.14) (xy 121.92 236.22)) (stroke (width 0) (type default)) (uuid eb3d1ab4-63c4-52ac-9154-9aa7fec28808))
+  (global_label "I2C_SDA" (shape input) (at 121.92 236.22 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 6871069a-6769-5f2b-81fd-9ca93bfc947f))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 162.56 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 213ec481-9351-5153-a702-5b4c8f241751)
+    (property "Reference" "R38" (at 171.45 224.79 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "4.7k" (at 171.45 227.33 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0603_IEC_Reflow" (at 162.56 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 162.56 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 162.56 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 162.56 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 162.56 226.06 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid c48800de-bf7d-5467-a5cb-b7a4c293891f))
+    (pin "2" (uuid 9cf4a609-f8c4-5267-894b-27c5ed9b5f93))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R38") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R38") (unit 1)))))
+  (wire (pts (xy 162.56 220.98) (xy 162.56 215.9)) (stroke (width 0) (type default)) (uuid 975e1275-f6be-5c3b-8dff-08b58f087398))
+  (global_label "3V3" (shape input) (at 162.56 215.9 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid d35f4674-46ba-54a7-b79b-c5aae6d5bc2d))
+  (wire (pts (xy 162.56 231.14) (xy 162.56 236.22)) (stroke (width 0) (type default)) (uuid 3c7e0c0d-3718-5f8d-af23-956922bc91f7))
+  (global_label "I2C_SCL" (shape input) (at 162.56 236.22 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 9d4c6d1a-4b11-55a2-8781-119ab70b11ba))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 228.6 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid e3b14bb1-e25f-5a87-b89d-3bf29fa00cba)
+    (property "Reference" "R39" (at 237.49 173.98999999999998 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1.00M 1%" (at 237.49 176.53 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0805_IEC_Reflow" (at 228.6 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 228.6 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 228.6 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 228.6 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 228.6 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 0d1705a1-49ef-5619-8b06-1b7d3db7c511))
+    (pin "2" (uuid 1a0599be-bf1c-5bea-a03d-d2932dd9f0be))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R39") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R39") (unit 1)))))
+  (wire (pts (xy 228.6 170.18) (xy 228.6 165.1)) (stroke (width 0) (type default)) (uuid 72aaff9b-bebd-5ea0-b1cc-9bd6d0a82a7c))
+  (global_label "PACK_P" (shape input) (at 228.6 165.1 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 72bf897c-49c0-56af-83c9-2d59e54807b1))
+  (wire (pts (xy 228.6 180.34) (xy 228.6 185.42)) (stroke (width 0) (type default)) (uuid d24c3a57-79f7-5fc1-8156-246e9c378356))
+  (global_label "VBAT_ADC" (shape input) (at 228.6 185.42 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 55a902e5-21a8-58ec-a900-7084c07cfb13))
+  (symbol
+    (lib_id "PrototypeR0:R")
+    (at 266.7 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 79e8d1b7-2c0b-5e72-91ca-f927d986947a)
+    (property "Reference" "R40" (at 275.59 173.98999999999998 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "1.00M 1%" (at 275.59 176.53 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Vishay_TNPW0805_IEC_Reflow" (at 266.7 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 266.7 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 266.7 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 266.7 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "" (at 266.7 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 003a5288-7a0f-53a6-952f-2f951c8ff45e))
+    (pin "2" (uuid 82570d4d-1a62-50cc-9300-36364b2ce01b))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R40") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "R40") (unit 1)))))
+  (wire (pts (xy 266.7 170.18) (xy 266.7 165.1)) (stroke (width 0) (type default)) (uuid 06a44fce-1f77-5045-b126-b2102bd8edef))
+  (global_label "VBAT_ADC" (shape input) (at 266.7 165.1 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8a3fb9c5-da77-5a32-afe1-d5fdf2242f98))
+  (wire (pts (xy 266.7 180.34) (xy 266.7 185.42)) (stroke (width 0) (type default)) (uuid 7f1dad00-b586-509d-b5eb-ba2dce124706))
+  (global_label "GND" (shape input) (at 266.7 185.42 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid f289b397-8e47-5f7a-9619-fbbc9d886cef))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 304.8 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 06077165-7884-5bdd-a26a-e5c64a71dc3d)
+    (property "Reference" "C34" (at 313.69 173.98999999999998 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 313.69 176.53 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Murata_GRM18_0603_Reflow" (at 304.8 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 304.8 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 304.8 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 304.8 175.26 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "DividerThevenin500k; RC50ms. Firmware acquisition/calibration required."
+      (at 304.8 175.26 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 4c3608c7-2791-5f45-868d-d4e0d02f7560))
+    (pin "2" (uuid 2bd2d5f7-761e-51d9-b550-ae013b7fd84e))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C34") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "C34") (unit 1)))))
+  (wire (pts (xy 304.8 170.18) (xy 304.8 165.1)) (stroke (width 0) (type default)) (uuid edbbda67-83cc-5162-ae88-0a53139bed6d))
+  (global_label "VBAT_ADC" (shape input) (at 304.8 165.1 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid e58e39f2-fbee-5572-a56b-9556195c8b46))
+  (wire (pts (xy 304.8 180.34) (xy 304.8 185.42)) (stroke (width 0) (type default)) (uuid 130bcfa4-1660-59ee-8f19-605b591aba0a))
+  (global_label "GND" (shape input) (at 304.8 185.42 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 03f57f0c-5f9f-53cf-9ce3-d0e84a551f53))
+  (symbol
+    (lib_id "PrototypeR0:Conn6")
+    (at 266.7 251.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 816f94d0-672f-5c28-9b5e-799e80ca83c1)
+    (property "Reference" "J4" (at 266.7 228.6 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SERVICE_USB_BOOT" (at 266.7 231.14 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "PrototypeR0:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal" (at 266.7 251.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 266.7 251.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 266.7 251.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 266.7 251.46 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Self-powered debug interface; no USB VBUS input. Actual connector/ESD and flashing fixture open."
+      (at 266.7 251.46 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid a3b84c64-13d4-596b-b71e-ccb5d65cd03c))
+    (pin "2" (uuid 07f6ab8c-149c-56e3-b937-532b0f8d844e))
+    (pin "3" (uuid 1a590920-028f-5176-8d6b-a492a8040a00))
+    (pin "4" (uuid 5c67358e-443f-5501-ab14-bc3ab163b15a))
+    (pin "5" (uuid 0bbbccf6-0745-5ada-b57b-fe9f87f2d02d))
+    (pin "6" (uuid c68c0d1a-1e81-5910-a697-b988b585f072))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "J4") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2" (reference "J4") (unit 1)))))
+  (wire (pts (xy 246.38 238.76) (xy 241.3 238.76)) (stroke (width 0) (type default)) (uuid 9d8463d6-fcf7-5847-9d8b-8277863d681e))
+  (global_label "GND" (shape input) (at 241.3 238.76 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid f8d59dfc-55dc-5366-9449-1139ff526885))
+  (wire (pts (xy 246.38 243.84) (xy 241.3 243.84)) (stroke (width 0) (type default)) (uuid e0af7d2c-42e5-5683-96d2-a36a0433d7f2))
+  (global_label
+    "USB_DM"
+    (shape input)
+    (at 241.3 243.84 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 7d1998f7-b65a-5d77-a748-4befac78c286))
+  (wire (pts (xy 246.38 248.92) (xy 241.3 248.92)) (stroke (width 0) (type default)) (uuid d433b7c6-5d8d-51ca-b2de-c21511349ce1))
+  (global_label
+    "USB_DP"
+    (shape input)
+    (at 241.3 248.92 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 366463bf-73cb-58df-aca9-c21f76ddf882))
+  (wire (pts (xy 246.38 254.0) (xy 241.3 254.0)) (stroke (width 0) (type default)) (uuid 30a9c551-018f-519b-9a66-c9198f0f6862))
+  (global_label "MCU_EN" (shape input) (at 241.3 254.0 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid d4a58bf5-fb4c-5aee-956c-975007cfcf52))
+  (wire (pts (xy 246.38 259.08) (xy 241.3 259.08)) (stroke (width 0) (type default)) (uuid d8b4e7e0-8b15-5626-8766-a8da0d0f7332))
+  (global_label
+    "BOOT_N"
+    (shape input)
+    (at 241.3 259.08 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid c452958e-f224-5ae0-912d-fca450de6454))
+  (wire (pts (xy 246.38 264.16) (xy 241.3 264.16)) (stroke (width 0) (type default)) (uuid 8b63eb52-568b-522f-9a56-a90c57f004cb))
+  (global_label
+    "UART_TX"
+    (shape input)
+    (at 241.3 264.16 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 6f008c39-ffae-58cc-bd18-32305db8b29d))
+  (text
+    "Flange / radio, local controls and service / partitioned native R0 circuit; physical placement R12I. No fabrication or operating release."
+    (at 15.24 15.24 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid c99e85aa-7577-5ffa-a83c-38af57ffb5a8)))

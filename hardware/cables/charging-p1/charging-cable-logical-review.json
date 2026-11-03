@@ -1,0 +1,44 @@
+{
+  "recipe_sha256": "6d7db417f69f38c7fcb3270fd1d3363e116c9efd2270cd2a2eb10c654b6c064e",
+  "product_harness_recipe_sha256": "9f6ed3cd051bf8cf1d5018dadd72c30e23496fb7d4e15d0a2280919a6f86aba5",
+  "system_native_xml_sha256": "69acf12f410f49a0de6c972a85a08350d0eacdf4007bc7d4219f649d128d0a94",
+  "cable_native_sha256": "e2a9281b7c2dcfc1e63241fb596ecd82216cb356bf1ffb2af4493ab997e46c78",
+  "product_native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+  "connections": [
+    {
+      "source_role": "regulated 5V",
+      "spring": "POSITIVE-PIN.1",
+      "contact_axis_xyz_mm": [
+        -32,
+        -30,
+        12
+      ],
+      "product_target": "P",
+      "flange_pin": "J1.1",
+      "native_net": "DOCK_5V"
+    },
+    {
+      "source_role": "GND",
+      "spring": "GROUND-PIN.1",
+      "contact_axis_xyz_mm": [
+        -32,
+        -30,
+        8
+      ],
+      "product_target": "G",
+      "flange_pin": "J1.2",
+      "native_net": "GND"
+    }
+  ],
+  "two_independent_paths": true,
+  "included_conductors_counted_once": true,
+  "generated_child_bom_sha256": "4f2fb5477db3bb0412c1ead95c7c0709a3fec58532a36c139b59f006952a2191",
+  "child_bom_counts": {
+    "individual_spring_contacts": 2,
+    "prewired_power_lead_candidate": 1,
+    "custom_housing": 1,
+    "magnet_references": 2,
+    "rear_bond_process_set": 1
+  },
+  "scope": "Logical recipe, current native J1 nets, nominal CAD axes and child-BOM accounting only. Exact power lead, current rating, mechanical routing, polarity on received parts, bond/strain relief, holding and physical commissioning remain unverified. No product BOM adoption."
+}

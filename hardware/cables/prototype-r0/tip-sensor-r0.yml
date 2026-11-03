@@ -1,0 +1,47 @@
+# Native WireViz source. Candidate bench harness, not fabrication released.
+# Pin identities coordinated with the R0 electronics schematic on 2026-10-30.
+metadata:
+  title: R0 wired tip sensor - candidate bench harness
+  description: J5 to J101; four discrete wires; main SH4 candidate to direct tip pads; mating crimp details unqualified.
+  notes: 160 mm per conductor is a proposed cut blank, not a measured installed length.
+
+options:
+  fontname: Arial
+  color_mode: FULL
+
+connectors:
+  J5:
+    type: Main PCB logical interface
+    subtype: JST SH4 candidate; view numbered board pads
+    pincount: 4
+    pinlabels: [3V3, GND, I2C_SDA, I2C_SCL]
+    pincolors: [RD, BK, BU, YE]
+    notes: "R0 DRAFT - not a physical connector drawing\nUse numbered PCB pads; do not infer face orientation."
+    ignore_in_bom: true
+  J101:
+    type: Remote tip logical interface
+    subtype: Direct-wire pads on TipR1 6x4mm island
+    pincount: 4
+    pinlabels: [3V3, GND, I2C_SDA, I2C_SCL]
+    pincolors: [RD, BK, BU, YE]
+    notes: "TMP117AIDRVR remote board\n1 to U101.5 VDD; 2 to U101.2/4 GND\n3 to U101.6 SDA; 4 to U101.1 SCL\nAnchor wires to carrier, not the sensing IC."
+    ignore_in_bom: true
+
+cables:
+  W-TIP:
+    category: bundle
+    type: Candidate stranded wire - gauge and insulation unselected
+    wirecount: 4
+    colors: [RD, BK, BU, YE]
+    wirelabels: [3V3, GND, I2C_SDA, I2C_SCL]
+    length: 0.160
+    length_unit: m
+    notes: "160 mm CUT BLANK per conductor\nInstalled length and strip lengths pending fit.\nCarrier anchors at both ends; avoid retainer pinch.\nRoute separately from motor leads."
+
+connections:
+  - - J5: [1, 2, 3, 4]
+    - W-TIP: [1, 2, 3, 4]
+    - J101: [1, 2, 3, 4]
+
+tweak:
+  append: 'graph [label="R0 / WIRED TIP SENSOR - CANDIDATE ONLY\n160 mm cut blanks; installed fit and physical terminations unverified", labelloc=t, labeljust=l, fontsize=18, fontname="Arial"];'

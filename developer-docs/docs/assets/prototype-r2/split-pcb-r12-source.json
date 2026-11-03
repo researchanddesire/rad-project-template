@@ -1,0 +1,34 @@
+{
+  "method": "Read-only native KiCad SVG layer plots, framed without geometry edits",
+  "candidate": "I",
+  "boards": {
+    "body": {
+      "board_sha256": "ef0f3c5bbf79e0d1ab2ce015836e213b522c8f0a3885910304933212167672c2",
+      "inspection_sha256": "43348ea09ae211ecf81a9b9e7b8a1bde815b5ea87bc4b6eb3a2243961a041a50",
+      "counts": {
+        "violations": 0,
+        "unconnected": 165,
+        "footprint_errors": 0
+      }
+    },
+    "flange": {
+      "board_sha256": "b8b7aff477f03570d24751ea40425f95030987f8faa2e433953a1d2205a11b10",
+      "inspection_sha256": "ccd8bebd3cc7568cb38514700c335751970278fb8120bdefe280f829e7968587",
+      "counts": {
+        "violations": 0,
+        "unconnected": 81,
+        "footprint_errors": 0
+      }
+    }
+  },
+  "plots_sha256": {
+    "body-front.svg": "ec07a7645d192748a192a7940ad70013978833a348518c73abc5c0b7d98f15db",
+    "body-back.svg": "d43a24bff3355ef513f33d062550c820699bb4b5a46c12c2d71f6020057ced48",
+    "flange-front.svg": "a4de852204b9274709200ed4614032818157e470f97c4830b9a46c7260c5551c",
+    "flange-back.svg": "e9d9e5cac5b7cd265e0d8ffb35f38342f366683ef0888b762f818bbfe25c82d2"
+  },
+  "back_mirrored": true,
+  "renderer_sha256": "f93ffd267dd710099ba875a9a74e0f68aacc9b6262b4259c20e6459d0a254d02",
+  "figure_sha256": "2217b817abd9d016105c520a0df0cb029f853a37d097e0b24ef081f6b09361a4",
+  "scope": "Unrouted placement review; not electrical or fabrication acceptance."
+}

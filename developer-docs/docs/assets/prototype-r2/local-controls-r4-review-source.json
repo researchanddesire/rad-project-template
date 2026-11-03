@@ -1,0 +1,8 @@
+{
+  "native_sha256": "c203cef5717c66a61c5fa977879873dbc99364d9a13f78dada32b5ef23ca0d32",
+  "geometry_report_sha256": "edccd76b9d44a2a53627ee471e8bf7ce8a24b4b22e7aaebc734092ecc7b0794c",
+  "review_sha256": "b517bec673360d2491f11985b5f5f134635cecff58492c55084043a2d553be81",
+  "preview_geometry_sha256": "60f822bf28955efdb665a212c6a8b0204a6a62382aeb6c3418a0561d79638ac4",
+  "renderer_sha256": "f66af6b863b614912b0d4e90ab68a7cb4113bf2ed1d7e9ad22639dad227ea92b",
+  "scope": "Exact0.001mm native clipping slabs. First view is a labeled rigid assembly pose of the guide before key; other parts remain at source home. This is loading clearance, not operating stroke."
+}

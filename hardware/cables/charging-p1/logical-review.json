@@ -1,0 +1,22 @@
+{
+  "recipe_sha256": "eb6b40ff5e7d9d3731a61738b5eb0483890b84543786b336c7733eca35e10f99",
+  "native_system_xml_sha256": "69acf12f410f49a0de6c972a85a08350d0eacdf4007bc7d4219f649d128d0a94",
+  "connections": [
+    {
+      "from": "J1.1",
+      "to": "target P",
+      "native_net": "DOCK_5V"
+    },
+    {
+      "from": "J1.2",
+      "to": "target G",
+      "native_net": "GND"
+    }
+  ],
+  "isolated_paths": true,
+  "starting_blank_mm_per_wire": 100,
+  "generated_child_bom_sha256": "74bca93f3724ed16d2f56f497fa6e395fc99ad47b5590356e82d08a4395ec7d3",
+  "candidate_child_bom": "One prewired mate assembly; included wires not counted twice; contact insert excluded. No exact mate part adopted.",
+  "scope": "Logical pin map and included-lead accounting. Current P1 also has nominal physical routes; actual wire fit, current, insulation, magnetic holding and seals remain unqualified.",
+  "current_nominal_wire_native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571"
+}

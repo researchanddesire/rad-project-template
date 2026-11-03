@@ -1,0 +1,10 @@
+{
+  "source_folder": "hardware/cad/prototype-r2/open-pipe-review",
+  "source_native_sha256": "cb572d9b645651923f808d4f08f74c6623018add9bf07368aab2926b010ba495",
+  "current_context_native_sha256": "717b9dc44a12811551cdfaf0d898bf250fe083bd10cd35626a448a7515e0f0bf",
+  "image_sha256": "1e2a0de4e46f22dabe2a38d69ef6c002e12c4d73d0582d6fd8391e54b056b45d",
+  "geometry_source_sha256": "d42f78f543c77db207d489af623ff76871bb8a2a509f2c10c52608abe1dfb85b",
+  "render_source_sha256": "7674ce524071b5c3e272466336bd3df93146d226504bfd4444dfe2d22366b935",
+  "visual_review_sha256": "d6c11f258fb48e073b0115c40c33ca97d2a814debfdfcc62470a7685ffbb5d7d",
+  "scope": "Exact copy of visually inspected read-only native geometry detail: shell-only mouth with cap omitted, native cap section and separate internal motor support. No new CAD geometry or physical acceptance."
+}

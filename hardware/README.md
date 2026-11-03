@@ -1,6 +1,6 @@
 # Hardware
 
-This folder contains human-owned hardware source files for PRODUCT_NAME.
+This folder contains human-owned hardware source files for Buttplug Compass.
 
 ## BOM
 

@@ -1,0 +1,207 @@
+{
+  "reviewer_sha256": "6a78ea54ad2cb9a272e61e7716315441319c4c89de41ad1c8aa4d7bc796f2dcb",
+  "recipe_sha256": "081ba87e9d4d0b6b760a73d7bd383de47b9c14ccd366c8b5a442cc0b5e7e161b",
+  "native_system_XML_sha256": "69acf12f410f49a0de6c972a85a08350d0eacdf4007bc7d4219f649d128d0a94",
+  "native_binding_count": 11,
+  "electrical_groups": [
+    {
+      "native_net": "GND",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "2"
+        ],
+        [
+          "cable",
+          "W-RETURN-LEGS",
+          "1"
+        ],
+        [
+          "cable",
+          "W-RETURN-LEGS",
+          "2"
+        ],
+        [
+          "cable",
+          "W-TH1-FACTORY",
+          "2"
+        ],
+        [
+          "cable",
+          "W-TH2-FACTORY",
+          "2"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "2S"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "3"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "4"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "3"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "4"
+        ],
+        [
+          "connector",
+          "TH1",
+          "2"
+        ],
+        [
+          "connector",
+          "TH2",
+          "2"
+        ],
+        [
+          "connector",
+          "Y-RETURN",
+          "1"
+        ],
+        [
+          "connector",
+          "Y-RETURN",
+          "2"
+        ],
+        [
+          "connector",
+          "Y-RETURN",
+          "3"
+        ]
+      ]
+    },
+    {
+      "native_net": "PACK_NTC",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "4"
+        ],
+        [
+          "cable",
+          "W-TH1-FACTORY",
+          "1"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "3"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "1"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "2"
+        ],
+        [
+          "connector",
+          "TH1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "native_net": "PACK_GUARD",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "5"
+        ],
+        [
+          "cable",
+          "W-TH2-FACTORY",
+          "1"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "4"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "1"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "2"
+        ],
+        [
+          "connector",
+          "TH2",
+          "1"
+        ]
+      ]
+    },
+    {
+      "native_net": "PACK_P",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "1"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "1"
+        ],
+        [
+          "connector",
+          "POWER-PARK",
+          "P+"
+        ]
+      ]
+    },
+    {
+      "native_net": "GND",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "3"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "2P"
+        ],
+        [
+          "connector",
+          "POWER-PARK",
+          "P-"
+        ]
+      ]
+    }
+  ],
+  "separate_external_power_and_sensor_returns": true,
+  "candidate_child_BOM": {
+    "two_sensors": true,
+    "starting_wire_m": 0.66,
+    "factory_leads_not_double_counted": true,
+    "generated_tsv_path": "/private/tmp/r36-wireviz/pack-sensor-r36.bom.tsv",
+    "generated_tsv_sha256": "9ad62a74cf41cda2b8716692f9a75dfc37992b28a0da630ad5863dec3a8604ed"
+  },
+  "scope": "Logical native-net and source recipe verification only. Returns join on body PCB, not in the long harness. Power mate incomplete; materials/strain relief/assembly and current/thermal/physical qualification remain open. Starting blanks are not finished lengths or procurement approval."
+}

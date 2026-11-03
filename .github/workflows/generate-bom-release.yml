@@ -11,6 +11,6 @@ jobs:
     permissions:
       contents: write
     with:
-      product: PRODUCT_NAME
-      repo_url: https://github.com/researchanddesire/PRODUCT_REPO
-      license: PRODUCT_LICENSE
+      product: Buttplug Compass
+      repo_url: https://github.com/researchanddesire/buttplug
+      license: License pending

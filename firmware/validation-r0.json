@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-30",
+  "status": "digital_build_passed_no_hardware_flash",
+  "target": "esp32c3",
+  "platformio_core": "6.1.19",
+  "espressif32_platform": "6.13.0",
+  "esp_idf": "5.5.3",
+  "riscv_toolchain": "14.2.0+20251107",
+  "build_command": "pio run -d firmware -e prototype-r0",
+  "host_tests_command": "firmware/tests/run_host_tests.sh",
+  "host_tests": "passed_with_undefined_behavior_sanitizer",
+  "address_sanitizer": "host_runtime_initialization_aborted; not_validated",
+  "motor_default": "locked_off; bench_enable_unset; temperature_trip_and_battery_min_zero",
+  "ble_security_generated_config": {
+    "sm_level": 4,
+    "secure_connections_only": 1
+  },
+  "image": {
+    "path": "firmware/.pio/build/prototype-r0/firmware.bin",
+    "bytes": 1109024,
+    "sha256": "93d8ed3de16df45a4fd75a08c23c17f0e501dce14fc98f24b121d712d9e22dfe",
+    "esptool_checksum": "valid",
+    "esptool_validation_hash": "valid"
+  },
+  "link_size": {
+    "static_ram_bytes": 33052,
+    "available_ram_bytes": 327680,
+    "flash_program_bytes": 1108594,
+    "app_partition_bytes": 3145728,
+    "runtime_heap_stack_usage": "unmeasured"
+  },
+  "source_sha256": {
+    "firmware/platformio.ini": "d25d2c4466022b9c4ccd672bf51f866ce1bd918a05162705f6f9b24edcfa5f6a",
+    "firmware/CMakeLists.txt": "1227e111dd39ebddde3d43c8ca77679ec5afe55c13503946dc2a7b460d2c0249",
+    "firmware/partitions.csv": "6e730e4068bd2552cc5a2a7cfee39f6256c9435842a385656a83fe6dc8a8505e",
+    "firmware/sdkconfig.defaults": "ae3054a8fb78762affdb53da8ba063f4f81ea8283f6706bde765c064cbb8b4e9",
+    "firmware/requirements-build.txt": "8e72a80fd0423d268f2dc36b5962a430a34c3b624152520cffa567da0bfffc0c",
+    "firmware/main/CMakeLists.txt": "0361c611bc999bf92e75f0dc62bca59d2a554f29c92db209046a75037411d0da",
+    "firmware/main/Kconfig.projbuild": "2313f2f3fecd9eee616e820e144c7f494538d4e38e2affcb98875613df527060",
+    "firmware/main/main.c": "f3f27676178493252e12905787e2ac5c18edf32cef20e59789d44afd837b328e",
+    "firmware/main/proto_control.c": "08326dca041f62ede3039ce8ac0f02aa6bbdf71c38258e00eba11d70e96a54a8",
+    "firmware/main/proto_control.h": "e3c54a729d7201b83272baee6870d604fc80130c0f7e3aecfcde4e6344e75144",
+    "firmware/main/r0_app.h": "32f8f7e2cac9b2900a4d8ad66ca968ac43c7a50dc036aa453e1d38916a1e3ddf",
+    "firmware/main/r0_radio.c": "d95d99887cc3eae27622dd3d21bfbaf6e3357ba02c41c3775f5e2d5a6640f4d6",
+    "firmware/main/r0_sensors.c": "24eaf6957f9f2096db565df2b7ae2435db5735c8dd6a467dba79fa31e58f404f",
+    "firmware/main/r0_sensors.h": "2149a1d740cabfdc5cbf60d0011a621e6cdcf825e8314e125ca2fefb6417d9b6",
+    "firmware/tests/run_host_tests.sh": "e44b974cd917e9368a30c826a6517d3838763ff7416ad33dd076d35af05ab00b",
+    "firmware/tests/test_control.c": "6f760e5c67d66b8bca0223f2bbc5cc286de2666dfbd323db2772a75c002c24d9"
+  },
+  "not_validated": [
+    "hardware flash and boot",
+    "sensor I2C transactions and calibration",
+    "local controls and deep sleep/wake",
+    "PWM waveform/current and motor supply",
+    "dock/reset/fault physical output edges",
+    "phone BLE pairing/bond reconnect",
+    "WiFi HTTP authentication and end-to-end leases",
+    "battery endurance",
+    "thermal coverage",
+    "body contact and wear duration"
+  ],
+  "sensor_revision": "TMP117AIDRVR; ID0x117, continuous1Hz/8samples, 1/128C signed, data-ready freshness"
+}

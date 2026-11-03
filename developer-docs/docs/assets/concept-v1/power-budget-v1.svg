@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
+<title>Concept 01 — illustrative 24-hour battery-charge scenarios</title>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0 0 L9 4.5 L0 9" fill="context-stroke"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="34" y="53.0" font-family="Arial, sans-serif" font-size="37" font-weight="bold" fill="#213047" text-anchor="start">24-hour charge budget / scenario study</text>
+<text x="36" y="90.0" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#57657a" text-anchor="start">Assumed battery-side base current + motor branch; 20% cell capacity allowance. No measured runtime.</text>
+<polyline points="652.0,146 652.0,465" fill="none" stroke="#176bc1" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="652.0" y="132.0" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#176bc1" text-anchor="middle">500 mAh cell: 400 usable</text>
+<polyline points="904.0,146 904.0,465" fill="none" stroke="#26755b" stroke-width="2.5" stroke-dasharray="6 5"/>
+<text x="904.0" y="132.0" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#26755b" text-anchor="middle">1000 mAh cell: 800 usable</text>
+<text x="36" y="194.0" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#213047" text-anchor="start">Occasional use</text>
+<rect x="400" y="171" width="30.240000000000002" height="32" rx="0" fill="#b8d5f5" stroke="#176bc1" stroke-width="2"/>
+<rect x="430.24" y="171" width="26.252100000000002" height="32" rx="0" fill="#b4dec9" stroke="#26755b" stroke-width="2"/>
+<text x="470.4921" y="194.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#213047" text-anchor="start">89.67 mAh</text>
+<text x="36" y="254.0" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#213047" text-anchor="start">Light-use study</text>
+<rect x="400" y="231" width="75.6" height="32" rx="0" fill="#b8d5f5" stroke="#176bc1" stroke-width="2"/>
+<rect x="475.6" y="231" width="78.75" height="32" rx="0" fill="#b4dec9" stroke="#26755b" stroke-width="2"/>
+<text x="568.35" y="254.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#213047" text-anchor="start">245 mAh</text>
+<text x="36" y="314.0" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#213047" text-anchor="start">Higher idle draw</text>
+<rect x="400" y="291" width="226.8" height="32" rx="0" fill="#b8d5f5" stroke="#176bc1" stroke-width="2"/>
+<rect x="626.8" y="291" width="78.75" height="32" rx="0" fill="#b4dec9" stroke="#26755b" stroke-width="2"/>
+<text x="719.55" y="314.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#213047" text-anchor="start">485 mAh</text>
+<text x="36" y="374.0" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#213047" text-anchor="start">High radio activity study</text>
+<rect x="400" y="351" width="756.0" height="32" rx="0" fill="#b8d5f5" stroke="#176bc1" stroke-width="2"/>
+<rect x="1156.0" y="351" width="78.75" height="32" rx="0" fill="#b4dec9" stroke="#26755b" stroke-width="2"/>
+<text x="1248.75" y="374.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#213047" text-anchor="start">1325 mAh</text>
+<text x="36" y="434.0" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#213047" text-anchor="start">One hour motor study</text>
+<rect x="400" y="411" width="75.6" height="32" rx="0" fill="#b8d5f5" stroke="#176bc1" stroke-width="2"/>
+<rect x="475.6" y="411" width="315.0" height="32" rx="0" fill="#b4dec9" stroke="#26755b" stroke-width="2"/>
+<text x="804.6" y="434.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#213047" text-anchor="start">620 mAh</text>
+<rect x="38" y="492" width="22" height="22" rx="0" fill="#b8d5f5" stroke="#176bc1" stroke-width="2"/>
+<text x="70" y="511.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#213047" text-anchor="start">Base load</text>
+<rect x="240" y="492" width="22" height="22" rx="0" fill="#b4dec9" stroke="#26755b" stroke-width="2"/>
+<text x="272" y="511.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#213047" text-anchor="start">Motor branch</text>
+<text x="550" y="511.0" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#a15a08" text-anchor="start">500/1000 mAh are hypothetical capacities; packaging is unconfirmed.</text>
+</svg>

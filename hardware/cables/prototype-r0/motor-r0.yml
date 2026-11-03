@@ -1,0 +1,47 @@
+# Native WireViz source. OEM lead reuse and bench termination proposal only.
+# MOTOR_N is the bridge output, not system GND.
+metadata:
+  title: R0 two-wire motor - candidate bench harness
+  description: J3 to motor lead roles; OEM lead pair reused, JST SH2 board candidate; mating/termination details unqualified.
+  notes: 100 mm is the NFP product-page lead reference. Do not cut received leads before measured route fit.
+
+options:
+  fontname: Arial
+  color_mode: FULL
+
+connectors:
+  J3:
+    type: Main PCB motor logical interface
+    subtype: JST SH2 candidate; view numbered board pads
+    pincount: 2
+    pinlabels: [MOTOR_P / OUT1, MOTOR_N / OUT2]
+    pincolors: [RD, BK]
+    notes: "R0 DRAFT - SH2 footprint candidate\nPin 1: U5 OUT1 / physical IC pin 2\nPin 2: U5 OUT2 / physical IC pin 3\nMOTOR_N IS NOT SYSTEM GND."
+    ignore_in_bom: true
+  M1-LEADS:
+    type: Candidate NFP-E1015 integral motor leads
+    subtype: Logical P/N roles - confirm actual received motor
+    pins: [P, N]
+    pinlabels: [MOTOR_P role, MOTOR_N role]
+    pincolors: [RD, BK]
+    notes: "Colors identify proposed roles.\nVerify OEM lead colors and motor behavior.\nRetain motor capsule; do not pull on leads."
+    ignore_in_bom: true
+
+cables:
+  W-MOTOR:
+    category: bundle
+    type: OEM integral lead supplied with candidate motor - reference only
+    wirecount: 2
+    colors: [RD, BK]
+    wirelabels: [MOTOR_P, MOTOR_N_NOT_GND]
+    length: 0.100
+    length_unit: m
+    notes: "100 mm OEM reference; retain full leads initially.\nNo separate wire purchase or extension selected.\nGauge and installed route are unverified.\nCarrier anchors near motor exit and J3."
+
+connections:
+  - - J3: [1, 2]
+    - W-MOTOR: [1, 2]
+    - M1-LEADS: [P, N]
+
+tweak:
+  append: 'graph [label="R0 / TWO-WIRE MOTOR - CANDIDATE ONLY\nBlack MOTOR_N is a switched bridge output, NOT system GND", labelloc=t, labeljust=l, fontsize=18, fontname="Arial"];'

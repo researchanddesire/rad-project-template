@@ -1,0 +1,4223 @@
+{
+  "native": "hardware/cad/prototype-p1/PrototypeP1.FCStd",
+  "native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+  "source_native": "hardware/cad/pack-assembly-r37/power-f/ConditionalPackPowerR37.FCStd",
+  "source_sha256": "7304da28e5c6d532071b7bb08e0a5a630e488cd343dbd8fdff31a16332d18389",
+  "builder_sha256": "caacec2b87ae8744e0266d443d27918b71e8b7298e0405a6cf4997f355a0fbb2",
+  "saved_geometry_screens_match_source": true,
+  "saved_geometry_screen_scope": "All role solid counts, volume, bounds, vertices and nine samples per edge. Finite samples do not prove continuous material equivalence.",
+  "source_role_count": 217,
+  "new_custom_retention_parts": 0,
+  "active_role_count": 229,
+  "cover_integration": {
+    "cover_valid_single_solid": true,
+    "source_cover_solids": 5,
+    "added_material_mm3": 148.94897852909756,
+    "unexpected_intersections": [],
+    "inherited_cover_interfaces": [
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonStopScrewR31_SW1",
+        "intersection_mm3": 2.714336052701582
+      },
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonStopScrewR31_SW2",
+        "intersection_mm3": 2.7143360527015803
+      }
+    ],
+    "named_unmodeled_screw_pilot_interfaces": [
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonRetainerScrewR31_1",
+        "intersection_mm3": 2.3503040039668615
+      },
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonRetainerScrewR31_2",
+        "intersection_mm3": 2.3503040039668597
+      }
+    ],
+    "contact_face_xyz_mm": {
+      "GND": [
+        -32,
+        -30,
+        8
+      ],
+      "DOCK_5V": [
+        -32,
+        -30,
+        12
+      ]
+    },
+    "new_retention_fasteners": 0,
+    "scope": "Nominal installed hard-part check only. Contacts and magnets are dimensional references. Potting/seal shapes are process allowances, not qualified materials, bond, force, leakage or magnetic holding results."
+  },
+  "cover_builder_sha256": "31ec19057b4c104db91217ea93996bb9bc273862eada13fa6ed2aae850fb84f0",
+  "motor_wiring": {
+    "paths": [
+      {
+        "pin": 1,
+        "role": "P1MotorWire1",
+        "bezier_poles_xyz_mm": [
+          [
+            -3.9,
+            54.975,
+            2.1
+          ],
+          [
+            -3.9,
+            58.475,
+            2.1
+          ],
+          [
+            0.5,
+            58.5,
+            3.5
+          ],
+          [
+            0.5,
+            62.0,
+            3.5
+          ]
+        ],
+        "path_length_mm": 8.781162944561277,
+        "OD_allowance_mm": 0.6,
+        "sampled_minimum_radius_mm": 3.081266816842025,
+        "net": "MOTOR_P"
+      },
+      {
+        "pin": 2,
+        "role": "P1MotorWire2",
+        "bezier_poles_xyz_mm": [
+          [
+            -4.9,
+            54.975,
+            2.1
+          ],
+          [
+            -4.9,
+            58.475,
+            2.1
+          ],
+          [
+            -0.5,
+            58.5,
+            3.5
+          ],
+          [
+            -0.5,
+            62.0,
+            3.5
+          ]
+        ],
+        "path_length_mm": 8.781162944561277,
+        "OD_allowance_mm": 0.6,
+        "sampled_minimum_radius_mm": 3.081266816842025,
+        "net": "MOTOR_N"
+      }
+    ],
+    "unexpected_intersections": [],
+    "motor_mate_listed_poses": [
+      {
+        "offset_Y_mm": 4.0,
+        "hits": []
+      },
+      {
+        "offset_Y_mm": 3.0,
+        "hits": []
+      },
+      {
+        "offset_Y_mm": 2.0,
+        "hits": []
+      },
+      {
+        "offset_Y_mm": 1.0,
+        "hits": []
+      },
+      {
+        "offset_Y_mm": 0.5,
+        "hits": []
+      },
+      {
+        "offset_Y_mm": 0.0,
+        "hits": []
+      }
+    ],
+    "scope": "Nominal OD0.60 jackets and assumed capsule lead exits only. Current J3 pin-axis mapping follows native footprint rotation. Actual OEM lead OD, bend limits, termination and slack/assembly movement need fit trial. Finite plug poses omit the still-waiting tip/cap; no continuous flexible-wire proof."
+  },
+  "motor_wire_builder_sha256": "9e002c6eac1d823b6470bb13942c5525bcb7a9e16f1a47952ac8d3822aafea9c",
+  "removed_from_selected_architecture": [
+    "R38 comb, return plug, pads and screw",
+    "R39 connector cage and lap covers"
+  ],
+  "retention_process": "Individual joint insulation; hand-dressed wiring; small removable silicone tacks on jackets/housing, pack removable. Process trial pending.",
+  "roles": {
+    "KeeperScrew_1": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 19.35221074611313,
+      "bounds_xyz_mm": [
+        -12.9,
+        50.8,
+        -1.55,
+        -9.9,
+        56.4,
+        1.45
+      ]
+    },
+    "KeeperScrew1": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 19.35221074611313,
+      "bounds_xyz_mm": [
+        9.9,
+        50.8,
+        -1.55,
+        12.9,
+        56.4,
+        1.45
+      ]
+    },
+    "MotorMaxEnvelope": {
+      "group": "Motor",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2545.0222728308495,
+      "bounds_xyz_mm": [
+        -5.55,
+        62.0,
+        -2.05,
+        5.55,
+        88.3,
+        9.05
+      ]
+    },
+    "TipPCB": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.832100870070233,
+      "bounds_xyz_mm": [
+        -3.0,
+        93.41000000000001,
+        -2.0,
+        3.0,
+        94.03000000000002,
+        2.0
+      ]
+    },
+    "TipComponentEnvelope": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 2,
+      "volume_mm3": 5.3703750000000126,
+      "bounds_xyz_mm": [
+        -1.15,
+        92.51,
+        -0.5,
+        2.375,
+        93.41000000000001,
+        1.8000000000000003
+      ]
+    },
+    "HubBolt_1": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 85.51415203071416,
+      "bounds_xyz_mm": [
+        -10.0,
+        -12.9,
+        -9.9,
+        12.0,
+        -9.1,
+        -6.1
+      ]
+    },
+    "HubBolt1": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 85.51415203071417,
+      "bounds_xyz_mm": [
+        -10.0,
+        -12.9,
+        6.1,
+        12.0,
+        -9.1,
+        9.9
+      ]
+    },
+    "HubNut_1": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 17.14370209113797,
+      "bounds_xyz_mm": [
+        7.999999999999999,
+        -13.0,
+        -10.309401076758505,
+        9.6,
+        -9.0,
+        -5.690598923241496
+      ]
+    },
+    "HubNut1": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 17.143702091137968,
+      "bounds_xyz_mm": [
+        7.999999999999999,
+        -13.0,
+        5.690598923241496,
+        9.6,
+        -9.0,
+        10.309401076758503
+      ]
+    },
+    "FlangeCoverLower": {
+      "group": "Exterior",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3803.5315931214204,
+      "bounds_xyz_mm": [
+        -45.00000010000001,
+        -27.5000001,
+        -19.0000001,
+        45.0000001,
+        -2.9999999,
+        1.0000000406999999e-07
+      ]
+    },
+    "FlangeCoverUpper": {
+      "group": "Exterior",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3761.114873501965,
+      "bounds_xyz_mm": [
+        -45.00000010000001,
+        -27.5000001,
+        -1.0000000232682891e-07,
+        45.0000001,
+        -2.9999999,
+        19.0000001
+      ]
+    },
+    "BodyPCB_R17": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 545.0,
+      "bounds_xyz_mm": [
+        -10.0,
+        26.0,
+        -0.5,
+        10.0,
+        54.0,
+        0.5
+      ]
+    },
+    "R17_U1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9.61000000000001,
+      "bounds_xyz_mm": [
+        3.150000000000006,
+        37.849999999999994,
+        0.5,
+        6.25,
+        40.95,
+        1.5
+      ]
+    },
+    "R17_R44": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167499999999878,
+      "bounds_xyz_mm": [
+        -8.375000999999997,
+        32.385001,
+        0.5,
+        -7.475001000000006,
+        34.035000999999994,
+        1.05
+      ]
+    },
+    "R17_R45": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.816750000000001,
+      "bounds_xyz_mm": [
+        7.209999999999994,
+        32.555001000000004,
+        0.5,
+        8.11,
+        34.205000999999996,
+        1.05
+      ]
+    },
+    "R17_J3": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 52.61325000000004,
+      "bounds_xyz_mm": [
+        -6.450000000000003,
+        48.625,
+        0.5,
+        -2.3499999999999934,
+        52.974999999999994,
+        3.45
+      ]
+    },
+    "R17_R47": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.40480000000000255,
+      "bounds_xyz_mm": [
+        -8.474999999999994,
+        46.894999999999996,
+        0.5,
+        -7.834999999999994,
+        48.045,
+        1.05
+      ]
+    },
+    "R17_R25": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.40479999999999755,
+      "bounds_xyz_mm": [
+        7.629999999999995,
+        35.070001000000005,
+        0.5,
+        8.269999999999996,
+        36.220000999999996,
+        1.05
+      ]
+    },
+    "R17_R46": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.40480000000000255,
+      "bounds_xyz_mm": [
+        -8.474999999999994,
+        50.735001,
+        0.5,
+        -7.834999999999994,
+        51.885001,
+        1.05
+      ]
+    },
+    "R17_C29": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.39600000000000907,
+      "bounds_xyz_mm": [
+        3.099999999999994,
+        45.239999999999995,
+        0.5,
+        4.200000000000003,
+        45.84,
+        1.1
+      ]
+    },
+    "R17_J5": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 78.27824999999983,
+      "bounds_xyz_mm": [
+        0.25,
+        48.625,
+        0.5,
+        6.349999999999994,
+        52.974999999999994,
+        3.45
+      ]
+    },
+    "R17_R5": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4048000000000026,
+      "bounds_xyz_mm": [
+        7.114999999999995,
+        41.16,
+        0.5,
+        8.265,
+        41.8,
+        1.05
+      ]
+    },
+    "R17_C44": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622500000000172,
+      "bounds_xyz_mm": [
+        7.534999999999997,
+        46.535000999999994,
+        0.5,
+        8.385000000000005,
+        48.185001,
+        1.4
+      ]
+    },
+    "R17_C3": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.597749999999987,
+      "bounds_xyz_mm": [
+        7.075000000000003,
+        38.375,
+        0.5,
+        8.375,
+        40.425,
+        1.85
+      ]
+    },
+    "R17_R4": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4047999999999934,
+      "bounds_xyz_mm": [
+        7.180000000000007,
+        30.174999999999997,
+        0.5,
+        7.819999999999993,
+        31.325000000000003,
+        1.05
+      ]
+    },
+    "R17_U5": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.5279999999999796,
+      "bounds_xyz_mm": [
+        4.950000000000003,
+        44.25,
+        0.5,
+        7.049999999999997,
+        46.349999999999994,
+        1.3
+      ]
+    },
+    "R17_R1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4048000000000026,
+      "bounds_xyz_mm": [
+        6.924999999999997,
+        42.16,
+        0.5,
+        8.075000000000003,
+        42.8,
+        1.05
+      ]
+    },
+    "R17_R41": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4047999999999974,
+      "bounds_xyz_mm": [
+        6.079999999999998,
+        35.275000000000006,
+        0.5,
+        6.719999999999999,
+        36.425,
+        1.05
+      ]
+    },
+    "R17_R3": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.40480000000000255,
+      "bounds_xyz_mm": [
+        -8.474999999999994,
+        48.815000999999995,
+        0.5,
+        -7.834999999999994,
+        49.965001,
+        1.05
+      ]
+    },
+    "R17_C28": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.39599999999999935,
+      "bounds_xyz_mm": [
+        3.099999999999994,
+        44.2,
+        0.5,
+        4.200000000000003,
+        44.8,
+        1.1
+      ]
+    },
+    "R17_J6": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 168.43199999999973,
+      "bounds_xyz_mm": [
+        -6.049999999999997,
+        28.375,
+        0.5,
+        6.049999999999997,
+        32.724999999999994,
+        3.7
+      ]
+    },
+    "R17_C30": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 22.376249999999978,
+      "bounds_xyz_mm": [
+        -0.224999999999994,
+        41.875,
+        0.5,
+        2.3250000000000033,
+        45.125,
+        3.2
+      ]
+    },
+    "R17_Q1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 5.249999999999966,
+      "bounds_xyz_mm": [
+        -0.700000000000003,
+        35.7,
+        0.5,
+        2.299999999999997,
+        37.099999999999994,
+        1.75
+      ]
+    },
+    "R17_R48": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4048000000000026,
+      "bounds_xyz_mm": [
+        7.114999999999995,
+        37.0,
+        0.5,
+        8.265,
+        37.64,
+        1.05
+      ]
+    },
+    "R17_C1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.731000000000012,
+      "bounds_xyz_mm": [
+        3.474999999999994,
+        41.75,
+        0.5,
+        5.525000000000006,
+        43.05,
+        1.9
+      ]
+    },
+    "R17_C2": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.7309999999999857,
+      "bounds_xyz_mm": [
+        -0.224999999999994,
+        38.8,
+        0.5,
+        1.825000000000003,
+        40.099999999999994,
+        1.9
+      ]
+    },
+    "R17_R2": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.40479999999999755,
+      "bounds_xyz_mm": [
+        -0.564999999999998,
+        46.16,
+        0.5,
+        0.5849999999999935,
+        46.8,
+        1.05
+      ]
+    },
+    "R17_C27": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622500000000065,
+      "bounds_xyz_mm": [
+        4.275000000000006,
+        29.674999999999997,
+        -1.4,
+        5.924999999999997,
+        30.525000000000006,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C54": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622499999999846,
+      "bounds_xyz_mm": [
+        -0.875,
+        46.475001000000006,
+        -1.4,
+        -0.025000000000005684,
+        48.125001,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C26": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622500000000174,
+      "bounds_xyz_mm": [
+        1.125,
+        43.974999999999994,
+        -1.4,
+        2.7750000000000057,
+        44.825,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C15": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.478750000000051,
+      "bounds_xyz_mm": [
+        -5.075000000000003,
+        33.675,
+        -3.2,
+        -1.8250000000000028,
+        35.325,
+        -0.5
+      ]
+    },
+    "R17_C53": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.262250000000006,
+      "bounds_xyz_mm": [
+        4.724999999999994,
+        46.475001000000006,
+        -1.4,
+        5.575000000000003,
+        48.125001,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C16": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622500000000174,
+      "bounds_xyz_mm": [
+        1.125,
+        32.974999999999994,
+        -1.4,
+        2.7750000000000057,
+        33.825,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C21": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.597750000000011,
+      "bounds_xyz_mm": [
+        5.224999999999994,
+        44.2,
+        -1.85,
+        7.275000000000006,
+        45.5,
+        -0.5
+      ]
+    },
+    "R17_C22": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.597750000000011,
+      "bounds_xyz_mm": [
+        6.5,
+        47.474999999999994,
+        -1.85,
+        7.799999999999997,
+        49.525000000000006,
+        -0.5
+      ]
+    },
+    "R17_C52": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622499999999846,
+      "bounds_xyz_mm": [
+        -0.875,
+        35.475001000000006,
+        -1.4,
+        -0.025000000000005684,
+        37.125001,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C41": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622500000000065,
+      "bounds_xyz_mm": [
+        -5.849999999999994,
+        30.660000999999994,
+        -1.4,
+        -4.200000000000003,
+        31.510001000000003,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C14": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.47875000000005,
+      "bounds_xyz_mm": [
+        -7.775000000000006,
+        34.375,
+        -3.2,
+        -6.125,
+        37.625,
+        -0.5
+      ]
+    },
+    "R17_R22": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.816749999999995,
+      "bounds_xyz_mm": [
+        -4.212500000000006,
+        47.45,
+        -1.05,
+        -2.5625,
+        48.349999999999994,
+        -0.5
+      ]
+    },
+    "R17_R12": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.816749999999995,
+      "bounds_xyz_mm": [
+        -4.212500000000006,
+        36.45,
+        -1.05,
+        -2.5625,
+        37.349999999999994,
+        -0.5
+      ]
+    },
+    "R17_U9": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 7.395000000000013,
+      "bounds_xyz_mm": [
+        -3.064999999999998,
+        27.474999999999994,
+        -1.95,
+        -0.06499999999999817,
+        29.174999999999997,
+        -0.5
+      ]
+    },
+    "R17_U3": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 8.060000000000011,
+      "bounds_xyz_mm": [
+        0.700000000000003,
+        45.55,
+        -1.5,
+        3.799999999999997,
+        48.150000000000006,
+        -0.5
+      ]
+    },
+    "R17_C11": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.5977500000000115,
+      "bounds_xyz_mm": [
+        5.224999999999994,
+        33.2,
+        -1.85,
+        7.275000000000006,
+        34.5,
+        -0.5
+      ]
+    },
+    "R17_U8": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 5.61000000000001,
+      "bounds_xyz_mm": [
+        -6.525000000000006,
+        27.474999999999994,
+        -1.6,
+        -3.5250000000000057,
+        29.174999999999997,
+        -0.5
+      ]
+    },
+    "R17_C24": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.47875000000005,
+      "bounds_xyz_mm": [
+        -7.775000000000006,
+        45.375,
+        -3.2,
+        -6.125,
+        48.625,
+        -0.5
+      ]
+    },
+    "R17_C42": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622500000000174,
+      "bounds_xyz_mm": [
+        -3.290000000000006,
+        30.660000999999994,
+        -1.4,
+        -1.64,
+        31.510001000000003,
+        -0.4999999999999999
+      ]
+    },
+    "R17_R21": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.4657499999999948,
+      "bounds_xyz_mm": [
+        -4.412499999999994,
+        49.0,
+        -1.05,
+        -2.362499999999997,
+        50.3,
+        -0.5
+      ]
+    },
+    "R17_U2": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 8.060000000000013,
+      "bounds_xyz_mm": [
+        0.700000000000003,
+        34.55,
+        -1.5,
+        3.799999999999997,
+        37.150000000000006,
+        -0.5
+      ]
+    },
+    "R17_L2": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 35.3009999999999,
+      "bounds_xyz_mm": [
+        0.200000000000003,
+        48.95,
+        -2.6,
+        4.299999999999997,
+        53.05,
+        -0.5
+      ]
+    },
+    "R17_R26": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.816749999999995,
+      "bounds_xyz_mm": [
+        5.424999999999997,
+        51.350001000000006,
+        -1.05,
+        7.075000000000003,
+        52.250001,
+        -0.5
+      ]
+    },
+    "R17_R11": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167500000000083,
+      "bounds_xyz_mm": [
+        -4.212500000000006,
+        38.05,
+        -1.05,
+        -2.5625,
+        38.95,
+        -0.5
+      ]
+    },
+    "R17_R24": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.40479999999999755,
+      "bounds_xyz_mm": [
+        -8.269999999999996,
+        42.47,
+        -1.05,
+        -7.1200000000000045,
+        43.11,
+        -0.5
+      ]
+    },
+    "R17_C25": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.478750000000051,
+      "bounds_xyz_mm": [
+        -5.075000000000003,
+        44.675,
+        -3.2,
+        -1.8250000000000028,
+        46.325,
+        -0.5
+      ]
+    },
+    "R17_R23": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4047999999999974,
+      "bounds_xyz_mm": [
+        -8.239000000000004,
+        30.790001000000004,
+        -1.05,
+        -7.599000000000004,
+        31.940000999999995,
+        -0.5
+      ]
+    },
+    "R17_L1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 35.3009999999999,
+      "bounds_xyz_mm": [
+        0.200000000000003,
+        37.95,
+        -2.6,
+        4.299999999999997,
+        42.05,
+        -0.5
+      ]
+    },
+    "R17_R42": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4047999999999974,
+      "bounds_xyz_mm": [
+        -7.239000000000004,
+        30.790001000000004,
+        -1.05,
+        -6.599000000000004,
+        31.940000999999995,
+        -0.5
+      ]
+    },
+    "R17_R13": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.816749999999995,
+      "bounds_xyz_mm": [
+        5.424999999999997,
+        40.350001000000006,
+        -1.05,
+        7.075000000000003,
+        41.250001,
+        -0.5
+      ]
+    },
+    "R17_C51": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.262250000000006,
+      "bounds_xyz_mm": [
+        4.724999999999994,
+        35.475001000000006,
+        -1.4,
+        5.575000000000003,
+        37.125001,
+        -0.4999999999999999
+      ]
+    },
+    "R17_U7": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2.889999999999986,
+      "bounds_xyz_mm": [
+        3.950000000000003,
+        27.150000000000006,
+        -1.5,
+        5.650000000000006,
+        28.849999999999994,
+        -0.5
+      ]
+    },
+    "R17_C43": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622500000000174,
+      "bounds_xyz_mm": [
+        -0.730000000000004,
+        30.660000999999994,
+        -1.4,
+        0.9200000000000019,
+        31.510001000000003,
+        -0.4999999999999999
+      ]
+    },
+    "R17_C12": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.597750000000011,
+      "bounds_xyz_mm": [
+        6.5,
+        36.474999999999994,
+        -1.85,
+        7.799999999999997,
+        38.525000000000006,
+        -0.5
+      ]
+    },
+    "R17_C13": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.478750000000051,
+      "bounds_xyz_mm": [
+        -5.075000000000003,
+        39.675,
+        -3.2,
+        -1.8250000000000028,
+        41.325,
+        -0.5
+      ]
+    },
+    "R17_R43": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.4657500000000105,
+      "bounds_xyz_mm": [
+        2.025000000000006,
+        31.099999999999994,
+        -1.05,
+        4.075000000000003,
+        32.400000000000006,
+        -0.5
+      ]
+    },
+    "R17_U4": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 7.395000000000013,
+      "bounds_xyz_mm": [
+        0.394999999999996,
+        27.474999999999994,
+        -1.95,
+        3.394999999999996,
+        29.174999999999997,
+        -0.5
+      ]
+    },
+    "R17_C23": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.478750000000053,
+      "bounds_xyz_mm": [
+        -5.075000000000003,
+        50.974999999999994,
+        -3.2,
+        -1.8250000000000028,
+        52.625,
+        -0.5
+      ]
+    },
+    "FlangePCB_R17": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 352.5,
+      "bounds_xyz_mm": [
+        -35.8,
+        -19.312499999999996,
+        -7.487500000000001,
+        -12.299999999999997,
+        -18.312499999999996,
+        7.512499999999999
+      ]
+    },
+    "R17_SW1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.105000000000164,
+      "bounds_xyz_mm": [
+        -22.900000000000006,
+        -21.0625,
+        3.212499999999988,
+        -19.799999999999997,
+        -19.3125,
+        5.812500000000011
+      ]
+    },
+    "R17_D1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 7.438500000000003,
+      "bounds_xyz_mm": [
+        -17.129999999999995,
+        -20.6625,
+        0.362499999999994,
+        -14.230000000000004,
+        -19.3125,
+        2.2624999999999997
+      ]
+    },
+    "R17_SW2": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.105000000000164,
+      "bounds_xyz_mm": [
+        -16.900000000000006,
+        -21.0625,
+        3.212499999999988,
+        -13.799999999999997,
+        -19.3125,
+        5.812500000000011
+      ]
+    },
+    "R17_U6": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 566.3805000000006,
+      "bounds_xyz_mm": [
+        -41.25,
+        -21.862500000000004,
+        -6.637500000000006,
+        -24.549999999999997,
+        -19.312500000000004,
+        6.662500000000005
+      ]
+    },
+    "R17_J4": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 103.94324999999998,
+      "bounds_xyz_mm": [
+        -21.950000000000003,
+        -22.262500000000003,
+        -6.112500000000001,
+        -13.849999999999994,
+        -19.312500000000004,
+        -1.7625000000000064
+      ]
+    },
+    "R17_F1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 4.207500000000056,
+      "bounds_xyz_mm": [
+        -22.120000000000005,
+        -20.0625,
+        0.462499999999988,
+        -18.819999999999993,
+        -19.3125,
+        2.162500000000005
+      ]
+    },
+    "R17_SW3": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.10499999999994,
+      "bounds_xyz_mm": [
+        -20.799999999999997,
+        -18.3125,
+        3.012499999999999,
+        -18.200000000000003,
+        -16.5625,
+        6.112499999999994
+      ]
+    },
+    "R17_R37": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167499999999954,
+      "bounds_xyz_mm": [
+        -28.409999999999997,
+        -18.312500000000004,
+        -3.022499999999997,
+        -27.510000000000005,
+        -17.762500000000003,
+        -1.372499999999991
+      ]
+    },
+    "R17_R35": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167500000000085,
+      "bounds_xyz_mm": [
+        -26.950000000000003,
+        -18.312500000000004,
+        -3.292500000000008,
+        -26.049999999999997,
+        -17.762500000000003,
+        -1.642500000000002
+      ]
+    },
+    "R17_C32": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622499999999952,
+      "bounds_xyz_mm": [
+        -34.925,
+        -18.3125,
+        -6.712499999999995,
+        -34.075,
+        -17.4125,
+        -5.062499999999989
+      ]
+    },
+    "R17_SW4": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.104999999999942,
+      "bounds_xyz_mm": [
+        -16.599999999999994,
+        -18.3125,
+        3.012499999999999,
+        -14.0,
+        -16.5625,
+        6.112499999999994
+      ]
+    },
+    "R17_R32": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167500000000014,
+      "bounds_xyz_mm": [
+        -29.424999999999997,
+        -18.312500000000004,
+        -4.927499999999998,
+        -27.775000000000006,
+        -17.762500000000003,
+        -4.027499999999993
+      ]
+    },
+    "R17_J7": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 168.4320000000008,
+      "bounds_xyz_mm": [
+        -34.55,
+        -18.3125,
+        1.9874999999999625,
+        -22.450000000000003,
+        -15.1125,
+        6.337499999999985
+      ]
+    },
+    "R17_C33": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622499999999839,
+      "bounds_xyz_mm": [
+        -29.424999999999997,
+        -18.3125,
+        -6.312499999999989,
+        -27.775000000000006,
+        -17.4125,
+        -5.462499999999995
+      ]
+    },
+    "R17_R33": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167499999999954,
+      "bounds_xyz_mm": [
+        -32.519999999999996,
+        -18.312500000000004,
+        -6.672500000000003,
+        -31.620000000000005,
+        -17.762500000000003,
+        -5.022499999999997
+      ]
+    },
+    "R17_R40": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.4657500000000052,
+      "bounds_xyz_mm": [
+        -22.849999999999994,
+        -18.312500000000004,
+        -4.512500000000006,
+        -21.549999999999997,
+        -17.762500000000003,
+        -2.462499999999995
+      ]
+    },
+    "R17_C31": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.597750000000013,
+      "bounds_xyz_mm": [
+        -35.25,
+        -18.312500000000004,
+        -4.012500000000006,
+        -33.95,
+        -16.962500000000002,
+        -1.962499999999995
+      ]
+    },
+    "R17_R39": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.4657500000000052,
+      "bounds_xyz_mm": [
+        -24.75,
+        -18.312500000000004,
+        -4.512500000000006,
+        -23.450000000000003,
+        -17.762500000000003,
+        -2.462499999999995
+      ]
+    },
+    "R17_J1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 57.071999999999846,
+      "bounds_xyz_mm": [
+        -19.049999999999997,
+        -18.312500000000004,
+        -6.112500000000005,
+        -14.950000000000003,
+        -15.112500000000002,
+        -1.762500000000011
+      ]
+    },
+    "R17_R38": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167500000000085,
+      "bounds_xyz_mm": [
+        -31.060000000000002,
+        -18.312500000000004,
+        -6.672500000000003,
+        -30.159999999999997,
+        -17.762500000000003,
+        -5.022499999999997
+      ]
+    },
+    "R17_R31": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167500000000087,
+      "bounds_xyz_mm": [
+        -26.325000000000003,
+        -18.312500000000004,
+        -6.337499999999995,
+        -24.674999999999997,
+        -17.762500000000003,
+        -5.437499999999989
+      ]
+    },
+    "R17_R36": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167500000000085,
+      "bounds_xyz_mm": [
+        -30.650000000000006,
+        -18.312500000000004,
+        -3.292500000000008,
+        -29.75,
+        -17.762500000000003,
+        -1.642500000000002
+      ]
+    },
+    "R17_C34": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2622499999999839,
+      "bounds_xyz_mm": [
+        -23.224999999999994,
+        -18.3125,
+        -6.812499999999989,
+        -21.575000000000003,
+        -17.4125,
+        -5.962499999999995
+      ]
+    },
+    "R17_R34": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.8167499999999942,
+      "bounds_xyz_mm": [
+        -13.790000000000006,
+        -18.3125,
+        -0.312499999999989,
+        -12.89,
+        -17.7625,
+        1.3374999999999884
+      ]
+    },
+    "KeyedBodyR25": {
+      "group": "Exterior",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 8288.343446031851,
+      "bounds_xyz_mm": [
+        -18.575032486450628,
+        -8.000000100000001,
+        -18.575032509637033,
+        18.575032483766677,
+        56.8,
+        18.57503248668194
+      ]
+    },
+    "MotorSeatCapR25": {
+      "group": "Exterior",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 6781.979251541463,
+      "bounds_xyz_mm": [
+        -18.669000099999998,
+        51.099999899999986,
+        -18.6690001,
+        18.669000099999998,
+        98.10000009999996,
+        18.6690001
+      ]
+    },
+    "PCBOnlyKeeperR25": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 128.94466951073133,
+      "bounds_xyz_mm": [
+        -12.65,
+        31.0,
+        -1.3000000000000003,
+        12.65,
+        55.1,
+        4.8
+      ]
+    },
+    "ShellMotorMountR25": {
+      "group": "Motor",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1120.7868945198497,
+      "bounds_xyz_mm": [
+        -16.3,
+        55.6,
+        -16.3,
+        16.3,
+        88.7,
+        16.3
+      ]
+    },
+    "MotorClampScrewR25": {
+      "group": "Motor",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 47.815040187636626,
+      "bounds_xyz_mm": [
+        6.299999999999999,
+        72.85,
+        -1.2,
+        10.1,
+        76.65,
+        8.8
+      ]
+    },
+    "MotorClampNutR25": {
+      "group": "Motor",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 16.088126959531795,
+      "bounds_xyz_mm": [
+        5.8905989232414955,
+        72.75,
+        -0.8000000000000003,
+        10.509401076758504,
+        76.75,
+        0.8
+      ]
+    },
+    "StationaryTipCarrierR26": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 251.01742581902116,
+      "bounds_xyz_mm": [
+        -13.1,
+        63.6,
+        -6.2,
+        4.4,
+        94.7,
+        4.4
+      ]
+    },
+    "TipCarrierScrewEnvelopeR26": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 24.93167929888859,
+      "bounds_xyz_mm": [
+        -13.4,
+        64.9,
+        -8.7,
+        -10.200000000000001,
+        68.1,
+        -1.1
+      ]
+    },
+    "StationaryPickupShoeR26": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 22.103210294233616,
+      "bounds_xyz_mm": [
+        -3.7,
+        94.28,
+        -3.7,
+        3.7,
+        96.38000009999999,
+        3.7
+      ]
+    },
+    "TipClipFittedEnvelopeR26": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 17.929697592567674,
+      "bounds_xyz_mm": [
+        -3.2,
+        94.7,
+        -3.2,
+        3.2,
+        95.34,
+        3.2
+      ]
+    },
+    "TipDielectricBondR26": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 5.980685834705769,
+      "bounds_xyz_mm": [
+        -3.0,
+        94.03,
+        -2.0,
+        3.0,
+        94.28000000000002,
+        2.0
+      ]
+    },
+    "TipCapThermalGelR26": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2.136270478461364,
+      "bounds_xyz_mm": [
+        -1.750000099723674,
+        96.15914701350445,
+        -1.7500000998990175,
+        1.7500001,
+        96.60000009999999,
+        1.7500000997236744
+      ]
+    },
+    "TipWireR26_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.226912317543855,
+      "bounds_xyz_mm": [
+        1.7999998999972435,
+        54.97499989999999,
+        -5.254607684721486,
+        14.100046624422442,
+        93.58000009999999,
+        2.4050970304018966
+      ]
+    },
+    "TipBareWireR26_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.058402207430234214,
+      "bounds_xyz_mm": [
+        1.9700000000000002,
+        93.15,
+        -2.45,
+        2.23,
+        93.41,
+        -1.35
+      ]
+    },
+    "TipSolderAllowanceR26_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.2869999999999984,
+      "bounds_xyz_mm": [
+        1.7,
+        93.06,
+        -1.95,
+        2.5,
+        93.41,
+        -0.925
+      ]
+    },
+    "TipWireR26_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.071420572652453,
+      "bounds_xyz_mm": [
+        0.3999115084177215,
+        54.97499989999999,
+        -5.255768591247983,
+        13.10004714481388,
+        93.58000009999999,
+        2.4001174787617567
+      ]
+    },
+    "TipBareWireR26_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.058402207430234214,
+      "bounds_xyz_mm": [
+        0.57,
+        93.15,
+        -2.45,
+        0.83,
+        93.41,
+        -1.35
+      ]
+    },
+    "TipSolderAllowanceR26_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.2869999999999984,
+      "bounds_xyz_mm": [
+        0.3,
+        93.06,
+        -1.95,
+        1.1,
+        93.41,
+        -0.925
+      ]
+    },
+    "TipWireR26_3": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 13.990841269678974,
+      "bounds_xyz_mm": [
+        -1.0000857862138222,
+        54.97499989999999,
+        -5.255768591247986,
+        12.100048642077502,
+        93.58000009999999,
+        2.4001100371407533
+      ]
+    },
+    "TipBareWireR26_3": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.058402207430234214,
+      "bounds_xyz_mm": [
+        -0.83,
+        93.15,
+        -2.45,
+        -0.57,
+        93.41,
+        -1.35
+      ]
+    },
+    "TipSolderAllowanceR26_3": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.2869999999999984,
+      "bounds_xyz_mm": [
+        -1.1,
+        93.06,
+        -1.95,
+        -0.30000000000000004,
+        93.41,
+        -0.925
+      ]
+    },
+    "TipWireR26_4": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 13.972537649747194,
+      "bounds_xyz_mm": [
+        -2.400083181322518,
+        54.97499989999999,
+        -5.255768591247989,
+        11.100050943310546,
+        93.58000009999999,
+        2.4001019453772594
+      ]
+    },
+    "TipBareWireR26_4": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.05840220743023423,
+      "bounds_xyz_mm": [
+        -2.23,
+        93.15,
+        -2.45,
+        -1.9700000000000002,
+        93.41,
+        -1.35
+      ]
+    },
+    "TipSolderAllowanceR26_4": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.2869999999999984,
+      "bounds_xyz_mm": [
+        -2.5,
+        93.06,
+        -1.95,
+        -1.7,
+        93.41,
+        -0.925
+      ]
+    },
+    "FlangeKeeperScrewEnvelopeR27": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 24.931679298888596,
+      "bounds_xyz_mm": [
+        -22.1,
+        -21.4,
+        7.5,
+        -18.9,
+        -13.8,
+        10.7
+      ]
+    },
+    "InterboardWireR29_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 25.89267330656412,
+      "bounds_xyz_mm": [
+        -33.303123384309714,
+        -22.20636139785123,
+        0.09541050714087648,
+        -1.2956051118020684,
+        26.375000100000047,
+        15.547225944861589
+      ]
+    },
+    "InterboardWireR29_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 25.910254983023297,
+      "bounds_xyz_mm": [
+        -32.30917458012843,
+        -22.200004415730675,
+        0.9999998999999992,
+        -1.2999998999999953,
+        26.375000100000047,
+        16.619766284442417
+      ]
+    },
+    "InterboardWireR29_3": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 25.61607459701428,
+      "bounds_xyz_mm": [
+        -31.42034904762699,
+        -23.00000010000001,
+        0.09999990000000003,
+        -0.49999990000000044,
+        26.375000100000047,
+        15.061233885245649
+      ]
+    },
+    "InterboardWireR29_4": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 25.57353580439718,
+      "bounds_xyz_mm": [
+        -30.300000100000013,
+        -23.00000010000001,
+        0.993138695015511,
+        -0.4931146993989903,
+        26.375000100000047,
+        16.318158925843584
+      ]
+    },
+    "InterboardWireR29_5": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 26.022507539060275,
+      "bounds_xyz_mm": [
+        -29.300000100000045,
+        -23.800000100000023,
+        0.09999990000000003,
+        0.30000010000000066,
+        26.375000100000047,
+        16.111882630401247
+      ]
+    },
+    "InterboardWireR29_6": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 26.352183828712906,
+      "bounds_xyz_mm": [
+        -28.301836166616,
+        -23.800000100000023,
+        0.9931387368297783,
+        0.8069320211438186,
+        26.375000100000047,
+        17.45750434687621
+      ]
+    },
+    "InterboardWireR29_7": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 25.78621931473421,
+      "bounds_xyz_mm": [
+        -27.30000010000006,
+        -24.600000100000006,
+        0.09999990000000003,
+        1.8000001000000025,
+        26.375000100000047,
+        14.982094757401416
+      ]
+    },
+    "InterboardWireR29_8": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 26.282783683378383,
+      "bounds_xyz_mm": [
+        -26.34074603921883,
+        -24.600000100000006,
+        0.9999998999999992,
+        2.800000100000001,
+        26.375000100000047,
+        17.271222923221686
+      ]
+    },
+    "InterboardWireR29_9": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 25.940800462683125,
+      "bounds_xyz_mm": [
+        -25.303630794907868,
+        -25.40000010000001,
+        0.09999990000000003,
+        3.8000001,
+        26.375000100000047,
+        15.402854051168747
+      ]
+    },
+    "InterboardWireR29_10": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 26.894489609947396,
+      "bounds_xyz_mm": [
+        -24.30000010000001,
+        -25.400000100000014,
+        0.9953028312772715,
+        4.804391764887563,
+        26.375000100000047,
+        17.450267801562717
+      ]
+    },
+    "CentralAnchorPadR30": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 37.534146504302534,
+      "bounds_xyz_mm": [
+        -3.5,
+        -15.100000099999999,
+        -0.5,
+        3.5,
+        -12.9999999,
+        2.5
+      ]
+    },
+    "FlangeAnchorPadR30": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 71.06576259264173,
+      "bounds_xyz_mm": [
+        -33.9,
+        -18.6,
+        9.399999899999987,
+        -23.0999999,
+        -15.0,
+        11.400000100000012
+      ]
+    },
+    "ButtonBezelR31": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 227.2791263917737,
+      "bounds_xyz_mm": [
+        -29.0000001,
+        -30.0000001,
+        -1.0000000011e-07,
+        -6.9999999,
+        -28.0,
+        11.0000001
+      ]
+    },
+    "ButtonBootR31": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 143.83254836761012,
+      "bounds_xyz_mm": [
+        -25.1,
+        -29.8,
+        0.8,
+        -11.5,
+        -27.5,
+        10.4
+      ]
+    },
+    "ButtonKeeperR31": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 102.55218495059229,
+      "bounds_xyz_mm": [
+        -36.8,
+        -20.112500000000004,
+        7.112499999999999,
+        -18.8,
+        -14.4,
+        12.1
+      ]
+    },
+    "ButtonPlungerR31_SW1": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 28.281793835333545,
+      "bounds_xyz_mm": [
+        -23.05,
+        -28.8,
+        2.812499999999999,
+        -19.650000000000002,
+        -21.3,
+        9.1
+      ]
+    },
+    "ButtonPlungerR31_SW2": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 28.281793835333566,
+      "bounds_xyz_mm": [
+        -17.05,
+        -28.8,
+        2.812499999999999,
+        -13.650000000000002,
+        -21.3,
+        9.1
+      ]
+    },
+    "ButtonHomePinR31_SW1": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.5079644737231015,
+      "bounds_xyz_mm": [
+        -22.85,
+        -23.5,
+        4.112499999999999,
+        -19.85,
+        -22.700000000000003,
+        4.9125
+      ]
+    },
+    "ButtonHomePinR31_SW2": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.5079644737231017,
+      "bounds_xyz_mm": [
+        -16.85,
+        -23.5,
+        4.112499999999999,
+        -13.850000000000001,
+        -22.700000000000003,
+        4.9125
+      ]
+    },
+    "ButtonStopScrewR31_SW1": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12.566370614359178,
+      "bounds_xyz_mm": [
+        -22.35,
+        -27.12,
+        7.0,
+        -20.35,
+        -23.12,
+        9.0
+      ]
+    },
+    "ButtonStopScrewR31_SW2": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12.566370614359176,
+      "bounds_xyz_mm": [
+        -16.35,
+        -27.12,
+        7.0,
+        -14.350000000000001,
+        -23.12,
+        9.0
+      ]
+    },
+    "ButtonRetainerScrewR31_1": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 13.404128655316452,
+      "bounds_xyz_mm": [
+        -28.400000000000002,
+        -30.0,
+        0.19999999999999996,
+        -25.2,
+        -25.0,
+        3.4000000000000004
+      ]
+    },
+    "ButtonRetainerScrewR31_2": {
+      "group": "Controls",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 13.404128655316452,
+      "bounds_xyz_mm": [
+        -10.799999999999999,
+        -30.0,
+        7.4,
+        -7.6,
+        -25.0,
+        10.6
+      ]
+    },
+    "PackNTCHeadR33_1": {
+      "group": "BatteryReference",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 70.68583470577033,
+      "bounds_xyz_mm": [
+        30.0,
+        -15.93,
+        -4.5,
+        40.0,
+        -12.93,
+        -1.5
+      ]
+    },
+    "PackNTCContactFilmR33_1": {
+      "group": "BatteryReference",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.1200000000000045,
+      "bounds_xyz_mm": [
+        31.0,
+        -16.0,
+        -4.0,
+        39.0,
+        -15.93,
+        -2.0
+      ]
+    },
+    "PackNTCHeadR33_2": {
+      "group": "BatteryReference",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 70.68583470577033,
+      "bounds_xyz_mm": [
+        30.0,
+        -15.93,
+        1.5,
+        40.0,
+        -12.93,
+        4.5
+      ]
+    },
+    "PackNTCContactFilmR33_2": {
+      "group": "BatteryReference",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.1200000000000045,
+      "bounds_xyz_mm": [
+        31.0,
+        -16.0,
+        2.0,
+        39.0,
+        -15.93,
+        4.0
+      ]
+    },
+    "PackPublishedGaugeR33": {
+      "group": "BatteryReference",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 5280.0,
+      "bounds_xyz_mm": [
+        7.0,
+        -24.0,
+        -10.0,
+        40.0,
+        -16.0,
+        10.0
+      ]
+    },
+    "PackLidScrewR33_1": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 24.931679298888607,
+      "bounds_xyz_mm": [
+        16.4,
+        -27.0,
+        -14.0,
+        19.6,
+        -19.4,
+        -10.8
+      ]
+    },
+    "PackLidScrewR33_2": {
+      "group": "FastenerAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 24.931679298888607,
+      "bounds_xyz_mm": [
+        16.4,
+        -27.0,
+        10.8,
+        19.6,
+        -19.4,
+        14.0
+      ]
+    },
+    "PackLidR33": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 98.87237544798263,
+      "bounds_xyz_mm": [
+        7.0,
+        -25.4,
+        -14.4,
+        37.0,
+        -24.599999999999998,
+        14.4
+      ]
+    },
+    "R17Mate_J3": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 19.200000000000003,
+      "bounds_xyz_mm": [
+        -5.900000000000006,
+        52.974999999999994,
+        0.5,
+        -2.9000000000000057,
+        54.974999999999994,
+        3.7
+      ]
+    },
+    "R17Mate_J5": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 32.0,
+      "bounds_xyz_mm": [
+        0.799999999999997,
+        52.974999999999994,
+        0.5,
+        5.799999999999997,
+        54.974999999999994,
+        3.7
+      ]
+    },
+    "R17Mate_J6": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 70.4,
+      "bounds_xyz_mm": [
+        -5.5,
+        26.375,
+        0.5,
+        5.5,
+        28.375,
+        3.7
+      ]
+    },
+    "R17Mate_J4": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 44.8,
+      "bounds_xyz_mm": [
+        -21.400000000000006,
+        -22.512500000000003,
+        -8.1125,
+        -14.400000000000006,
+        -19.312500000000004,
+        -6.112500000000001
+      ]
+    },
+    "R17Mate_J7": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 70.4,
+      "bounds_xyz_mm": [
+        -34.0,
+        -18.3125,
+        6.337499999999986,
+        -23.0,
+        -15.1125,
+        8.337499999999986
+      ]
+    },
+    "R17Mate_J1": {
+      "group": "Electronics",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 19.2,
+      "bounds_xyz_mm": [
+        -18.5,
+        -18.312500000000004,
+        -8.112500000000004,
+        -15.5,
+        -15.112500000000004,
+        -6.112500000000004
+      ]
+    },
+    "MotorLeadFlareAllowanceR21": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 182.89724110669064,
+      "bounds_xyz_mm": [
+        -4.8,
+        55.8,
+        -1.2999999999999998,
+        4.800000000000001,
+        62.0,
+        8.3
+      ]
+    },
+    "TipStrainReliefProcessAllowanceR26": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 16.0159999999999,
+      "bounds_xyz_mm": [
+        -2.6,
+        91.2,
+        -5.5,
+        2.6,
+        92.6,
+        -3.3
+      ]
+    },
+    "PackBareLeadR34_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.1884955592153877,
+      "bounds_xyz_mm": [
+        -3.0,
+        42.55,
+        0.6000000000000001,
+        -1.5,
+        42.95,
+        1.0
+      ]
+    },
+    "PackBareLeadR34_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.1256637061435918,
+      "bounds_xyz_mm": [
+        -3.0,
+        41.699999999999996,
+        0.6000000000000001,
+        -2.0,
+        42.1,
+        1.0
+      ]
+    },
+    "PackBareLeadR34_3": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.1884955592153877,
+      "bounds_xyz_mm": [
+        -3.0,
+        41.05,
+        0.6000000000000001,
+        -1.5,
+        41.45,
+        1.0
+      ]
+    },
+    "PackBareLeadR34_4": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.1884955592153877,
+      "bounds_xyz_mm": [
+        -3.0,
+        39.55,
+        0.6000000000000001,
+        -1.5,
+        39.95,
+        1.0
+      ]
+    },
+    "PackBareLeadR34_5": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.1884955592153877,
+      "bounds_xyz_mm": [
+        -3.0,
+        38.05,
+        0.6000000000000001,
+        -1.5,
+        38.45,
+        1.0
+      ]
+    },
+    "FactoryNTCWireR36_1_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9.326161019014034,
+      "bounds_xyz_mm": [
+        21.8,
+        -15.030000099999999,
+        -2.9500001,
+        30.0,
+        -13.8299999,
+        -1.249999899999999
+      ]
+    },
+    "NTCSpliceSpaceR36_1_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12.723450247038661,
+      "bounds_xyz_mm": [
+        17.3,
+        -15.33,
+        -2.75,
+        22.3,
+        -13.53,
+        -0.9500000000000001
+      ]
+    },
+    "FactoryNTCWireR36_1_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9.326161019014037,
+      "bounds_xyz_mm": [
+        21.8,
+        -15.030000099999999,
+        -4.750000100000001,
+        30.0,
+        -13.8299999,
+        -3.0499999
+      ]
+    },
+    "NTCSpliceSpaceR36_1_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12.723450247038661,
+      "bounds_xyz_mm": [
+        17.3,
+        -15.33,
+        -5.050000000000001,
+        22.3,
+        -13.53,
+        -3.2500000000000004
+      ]
+    },
+    "FactoryNTCWireR36_2_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9.326161019014034,
+      "bounds_xyz_mm": [
+        21.8,
+        -15.030000099999999,
+        3.0499999,
+        30.0,
+        -13.8299999,
+        4.750000100000002
+      ]
+    },
+    "NTCSpliceSpaceR36_2_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12.72345024703866,
+      "bounds_xyz_mm": [
+        17.3,
+        -15.33,
+        3.2500000000000004,
+        22.3,
+        -13.53,
+        5.050000000000001
+      ]
+    },
+    "FactoryNTCWireR36_2_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9.326161019014036,
+      "bounds_xyz_mm": [
+        21.8,
+        -15.030000099999999,
+        1.249999899999999,
+        30.0,
+        -13.8299999,
+        2.9500001
+      ]
+    },
+    "NTCSpliceSpaceR36_2_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12.723450247038661,
+      "bounds_xyz_mm": [
+        17.3,
+        -15.33,
+        0.9500000000000001,
+        22.3,
+        -13.53,
+        2.75
+      ]
+    },
+    "FactoryLapBareR36_1_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.507602155700076,
+      "bounds_xyz_mm": [
+        17.8,
+        -15.080000099999998,
+        -2.0500001,
+        21.800000100000002,
+        -14.229999900000001,
+        -1.6499999
+      ]
+    },
+    "FactoryLapBareR36_1_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.5076021557000758,
+      "bounds_xyz_mm": [
+        17.8,
+        -15.080000099999998,
+        -4.350000100000001,
+        21.800000100000002,
+        -14.229999900000001,
+        -3.9499999000000003
+      ]
+    },
+    "FactoryLapBareR36_2_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.5076021557000758,
+      "bounds_xyz_mm": [
+        17.8,
+        -15.080000099999998,
+        3.9499999000000003,
+        21.800000100000002,
+        -14.229999900000001,
+        4.350000100000001
+      ]
+    },
+    "FactoryLapBareR36_2_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.5076021557000762,
+      "bounds_xyz_mm": [
+        17.8,
+        -15.080000099999998,
+        1.6499999,
+        21.800000100000002,
+        -14.229999900000001,
+        2.0500001
+      ]
+    },
+    "SensorReturnYJointR36": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 18.432000000000006,
+      "bounds_xyz_mm": [
+        10.0,
+        -14.53,
+        -2.75,
+        13.2,
+        -12.729999999999999,
+        0.4500000000000002
+      ]
+    },
+    "SensorReturnCoatingR36": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 2,
+      "volume_mm3": 27.18544622226742,
+      "bounds_xyz_mm": [
+        -14.650000099999998,
+        -14.7300001,
+        -5.5000001,
+        17.8,
+        42.200000100000004,
+        3.1000001
+      ]
+    },
+    "SensorReturnCoreR36": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12.497908024205541,
+      "bounds_xyz_mm": [
+        -14.5500001,
+        -14.630000100000002,
+        -5.400000100000001,
+        17.8,
+        42.1000001,
+        3.000000100000001
+      ]
+    },
+    "PackAdapterBareR36_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.44619946814289063,
+      "bounds_xyz_mm": [
+        17.7999999,
+        -14.630000100000002,
+        -2.0500001,
+        21.3,
+        -13.779999900000002,
+        -1.6499999
+      ]
+    },
+    "PackConnectedWireR36_4": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 27.670779967725657,
+      "bounds_xyz_mm": [
+        -14.650000099999998,
+        -14.7300001,
+        -5.5000001,
+        17.8,
+        40.0500001,
+        3.1000001
+      ]
+    },
+    "PackAdapterBareR36_4": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.44619946814289013,
+      "bounds_xyz_mm": [
+        17.7999999,
+        -14.630000099999998,
+        -4.350000100000001,
+        21.3,
+        -13.7799999,
+        -3.9499999000000003
+      ]
+    },
+    "PackConnectedWireR36_5": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 28.929261011183588,
+      "bounds_xyz_mm": [
+        -14.650000099999998,
+        -15.4300001,
+        -5.5000001,
+        17.799999999999997,
+        38.5500001,
+        4.4500001000000005
+      ]
+    },
+    "PackAdapterBareR36_5": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.44619946814289035,
+      "bounds_xyz_mm": [
+        17.7999999,
+        -14.630000100000002,
+        3.9499998999999995,
+        21.3,
+        -13.779999900000002,
+        4.3500001
+      ]
+    },
+    "UpperSensorReturnCoatingR36": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.6264940312753198,
+      "bounds_xyz_mm": [
+        13.1999999,
+        -14.730000099999986,
+        -1.4333124096573533,
+        17.800000000000004,
+        -13.49543056001819,
+        2.150000100000002
+      ]
+    },
+    "UpperSensorReturnCoreR36": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.0464957806785051,
+      "bounds_xyz_mm": [
+        10.799999900000001,
+        -14.630000099999986,
+        -2.0500001,
+        17.8,
+        -13.4299999,
+        2.0500001000000014
+      ]
+    },
+    "UpperSensorReturnBareR36": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.4461994681428903,
+      "bounds_xyz_mm": [
+        17.7999999,
+        -14.630000099999998,
+        1.6499999,
+        21.3,
+        -13.7799999,
+        2.0500001
+      ]
+    },
+    "NTCSolderBridgeR36_1_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.853060779940293,
+      "bounds_xyz_mm": [
+        18.2999999,
+        -15.130000099999998,
+        -2.5500000999999997,
+        21.300000100000005,
+        -13.729999900000001,
+        -1.1499999
+      ]
+    },
+    "NTCSolderBridgeR36_1_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.853060779940293,
+      "bounds_xyz_mm": [
+        18.2999999,
+        -15.130000099999998,
+        -4.850000100000001,
+        21.300000100000005,
+        -13.729999900000001,
+        -3.4499999000000003
+      ]
+    },
+    "NTCSolderBridgeR36_2_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.853060779940292,
+      "bounds_xyz_mm": [
+        18.2999999,
+        -15.130000099999998,
+        3.4499999000000003,
+        21.300000100000005,
+        -13.729999900000001,
+        4.850000100000001
+      ]
+    },
+    "NTCSolderBridgeR36_2_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.853060779940292,
+      "bounds_xyz_mm": [
+        18.2999999,
+        -15.130000099999998,
+        1.1499999,
+        21.300000100000005,
+        -13.729999900000001,
+        2.5500000999999997
+      ]
+    },
+    "PackAnchoredCarrierR37": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1329.216482728863,
+      "bounds_xyz_mm": [
+        -14.100000100000003,
+        -12.1,
+        -11.2,
+        14.5000001,
+        69.80000009999999,
+        2.9000001
+      ]
+    },
+    "PackWireSoftPadR37": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.168000000000011,
+      "bounds_xyz_mm": [
+        -4.8,
+        34.8,
+        -5.7,
+        1.7999999999999998,
+        37.2,
+        -5.5
+      ]
+    },
+    "PackTieSpaceR37": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 123.45119999081712,
+      "bounds_xyz_mm": [
+        -9.6,
+        33.9,
+        -9.9,
+        3.500000000000001,
+        38.1,
+        -3.8
+      ]
+    },
+    "PoweredConnectedPackTailLeftHubR34": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2606.7125268007067,
+      "bounds_xyz_mm": [
+        -35.5000001039904,
+        -20.012500100000004,
+        -13.5000001,
+        1.000000004440892e-07,
+        -4.499999899999996,
+        13.500000100000001
+      ]
+    },
+    "PoweredServiceablePackHubR36": {
+      "group": "Supports",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2880.3758613422256,
+      "bounds_xyz_mm": [
+        -1.0009867729461713e-07,
+        -24.6,
+        -13.8,
+        41.6,
+        -4.499999899999996,
+        13.8000001
+      ]
+    },
+    "PackPowerJointSpaceR37_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 26.998061866787282,
+      "bounds_xyz_mm": [
+        -30.895132793194357,
+        -13.446491806742547,
+        -4.875526434726763,
+        -25.395132793194357,
+        -10.946491806742547,
+        -2.375526434726763
+      ]
+    },
+    "SpareMateBareR37_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2566370614359172,
+      "bounds_xyz_mm": [
+        -29.395132793194357,
+        -12.946491806742547,
+        -4.025526434726763,
+        -26.895132793194357,
+        -12.146491806742546,
+        -3.225526434726763
+      ]
+    },
+    "BodyPackPowerWireR37_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 33.01085912519488,
+      "bounds_xyz_mm": [
+        -26.895132793194357,
+        -16.921061922182925,
+        -5.9000001,
+        1.9000001000000002,
+        43.0500001,
+        3.1000001
+      ]
+    },
+    "BodyPackPowerBareR37_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.3141592653589795,
+      "bounds_xyz_mm": [
+        -29.395132793194357,
+        -12.046491806742546,
+        -3.825526434726763,
+        -26.895132793194357,
+        -11.646491806742548,
+        -3.4255264347267627
+      ]
+    },
+    "PackPowerSolderBridgeR37_1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.449468733641592,
+      "bounds_xyz_mm": [
+        -29.045132793194355,
+        -13.096491806742547,
+        -4.525526434726763,
+        -27.245132793194355,
+        -11.296491806742546,
+        -2.725526434726763
+      ]
+    },
+    "PackPowerJointSpaceR37_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 26.998061866787282,
+      "bounds_xyz_mm": [
+        -30.895132793194357,
+        -16.453508193257456,
+        -5.969990893368904,
+        -25.395132793194357,
+        -13.953508193257456,
+        -3.4699908933689043
+      ]
+    },
+    "SpareMateBareR37_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 1.2566370614359172,
+      "bounds_xyz_mm": [
+        -29.395132793194357,
+        -15.953508193257456,
+        -5.119990893368905,
+        -26.895132793194357,
+        -15.153508193257455,
+        -4.319990893368904
+      ]
+    },
+    "BodyPackPowerWireR37_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 32.01888545917022,
+      "bounds_xyz_mm": [
+        -26.895132793194357,
+        -18.013376980274476,
+        -6.8000001,
+        0.3000001000000007,
+        41.5500001,
+        3.1000001
+      ]
+    },
+    "BodyPackPowerBareR37_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 0.31415926535897953,
+      "bounds_xyz_mm": [
+        -29.395132793194357,
+        -15.053508193257455,
+        -4.9199908933689045,
+        -26.895132793194357,
+        -14.653508193257457,
+        -4.519990893368904
+      ]
+    },
+    "PackPowerSolderBridgeR37_2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 3.449468733641592,
+      "bounds_xyz_mm": [
+        -29.045132793194355,
+        -16.103508193257454,
+        -5.619990893368905,
+        -27.245132793194355,
+        -14.303508193257455,
+        -3.8199908933689044
+      ]
+    },
+    "P1FlangeCover": {
+      "group": "Exterior",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 7206.900540680413,
+      "bounds_xyz_mm": [
+        -44.5,
+        -30.000000000000004,
+        -18.5,
+        44.5,
+        -22.7,
+        18.5
+      ]
+    },
+    "P1GroundContact": {
+      "group": "Charging",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 7.051767310500532,
+      "bounds_xyz_mm": [
+        -32.915,
+        -30.0,
+        7.085,
+        -31.085,
+        -25.709999999999997,
+        8.915
+      ]
+    },
+    "P1PositiveContact": {
+      "group": "Charging",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 7.051767310500533,
+      "bounds_xyz_mm": [
+        -32.915,
+        -30.0,
+        11.085,
+        -31.085,
+        -25.709999999999997,
+        12.915
+      ]
+    },
+    "P1LeftMagnet": {
+      "group": "Charging",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 18.849555921538762,
+      "bounds_xyz_mm": [
+        -39.75,
+        -29.2,
+        -2.0,
+        -35.75,
+        -27.7,
+        2.0000000000000004
+      ]
+    },
+    "P1RightMagnet": {
+      "group": "Charging",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 18.849555921538755,
+      "bounds_xyz_mm": [
+        -23.0,
+        -29.2,
+        -10.0,
+        -19.0,
+        -27.7,
+        -6.0
+      ]
+    },
+    "P1GroundEncapsulationAllowance": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9.306968236259761,
+      "bounds_xyz_mm": [
+        -33.3,
+        -27.3,
+        6.7,
+        -30.7,
+        -24.9,
+        9.3
+      ]
+    },
+    "P1PositiveEncapsulationAllowance": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 9.306968236259765,
+      "bounds_xyz_mm": [
+        -33.3,
+        -27.3,
+        10.7,
+        -30.7,
+        -24.900000000000002,
+        13.3
+      ]
+    },
+    "P1LeftMagnetEncapsulationAllowance": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.522012041218815,
+      "bounds_xyz_mm": [
+        -39.9,
+        -27.7,
+        -2.15,
+        -35.6,
+        -26.7,
+        2.1500000000000004
+      ]
+    },
+    "P1RightMagnetEncapsulationAllowance": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 14.522012041218813,
+      "bounds_xyz_mm": [
+        -23.15,
+        -27.7,
+        -10.15,
+        -18.85,
+        -26.7,
+        -5.85
+      ]
+    },
+    "P1MotorWire1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2.4828311402724212,
+      "bounds_xyz_mm": [
+        -4.200000100000003,
+        54.97499989999998,
+        1.7999998999999998,
+        0.800000100000002,
+        62.00000010000004,
+        3.8000000999999983
+      ]
+    },
+    "P1MotorWire2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2.482831140272425,
+      "bounds_xyz_mm": [
+        -5.200000100000004,
+        54.97499989999998,
+        1.7999998999999998,
+        -0.19999989999999984,
+        62.00000010000004,
+        3.8000000999999983
+      ]
+    },
+    "P1PackMateSpace": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 692.16,
+      "bounds_xyz_mm": [
+        -33.29175514629121,
+        -21.852889832441903,
+        -16.27824313428335,
+        -13.69175514629121,
+        -12.1471101675581,
+        -9.321756865716647
+      ]
+    },
+    "P1PackStockWire1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 55.47424307708859,
+      "bounds_xyz_mm": [
+        -13.691755146291216,
+        -19.960307479214087,
+        -13.357979956674336,
+        7.000000100000002,
+        -15.160307279214093,
+        -7.757979756674328
+      ]
+    },
+    "P1PackMateWire1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20.389421947253695,
+      "bounds_xyz_mm": [
+        -37.84462630829723,
+        -16.660307479214094,
+        -13.057979956674334,
+        -29.395132793194357,
+        -11.946491706742549,
+        -3.0255263347267607
+      ]
+    },
+    "P1PackStockWire2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 55.47424307708857,
+      "bounds_xyz_mm": [
+        -13.691755146291216,
+        -21.839692720785905,
+        -14.042020243325675,
+        7.000000100000002,
+        -17.03969252078591,
+        -8.442020043325668
+      ]
+    },
+    "P1PackMateWire2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 19.05311222982673,
+      "bounds_xyz_mm": [
+        -37.46852496862374,
+        -18.539692720785915,
+        -13.742020243325667,
+        -29.395132793194357,
+        -14.953508093257458,
+        -4.119990793368907
+      ]
+    },
+    "P1DockWire1": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 15.932974674760793,
+      "bounds_xyz_mm": [
+        -37.800000100000005,
+        -25.71,
+        -10.500000100000003,
+        -16.199999899999998,
+        -16.412499899999997,
+        12.3000001
+      ]
+    },
+    "P1DockWire2": {
+      "group": "WiringAndProcessAllowances",
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 13.953771302999218,
+      "bounds_xyz_mm": [
+        -36.800000100000005,
+        -25.71,
+        -10.500000100000003,
+        -17.199999899999998,
+        -16.412499899999997,
+        8.3000001
+      ]
+    }
+  },
+  "meshes_sha256": {
+    "KeeperScrew_1": "4777b68b938e8a3b310714df8229c16ca095d6c4ecdc0ee6c6808fb5535dfb63",
+    "KeeperScrew1": "21f9ccf013c35f6b8141d9ef36536204d30a4b14a1295d76b2ada943f0eb724e",
+    "MotorMaxEnvelope": "74d70b69e813f1b9a1919fc433f47d23069770fbf3e517d09e952b7575f93996",
+    "TipPCB": "fa8a061f2a5eeb9319b0d2fec0a3aa353c9a6762e12ad67cdf4e17addbb1b322",
+    "TipComponentEnvelope": "7ff5974a35a03135fa8a81d1eff2bec938a6016f9976f8035e67d6188a84155c",
+    "HubBolt_1": "0042b5616fec00f451c0e2a77dd98095c9b47a98f9a1cbae3cf7433f0f744376",
+    "HubBolt1": "0b145004c3c7a14442a049e48d96b1e59762511a47d29e33eef2803d42bf7ec3",
+    "HubNut_1": "5192a60299d000fdabbca7e9d303d1e493f6cc69e4d82309bf1795158a76e45b",
+    "HubNut1": "efb97efb380010f5f1aac36e606e70a7f33bf56e7e3b75bf167c867740c8b681",
+    "FlangeCoverLower": "85af28c62112c84c97a571e149effb1907ee33ea2a37bcea5f70aa209bf9324f",
+    "FlangeCoverUpper": "31f32f1d045ec3cf88601da6060b0cdfccea48b83a588fdf2d34d4f384e0413d",
+    "BodyPCB_R17": "7d4e4bfc6b8c1cc45a737aae00a898d18832f4d98aa466bbf3af728719fe2870",
+    "R17_U1": "940c2dc165b4ce4b86cf31c88c4e18b748fcdb5e6deaea833be10d2adae98276",
+    "R17_R44": "ea4ad12ff77961bc1c845851db3124f913d24fabea1acee17fbd1350ade1fda3",
+    "R17_R45": "92b3175f17297eced745325652e197c34982a657a8fd6d0e41bfe14bebabcc5c",
+    "R17_J3": "cf78f24e430a90c3fef06f438b8ecb88968284e48e27297bcf9a0a810b3b8298",
+    "R17_R47": "11eed5bd8dc30be3f095c4141332188a9e259b1403c434e8f6d586d209d20c72",
+    "R17_R25": "a390c3d2dda2cf7d96bc2384653b9ae9eecc5739b70d03d82411963e303bc596",
+    "R17_R46": "101f2a15227d2612d9fed7a5a5bcec0711d62e29feebbaab89a1b453efb43c58",
+    "R17_C29": "f51e1fed0c55d4feca87eafe29e4019f61bb9983566cf940761b74d15dfef985",
+    "R17_J5": "4fff9a8a37a3fbf76aa211f354f3914a0d17e64a2ada5fc54f61a0ed594e1ff9",
+    "R17_R5": "f13e653b590f9f57eded3858aa43773308009110edbfd6e8ca2825900203463d",
+    "R17_C44": "26f0dc51d02b0f8bda9ae7048e11391c0a8ae61355ada9e970d9844ca8c3c83b",
+    "R17_C3": "5dca9837c25fd85db96f150c049376a11ffe5279b844573e711f2c28c6c8236e",
+    "R17_R4": "22dbec02cde7985616ded7ff8710af117d2c4227dfe3e701cf5ec38bce1ab68c",
+    "R17_U5": "60a205744cdb837ecda3c87e23dc52e7e8f5d06ac90f8675d1bc0d1a655fc8c6",
+    "R17_R1": "4ba57f1100d664d3859c68f11aaf8c4cedd14d93c2c8c36397c93ea3f9984c81",
+    "R17_R41": "1a4a2b5b25fb4e48a5d8b59ef81a463d9e5c0cf47a7f4f8d1ed8f612002cfdda",
+    "R17_R3": "5e13c6738d7b73aa56b77671274c95480c272742725f9e815a585aa1b571927a",
+    "R17_C28": "ae404dd273b7670cba25bba1ecb7bc67a190d8984ef2cb676a3eb74c881c13ef",
+    "R17_J6": "069029dc8ba10e886bd987bb5444464c824f4a814ad7d52df69fca58157e3b1c",
+    "R17_C30": "cfa447b3c89c2a872e6833443ebaf5e99c736c8e3ee84099cb0266b56a1badde",
+    "R17_Q1": "431b28d3bd3165c92a75b19bcbb5b0524c63e888cbf08b25fdeffc9197ea34b1",
+    "R17_R48": "66a14fa2c129b0ce5b182b24dc9e19bae50b478457e86d4213796ef178b033ca",
+    "R17_C1": "31b199e9c05ea7505ea9aa8e1a48a690bf4c7d7545eb9179a5db68742e451e2a",
+    "R17_C2": "94d5ff1fa96c95f41793664fb7fbb02e73b1dda808b15bbdf44faf8cc31fbe4b",
+    "R17_R2": "4afab66f53bb51da5592d4e17dfc66dc0f1b4df4c9530b1b898a821abe511ea2",
+    "R17_C27": "48abe46d388bfbc2c7c6ab91f1d603e8d1e7b68916c0140f78b7d61f98db61b4",
+    "R17_C54": "56405528d6ae31d7cb434d9d833ab12a6ddf8d57294bd8b6cb3283bea113b024",
+    "R17_C26": "7503ab82d3aa0e207ad7d7e88f671f6dc18282fc37040bc0ce5712754d65ff1d",
+    "R17_C15": "990ed30dc88ad3403ec6b6c26af24c0078d1192c22726dbc62faff13f029d5e4",
+    "R17_C53": "cd257319d13df52c535b445d6f582618272027a5eae3e834bdea4fd2b75e11f9",
+    "R17_C16": "bb9246dd98a6d8cb6b4de4a5a5a6e82a5ebc5268628701f6a857049d6fd28c41",
+    "R17_C21": "b733331ae3c9652ed830a314cbf889906ee8ee9859f46359e6f56e0a3e9a5f6c",
+    "R17_C22": "23a7cc99973e919a35f99da14447857478dd79bb2de9b31bb83cfe1567991cfe",
+    "R17_C52": "8f5f966332044fb6dc749991c13ecbe8bdc49cde66531c4d6255ab598c63216d",
+    "R17_C41": "f87de2dd1c75373ddc3bbbd9e46cc478aa1702e383d28d7a5a0a77e123d938ea",
+    "R17_C14": "65273e99d0ccba2b7dbb8ae3cd1033fb1faab1538eb4bc806d9fe37834abdeb7",
+    "R17_R22": "8258ddd47850220728157b571052075a5d9b111b561557572b7f2ca378ba1e11",
+    "R17_R12": "4dc831f482e61ca4aa44c17bf33afd70f9d52113d34fbebc0496a40300d0b1d1",
+    "R17_U9": "4ce14bdcf36932242c075c22f21910e00af1d9e0346c36c1a23d5dbb2e004bd0",
+    "R17_U3": "eda74a6b597b48c73d6c08faf1b6156bd198ffa25623560f7b14addc8a7130c5",
+    "R17_C11": "ef620d7f270a68c88d9d8b6d8f3a874a3bda96031ad3ca3711c413bc3d1b3625",
+    "R17_U8": "038317d814f5c80d244a8569dc272f1b02173bef6cad58d4d593eb11bc67d63d",
+    "R17_C24": "910accaf1174ab354b49fac772f2442d8d9de0d386a52fefbde670393997fd7c",
+    "R17_C42": "4b79ec3cc9893c4be38521d4e22ed6ecfc4a395bad81d29dc1825957576ebd0c",
+    "R17_R21": "3b3d0490a940a97b859c982bd504ac348fc5190aadeb29ab33413cf07977184d",
+    "R17_U2": "ddc9a5feb3874c36d7cee07f6efac9d86d4e0fdb99ebcd48eb0d450f581df960",
+    "R17_L2": "f0225f3240d87e1acfaa6d1091bb6653777c4c447373ea03404b9b5e43f1dd50",
+    "R17_R26": "055ee32e4e1f4b51a95ead32f2756e5f52dc70da15ddeede192fde93bf4e211a",
+    "R17_R11": "1b3f3e5a8bc208c6f3cf064fce62ce9237e109b924be3a050601655cc324afe1",
+    "R17_R24": "560b9a9ba0f1a7b0aa33c8ecb9e25611b0b0e1c9e59c1671424eea7a1006bdcb",
+    "R17_C25": "068c8d9658c2a2bc53839958b180da6cfe33b0a1cd162f7ae7669a7a1188044e",
+    "R17_R23": "7399ee072cd701d300538c45b8ae1cfa613c9ea69e60ae186c76aff4e6a1203f",
+    "R17_L1": "d5d8b58eb0b29d90ad5fd65b479d6e7d000001bffbe506c13a482f51c0151329",
+    "R17_R42": "a05fa5518810490559fc29b86ae9f2ac6eb3a588619666fc1cae73827d104026",
+    "R17_R13": "5a858440e5ad7feb79b357065783c58aad4de082bd8455b9e57048e2ac8ff7ad",
+    "R17_C51": "1d836c040905b99f19734294b426741de1a2dddaefc543ed07c231f570f03f95",
+    "R17_U7": "051e366843b0a8b0591c025e8c8b3831d758e91ddf564fa43a35bd8751cc325d",
+    "R17_C43": "c94abf5df406484b9f15ccf18f3d6ad89a821c4fbc2069d1e91b590c79c94d60",
+    "R17_C12": "a6d14aa450993cad5508a2cbab378b611ee9d900700f52e47b9383e5f9b4a0cd",
+    "R17_C13": "a570db8f18a1b4bf6afb662cb28e27b681554715728e66f7af0cd656ddad1072",
+    "R17_R43": "6a4ec12bc8948ab8af2ceec0bd38e14d09aaabed7e7061dd3df202855003f9e5",
+    "R17_U4": "6b9240282de97871345c6711df0111b9c4f87ec23268ad4c5a89210438d0e05c",
+    "R17_C23": "369e4eeecd6645efcf63eb8890087ac3691de45e19a0415a25712b8bca98daae",
+    "FlangePCB_R17": "7181684043bac81323b99ceb0a1d29607cfe24099b1d434b8977763d1d5f1f01",
+    "R17_SW1": "911569928b1cdadcd3bcfe1dff17966f5e7b88fc050804cf8e8e62e10983e934",
+    "R17_D1": "d99974fc9996c708040f794022e5ea75fad15de3c1970099c85f96a80ee7dd6e",
+    "R17_SW2": "1faf66a77685aa21b067a5166b2708a7592050b70d34790e3e08e725c85f2161",
+    "R17_U6": "684cda33e9a4fb1a7be09ddc00d0098111c8cb261330ef6cf38e872b01d8f6cf",
+    "R17_J4": "89700d74f23019858ea0b7081f1f319add6209f4829871f9ef8b7967a52283e9",
+    "R17_F1": "2a492a70638fa391a6af1791d1b910c32286e5c120e247c2ea5076ef8338ce31",
+    "R17_SW3": "32a9caf5f61796904f6eb86e26b32e4fd0df7d48ccb0a8e5d1ea02d76a64017b",
+    "R17_R37": "46f280f8fc3d3746d9b5ef9f9696277d0fccdba92cac7a6388951ac44657872f",
+    "R17_R35": "ecd29167bc822e3eaf740c1066d40677d2560bffa1e82eac552c8a0f90a001fc",
+    "R17_C32": "3529443341266ddc511cc87aa5e87e8691ac1b1dcc7ec1df9d02eafab4661321",
+    "R17_SW4": "c686b004a63fe0ccf0b2a88da90c904084976b49ea9915bf2991f8acc1fbbe7a",
+    "R17_R32": "4b41fc5277fd93be44f3ccc1cc38f91f2cc5aedcf8453249c1849cc613296c6f",
+    "R17_J7": "803d7a1682570d3113b5737f2898b72961dc1df79898db77b93947e4d51c6225",
+    "R17_C33": "c2f8543ec2aab1b1025dccced41fb6e35ceeba9a2f4b4e15cde71b79a7941427",
+    "R17_R33": "8d8b66582df71a3c3ea9ca40f54ec035df3ae3c191e551e9553c5f7b88dd91ee",
+    "R17_R40": "dd5ad89f0553f52e7a446b286fbc78dd212e4da5bf88430b4b861536efe7b9aa",
+    "R17_C31": "5d64cd61390a85ee610529bd6fa34863ad95afd0a6bb5efed985f42a82cfc384",
+    "R17_R39": "0fb2933a1d6b88f0abea621d8ec76c88aeaed4e0bec16a281feac98c61259915",
+    "R17_J1": "597e7edb240620f926c0f1b7d44880eb4cd5a754905e2152bec91f9544be7fa2",
+    "R17_R38": "03911e108afd09c053d6c51cd9b1d43463bfaf4433d0fdda30f6252964140c4a",
+    "R17_R31": "4d60316d424e147c216ddd9d4e5a82b8931d788848da5db46a6ccb743bf4fcfc",
+    "R17_R36": "22ea94a1b4297baaa293ae8e977556427af0e07fea3a6d9c5d68bb05c135ec3e",
+    "R17_C34": "168b6ef3123fe7013ad04e7e2de486aa82ba886089b967c200afd84ce372ad41",
+    "R17_R34": "578f5f3a2c98ec76ff858c735790ec5fd25b83a429e42dde9808b067aa4d41c4",
+    "KeyedBodyR25": "cf2540ab26c0464ece0ab09d7a93a678d2fe5d334e3f5dc9878cf19b67092863",
+    "MotorSeatCapR25": "a33b23836a5abcd03d4eea13e57b4f4b8889c04c62c4d625af2af4928f89dac6",
+    "PCBOnlyKeeperR25": "8dc7728c393fbc0a80f42f94f15e30b6b0dfb3bdb2f6ba049b81b96181ecd00a",
+    "ShellMotorMountR25": "504d422d34521175aea3b3ef69cfe6cba67e8d667036fe5bbc91d2e32c84e839",
+    "MotorClampScrewR25": "3959333cdce7d638fa749e8333fc9b3bb4720e2723da76c809bf43aaee79f2bd",
+    "MotorClampNutR25": "220c7b3678c10c00d7a800ea503f7d9d6dc10cc7697055d366532c15b711497e",
+    "StationaryTipCarrierR26": "31045103a2df43fbd04a3749c948033d5e6eedf1e804124717038ce6229e5821",
+    "TipCarrierScrewEnvelopeR26": "21bc8dc75a5a7b860ca30f08752d678fb0fd1172aa27b05437d3c5ac6953f3d6",
+    "StationaryPickupShoeR26": "c9dd3d9aa0d11fa729e9e0ce0af9ffe98ba19ae027711f77643814382ff4361c",
+    "TipClipFittedEnvelopeR26": "b7079900de296fe8266c961b65b4dce79425d5f9e5c5358ed024e8cb84d2cd75",
+    "TipDielectricBondR26": "80229ba6800d113e2c9d7b92978c391d49c10b8be0569fa1ed5706387cd16f2a",
+    "TipCapThermalGelR26": "cb8c9e9a86f9e6b8547a8ffdbecbeb45138e12bc8c970f1f33502e04dd4f4aa7",
+    "TipWireR26_1": "07f1feba815348bb0f92388fba86dd6047edccae1ed624e5eebbf69979910505",
+    "TipBareWireR26_1": "91d2007832bc958c26e8dcfc03a8aaed701981421111dd58b8850ece2a7b85f8",
+    "TipSolderAllowanceR26_1": "b6ee307a622f1e17b7d878f826aaa809db93ddae7d1a83c6ede69c3159d94d37",
+    "TipWireR26_2": "efe51a35571dca0fd9b150f6a16146fd36bc6d2bf330af09e47d03a8f2c70aaa",
+    "TipBareWireR26_2": "0f515be201945430e252486050e796dbdf779ab18e2bfc01545bfca4b8e269bc",
+    "TipSolderAllowanceR26_2": "13ca4bdffa564ecef9e972c703b4cb2838006ccfaf67eac37fda80cedb57ac73",
+    "TipWireR26_3": "9536a5119ca519b103d2650eebe9b78259fde61478ba84982d155b5a9c30213c",
+    "TipBareWireR26_3": "759e326191673442a348d98e9d8f6938aeb183d90eadd28838e5dcdbb1ace36d",
+    "TipSolderAllowanceR26_3": "1fe8d278f2b92c7923e2a5337ca7f62561f145ee67a67110b26fc03d3953995d",
+    "TipWireR26_4": "9d06238e377b413d05830f0d4f1cdbd806d7d1470a8dce4d7b7378a2b24d50bf",
+    "TipBareWireR26_4": "eec20c79df5ba7f5a9777b8897f67e1901a3d769608b24c431c0a4e663693d23",
+    "TipSolderAllowanceR26_4": "51a5305c1d809cd5e1e652c56c4406357bcaf727740c1a225cb61b7974ebcc5b",
+    "FlangeKeeperScrewEnvelopeR27": "46f1bb480c3d1b93ac3678c1e1ab63d848b0baca8e6f6c464d68393f567992e8",
+    "InterboardWireR29_1": "9697a3a663ae476043f8110df0cc5f8976ad6edfc5916e89cdc01dbe4be55b66",
+    "InterboardWireR29_2": "9efc0f6e26b889aabf29f8b812c88991bf33a0c484ee9347778a979c3f34b462",
+    "InterboardWireR29_3": "c2ae9b4e29fa7a49cdbb77ea70feb3bfe193b23f8b159361a42dc39568f35f9c",
+    "InterboardWireR29_4": "782a4464053eedb89b57c1464af4c9424c131451dc773415dfd98988e4cc4ee2",
+    "InterboardWireR29_5": "834e9d3377d5338ef04a06fc6edd01cf384b05e301ccf4c553273cd1af27fedd",
+    "InterboardWireR29_6": "468a83c432b86201cc1840c833ec5064c119f7a363562e9e27c3e5a1470bb42d",
+    "InterboardWireR29_7": "a496ece674d2e6eb17094a220a02cc805e30c6d8f7c172c8d260a5ba8d41b061",
+    "InterboardWireR29_8": "d56166f3173d1540e6052e0093a981b69f87690201adad8cc437ff574c909e89",
+    "InterboardWireR29_9": "575a38a36aea50815d309d41cd5d9cc1f11b3e112d1b6bc2a51da5373b6c17bc",
+    "InterboardWireR29_10": "44cd11c72e6f6c996cbf087b93971cf2b1c2f717691ff38ab882c5f906ee167a",
+    "CentralAnchorPadR30": "1723cf42679648cebcf5e8eb829a3691f763836db3f7a6acb3e3947b2df8b7b0",
+    "FlangeAnchorPadR30": "8cff5d626914b99df35fa3eea8c9644a7a3b458c6adba9914d5bbc3b45390418",
+    "ButtonBezelR31": "402c6e18aba7f86df85ee9846d8658d58fd0b2ecf21b7576ddd376af093212b9",
+    "ButtonBootR31": "fa37fb4c168f8292f960aa6a757866b298c9d388f88db62fb0ad7ee00456e1b4",
+    "ButtonKeeperR31": "a4545ac5bb0ab91184898a41374b95e9c53c7190a320150c50a00c286a20bb65",
+    "ButtonPlungerR31_SW1": "4fc9a4aad1750ed731ab86e1d8fddb606997f86cfc34893c4f372d51fa52b3a4",
+    "ButtonPlungerR31_SW2": "ace51928da7cc9ef8a0e9edab1e0fe0bf9f50664fdb07bf1ee8a508a89056ad4",
+    "ButtonHomePinR31_SW1": "2819f5dabc32f2cc669c655159cae9f4a3076bcb0ca3142f14c01e80d19eaa12",
+    "ButtonHomePinR31_SW2": "e379df3dac034fcf2e8c16ccdc94c07cb16446377c1ec0bc8cb1ea985fc150f0",
+    "ButtonStopScrewR31_SW1": "5e2b92712187d11842222165817e397d9024a2f0ab7721806348b8e073940382",
+    "ButtonStopScrewR31_SW2": "9db56ec505291eef5cb3e0b27c898689019303c0dccd1b60499b3db088196f6f",
+    "ButtonRetainerScrewR31_1": "882eb9e6c8149defe95f8f8bee36784708dcf983f5eb6013aa4237c56fbbe82b",
+    "ButtonRetainerScrewR31_2": "409b47f26c523058723f986b96bc2d19980e3358b9e707af66bbae1a43f7e8b3",
+    "PackNTCHeadR33_1": "a9a5ad4c661f3c5a947e9c3ee71314ba3ab8890dfe7021d98927592e7642c287",
+    "PackNTCContactFilmR33_1": "9f279db3cc037fdac433fc5b745a1f144d5c76c60ccdb71eff1b351d7d3d756e",
+    "PackNTCHeadR33_2": "4304c35583f143625b60a805d1326be6504ef62f63bcd403660d518cb3f2f86d",
+    "PackNTCContactFilmR33_2": "934e1c9a40d05107263c37de480fa6474c5d25eb49ceff5998be177b6477009d",
+    "PackPublishedGaugeR33": "584b53258f21371c9c982111c564197947accc196a7220ee63a3ad161244dada",
+    "PackLidScrewR33_1": "10b721cf173c71f57e67f93deca148fcab03e6f1a42afed52e51ea2ddf7df8a1",
+    "PackLidScrewR33_2": "f7a613e6d9057a2be23a58d358f1733cfa894d617bdc9ece5d202bedf3a19d77",
+    "PackLidR33": "fddf8571ee0280f75b6b0f6c6ebd2c0581aace4dec465f0c5e6652f8ce03148b",
+    "R17Mate_J3": "924b329b97e6bbe96d2b880017a7e7aed1540a20e66c605df75ff29793f783cc",
+    "R17Mate_J5": "1db58eb56f67fa7b240b934aec5bf750637499e746247f83c7c2579780ec0249",
+    "R17Mate_J6": "e50725cc9b185e74a7958402ea6274344b1bd874b2d8dc907040e384c4d83abb",
+    "R17Mate_J4": "7e5b49572443810298cd74349ac05000e65ea8cb9333e282f7e4be6dd988a86d",
+    "R17Mate_J7": "2a79473135bcc56c3335d3be93fe0ab9e545bc02e48701fb8fdebdf440bec00d",
+    "R17Mate_J1": "f0473b065e06ad08dee14513811f67d8550615360b893d2da0af406e44c0258a",
+    "MotorLeadFlareAllowanceR21": "37c5a1ba6429210ace84c93d8b2236c3dcdf48bd10b001fd7ce0d3f8f61615ff",
+    "TipStrainReliefProcessAllowanceR26": "c926d0b3ca21af5ee0770f27aed605ea1bf0a600f91494690b13d9f752195b07",
+    "PackBareLeadR34_1": "1fe2244ba2aab707411ae5efede7ca29a40b685a45bbda78d01a1790e89828a1",
+    "PackBareLeadR34_2": "0a3319d5cbe0c7ea55412a80d6c5e743e239464cdc8345ad5d0f7acf6362af76",
+    "PackBareLeadR34_3": "e4b0d6b01b0ccd359f5338e0206626b7db135cce9cdfbb42db80a28f2055e347",
+    "PackBareLeadR34_4": "b77b259b42a43a051254a03cbf0ac5d477b4d49181c19ffc89190173f92ce343",
+    "PackBareLeadR34_5": "c18d84f3b3417f672bce4a99cb626c02b80190d90af4e1be645b1461be74589a",
+    "FactoryNTCWireR36_1_1": "6616ad1d0a4785a47ab62da9e148dc059824c1a91fe65033ac502f5a2e24c673",
+    "NTCSpliceSpaceR36_1_1": "cfd0a6eb7c2fc716ba79121ab0a3c2c890e99ad8a203e6e138231e41b721a1dd",
+    "FactoryNTCWireR36_1_2": "25f29feba65a234c8290059fc2cb350dc0558d4d1b657ae6c122e2f92bc99902",
+    "NTCSpliceSpaceR36_1_2": "28c7ef2c8908c5e4e146ebc7b98e3c29f61bd35f6cee9b1f0b7807a7f4f2af0f",
+    "FactoryNTCWireR36_2_1": "09602b2371ebf40639e6a0790bdb2f8ce2e688da61945be9804a46abbf2cf948",
+    "NTCSpliceSpaceR36_2_1": "42db0bce6e9211764f61a91c71e6d91bfdfe4fbe568d6973352cf8fec464931d",
+    "FactoryNTCWireR36_2_2": "053429e91c1a1f50657edbef1c78c443ed0ce83de018d8773442be8cf6aaf446",
+    "NTCSpliceSpaceR36_2_2": "45fa1b6e8fe1ee9ddb0f77f65c540ca1e9ba519da1dadb5e0e9c0a55774e0d03",
+    "FactoryLapBareR36_1_1": "f19c198778d1e791ac9a9f04f736188ae9894c37f0337d80042946d64190a7b2",
+    "FactoryLapBareR36_1_2": "b2c4edb7425698a5e20b765c24df509e8c486f1e264b23eefc52469e84fbc562",
+    "FactoryLapBareR36_2_1": "6b7994bff0587078ec6049be89832dd4bc577613d5d463e7df97e4eceec48f82",
+    "FactoryLapBareR36_2_2": "d68d6540cb90154431e9053d1aec46424ccf8a6d7747e8c20c15f61c039b2d38",
+    "SensorReturnYJointR36": "5981db01534e8e185e9a795bdc308b298c17c6bc32dc755dade34006df40a7c1",
+    "SensorReturnCoatingR36": "b2de6de7c65cd2124099a7c23bba00b330cbbeca07ea78446844a622326f23dc",
+    "SensorReturnCoreR36": "8097af46698526ba47f2c6894cc585fee500605ec6e3bca05ba1963e0a6835b9",
+    "PackAdapterBareR36_2": "ec470e1097933777b1092945b18cf45f2fe915808ef7026309910fcf13f693bb",
+    "PackConnectedWireR36_4": "29f398d22d860474911b52f8d0edeb45bc2b8c83cc5d88a9b221c654745a2360",
+    "PackAdapterBareR36_4": "9524f0a719246fb158b72b855ac7a2f1bab65828ddf83c459deba49b75be7b65",
+    "PackConnectedWireR36_5": "ff3255a53717c17e9ff6811825ca458353acc162a1ba7baac602b1ce420f3a63",
+    "PackAdapterBareR36_5": "d3d7882d3a58492ba40e9a68ecdb5388a1f601b173681ad644364b343f6b3f1e",
+    "UpperSensorReturnCoatingR36": "aa2a0a702fcd02494c0e6cd8d67036320b40ff2d8f1fb03a8ab449cc54b6469c",
+    "UpperSensorReturnCoreR36": "9ee7256bb7935fe3860d2561d8f738f4843602be5092bf059c6bc71b739010f5",
+    "UpperSensorReturnBareR36": "33fb9ab8df5ecb0afd74ef8cda1c4178670e38d4ec035255d30d657a41bb4070",
+    "NTCSolderBridgeR36_1_1": "d0954701e9058b132db8ea94318dec257b8389a34b5cce556f3c047cf3f6e991",
+    "NTCSolderBridgeR36_1_2": "e2074c780755c06a6da87a5264df94b41c5d0aae17489f024e376d6a2da79805",
+    "NTCSolderBridgeR36_2_1": "84dc008f0e1f4732a4952f54e8631e9b7e93a72710d0d1cb193afbdb1deb98c9",
+    "NTCSolderBridgeR36_2_2": "2336fe75b17b3c536e2ce3819cea21baae2f38b8ca7a94017cddcaac56cd1ef7",
+    "PackAnchoredCarrierR37": "01c4762e69dad831d408df23e06f890d366ca4ed7d384c4ab7c6949cb5f72c32",
+    "PackWireSoftPadR37": "3e8a437b2b5f1f62d75ec492d2947bce71aedef82779c0754a00e40e50c049cd",
+    "PackTieSpaceR37": "39534701ed02904f8d846192e0c0edceddc07035aa8633f19be601bb8fe411f7",
+    "PoweredConnectedPackTailLeftHubR34": "ccd5e713f0426843517fe722877c1933adcd4388b681c7a4b33672a2c2ca8771",
+    "PoweredServiceablePackHubR36": "2d8339a136c3c3c87638d9589dbb3d8aebb21c710c99f87ad2a1f8aaf2ff4f79",
+    "PackPowerJointSpaceR37_1": "36b998081880934a036c828636426162078ec01a5481447c1f29ea2367cdabfd",
+    "SpareMateBareR37_1": "78344a96b5dac4e6ffd41d181554f474259a00933feb4eda0e8b823a68050ffe",
+    "BodyPackPowerWireR37_1": "18f3daf0ac5b9e675caf47b081ee31d29e0b1de8b2f09a5b86225c3054dc1011",
+    "BodyPackPowerBareR37_1": "91093bc408a5665030012280bd6ce658ef1a85281db874a847a39a49019331b3",
+    "PackPowerSolderBridgeR37_1": "0a02f9d8e26d060aa93a0a0b3349a7ebe1e740df0335e897695bdf838e95fd39",
+    "PackPowerJointSpaceR37_2": "aa2493352a1d51a70aa78faa86052449c9c3bc70aac85453e6f37b4a00c0b5d1",
+    "SpareMateBareR37_2": "aa4c083335cf7820fb03ad1f4d4670f1ed94e044b4794a90f6b6d295d008ec6e",
+    "BodyPackPowerWireR37_2": "fa0dc0ba823a808739344fbd05727f33722e3982c73ab733b9e3738fa530e090",
+    "BodyPackPowerBareR37_2": "1d03c9b476a0d61e6ef3fc7dd75c37f3d9b34858c91426dd439801486bc5529a",
+    "PackPowerSolderBridgeR37_2": "ba7577337784e4fff347f587d846c213d05813ba935e88f55259ebab04d4be79",
+    "P1FlangeCover": "fed380f26328bc57aeb4d503fe26ae6b7a27fc7a0aea8a0181c7b3d66a102e23",
+    "P1GroundContact": "d12357c122561382ad1f5c9cd7271b30e96c4fa96ba5c9395164c17667822c5a",
+    "P1PositiveContact": "6beb43375445f8c129147ffc0ccc6262553b2643a295273dc41a419d5a35417d",
+    "P1LeftMagnet": "4ff1a00d414dc634e0a2c8b7d2457d76fe0308008144a23b7a916358a5e64836",
+    "P1RightMagnet": "ed6bfc38447e6ccaacc353f592967e85da97aec341becfdd99fc3469a885cdf4",
+    "P1GroundEncapsulationAllowance": "ce5f1da794c3966bf3d18cb021daf14bc2a55f8c2a3c6204571b33415fc6a9db",
+    "P1PositiveEncapsulationAllowance": "bcecab301fe426066546360aa7b5c8d586e130135f6057f72a7d206a2a805fc3",
+    "P1LeftMagnetEncapsulationAllowance": "8224393842a65edfc502cf4b10a2dfedcee7adb1142699edf219de685f99a569",
+    "P1RightMagnetEncapsulationAllowance": "7e0e4d7d6cc204c1fc963707fed2146a1bbc701c6a1899a46d940c0448ceb6ec",
+    "P1MotorWire1": "7c9a4e624e93569bd23af8c96dcc6b64e1bee997c55fa2fcb92e6932b7a34560",
+    "P1MotorWire2": "58e27cd937985cc3af6a81f8be7af3a84d326a125df42f6c9aefe1bfd467c866",
+    "P1PackMateSpace": "9573e996ab4fbf8c108a5fedc7159c8d01b6c697970ce789f281079dcf38f367",
+    "P1PackStockWire1": "54d25e51c7591ded0a4926bb2a7ac24f0de55b9f40bcd1c260097ab8d266f3a8",
+    "P1PackMateWire1": "f18bf0e4b6c7f8f6a320382397713e8a3299f9151142d45c3f211bddb95de61f",
+    "P1PackStockWire2": "8a2bf0550bab8d808fd27f7deeda98bbd0e5fdeee5358a078901a60e1bb5ad25",
+    "P1PackMateWire2": "ce87402ce3232204e856b91fe279dbe901c4c6db6866ced9fce145803ff0fe77",
+    "P1DockWire1": "c233766a0ecab62ce779292d4614f81ae409e4f2ced77c26d2d0be70389e8230",
+    "P1DockWire2": "374d821862d6f1dce752b9cb1114a3c3f928d1b064469d514f341350a6ffa29f"
+  },
+  "native_half_sections_sha256": {
+    "KeyedBodyR25": "77c58321ee4d7789c8b54725bee9ffb196e7ab8d6aa9486697880dc8308b2fb3",
+    "MotorSeatCapR25": "d47d4c02fd07e511e4dd3f01dfc32c6ce8853cfdb18874a0a0a751c0e682674f",
+    "FlangeCoverLower": "85af28c62112c84c97a571e149effb1907ee33ea2a37bcea5f70aa209bf9324f"
+  },
+  "part_exports": {
+    "KeyedBodyR25": {
+      "path": "hardware/cad/prototype-p1/exchange/KeyedBodyR25.step",
+      "sha256": "8ebb8bf7c91424e2be19c515236a07236bbc554bb817611b8a055962dc74aacc",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": 0.002954568168206606,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "MotorSeatCapR25": {
+      "path": "hardware/cad/prototype-p1/exchange/MotorSeatCapR25.step",
+      "sha256": "7f5dbf8cc084c2b7f4aa7670022aa88a475e949dc8cdb2e348b1875c6444f480",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": -0.00317782115234877,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "ShellMotorMountR25": {
+      "path": "hardware/cad/prototype-p1/exchange/ShellMotorMountR25.step",
+      "sha256": "1ddb72c103f5f00da8989f7fc6fdda4d269d030bf80cb0eeb5fab36b739ae7a9",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": 1.5006662579253316e-11,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "PackAnchoredCarrierR37": {
+      "path": "hardware/cad/prototype-p1/exchange/PackAnchoredCarrierR37.step",
+      "sha256": "568fd13996feed5bfd1fb8a5426b57dcad7864b1c8e30e16cb697caadb22405b",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": 0.0005565308010773151,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "PCBOnlyKeeperR25": {
+      "path": "hardware/cad/prototype-p1/exchange/PCBOnlyKeeperR25.step",
+      "sha256": "087d634140379975709af8d5c096b38e7b44a450c55b03519a7e52585ff3d91f",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": -2.1316282072803006e-12,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "PoweredConnectedPackTailLeftHubR34": {
+      "path": "hardware/cad/prototype-p1/exchange/PoweredConnectedPackTailLeftHubR34.step",
+      "sha256": "ab8db1ade4dd2a1aad2d62d17d4c12659805de41cabbd688d6617868de4efc6d",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": -0.0009538435142530943,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "PoweredServiceablePackHubR36": {
+      "path": "hardware/cad/prototype-p1/exchange/PoweredServiceablePackHubR36.step",
+      "sha256": "671b5d3d24e898ec39e4bc0641bec72a30fd5731dd7ef0bcafa7fd277740c281",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": -1.1688089216477238e-06,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "PackLidR33": {
+      "path": "hardware/cad/prototype-p1/exchange/PackLidR33.step",
+      "sha256": "fb5324244f2856848ce0646185e80992c1727c29ab1a3b427c2d101d711aa02a",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": -6.679101716144942e-12,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "StationaryTipCarrierR26": {
+      "path": "hardware/cad/prototype-p1/exchange/StationaryTipCarrierR26.step",
+      "sha256": "d1cfd433579d9e0d8e7dfe8be5d79a88a25b7b6e43269507dcbda2207936048a",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": 1.1527845344971865e-10,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    },
+    "P1FlangeCover": {
+      "path": "hardware/cad/prototype-p1/exchange/P1FlangeCover.step",
+      "sha256": "3d1f0a1a0b34e2ce30d655586ac7dd657780301295ac2d59ef7ef821b4f47c8e",
+      "readback_valid": true,
+      "solid_count": 1,
+      "volume_delta_mm3": -1.6370904631912708e-10,
+      "scope": "Validity, solids, volume and bounds; no fit/strength claim"
+    }
+  },
+  "battery": "OPEN; displayed block is only a published body-size reference",
+  "prototype_build_consideration_ready": false,
+  "remaining": [
+    "Try complete connected loading and fitted wiring in the dry mockup",
+    "Resolve shell/cover/contact seals for the cleanable metal build",
+    "Review pack envelope, actual leads and electrical limits; battery OPEN"
+  ],
+  "scope": "P1 assembly with integral one-piece charging cover and two nominal motor lead sweeps. Original source shapes conserved (old cover construction-only); new hard parts and motor wires clear their static/plug sample scopes. Physical fit, wire forming, receiving dimensions, bond/retention, seals and magnetic holding remain unqualified.",
+  "builder_saved_native_sha256": "6e3bbc61d68981baf662f76e9c9701be33e9b00e08eaf6fca93381f46bbf8e8c",
+  "gui_configuration": {
+    "all_non_GUI_archive_members_unchanged_by_visibility_edit": true,
+    "visible_roles": [
+      "FlangeCoverLower",
+      "FlangeCoverUpper",
+      "KeyedBodyR25",
+      "MotorSeatCapR25",
+      "P1FlangeCover"
+    ]
+  },
+  "charging_wiring": {
+    "native_flange_sha256": "521bbffad5ad2ea960973a6650904ff64e906639b86408db8227b640d531e542",
+    "paths": [
+      {
+        "pin": 1,
+        "net": "DOCK_5V",
+        "sharp_corner_control_points_xyz_mm": [
+          [
+            -16.5,
+            -16.7125,
+            -8.1125
+          ],
+          [
+            -16.5,
+            -16.7125,
+            -10.2
+          ],
+          [
+            -16.5,
+            -24.0,
+            -10.2
+          ],
+          [
+            -37.5,
+            -24.0,
+            -10.2
+          ],
+          [
+            -37.5,
+            -24.0,
+            12.0
+          ],
+          [
+            -32.0,
+            -24.0,
+            12.0
+          ],
+          [
+            -32.0,
+            -25.71,
+            12.0
+          ]
+        ],
+        "path_length_mm": 56.351370614359176,
+        "pack_mate_gap_mm": 0.5082955510603758,
+        "unexpected_intersections": []
+      },
+      {
+        "pin": 2,
+        "net": "GND",
+        "sharp_corner_control_points_xyz_mm": [
+          [
+            -17.5,
+            -16.7125,
+            -8.1125
+          ],
+          [
+            -17.5,
+            -16.7125,
+            -10.2
+          ],
+          [
+            -17.5,
+            -23.0,
+            -10.2
+          ],
+          [
+            -36.5,
+            -23.0,
+            -10.2
+          ],
+          [
+            -36.5,
+            -23.0,
+            8.0
+          ],
+          [
+            -32.0,
+            -23.0,
+            8.0
+          ],
+          [
+            -32.0,
+            -25.71,
+            8.0
+          ]
+        ],
+        "path_length_mm": 49.351370614359176,
+        "pack_mate_gap_mm": 0.5082955510603766,
+        "unexpected_intersections": []
+      }
+    ],
+    "wire_OD_allowance_mm": 0.6,
+    "first_bend_centreline_radius_mm": 2.0,
+    "other_bend_centreline_radius_mm": 1.5,
+    "cover_wire_pose_samples": [
+      {
+        "cover_opening_Y_mm": -0.0,
+        "wires": [
+          {
+            "pin": 1,
+            "path_length_mm": 56.351370614359176
+          },
+          {
+            "pin": 2,
+            "path_length_mm": 49.351370614359176
+          }
+        ],
+        "unexpected_intersections": [],
+        "wire_pair_intersection_mm3": 0.0
+      },
+      {
+        "cover_opening_Y_mm": -1.0,
+        "wires": [
+          {
+            "pin": 1,
+            "path_length_mm": 56.351370614359176
+          },
+          {
+            "pin": 2,
+            "path_length_mm": 49.351370614359176
+          }
+        ],
+        "unexpected_intersections": [],
+        "wire_pair_intersection_mm3": 0.0
+      },
+      {
+        "cover_opening_Y_mm": -2.0,
+        "wires": [
+          {
+            "pin": 1,
+            "path_length_mm": 56.351370614359176
+          },
+          {
+            "pin": 2,
+            "path_length_mm": 49.351370614359176
+          }
+        ],
+        "unexpected_intersections": [],
+        "wire_pair_intersection_mm3": 0.0
+      },
+      {
+        "cover_opening_Y_mm": -3.0,
+        "wires": [
+          {
+            "pin": 1,
+            "path_length_mm": 56.351370614359176
+          },
+          {
+            "pin": 2,
+            "path_length_mm": 49.351370614359176
+          }
+        ],
+        "unexpected_intersections": [],
+        "wire_pair_intersection_mm3": 0.0
+      }
+    ],
+    "unexpected_intersections": [],
+    "new_custom_parts": 0,
+    "new_fasteners": 0,
+    "scope": "Conditional nominal wire envelopes and four equal-length flex shapes, not a continuous flexible-wire or complete-cover motion proof. J1 numeric X order is native-board verified; Y/Z wire exits assume the nominal mate-envelope centre. Actual prewired lead exit, OD <=0.60, permitted bend radius <=1.50 mm, current rating, strip/termination and hand-dressed closure require a received-part trial. First bend2.0mm; other bends1.5mm. Nominal pack-mate gap about0.508mm is not a tolerance margin or physical acceptance. Do not force a thicker/stiffer lead into this route. No pack/BOM/PCB change.",
+    "native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+    "prior_native_sha256": "caa9b71274643322e13666e8c4c179db842ab323e5c740d0c145f10e1237b7bf",
+    "old_role_geometry_screens_pass": 227,
+    "roundtrip_serialization_normalized_roles": [
+      "KeeperScrew_1",
+      "KeeperScrew1",
+      "MotorMaxEnvelope",
+      "TipPCB",
+      "TipComponentEnvelope",
+      "HubBolt_1",
+      "HubBolt1",
+      "HubNut_1",
+      "HubNut1",
+      "FlangeCoverLower",
+      "FlangeCoverUpper",
+      "BodyPCB_R17",
+      "R17_U1",
+      "R17_R44",
+      "R17_R45",
+      "R17_J3",
+      "R17_R47",
+      "R17_R25",
+      "R17_R46",
+      "R17_C29",
+      "R17_J5",
+      "R17_R5",
+      "R17_C44",
+      "R17_C3",
+      "R17_R4",
+      "R17_U5",
+      "R17_R1",
+      "R17_R41",
+      "R17_R3",
+      "R17_C28",
+      "R17_J6",
+      "R17_C30",
+      "R17_Q1",
+      "R17_R48",
+      "R17_C1",
+      "R17_C2",
+      "R17_R2",
+      "R17_C27",
+      "R17_C54",
+      "R17_C26",
+      "R17_C15",
+      "R17_C53",
+      "R17_C16",
+      "R17_C21",
+      "R17_C22",
+      "R17_C52",
+      "R17_C41",
+      "R17_C14",
+      "R17_R22",
+      "R17_R12",
+      "R17_U9",
+      "R17_U3",
+      "R17_C11",
+      "R17_U8",
+      "R17_C24",
+      "R17_C42",
+      "R17_R21",
+      "R17_U2",
+      "R17_L2",
+      "R17_R26",
+      "R17_R11",
+      "R17_R24",
+      "R17_C25",
+      "R17_R23",
+      "R17_L1",
+      "R17_R42",
+      "R17_R13",
+      "R17_C51",
+      "R17_U7",
+      "R17_C43",
+      "R17_C12",
+      "R17_C13",
+      "R17_R43",
+      "R17_U4",
+      "R17_C23",
+      "FlangePCB_R17",
+      "R17_SW1",
+      "R17_D1",
+      "R17_SW2",
+      "R17_U6",
+      "R17_J4",
+      "R17_F1",
+      "R17_SW3",
+      "R17_R37",
+      "R17_R35",
+      "R17_C32",
+      "R17_SW4",
+      "R17_R32",
+      "R17_J7",
+      "R17_C33",
+      "R17_R33",
+      "R17_R40",
+      "R17_C31",
+      "R17_R39",
+      "R17_J1",
+      "R17_R38",
+      "R17_R31",
+      "R17_R36",
+      "R17_C34",
+      "R17_R34",
+      "KeyedBodyR25",
+      "MotorSeatCapR25",
+      "PCBOnlyKeeperR25",
+      "ShellMotorMountR25",
+      "MotorClampScrewR25",
+      "MotorClampNutR25",
+      "StationaryTipCarrierR26",
+      "TipCarrierScrewEnvelopeR26",
+      "StationaryPickupShoeR26",
+      "TipClipFittedEnvelopeR26",
+      "TipDielectricBondR26",
+      "TipCapThermalGelR26",
+      "TipWireR26_1",
+      "TipBareWireR26_1",
+      "TipSolderAllowanceR26_1",
+      "TipWireR26_2",
+      "TipBareWireR26_2",
+      "TipSolderAllowanceR26_2",
+      "TipWireR26_3",
+      "TipBareWireR26_3",
+      "TipSolderAllowanceR26_3",
+      "TipWireR26_4",
+      "TipBareWireR26_4",
+      "TipSolderAllowanceR26_4",
+      "FlangeKeeperScrewEnvelopeR27",
+      "InterboardWireR29_1",
+      "InterboardWireR29_2",
+      "InterboardWireR29_3",
+      "InterboardWireR29_4",
+      "InterboardWireR29_5",
+      "InterboardWireR29_6",
+      "InterboardWireR29_7",
+      "InterboardWireR29_8",
+      "InterboardWireR29_9",
+      "InterboardWireR29_10",
+      "CentralAnchorPadR30",
+      "FlangeAnchorPadR30",
+      "ButtonBezelR31",
+      "ButtonBootR31",
+      "ButtonKeeperR31",
+      "ButtonPlungerR31_SW1",
+      "ButtonPlungerR31_SW2",
+      "ButtonHomePinR31_SW1",
+      "ButtonHomePinR31_SW2",
+      "ButtonStopScrewR31_SW1",
+      "ButtonStopScrewR31_SW2",
+      "ButtonRetainerScrewR31_1",
+      "ButtonRetainerScrewR31_2",
+      "PackNTCHeadR33_1",
+      "PackNTCContactFilmR33_1",
+      "PackNTCHeadR33_2",
+      "PackNTCContactFilmR33_2",
+      "PackPublishedGaugeR33",
+      "PackLidScrewR33_1",
+      "PackLidScrewR33_2",
+      "PackLidR33",
+      "R17Mate_J3",
+      "R17Mate_J5",
+      "R17Mate_J6",
+      "R17Mate_J4",
+      "R17Mate_J7",
+      "R17Mate_J1",
+      "MotorLeadFlareAllowanceR21",
+      "TipStrainReliefProcessAllowanceR26",
+      "PackBareLeadR34_1",
+      "PackBareLeadR34_2",
+      "PackBareLeadR34_3",
+      "PackBareLeadR34_4",
+      "PackBareLeadR34_5",
+      "FactoryNTCWireR36_1_1",
+      "NTCSpliceSpaceR36_1_1",
+      "FactoryNTCWireR36_1_2",
+      "NTCSpliceSpaceR36_1_2",
+      "FactoryNTCWireR36_2_1",
+      "NTCSpliceSpaceR36_2_1",
+      "FactoryNTCWireR36_2_2",
+      "NTCSpliceSpaceR36_2_2",
+      "FactoryLapBareR36_1_1",
+      "FactoryLapBareR36_1_2",
+      "FactoryLapBareR36_2_1",
+      "FactoryLapBareR36_2_2",
+      "SensorReturnYJointR36",
+      "SensorReturnCoatingR36",
+      "SensorReturnCoreR36",
+      "PackAdapterBareR36_2",
+      "PackConnectedWireR36_4",
+      "PackAdapterBareR36_4",
+      "PackConnectedWireR36_5",
+      "PackAdapterBareR36_5",
+      "UpperSensorReturnCoatingR36",
+      "UpperSensorReturnCoreR36",
+      "UpperSensorReturnBareR36",
+      "NTCSolderBridgeR36_1_1",
+      "NTCSolderBridgeR36_1_2",
+      "NTCSolderBridgeR36_2_1",
+      "NTCSolderBridgeR36_2_2",
+      "PackAnchoredCarrierR37",
+      "PackWireSoftPadR37",
+      "PackTieSpaceR37",
+      "PoweredConnectedPackTailLeftHubR34",
+      "PoweredServiceablePackHubR36",
+      "PackMateProcessSpaceR37",
+      "StockPackLeadR37_1",
+      "SpareMateLeadR37_1",
+      "PackPowerJointSpaceR37_1",
+      "SpareMateBareR37_1",
+      "BodyPackPowerWireR37_1",
+      "BodyPackPowerBareR37_1",
+      "PackPowerSolderBridgeR37_1",
+      "StockPackLeadR37_2",
+      "SpareMateLeadR37_2",
+      "PackPowerJointSpaceR37_2",
+      "SpareMateBareR37_2",
+      "BodyPackPowerWireR37_2",
+      "BodyPackPowerBareR37_2",
+      "PackPowerSolderBridgeR37_2",
+      "P1FlangeCover",
+      "P1GroundContact",
+      "P1PositiveContact",
+      "P1LeftMagnet",
+      "P1RightMagnet",
+      "P1GroundEncapsulationAllowance",
+      "P1PositiveEncapsulationAllowance",
+      "P1LeftMagnetEncapsulationAllowance",
+      "P1RightMagnetEncapsulationAllowance",
+      "P1MotorWire1",
+      "P1MotorWire2"
+    ],
+    "old_role_check_scope": "Valid solids, volumes and finite boundary samples; byte comparison otherwise, plus bidirectional zero-volume cuts where OCC normalizes serialization. Numerical geometry evidence, not physical fit.",
+    "builder_sha256": "583f0c6a0ceaf560719efc3197e7113171d2cd72b4044b9fbd363150a96f56a8"
+  },
+  "pack_routing": {
+    "connector_centre_YZ_mm": [
+      -17.0,
+      -12.8
+    ],
+    "previous_connector_centre_YZ_mm": [
+      -18.8,
+      -12.4
+    ],
+    "paths": [
+      {
+        "pin": 1,
+        "role": "P1PackStockWire1",
+        "section": "stock",
+        "path_length_mm": 21.799999999999997,
+        "minimum_centreline_radius_mm": 11.0,
+        "start_xyz_mm": [
+          7.0,
+          -19.060307379214088,
+          -8.65797985667433
+        ],
+        "end_xyz_mm": [
+          -13.691755146291216,
+          -16.06030737921409,
+          -12.457979856674331
+        ]
+      },
+      {
+        "pin": 1,
+        "role": "P1PackMateWire1",
+        "section": "mate",
+        "path_length_mm": 18.028207164954477,
+        "minimum_centreline_radius_mm": 4.752871062006018,
+        "start_xyz_mm": [
+          -32.49175514629122,
+          -16.06030737921409,
+          -12.457979856674333
+        ],
+        "end_xyz_mm": [
+          -29.395132793194357,
+          -12.546491806742546,
+          -3.625526434726763
+        ]
+      },
+      {
+        "pin": 2,
+        "role": "P1PackStockWire2",
+        "section": "stock",
+        "path_length_mm": 21.799999999999997,
+        "minimum_centreline_radius_mm": 11.0,
+        "start_xyz_mm": [
+          7.0,
+          -20.939692620785905,
+          -9.34202014332567
+        ],
+        "end_xyz_mm": [
+          -13.691755146291216,
+          -17.93969262078591,
+          -13.14202014332567
+        ]
+      },
+      {
+        "pin": 2,
+        "role": "P1PackMateWire2",
+        "section": "mate",
+        "path_length_mm": 16.84664995923094,
+        "minimum_centreline_radius_mm": 4.376769722332516,
+        "start_xyz_mm": [
+          -32.49175514629122,
+          -17.939692620785912,
+          -13.142020143325668
+        ],
+        "end_xyz_mm": [
+          -29.395132793194357,
+          -15.553508193257455,
+          -4.719990893368904
+        ]
+      }
+    ],
+    "unexpected_intersections": [],
+    "named_connector_and_joint_interfaces": [
+      {
+        "a": "P1PackMateWire1",
+        "b": "PackPowerJointSpaceR37_1",
+        "intersection_mm3": 1.6964600329384885
+      },
+      {
+        "a": "P1PackMateWire2",
+        "b": "PackPowerJointSpaceR37_2",
+        "intersection_mm3": 1.6964600329384911
+      },
+      {
+        "a": "P1PackMateSpace",
+        "b": "P1PackMateWire1",
+        "intersection_mm3": 0.9091608075690786
+      },
+      {
+        "a": "P1PackMateSpace",
+        "b": "P1PackMateWire2",
+        "intersection_mm3": 0.9099701262522898
+      }
+    ],
+    "unchanged": [
+      "Metal body/cap",
+      "Boards",
+      "Hubs and retention parts",
+      "Pack body/lead roots",
+      "Body power wires",
+      "All bare tails and joints"
+    ],
+    "new_custom_parts": 0,
+    "new_fasteners": 0,
+    "scope": "Nominal revised dressing of existing conditional pack/mate envelopes. No connector or pack selected. Stock lead21.8mm / OD1.8, mating OD1.2, real bend limits, supplied usable length, insulation/termination and hand dressing need receiving/fit trials. No battery, BOM, wire rating, pull strength or physical assembly acceptance.",
+    "native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+    "builder_sha256": "8643f2455117b89304b31bdf12667cbc9b3b861128e5a33cfff0496b0e3c3b8f"
+  },
+  "pack_routing_builder_sha256": "8643f2455117b89304b31bdf12667cbc9b3b861128e5a33cfff0496b0e3c3b8f",
+  "charging_wire_builder_sha256": "583f0c6a0ceaf560719efc3197e7113171d2cd72b4044b9fbd363150a96f56a8",
+  "incremental_integration_prior_native_sha256": "caa9b71274643322e13666e8c4c179db842ab323e5c740d0c145f10e1237b7bf",
+  "dry_fit_kit_ready": false,
+  "dry_fit_kit_native_sha256": "f6b87d5f9930dc8aeaf8c62152185dfc0d7e76653acda4812f38bfbd171eefa0",
+  "dry_fit_archive_sha256": "f93f7294f8b70bbdd1a6b2ddce3af71cc6f9c6ea99eeacdd0e9d67fc85e1b7ac",
+  "dry_fit_kit_path": "hardware/cad/prototype-p1/dry-fit-kit",
+  "dry_fit_kit_scope": "Unpowered printed mechanical trial; actual complete connected assembly and powered/finished metal build remain unvalidated.",
+  "current_rebuild_recipe_sha256": "3eefb6a928b1d2e4f8a09dfb5127d3180a70dcbd747b0c2ce055b134fecf0434",
+  "withdrawn_as_recommended_build": true,
+  "withdrawal_reason": "Individual mesh/loading checks did not establish scaffold DFM/minimum-part assembly; superseded by manufacturing-layout study."
+}

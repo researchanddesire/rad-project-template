@@ -1,7 +1,25 @@
-site_name: PRODUCT_NAME
+site_name: Buttplug Compass
 nav:
+  - Assembly Guide: assembly-guide.md
   - Overview: index.md
   - PCB Overview: pcb-overview.md
   - Cable Harnesses: cable-harnesses.md
   - Bill of Materials: bom.md
-  - Assembly Guide: assembly-guide.md
+  - Earlier module studies:
+      - P1 Charging Cover (superseded): charging-cover-p1.md
+      - R37 Wire Anchor and Power Adapter: pack-assembly-r37.md
+      - R36 Pack Sensor Adapter: pack-sensor-r36.md
+      - R34 Pack Connection Development: pack-connection-r34.md
+      - R33 Flange Pack and Sensors: flange-pack-r33.md
+      - R32 Body Pack Study: pack-retention-r32.md
+      - R31 Silicone Buttons: buttons-r31.md
+      - R30 Harness Anchors: harness-support-r30.md
+      - R29 Interboard Route: interboard-r29.md
+      - R27 Rotated Flange: flange-cradle-r27.md
+      - R26 Stationary Tip: tip-support-r26.md
+      - R25 Independent Motor Module: motor-shell-mount-r25.md
+      - R11 Hub Study: r11-hub.md
+      - R13 Drop-in Study: r13-drop-in.md
+      - R18 Plug Access Study: r18-plug-access.md
+      - R21 Motor Keeper Study (superseded): motor-keeper-r21.md
+      - R38 Sensor Joint Retention (not adopted): sensor-retention-r38.md

@@ -1,0 +1,8 @@
+{
+  "native_sha256": "717b9dc44a12811551cdfaf0d898bf250fe083bd10cd35626a448a7515e0f0bf",
+  "geometry_report_sha256": "d9f4d44d225f1701fbfeb561af207f51a691140cffc0c8c12e9ed00ebd6fde1d",
+  "exporter_sha256": "daf1f5ab940b3ff8f5308ce206839a36d197ece92ccec5db18e5c6ad29005231",
+  "scope": "Exact native section curves. First two are rigid pair poses from the checked finite sequence. Final bolt shown only after upper-core closure; keeper screw is outside this section. View is cropped to seat detail, not whole assembly.",
+  "sections_sha256": "c43926c9c4ba09769ff535c104f22aed9ba34c6eed6e4d93a5e46e471ebfd403",
+  "renderer_sha256": "01ab379049af8b7e415ce60e3b47baa853023b87bc8e7af4b835c1928233219e"
+}

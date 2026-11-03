@@ -1,0 +1,58 @@
+metadata:
+  title: P1 external magnetic charging cable
+  description: Prewired regulated-5V lead to two independent spring contacts in one printed housing.
+  notes: Nominal P1 mating axes X-32, Z12 positive / Z8 ground. No extra keeper screws.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  POWER-LEAD:
+    type: Prewired 5V power lead candidate - exact part unselected
+    pins: [P, G]
+    pinlabels: [regulated_5V, GND]
+    pincolors: [RD, BK]
+    notes: "Logical conductor roles, not a source-plug pinout.\nVerify source voltage and polarity independently; do not trust colours.\nFirst commissioning uses a current-limited regulated supply."
+  POSITIVE-PIN:
+    type: Individual spring contact candidate
+    manufacturer: Mill-Max
+    mpn: 0973-0-15-20-77-14-11-0
+    pincount: 1
+    pinlabels: [DOCK_5V]
+    notes: "P1 contact axis X-32 / Z12.\nSolder off the housing; keep resin off the moving pin/barrel."
+  GROUND-PIN:
+    type: Individual spring contact candidate
+    manufacturer: Mill-Max
+    mpn: 0973-0-15-20-77-14-11-0
+    pincount: 1
+    pinlabels: [GND]
+    notes: P1 contact axis X-32 / Z8.
+cables:
+  W-POWER:
+    category: bundle
+    type: Two conductors included with prewired power lead
+    wirecount: 2
+    colors: [RD, BK]
+    wirelabels: [DOCK_5V, GND]
+    length: 1.0
+    length_unit: m
+    ignore_in_bom: true
+    notes: "1 m candidate starting lead, not a finished cut requirement.\nConductors are included with POWER-LEAD and not purchased twice.\nConfirm wire/jacket size, current rating and voltage drop under actual load.\nDress insulated ends in the open rear trough before bonding."
+connections:
+  - - POWER-LEAD: [P]
+    - W-POWER: [1]
+    - POSITIVE-PIN: [1]
+  - - POWER-LEAD: [G]
+    - W-POWER: [2]
+    - GROUND-PIN: [1]
+additional_bom_items:
+  - description: P1CableHousing - one custom insulating housing, material unselected
+    qty: 1
+    unit: pcs
+  - description: Magnet reference D4 x1.5 mm - grade and mating polarity to confirm
+    qty: 2
+    unit: pcs
+  - description: Rear bond and jacket strain-relief process - material unselected
+    qty: 1
+    unit: process set
+tweak:
+  append: 'graph [label="P1 / SIMPLE EXTERNAL CHARGING CABLE\nOne housing / two spring contacts / two magnets / no keeper screws", labelloc=t, labeljust=l, fontsize=17, fontname="Arial"];'

@@ -1,0 +1,39 @@
+metadata:
+  title: P1 two-wire charging-contact harness
+  description: Flange J1 to two isolated outward contact targets. Assembly candidate, not a finished sealed dock.
+  notes: Use a prewired SH2 mate if practical; trim on the actual open cover. No extra connector cage.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J1:
+    type: Prewired JST SH2 mate candidate for flange J1
+    subtype: Numeric PCB pin view; verify received housing polarity
+    pincount: 2
+    pinlabels: [DOCK_5V, GND]
+    pincolors: [RD, BK]
+    notes: "The native board J1 is SM02B-SRSS-TB.\nNo battery, shell or motor connection here.\nExact prewired lead part and wire rating remain to confirm."
+  CONTACTS:
+    type: Two isolated fixed contact targets
+    pins: [P, G]
+    pinlabels: [regulated_5V_target, ground_target]
+    pincolors: [RD, BK]
+    ignore_in_bom: true
+    notes: "Targets belong to the product cover, not this cable BOM.\nP and G are logical roles, not a finished mating-face drawing.\nP1 contact axes: X-32, Z12 positive / Z8 ground, Y-30 faces.\nNominal P1 routes and external mate CAD exist; actual leads and seals need trials."
+cables:
+  W-DOCK:
+    category: bundle
+    type: Two conductors included with prewired mate candidate
+    wirecount: 2
+    colors: [RD, BK]
+    wirelabels: [DOCK_5V, GND]
+    length: 0.100
+    length_unit: m
+    ignore_in_bom: true
+    notes: "100 mm STARTING BLANK per wire; trim to the open cover.\nIncluded with prewired mate; no extra wire purchase.\nActual OD, bend radius, current rating and final strip lengths remain to confirm.\nLeave enough service slack to open the cover without loading the contact seals."
+connections:
+  - - J1: [1, 2]
+    - W-DOCK: [1, 2]
+    - CONTACTS: [P, G]
+tweak:
+  append: 'graph [label="P1 / TWO ISOLATED CHARGING CONTACTS\n100 mm starting blanks, trim on fixture / actual wire fit and seals unqualified", labelloc=t, labeljust=l, fontsize=16, fontname="Arial"];'

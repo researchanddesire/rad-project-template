@@ -1,0 +1,92 @@
+{
+  "paths": [
+    {
+      "pin": 1,
+      "role": "P1MotorWire1",
+      "bezier_poles_xyz_mm": [
+        [
+          -3.9,
+          54.975,
+          2.1
+        ],
+        [
+          -3.9,
+          58.475,
+          2.1
+        ],
+        [
+          0.5,
+          58.5,
+          3.5
+        ],
+        [
+          0.5,
+          62.0,
+          3.5
+        ]
+      ],
+      "path_length_mm": 8.781162944561277,
+      "OD_allowance_mm": 0.6,
+      "sampled_minimum_radius_mm": 3.081266816842025,
+      "net": "MOTOR_P"
+    },
+    {
+      "pin": 2,
+      "role": "P1MotorWire2",
+      "bezier_poles_xyz_mm": [
+        [
+          -4.9,
+          54.975,
+          2.1
+        ],
+        [
+          -4.9,
+          58.475,
+          2.1
+        ],
+        [
+          -0.5,
+          58.5,
+          3.5
+        ],
+        [
+          -0.5,
+          62.0,
+          3.5
+        ]
+      ],
+      "path_length_mm": 8.781162944561277,
+      "OD_allowance_mm": 0.6,
+      "sampled_minimum_radius_mm": 3.081266816842025,
+      "net": "MOTOR_N"
+    }
+  ],
+  "unexpected_intersections": [],
+  "motor_mate_listed_poses": [
+    {
+      "offset_Y_mm": 4.0,
+      "hits": []
+    },
+    {
+      "offset_Y_mm": 3.0,
+      "hits": []
+    },
+    {
+      "offset_Y_mm": 2.0,
+      "hits": []
+    },
+    {
+      "offset_Y_mm": 1.0,
+      "hits": []
+    },
+    {
+      "offset_Y_mm": 0.5,
+      "hits": []
+    },
+    {
+      "offset_Y_mm": 0.0,
+      "hits": []
+    }
+  ],
+  "scope": "Nominal OD0.60 jackets and assumed capsule lead exits only. Current J3 pin-axis mapping follows native footprint rotation. Actual OEM lead OD, bend limits, termination and slack/assembly movement need fit trial. Finite plug poses omit the still-waiting tip/cap; no continuous flexible-wire proof."
+}

@@ -1,0 +1,58 @@
+{
+  "native_sha256": "caa9b71274643322e13666e8c4c179db842ab323e5c740d0c145f10e1237b7bf",
+  "meshes_sha256": {
+    "P1FlangeCover.stl": "fed380f26328bc57aeb4d503fe26ae6b7a27fc7a0aea8a0181c7b3d66a102e23",
+    "P1GroundContact.stl": "d12357c122561382ad1f5c9cd7271b30e96c4fa96ba5c9395164c17667822c5a",
+    "P1PositiveContact.stl": "6beb43375445f8c129147ffc0ccc6262553b2643a295273dc41a419d5a35417d",
+    "ButtonBezelR31.stl": "402c6e18aba7f86df85ee9846d8658d58fd0b2ecf21b7576ddd376af093212b9",
+    "ButtonBootR31.stl": "fa37fb4c168f8292f960aa6a757866b298c9d388f88db62fb0ad7ee00456e1b4",
+    "P1LeftMagnet.stl": "4ff1a00d414dc634e0a2c8b7d2457d76fe0308008144a23b7a916358a5e64836",
+    "P1RightMagnet.stl": "ed6bfc38447e6ccaacc353f592967e85da97aec341becfdd99fc3469a885cdf4"
+  },
+  "cover_review": {
+    "cover_valid_single_solid": true,
+    "source_cover_solids": 5,
+    "added_material_mm3": 148.94897852909756,
+    "unexpected_intersections": [],
+    "inherited_cover_interfaces": [
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonStopScrewR31_SW1",
+        "intersection_mm3": 2.714336052701582
+      },
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonStopScrewR31_SW2",
+        "intersection_mm3": 2.7143360527015803
+      }
+    ],
+    "named_unmodeled_screw_pilot_interfaces": [
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonRetainerScrewR31_1",
+        "intersection_mm3": 2.3503040039668615
+      },
+      {
+        "a": "P1FlangeCover",
+        "b": "ButtonRetainerScrewR31_2",
+        "intersection_mm3": 2.3503040039668597
+      }
+    ],
+    "contact_face_xyz_mm": {
+      "GND": [
+        -32,
+        -30,
+        8
+      ],
+      "DOCK_5V": [
+        -32,
+        -30,
+        12
+      ]
+    },
+    "new_retention_fasteners": 0,
+    "scope": "Nominal installed hard-part check only. Contacts and magnets are dimensional references. Potting/seal shapes are process allowances, not qualified materials, bond, force, leakage or magnetic holding results."
+  },
+  "renderer_sha256": "0afee46f6509d9ef4bd3b84df4ddba4fb8b8ad9071a5d44ed7a63ab9e88dd76a",
+  "scope": "Native installed geometry, no exploded transforms. Nominal part references and process spaces are not physically validated."
+}

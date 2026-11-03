@@ -1,0 +1,9 @@
+"""Apply a source-bound native-geometry ground plan; preserve prior trial."""
+from pathlib import Path
+import sys,json
+import pcb_r2_route as R
+K=R.k;ROOT=Path(__file__).resolve().parents[1];SOURCE=Path(sys.argv[3]).resolve()if len(sys.argv)>3 else ROOT/'hardware/pcb/route-r17/candidate-e';P=Path(sys.argv[1]).resolve();planpath=Path(sys.argv[2]);plan=json.loads(planpath.read_text());P.mkdir(parents=True,exist_ok=True);assert not any(P.iterdir());sourcebp=SOURCE/'body/body-r17.kicad_pcb';assert R.sha(sourcebp)==plan['native_board_sha256'];assert R.sha(SOURCE/'body-native-geometry-all-layers.json')==plan['native_geometry_sha256']
+for p in SOURCE.rglob('*'):
+ if p.is_file()and((p.suffix in ['.kicad_pro','.kicad_sch','.kicad_sym','.kicad_mod']or p.suffix=='.kicad_pcb'and p.name!='source-seed.kicad_pcb')or p.name in ['fp-lib-table','sym-lib-table','body-seed.json','local-power.json','power-refinement.json','local-interfaces.json','compact-driver.json','signal-first-seed.json','signal-ports.json','signal-application.json']):
+  q=P/p.relative_to(SOURCE);q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes(p.read_bytes())
+bp=P/'body/body-r17.kicad_pcb';b=K.LoadBoard(str(bp));assert all(r['status']=='planned'for r in plan['target_results']);R.apply_routes(b,plan['routes']);K.SaveBoard(str(bp),b);R.fill_save(bp);(P/'ground-plan.json').write_bytes(planpath.read_bytes());R.write(P/'ground-application.json',{'date':'2026-11-01','builder_sha256':R.sha(Path(__file__)),'source_directory':str(SOURCE.relative_to(ROOT)),'source_body_sha256':R.sha(sourcebp),'plan_sha256':R.sha(planpath),'native_body_sha256':R.sha(bp),'new_vias':plan['new_vias'],'target_ground_pads':len(plan['target_results']),'scope':'Apply planned short ground stitches without pose/circuit changes. Refill any existing zones; no ground plane is created by this step. Actual zones, fresh native DRC and drill/paste checks are required.'});print(P,flush=True)

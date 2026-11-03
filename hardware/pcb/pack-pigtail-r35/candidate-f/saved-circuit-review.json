@@ -1,0 +1,59 @@
+{
+  "reviewer_sha256": "3ffe9cbb25733b44fba49a6ee6c472a0b841b94afa3d671d54ef83de9f1a582d",
+  "system_xml_sha256": "69acf12f410f49a0de6c972a85a08350d0eacdf4007bc7d4219f649d128d0a94",
+  "components": 94,
+  "logical_nodes": 338,
+  "all_source_nodes_equal": true,
+  "only_component_value_footprint_change": "J2",
+  "boards": {
+    "body": {
+      "sha256": "f5197510b9d01019345c8e17eaf2ab6aae7d94efe5426e61ad91dc2ad79fb88a",
+      "source_sha256": "19f0c9b20d4b6e6c43636076531297af3eab12effb196b8ce46c807de477491b",
+      "footprints": 65,
+      "electrical_pad_entries_checked": 212,
+      "original_routes_conserved": 2458,
+      "added_routes": [
+        {
+          "end": [
+            -1.985,
+            41.25
+          ],
+          "kind": "track",
+          "layer": "F.Cu",
+          "net": "GND",
+          "start": [
+            -2.2,
+            41.9
+          ],
+          "width": 0.3
+        }
+      ],
+      "board_erc_net_rules_equal": true,
+      "copper_layers": 6
+    },
+    "flange": {
+      "sha256": "521bbffad5ad2ea960973a6650904ff64e906639b86408db8227b640d531e542",
+      "source_sha256": "521bbffad5ad2ea960973a6650904ff64e906639b86408db8227b640d531e542",
+      "footprints": 24,
+      "electrical_pad_entries_checked": 119,
+      "original_routes_conserved": 430,
+      "added_routes": [],
+      "board_erc_net_rules_equal": true,
+      "copper_layers": 4
+    }
+  },
+  "new_sensor_return_land": {
+    "xy_mm": [
+      -2.2,
+      41.9
+    ],
+    "world_size_mm": [
+      0.5,
+      0.5
+    ],
+    "net": "GND",
+    "number": "2",
+    "zone_connection": "solid locally; original ground land retains thermal relief"
+  },
+  "scope": "Saved circuit topology, native pad assignments, all other footprint poses/pads, source routes and rules conserved. Fresh body DRC 0/0/0; flange byte-identical to R28S. Native fabrication output, fresh GUI ERC, wire soldering/strain relief, current, thermal and physical qualification remain open. Battery OPEN; human BOM unchanged."
+}

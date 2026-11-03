@@ -1,0 +1,251 @@
+(kicad_sch
+  (version 20230121)
+  (generator split_schematic_r14)
+  (uuid f2e53901-fdd6-5e3c-8206-d72b72f8de5e)
+  (paper "A3")
+  (title_block
+    (title "Remote tip")
+    (date "2026-11-01")
+    (rev "R28 candidate")
+    (company "Research and Desire")
+    (comment 1 "ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn4"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn4" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn4_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn4_1_1"
+        (pin passive line (at -20.32 7.62 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -7.62 0) (length 5.08) (name "4" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:MC3635"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 20.32 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "MC3635" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "Datasheet"
+        "https://www.memsic.com/Public/Uploads/uploadfile/files/20220119/MC3635Datasheet.pdf"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "I2C address0x4C; VPP grounded; CSN high; configure active-low open-drain INTN"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "MC3635_0_1" (rectangle (start -15.24 15.24) (end 15.24 -15.24) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "MC3635_1_1"
+        (pin input line (at -20.32 10.16 0) (length 5.08) (name "DOUT_A1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          bidirectional
+          line
+          (at -20.32 5.08 0)
+          (length 5.08)
+          (name "DIN_SDA" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 0.0 0) (length 5.08) (name "SCK_SCL" (effects (font (size 1.016 1.016)))) (number "10" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -5.08 0) (length 5.08) (name "CSN" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at -20.32 -10.16 0) (length 5.08) (name "VPP" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 10.16 180) (length 5.08) (name "VDDIO" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 5.08 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 0.0 180)
+          (length 5.08)
+          (name "INTN" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "8" (effects (font (size 1.016 1.016)))))
+        (pin no_connect line (at 20.32 -10.16 180) (length 5.08) (name "NC" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:TMP117AIDRVR"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "TMP117AIDRVR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp117.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "TMP117 WSON6; address0x48 ADD0=GND. Mechanical thermal pad is unsoldered, no copper/paste; not an electrical seventh pin"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "TMP117AIDRVR_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "TMP117AIDRVR_1_1"
+        (pin input line (at -20.32 5.08 0) (length 5.08) (name "SCL" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin bidirectional line (at -20.32 0.0 0) (length 5.08) (name "SDA" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -5.08 0) (length 5.08) (name "ADD0" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 5.08 180) (length 5.08) (name "V+" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 -5.08 180)
+          (length 5.08)
+          (name "ALERT" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016))))))))
+  (sheet_instances (path "/" (page "1")))
+  (symbol
+    (lib_id "PrototypeR0:Conn4")
+    (at 177.8 162.56 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid a6d37717-837f-5b47-ab58-cafa4998247a)
+    (property "Reference" "J101" (at 177.8 144.78 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "REMOTE_TIP_HARNESS" (at 177.8 147.32 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "" (at 177.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 177.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 177.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "REMOTE_TIP" (at 177.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "Remote tip assembly; not another rigid main-board topology" (at 177.8 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid e49bdd71-f009-5fd9-87b7-3871a56bdeb8))
+    (pin "2" (uuid 1d28ccdb-1047-5b4f-9dd5-525c0b99d02a))
+    (pin "3" (uuid bffa9464-d030-5c40-a903-977a84c923fc))
+    (pin "4" (uuid eace4a96-1532-5a4d-871d-95e400396ba5))
+    (instances (project "system-r35" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/f2e53901-fdd6-5e3c-8206-d72b72f8de5e" (reference "J101") (unit 1)))))
+  (wire (pts (xy 157.48 154.94) (xy 152.4 154.94)) (stroke (width 0) (type default)) (uuid 1c9dcb17-65a2-5de0-9bf4-5ba98737f2be))
+  (global_label "3V3" (shape input) (at 152.4 154.94 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 639a179c-8355-5434-bceb-24a9f391b256))
+  (wire (pts (xy 157.48 160.02) (xy 152.4 160.02)) (stroke (width 0) (type default)) (uuid 4a9e55d5-7382-5a4e-b1c7-c1f906c1dc22))
+  (global_label "GND" (shape input) (at 152.4 160.02 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 4ad1c01f-d820-5aee-aa6f-c0367657c9c4))
+  (wire (pts (xy 157.48 165.1) (xy 152.4 165.1)) (stroke (width 0) (type default)) (uuid bb993cfa-b3d8-5abe-a074-5ee8d3b61fb2))
+  (global_label
+    "I2C_SDA"
+    (shape input)
+    (at 152.4 165.1 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid cd5d217b-d394-5771-93e0-48cb9dadaee6))
+  (wire (pts (xy 157.48 170.18) (xy 152.4 170.18)) (stroke (width 0) (type default)) (uuid 120b4aa3-0edd-537d-bb94-72c07b702ee2))
+  (global_label
+    "I2C_SCL"
+    (shape input)
+    (at 152.4 170.18 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid e443cd54-aea8-596e-83bc-80c3348d07ce))
+  (symbol
+    (lib_id "PrototypeR0:TMP117AIDRVR")
+    (at 292.1 162.56 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid b17d5952-18fd-50c0-a4f3-a7f4b918d273)
+    (property "Reference" "U101" (at 292.1 147.32 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "TMP117AIDRVR /0x48" (at 292.1 149.85999999999999 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "TipR1:TI_TMP117_DRV0006B_NoEP" (at 292.1 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp117.pdf" (at 292.1 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 292.1 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "REMOTE_TIP" (at 292.1 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Six electrical pins; mechanical thermal pad deliberately unsoldered with no copper/paste per TI rigid-PCB accuracy guidance. Remote board is separate; physical thermal bond unqualified"
+      (at 292.1 162.56 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 410fd7e4-689f-5255-8fa5-743703c38833))
+    (pin "6" (uuid 18cdc117-b348-53c3-b2db-9b5a6c49193a))
+    (pin "4" (uuid aba80fe6-bd6e-56c2-8e2c-4760b57cae21))
+    (pin "5" (uuid f40f467d-2c59-5ec4-b089-f1df22d7a672))
+    (pin "2" (uuid 78002d2c-65f7-5cbe-a2e6-140cccb217f7))
+    (pin "3" (uuid 4214590f-6a72-54fb-a9d3-500152592d4f))
+    (instances (project "system-r35" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/f2e53901-fdd6-5e3c-8206-d72b72f8de5e" (reference "U101") (unit 1)))))
+  (wire (pts (xy 271.78 157.48) (xy 266.7 157.48)) (stroke (width 0) (type default)) (uuid 03f27930-d57f-57a2-89ed-f8bd46873b8c))
+  (global_label
+    "I2C_SCL"
+    (shape input)
+    (at 266.7 157.48 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 5c953627-6ace-580b-8fe3-e7111c9e12d7))
+  (wire (pts (xy 271.78 162.56) (xy 266.7 162.56)) (stroke (width 0) (type default)) (uuid 9dfb13ca-e807-5a8d-9689-12d2cc3fcc9d))
+  (global_label
+    "I2C_SDA"
+    (shape input)
+    (at 266.7 162.56 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 287b7c8f-7707-5ec7-a53a-65a85f1c3327))
+  (wire (pts (xy 271.78 167.64) (xy 266.7 167.64)) (stroke (width 0) (type default)) (uuid e8e486bb-3477-5c1b-974e-e60fac7fc1da))
+  (global_label "GND" (shape input) (at 266.7 167.64 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 0f57b6fa-6e6b-5cb7-8fd0-ba3046423723))
+  (wire (pts (xy 312.42 157.48) (xy 317.5 157.48)) (stroke (width 0) (type default)) (uuid 5490e4c1-22be-5458-a92b-864f6222fdf5))
+  (global_label "3V3" (shape input) (at 317.5 157.48 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid a8fd516d-be9f-55ad-9980-b957aa3b38e5))
+  (wire (pts (xy 312.42 162.56) (xy 317.5 162.56)) (stroke (width 0) (type default)) (uuid 6adc5c7c-73c5-5f92-b665-ba45ece7d742))
+  (global_label "GND" (shape input) (at 317.5 162.56 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid fb0ed07b-2d18-509e-b162-254cf20d12e7))
+  (no_connect (at 312.42 167.64) (uuid d89008a8-0147-5eb7-a16a-2f84cc855215))
+  (symbol
+    (lib_id "PrototypeR0:C")
+    (at 355.6 162.56 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid 198b8c46-5845-52c2-92e4-11e20709f12f)
+    (property "Reference" "C101" (at 364.49 161.29 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100nF" (at 364.49 163.83 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "" (at 355.6 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 355.6 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 355.6 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "REMOTE_TIP" (at 355.6 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ReviewNote" "Place directly at remote sensor supply pins" (at 355.6 162.56 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 98d0acc3-18a3-55d4-8420-110157e14fc9))
+    (pin "2" (uuid b1dcada0-6876-50f9-8796-617720372147))
+    (instances (project "system-r35" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/f2e53901-fdd6-5e3c-8206-d72b72f8de5e" (reference "C101") (unit 1)))))
+  (wire (pts (xy 355.6 157.48) (xy 355.6 152.4)) (stroke (width 0) (type default)) (uuid 4324cf77-6196-5b36-82f0-16452f4593b4))
+  (global_label "3V3" (shape input) (at 355.6 152.4 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid eab8359c-3030-58e9-bd82-7585add86c23))
+  (wire (pts (xy 355.6 167.64) (xy 355.6 172.72)) (stroke (width 0) (type default)) (uuid 899a6f09-868b-517f-ad36-61c6697f2e55))
+  (global_label "GND" (shape input) (at 355.6 172.72 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 3cab0014-602e-5f58-adbc-1c5a18bc993f))
+  (text
+    "Remote tip / partitioned native R0 circuit; physical placement R12I. No fabrication or operating release."
+    (at 15.24 15.24 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 0cb83487-78e0-50a0-b35d-d8557c6f57e6)))

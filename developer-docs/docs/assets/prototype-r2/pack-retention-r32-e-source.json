@@ -1,0 +1,97 @@
+{
+  "native_sha256": "b7cb61501abf27652b26603a61ce790fe65fda7eac7fb2cbfa8dfbf9ba856aef",
+  "geometry_report_sha256": "d969c51a67cef657b9d9fac406f4f6f7f8495376a793ca94f2bfa8c1c1d45186",
+  "saved_review_sha256": "94a07158c25d2cda7e35d7016e9ac6ff2e594d15f73830a2953a9fb5f2c0f684",
+  "assembly_screen_sha256": "52ede01c26fd0bea418d70268eccaf0a27320ba3ebbc9a81518bc2ea25f7a39a",
+  "freeplay_review_sha256": "1dd54ba2ba7cfb0d2dbe3a5ae8ed8629abf6b50bc6a426cfe7a08b7d44f0c88b",
+  "native_meshes_sha256": {
+    "PackRetainingCarrierR32-close.stl": "d1e1ef5c498c0e2fb87503faeaaa3957c74b4e8d57e2058525d19f9dfa2a0ef2",
+    "PackLidR32.stl": "0d214c879027b36ace9ddc8f75ab9cd4761b41662ae3ebe6283e045611330dff",
+    "PackLidScrewEnvelopeR32.stl": "955cf1c3e8e95ffa7aa596934cc50d344deca6e385b3de29ce7c6a404d657a62",
+    "PackSizeGaugeR32.stl": "afc49904c734440c06ad34829fbd2cb6a59c9bab9b98e377c2435bbe0c5dc822",
+    "PackNTCHeadR32_1.stl": "d747ae3eea3ebfa62b7c6b6677494b4192dd910d228a485f8fdd24eabbf510a7",
+    "PackNTCHeadR32_2.stl": "ea02b2843175e946135714cadf5fc48f71121ecb11f39bc5d93de43b839ef3b6",
+    "PackNTCLeadStubR32_1_1.stl": "7f9b1c1eb88a00d8c0ce911d2310aa2b1b331e14404d5e8706c22bbfb7fc6421",
+    "PackNTCLeadStubR32_1_2.stl": "936c4890e88a718173fecbffe9401e32560daaebca636919f166023fb0166eca",
+    "PackNTCLeadStubR32_2_1.stl": "95c2858839e54a678aa9919b9197eba77e368ab9d9941f6e054434a104938fb8",
+    "PackNTCLeadStubR32_2_2.stl": "031f3025235413f7eb8438f37782abbebe2b33b922bff90778fe14dc516ce09c",
+    "PackNTCContactFilmR32_1.stl": "a3774ef7d16c086392a7c46cabe33830592f8959aea523549fc1582beb5e8c29",
+    "PackNTCContactFilmR32_2.stl": "db075f45d29e8310d37f376a18b6fc0a74f65eb63fe11cd208479a91496ca54f",
+    "PackRetainingCarrierR32-close-section.stl": "df8905366c6f428003e848dac5b57ed267e44c4b4da0e2fbd916c59f0fd76b37",
+    "PackLidR32-section.stl": "d66ea0fbe52b890628c1191d4110a1b1e4744cb30576e5eb230fbf8ee9845470",
+    "PackLidScrewEnvelopeR32-section.stl": "955cf1c3e8e95ffa7aa596934cc50d344deca6e385b3de29ce7c6a404d657a62",
+    "PackSizeGaugeR32-section.stl": "77321265bb4f60be73788a18daea0588ea78697068044824f723f74ed931435e",
+    "PackNTCHeadR32_1-section.stl": "d747ae3eea3ebfa62b7c6b6677494b4192dd910d228a485f8fdd24eabbf510a7",
+    "PackNTCLeadStubR32_1_1-section.stl": "2f0f04e567baaeeeff947d78eab2942bbd1a48715ca1397ce1d901cc23dad884",
+    "PackNTCLeadStubR32_1_2-section.stl": "e4ee67162b85a78427fbb7fb3ebfd5962bf28162d08bbfa880d18b7539e5ba7f",
+    "PackNTCContactFilmR32_1-section.stl": "a3774ef7d16c086392a7c46cabe33830592f8959aea523549fc1582beb5e8c29"
+  },
+  "close_view_meshes_sha256": "0f4d969118f03e0d6c31142d459ce71c195049ce1930a64688cf592f01b2652c",
+  "display_translations_xyz_mm": {
+    "PackRetainingCarrierR32": [
+      0,
+      0,
+      0
+    ],
+    "PackLidR32": [
+      0,
+      0,
+      12
+    ],
+    "PackLidScrewEnvelopeR32": [
+      0,
+      0,
+      12
+    ],
+    "PackSizeGaugeR32": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCHeadR32_1": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCHeadR32_2": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCLeadStubR32_1_1": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCLeadStubR32_1_2": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCLeadStubR32_2_1": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCLeadStubR32_2_2": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCContactFilmR32_1": [
+      0,
+      0,
+      6
+    ],
+    "PackNTCContactFilmR32_2": [
+      0,
+      0,
+      6
+    ]
+  },
+  "display_rotation_after_translations": "All vertices Rx(-90deg): (x,y,z)->(x,z,-y), to put the native long axis horizontally. No relative rotation of parts.",
+  "section": "Exact source-native Boolean X<=0 mesh exports and Y33.8..71 carrier crop, no triangle clipping or invented cut faces",
+  "renderer_sha256": "38fc4373b45f56dc43fe90fc7426eee8019a6296775655c23f6f278f12bb5618",
+  "render_library_sha256": "6f53572a44b4ebc200c3e4593d17057385c7606c06d12878f88d3d2c615e7833",
+  "scope": "CAD/gauge and sensor-envelope geometry only. Contact-film box is a process reservation, not a formed bond or proven thermal contact. No pack/supplier/material/process/physical acceptance."
+}

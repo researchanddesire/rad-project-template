@@ -1,0 +1,12 @@
+{
+  "method": "Native KiCad SVG schematic crops; framing only, no redrawn wires or pin numbering",
+  "native_plot_sha256": {
+    "native-svg/system-r14-Body electronics-Interboard connection.svg": "cca44b0c1b71bd175ba408defe3d750db665f5d5b8a6005116ed077cc2182745",
+    "native-svg/system-r14-Flange electronics-Interboard connection.svg": "3a98e77fbed618a7e48df73fa5eea745ef2bbe7a914f7e604ea80cc3e86624ea"
+  },
+  "ERC_record_sha256": "e25bbee37d7a749befe0d7fd74e92d5d134d8cafbb25e41f8e9d5bb93d959309",
+  "native_netlist_parity_sha256": "36ae9fd6e3358e9c6d3c87e3011b3ac031a501304cde948a4f243fc273126b8e",
+  "renderer_sha256": "cb13be4fd53fd9d8fe8134508136fa97f2f134be4cd03a79a6693d246ec798f7",
+  "figure_sha256": "ae71769db7a28bbcdb5ac562888ef9e79f9b71d0cc764e7bf6533ef0563a1050",
+  "scope": "Full-system ERC and circuit partition only; boards remain unrouted and physical harness not accepted."
+}

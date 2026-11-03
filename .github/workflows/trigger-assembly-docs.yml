@@ -17,6 +17,8 @@ on:
 
 jobs:
   dispatch:
+    # Opt in after the project is ready for publication.
+    if: ${{ vars.DOCS_PUBLISH_ENABLED == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Request assembly-docs site rebuild
@@ -25,4 +27,4 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.DOCS_DISPATCH_TOKEN }}" \
             https://api.github.com/repos/researchanddesire/assembly-docs/dispatches \
-            -d '{"event_type":"assembly-docs-rebuild","client_payload":{"repo":"PRODUCT_REPO","ref":"'"${{ github.ref_name }}"'"}}'
+            -d '{"event_type":"assembly-docs-rebuild","client_payload":{"repo":"buttplug","ref":"'"${{ github.ref_name }}"'"}}'

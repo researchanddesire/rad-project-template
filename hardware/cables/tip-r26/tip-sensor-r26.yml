@@ -1,0 +1,52 @@
+# Prototype trim-to-fit recipe, not a finished cut-length or order release.
+metadata:
+  title: R26 stationary tip harness - prototype starting blanks
+  description: Four individual candidate wires, J5 SH4 to unchanged TipR1 J101 pads.
+  notes: 80 mm per wire is starting material; trim to the native routing fixture before final soldering. Removed excess is not service slack.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J5:
+    type: Wire-side SH4 housing candidate
+    subtype: Without flange - 5 mm reference width
+    manufacturer: JST
+    mpn: SHR-04V-S
+    pincount: 4
+    pinlabels: [3V3, GND, I2C_SDA, I2C_SCL]
+    pincolors: [RD, BK, BU, YE]
+    notes: "Numeric pin view only; not a mating-face drawing.\nUse SSH-003T-P0.2-H contacts; crimp/tool/egress unqualified.\nDo not replace with 7 mm-wide SHR-04V-S-B in this envelope."
+  J101:
+    type: Direct-wire PCB pads
+    subtype: Unchanged TipR1 6 x 4 mm board
+    pincount: 4
+    pinlabels: [3V3, GND, I2C_SDA, I2C_SCL]
+    pincolors: [RD, BK, BU, YE]
+    ignore_in_bom: true
+    notes: "Actual numbered pads; 1:1 electrical map.\n1.1 mm bare-tail geometry is a solder-process study.\nWire guide and carrier strain relief protect solder joints."
+cables:
+  W-TIP-R26:
+    category: bundle
+    type: 80 mm starting blanks - trim to fixture
+    manufacturer: Accu-Glass
+    mpn: "113094"
+    gauge: 32
+    gauge_unit: AWG
+    wirecount: 4
+    colors: [BN, BN, BN, BN]
+    wirelabels: ["1 / 3V3", "2 / GND", "3 / I2C_SDA", "4 / I2C_SCL"]
+    length: 0.080
+    length_unit: m
+    notes: "Four amber/Kapton candidate wires; function colours are identification, not supplied jacket colours.\n80 mm STARTING BLANK each; excess is removed.\nNative insulated paths are about 50.4-51.2 mm, plus 1.1 mm bare tip tail.\nHousing-internal length and final cut/strip must be confirmed on fixture.\nOD0.60 / bare0.26 / centreline R2.5 are design allowances."
+connections:
+  - - J5: [1, 2, 3, 4]
+    - W-TIP-R26: [1, 2, 3, 4]
+    - J101: [1, 2, 3, 4]
+additional_bom_items:
+  - description: SH crimp contact candidate - verify tooling and produced crimp
+    qty: 4
+    unit: pcs
+    manufacturer: JST
+    mpn: SSH-003T-P0.2-H
+tweak:
+  append: 'graph [label="R26 / PROTOTYPE STARTING MATERIAL - NOT A FINISHED HARNESS\n80 mm blanks trimmed to fixture; crimp, exits, solder and physical fit unqualified", labelloc=t, labeljust=l, fontsize=18, fontname="Arial"];'

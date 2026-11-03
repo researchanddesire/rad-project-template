@@ -1,0 +1,447 @@
+(kicad_sch
+  (version 20230121)
+  (generator split_schematic_r14)
+  (uuid da544d5a-8b4e-53d9-80a3-b45e226fb089)
+  (paper "A2")
+  (title_block
+    (title "Flange / dock and power interfaces")
+    (date "2026-11-01")
+    (rev "R28 candidate")
+    (company "Research and Desire")
+    (comment 1 "ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:BQ24074RGT"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 27.939999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "BQ24074RGT" (at 0 25.4 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24074.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "1S 4.2V charger with power path; not a substitute for pack protection" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "BQ24074RGT_0_1" (rectangle (start -15.24 22.86) (end 15.24 -22.86) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "BQ24074RGT_1_1"
+        (pin power_in line (at -20.32 17.78 0) (length 5.08) (name "IN" (effects (font (size 1.016 1.016)))) (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 12.700000000000001 0)
+          (length 5.08)
+          (name "EN1" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 7.620000000000001 0)
+          (length 5.08)
+          (name "EN2" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 2.540000000000001 0)
+          (length 5.08)
+          (name "~{CE}" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at -20.32 -2.539999999999999 0)
+          (length 5.08)
+          (name "ILIM" (effects (font (size 1.016 1.016))))
+          (number "12" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -7.619999999999997 0)
+          (length 5.08)
+          (name "ISET" (effects (font (size 1.016 1.016))))
+          (number "16" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -12.7 0) (length 5.08) (name "ITERM" (effects (font (size 1.016 1.016)))) (number "15" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 -17.78 0) (length 5.08) (name "TMR" (effects (font (size 1.016 1.016)))) (number "14" (effects (font (size 1.016 1.016)))))
+        (pin power_out line (at 20.32 17.78 180) (length 5.08) (name "OUT" (effects (font (size 1.016 1.016)))) (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_out
+          line
+          (at 20.32 12.700000000000001 180)
+          (length 5.08)
+          (name "BAT" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          input
+          line
+          (at 20.32 7.620000000000001 180)
+          (length 5.08)
+          (name "TS" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 2.540000000000001 180)
+          (length 5.08)
+          (name "~{PGOOD}" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 -2.539999999999999 180)
+          (length 5.08)
+          (name "~{CHG}" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -7.619999999999997 180)
+          (length 5.08)
+          (name "VSS" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 17.78 180)
+          (length 5.08)
+          hide
+          (name "OUT" (effects (font (size 1.016 1.016))))
+          (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 12.700000000000001 180)
+          (length 5.08)
+          hide
+          (name "BAT" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 -7.619999999999997 180)
+          (length 5.08)
+          hide
+          (name "EP" (effects (font (size 1.016 1.016))))
+          (number "17" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn2"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn2" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn2_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn2_1_1"
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn4"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn4" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn4_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn4_1_1"
+        (pin passive line (at -20.32 7.62 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -7.62 0) (length 5.08) (name "4" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:D"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "D" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "D" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "D_0_1"
+        (polyline (pts (xy -2.54 2.54) (xy 2.54 2.54) (xy 0 -2.54) (xy -2.54 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -2.54) (xy 2.54 -2.54)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 2.54)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -2.54) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "D_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:F"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "F" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "F" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "F_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "F_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:L"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "L" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "L" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "L_0_1"
+        (polyline
+          (pts (xy 0 3.81) (xy -1.27 2.54) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 0 -3.81))
+          (stroke (width 0.3) (type default))
+          (fill (type none))))
+      (symbol
+        "L_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:PWR_FLAG"
+      (power)
+      (pin_names hide)
+      (in_bom no)
+      (on_board no)
+      (property "Reference" "#FLG" (at 0 5.08 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "PWR_FLAG_0_1"
+        (polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.27 1.905) (xy 0 2.54) (xy 1.27 1.905) (xy 0 1.27)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "PWR_FLAG_1_1"
+        (pin power_out line (at 0 0 90) (length 0) (name "pwr" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:TPS63070RNM"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 25.4 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "TPS63070RNM" (at 0 22.86 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63070.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "ki_description" "Adjustable buck boost; 3.6A switch is not guaranteed motor current" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "TPS63070RNM_0_1" (rectangle (start -15.24 20.32) (end 15.24 -20.32) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "TPS63070RNM_1_1"
+        (pin power_in line (at -20.32 15.24 0) (length 5.08) (name "VIN" (effects (font (size 1.016 1.016)))) (number "12" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 10.16 0) (length 5.08) (name "EN" (effects (font (size 1.016 1.016)))) (number "14" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 5.08 0) (length 5.08) (name "PS_SYNC" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 0.0 0) (length 5.08) (name "VSEL" (effects (font (size 1.016 1.016)))) (number "15" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -5.08 0) (length 5.08) (name "L1" (effects (font (size 1.016 1.016)))) (number "11" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -10.159999999999998 0)
+          (length 5.08)
+          (name "L2" (effects (font (size 1.016 1.016))))
+          (number "9" (effects (font (size 1.016 1.016)))))
+        (pin power_out line (at 20.32 15.24 180) (length 5.08) (name "VOUT" (effects (font (size 1.016 1.016)))) (number "7" (effects (font (size 1.016 1.016)))))
+        (pin input line (at 20.32 10.16 180) (length 5.08) (name "FB" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 5.08 180)
+          (length 5.08)
+          (name "FB2" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 20.32 0.0 180) (length 5.08) (name "VAUX" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 -5.08 180)
+          (length 5.08)
+          (name "PG" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -10.159999999999998 180)
+          (length 5.08)
+          (name "GND" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          power_in
+          line
+          (at 20.32 -15.24 180)
+          (length 5.08)
+          (name "PGND" (effects (font (size 1.016 1.016))))
+          (number "10" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 15.24 0)
+          (length 5.08)
+          hide
+          (name "VIN" (effects (font (size 1.016 1.016))))
+          (number "13" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at 20.32 15.24 180)
+          (length 5.08)
+          hide
+          (name "VOUT" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016))))))))
+  (sheet_instances (path "/" (page "1")))
+  (symbol
+    (lib_id "PrototypeR0:Conn2")
+    (at 55.88 50.8 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 185532d7-69c7-53f4-86e8-a4d995108387)
+    (property "Reference" "J1" (at 55.88 38.1 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MAGNETIC_DOCK_5V" (at 55.88 40.64 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" (at 55.88 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.jst.com/wp-content/uploads/2021/01/eSH-new.pdf" (at 55.88 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 55.88 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 55.88 50.8 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Logical contacts only; polarity, mechanical dock and exposed-contact fault review open; internal SM02B-SRSS-TB SH2 header candidate, separate from exposed dock contacts; legacy PCB PH2 value corrected in R28"
+      (at 55.88 50.8 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 35856101-89ff-5011-a064-cd54eb39825a))
+    (pin "2" (uuid a519400b-2dac-5415-9356-8b76406cfb7c))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/da544d5a-8b4e-53d9-80a3-b45e226fb089" (reference "J1") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089" (reference "J1") (unit 1)))))
+  (wire (pts (xy 35.56 48.26) (xy 30.48 48.26)) (stroke (width 0) (type default)) (uuid a9ba3757-f674-587d-85c0-c8de42c36dcc))
+  (global_label
+    "DOCK_5V"
+    (shape input)
+    (at 30.48 48.26 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid ecc4ee88-8388-53ed-b118-8b4a04b57656))
+  (wire (pts (xy 35.56 53.34) (xy 30.48 53.34)) (stroke (width 0) (type default)) (uuid 8c46e565-a7b8-5092-9c2e-6d300d478766))
+  (global_label "GND" (shape input) (at 30.48 53.34 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 9113f213-732d-5002-a7c4-573545d44889))
+  (text
+    "Flange / dock and power interfaces / partitioned native R0 circuit; physical placement R12I. No fabrication or operating release."
+    (at 15.24 15.24 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 7c2cfe8f-8fe3-5d55-84e6-71b873314eae))
+  (wire (pts (xy 81.28 33.02) (xy 81.28 27.94)) (stroke (width 0) (type default)) (uuid 1825111e-e220-5989-a9ae-5cbfdea58633))
+  (wire (pts (xy 81.28 43.18) (xy 81.28 48.26)) (stroke (width 0) (type default)) (uuid af0369b4-ef58-5e08-985e-a33e1ceab9c8))
+  (wire (pts (xy 119.38 33.02) (xy 119.38 27.94)) (stroke (width 0) (type default)) (uuid 8d16e2e3-fa44-5396-b1f2-ef6bf6a1dc04))
+  (wire (pts (xy 119.38 43.18) (xy 119.38 48.26)) (stroke (width 0) (type default)) (uuid d7757ca6-f1db-5caf-b2f2-205348bca0b7))
+  (symbol
+    (lib_id "PrototypeR0:F")
+    (at 81.28 38.1 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 66f2d06c-df4c-5b7b-bef6-fd40f93ea81d)
+    (property "Reference" "F1" (at 90.17 36.83 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "PTC 500mA candidate" (at 90.17 39.370000000000005 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Fuse_1206_3216Metric" (at 81.28 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 81.28 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 81.28 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 81.28 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "PTC is not a precise current limiter; bench supply must be current limited"
+      (at 81.28 38.1 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 4b9bcfe3-734c-5ce8-bdcb-e5439b297e3c))
+    (pin "2" (uuid 4f055ce6-550c-57ac-b2aa-d3493f539386))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/da544d5a-8b4e-53d9-80a3-b45e226fb089" (reference "F1") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089" (reference "F1") (unit 1)))))
+  (symbol
+    (lib_id "PrototypeR0:D")
+    (at 119.38 38.1 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid 3bcfa747-9282-5797-8531-805741f91841)
+    (property "Reference" "D1" (at 128.26999999999998 36.83 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "Schottky 1A/20V candidate" (at 128.26999999999998 39.370000000000005 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "PrototypeR0:Diodes_B140HW_SOD123_A1_K2" (at 119.38 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 119.38 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 119.38 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 119.38 38.1 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Generic symbol pin1 anode, pin2 cathode; select manufacturer part and map its package pads before PCB transfer"
+      (at 119.38 38.1 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid f8281cba-fcd0-559c-a625-e7ac558c1cf6))
+    (pin "2" (uuid 02d4e42a-a09a-580d-96b2-8e90a05dbf60))
+    (instances
+      (project "flange-r35" (path "/c5f43682-38d7-5030-b699-32aa1712a79c/da544d5a-8b4e-53d9-80a3-b45e226fb089" (reference "D1") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089" (reference "D1") (unit 1)))))
+  (global_label "DOCK_5V" (shape input) (at 81.28 27.94 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 0dbdc3ea-9abb-5826-859a-25e42661f196))
+  (global_label
+    "DOCK_FUSED"
+    (shape input)
+    (at 81.28 48.26 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid ba57bc08-a2cb-5a5d-9e1c-0d7b1e2ca7d5))
+  (global_label
+    "DOCK_FUSED"
+    (shape input)
+    (at 119.38 27.94 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 03f0b1bd-1fb2-5478-a90c-5064502559bd))
+  (global_label "VBUS_CHG" (shape input) (at 119.38 48.26 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid da46da36-86ff-5d09-abc6-a357ef846595)))

@@ -1,0 +1,11 @@
+{
+  "source": "hardware/cad/dock-mate-r3/dock-mate-r3-study.png",
+  "image_sha256": "d6f19e30983caec345c214096106edf94079d7e6f18550341428e4b0f6cc3922",
+  "native": "hardware/cad/dock-mate-r3/DockMateR3Bench.FCStd",
+  "native_sha256": "952dae5fb1b31df149109e4564e73be53db1326009674d5d159fc1af33c90df4",
+  "geometry_report": "hardware/cad/dock-mate-r3/geometry-report.json",
+  "geometry_report_sha256": "8aeffb7093434b18186fca0227fc203f7fdac56fabd037d006be73275af80fe7",
+  "design_index": "hardware/design/dock-mate-r3.json",
+  "design_index_sha256": "d3a84981ca0d76b6863ecafc7c350b6192e064e88f8dc54e8d4fde850f22a49a",
+  "scope": "Exact copy of source-bound native preview. Separate reversible attended bench fixture, not magnetic-holding or physical acceptance."
+}

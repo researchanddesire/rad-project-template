@@ -1,0 +1,33 @@
+{
+  "native_kit_sha256": "f6b87d5f9930dc8aeaf8c62152185dfc0d7e76653acda4812f38bfbd171eefa0",
+  "source_assembly_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+  "renderer_sha256": "cc06898e1b4657bb29d1dafadaa32d1ef9633ed5c9f9e4e5a109e28475d20b36",
+  "meshes_sha256": {
+    "Body.stl": "3d5042a2854e58f03c3b6815130bea289918863c21a4b6300d582c4c22b1bb14",
+    "NoseCap.stl": "8d147944d44d08359207543310caa6841a48fa2c19577b9c28df1344f9683670",
+    "LowerFlangeSkin.stl": "24332e21ac17abb84b047344e19237532a890c1695c20e8841d80cf881774424",
+    "UpperFlangeSkin.stl": "6426c9d29fa4fc7436bff0f5308e360a6037ff39c8e67ba41e5ffa970b6ba8f4",
+    "ChargingCover.stl": "0608dfced662105eaf4dd4b45f466f13d672e3e1105f88d5394b7678c2b0364e",
+    "Body-half.stl": "31ad479565fd91a7d202e000dd059128c785e26c81cd2694236f786c3a8e2b17",
+    "NoseCap-half.stl": "ed7540ed7f1e83570b6848e8dcb2b94e735fb71115de2f4f1e683587461aed31",
+    "LowerFlangeSkin-half.stl": "79e8dc2dfe9e374e5d04355dea7d67322775d2e1b80c8b7bf20e2f11f3d39ddd",
+    "BodyCarrier.stl": "5b5d53f2a5d3c9b7d0195064faf2085543f25a0c8e8aa7748229438f86b401a4",
+    "BodyBoardKeeper.stl": "c4976ba014a319e9667b113e961d4e20880d01a82a5d87b2d1f77935e744f426",
+    "BodyBoardGauge.stl": "66d8fbe885c11423ef40b75cf859e76f3a3fd5507befd81d181b7d3f83227102",
+    "MotorMount.stl": "dbc6fe7aed585d9b4ad47357ad622f3a4e38fa0a7912d8e63918b97b632c280f",
+    "MotorGauge.stl": "19c5558ad26d114a73798c7c5e21206913acd700b563a3660f4bf21d0289bc0f",
+    "TipCarrier.stl": "56ec854bbe7dd88a98e1a7beb1dece7e0f9c8463250691c5b15107954cee98cb",
+    "TipBoardGauge.stl": "9918bf7c93a77d627aa2f69ad104498a1528de7a1361d622f0a71cecb174c570",
+    "LeftHub.stl": "2b69deb26826c485938cf1941ca19d5344709e442a9787c57aaf56d0d708242f",
+    "RightHub.stl": "2dabba373747584b855c1dfb4cc40682cfa94f256ce4bd09e50304e920e92717",
+    "FlangeBoardGauge.stl": "3af910b43423184b7f96934315d38d05857763b0bd7a4cfe74477fe248721118",
+    "BatteryGauge.stl": "584b53258f21371c9c982111c564197947accc196a7220ee63a3ad161244dada",
+    "PackConnectorGauge.stl": "9573e996ab4fbf8c108a5fedc7159c8d01b6c697970ce789f281079dcf38f367",
+    "P1DockWire1.stl": "151b61cbf420940ee4a1026f58b5bd229a8abf02c1fb7afbff16ee7a37993357",
+    "P1DockWire2.stl": "20eb1db37d60e26d960aa62cd9c19e3b30aaf0e152d248fe56b3124ac130e301",
+    "PlugGauge_J1.stl": "f0473b065e06ad08dee14513811f67d8550615360b893d2da0af406e44c0258a",
+    "P1PackMateWire1.stl": "538ab152b45f6378087413bc5005a898a1fcb3a0b5fedbe555de4ec88f10759b",
+    "P1PackMateWire2.stl": "348daa4e56a0cc97347fa23c4871330e1c981159461827a94c318fa6b0f3e003"
+  },
+  "scope": "Actual native kit meshes and half sections; no exploded transforms or functional/physical acceptance."
+}

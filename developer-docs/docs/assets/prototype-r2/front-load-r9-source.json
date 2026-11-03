@@ -1,0 +1,22 @@
+{
+  "native_sha256": "475518a8918c4980d4b84e743ed72b06ac20cfc73416bee2b1bcf8d918bf6428",
+  "geometry_report_sha256": "a15d13c24037451d7e18133a67753e2bedc244c8e9b4cd01a3a6a91b84d622d9",
+  "renderer_sha256": "059a752f9d8f6d294a04d35057dcd2c719fdeb096fb508252e1b1b2f8877a635",
+  "render_library_sha256": "6f53572a44b4ebc200c3e4593d17057385c7606c06d12878f88d3d2c615e7833",
+  "R9_meshes_sha256": {
+    "OnePieceBody-section.stl": "b8b52e4ca850a98b8de9be181930107bc46bfb98b11a95244f704355c39c3a05",
+    "ClosingNoseCap-section.stl": "46efea652e02c1056e2fb8a78ee32c7497d73854c015365e223a6ea980b616a0",
+    "BodyPCBStudy.stl": "d3e00f2d693fea78f1ee59fe6cef91815df940c7245372b36ab6e8e20e2dacc9",
+    "BodyComponentAllowance.stl": "2fc83820821b636769eaf54df8081f66becf7267393dc93cbac5b3a75d381f33",
+    "BatteryAllowance.stl": "cec7e7a983c3af9790b5330b33768e2ceca519dad39eb4170944ac410ac4403d",
+    "MotorMaxEnvelope.stl": "81e72df7293de4c8db364b13cf8fcaaa3ea3c107e88fe34b1644c9b276374eee",
+    "FlexibleLinkSpace.stl": "9bdccf991568319d8b52497db6a4264cdd2eef107c49af495f2176d985f2f230",
+    "FlangePCBStudy.stl": "20c6edc17ba6d4b85f3d5a63f0cc7bdce79cc23124a7228e89f310acd9a79b0c",
+    "OnePieceBody.stl": "66504ac3b5a0da7e73647e9a84a182d24b42b5d67a094ab9a777c65bd2e75d15",
+    "ClosingNoseCap.stl": "52fdbfdbf32e63f62b7afb772361a4fe1aa3262ae3f5d4dc3ca0f13a15bd5032"
+  },
+  "preserved_flange_meshes_sha256": {
+    "ElastomerFlangeCoverLower.stl": "816db6d092254d14573565029ed4a2ecf6d8dd2ba4c62037a9cab1f901f54b04"
+  },
+  "scope": "Actual native meshes and actual native half-sections. Explicit exploded offsets only. Envelopes/unrouted boards, no connected cartridge or actual flange retention."
+}

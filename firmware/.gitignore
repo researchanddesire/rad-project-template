@@ -1,0 +1,6 @@
+.pio/
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.prototype-r0
+sdkconfig.prototype-r0.old

@@ -1,0 +1,159 @@
+(kicad_sch
+  (version 20230121)
+  (generator split_schematic_r14)
+  (uuid 85304e0d-e789-5146-ac79-f7c2ec838d2a)
+  (paper "A3")
+  (title_block
+    (title "Body / interboard J6–J7 numeric mapping")
+    (date "2026-11-01")
+    (rev "R28 candidate")
+    (company "Research and Desire")
+    (comment 1 "ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:Conn10"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 33.02 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn10" (at 0 30.48 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn10_0_1" (rectangle (start -15.24 27.94) (end 15.24 -27.94) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn10_1_1"
+        (pin passive line (at -20.32 22.86 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 17.78 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 12.7 0) (length 5.08) (name "3" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 7.619999999999999 0)
+          (length 5.08)
+          (name "4" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 2.539999999999999 0)
+          (length 5.08)
+          (name "5" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -2.539999999999999 0)
+          (length 5.08)
+          (name "6" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -7.620000000000001 0)
+          (length 5.08)
+          (name "7" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016)))))
+        (pin
+          passive
+          line
+          (at -20.32 -12.700000000000003 0)
+          (length 5.08)
+          (name "8" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -17.78 0) (length 5.08) (name "9" (effects (font (size 1.016 1.016)))) (number "9" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -22.86 0) (length 5.08) (name "10" (effects (font (size 1.016 1.016)))) (number "10" (effects (font (size 1.016 1.016))))))))
+  (sheet_instances (path "/" (page "1")))
+  (symbol
+    (lib_id "PrototypeR0:Conn10")
+    (at 101.6 88.9 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid a1c177bd-0fba-55c3-821c-fc7eab0d833d)
+    (property "Reference" "J6" (at 101.6 55.88000000000001 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SM10B-SRSS-TB candidate" (at 101.6 58.42000000000001 0) (effects (font (size 1.016 1.016))))
+    (property "Footprint" "PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal" (at 101.6 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 101.6 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 101.6 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "MAIN_T" (at 101.6 88.9 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Passive numeric header; not an active source. Match every pin to the other board; harness is unqualified."
+      (at 101.6 88.9 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid bf7d8ba1-01ad-5fed-98a9-eeb409ff6fa1))
+    (pin "2" (uuid 0fad4ef7-3552-5ae5-a0be-e90e0eab0f5c))
+    (pin "3" (uuid 9b43d150-10ad-53d6-8203-b8b33063144b))
+    (pin "4" (uuid aee657e5-0258-5d0e-931e-17abcc04769a))
+    (pin "5" (uuid 2971d230-eb5b-5226-9d21-daea18b0a97e))
+    (pin "6" (uuid 4a361f8f-efd6-5e2c-acce-d7090e71f55d))
+    (pin "7" (uuid 3549245a-0386-56ef-8eca-c887c4a4aa7c))
+    (pin "8" (uuid f7981014-7f7b-5d4b-bb01-01dbea64aaad))
+    (pin "9" (uuid 9c1d4461-de8f-5034-be3d-84c48d18dd82))
+    (pin "10" (uuid eb49a281-dabf-540d-a9e7-33e78853f7a8))
+    (instances
+      (project "body-r35" (path "/18c56c33-1353-55c8-b980-d4e657b3577d/85304e0d-e789-5146-ac79-f7c2ec838d2a" (reference "J6") (unit 1)))
+      (project
+        "system-r35"
+        (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/85304e0d-e789-5146-ac79-f7c2ec838d2a" (reference "J6") (unit 1)))))
+  (wire (pts (xy 81.28 66.04) (xy 76.2 66.04)) (stroke (width 0) (type default)) (uuid c45895f8-006d-50d4-a955-67c290a7e569))
+  (global_label "GND" (shape input) (at 76.2 66.04 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 2ab94d33-cfd0-5501-8059-af8cac7eb261))
+  (wire (pts (xy 81.28 71.12) (xy 76.2 71.12)) (stroke (width 0) (type default)) (uuid f4e5908e-c6c7-5285-b759-ae4c54376ba4))
+  (global_label
+    "VBUS_CHG"
+    (shape input)
+    (at 76.2 71.12 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 7803c305-8cb8-5989-b4ec-cfadf9f77248))
+  (wire (pts (xy 81.28 76.2) (xy 76.2 76.2)) (stroke (width 0) (type default)) (uuid 8c8566b6-0a07-545d-93df-429b9997244e))
+  (global_label "3V3" (shape input) (at 76.2 76.2 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid d8eadc36-f663-55f7-a3cd-609aa28b7da9))
+  (wire (pts (xy 81.28 81.28) (xy 76.2 81.28)) (stroke (width 0) (type default)) (uuid 828a3774-b9a6-5373-bc63-a2fc448777a1))
+  (global_label "PACK_P" (shape input) (at 76.2 81.28 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid f4d2c3a8-8b38-5fce-99a4-13bf86463c65))
+  (wire (pts (xy 81.28 86.36) (xy 76.2 86.36)) (stroke (width 0) (type default)) (uuid 92c6925d-023d-56bc-a7fe-aebbb122a469))
+  (global_label
+    "MOTOR_ARM"
+    (shape input)
+    (at 76.2 86.36 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid e3ee084a-8c99-5d2c-adad-2bd54dfe7289))
+  (wire (pts (xy 81.28 91.44) (xy 76.2 91.44)) (stroke (width 0) (type default)) (uuid 7882043e-84b5-5eee-838f-e4d77f3a5a46))
+  (global_label
+    "MOTOR_PWM"
+    (shape input)
+    (at 76.2 91.44 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 5609f4b2-0f87-5fd1-8b70-f677b16d64c0))
+  (wire (pts (xy 81.28 96.52) (xy 76.2 96.52)) (stroke (width 0) (type default)) (uuid 37079760-f343-59f0-a916-fa0dd49a2b94))
+  (global_label
+    "DOCK_PRESENT_N"
+    (shape input)
+    (at 76.2 96.52 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid e9f5628a-fd65-529d-a41e-e5f3719861cb))
+  (wire (pts (xy 81.28 101.6) (xy 76.2 101.6)) (stroke (width 0) (type default)) (uuid d25483d2-063a-5b59-b40b-a70b1b28d348))
+  (global_label "I2C_SDA" (shape input) (at 76.2 101.6 180) (effects (font (size 1.016 1.016)) (justify right)) (uuid 735fbe48-247b-508c-8066-fdc2f5c12c9c))
+  (wire (pts (xy 81.28 106.68) (xy 76.2 106.68)) (stroke (width 0) (type default)) (uuid 34d83b52-6655-5943-8056-521b707cc33b))
+  (global_label
+    "I2C_SCL"
+    (shape input)
+    (at 76.2 106.68 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 8666e8bf-188b-54e2-8bde-92bc5292f35a))
+  (wire (pts (xy 81.28 111.76) (xy 76.2 111.76)) (stroke (width 0) (type default)) (uuid 11fcd42d-8b40-5d3c-9e87-5fc4b8e7f4ad))
+  (global_label
+    "ACCEL_INT_N"
+    (shape input)
+    (at 76.2 111.76 180)
+    (effects (font (size 1.016 1.016)) (justify right))
+    (uuid 750ca1a1-d5cd-5c06-87e6-6319f6ac8661))
+  (text
+    "Ten passive connector pins. Actual mate orientation, wires, current/return/fault and supported bends remain to qualify."
+    (at 15.24 15.24 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 83e91113-156a-5bc4-95b7-0d729a64b617)))

@@ -1,0 +1,24 @@
+{
+  "method": "Framed read-only native KiCad SVG plots exported sequentially from an isolated board/project copy; no invented copper or footprint geometry",
+  "board_sha256": "5ba844fad77f58a8a5dfcb67f50e9070cf021048c29ed45a2751a9b8067f0bd4",
+  "project_sha256": "b0fcb9a05279c3f259b27659a75274c39afe2a35170d57e78e3d39fbbb46e03b",
+  "native_validation_sha256": "67ff0e16558611905899d72b0b47cabecf8016dca2593483bdbaf349fc5b1aa3",
+  "front_plot_sha256": "0b3de44a68f89d6854d6b85a42845c2f012645c80168288c60fb0286831302ec",
+  "back_plot_sha256": "a58e6e94d1fbfc41a2248c71139f3159a26dde2dc728de5f5ecf9be9e79e8027",
+  "front_layers": [
+    "F.Cu",
+    "F.Silkscreen",
+    "F.Fab",
+    "Edge.Cuts"
+  ],
+  "back_layers": [
+    "B.Cu",
+    "B.Silkscreen",
+    "B.Fab",
+    "Edge.Cuts"
+  ],
+  "back_mirrored": true,
+  "generator_sha256": "c93050086c8c1b85def8841f0813effa0ee110e8b97bd71f699c76dc161a42b9",
+  "framed_svg_sha256": "5f12b11af912988234f2f61729a4884ea2e4578d00ee5bb25959803123240b09",
+  "scope": "Native source review only; not fabrication, electrical operation or assembly release"
+}

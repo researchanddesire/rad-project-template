@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1136" viewBox="0 0 1600 1136">
+<title>Concept 03 — pelvic contour and tailbone relief study</title>
+<desc>Non-dimensional side and rear contour intentions, not a 3D anatomical fit model. Awake wear with breaks is the primary use goal. Continuous and sleep wear remain unvalidated.</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0 L7 3.5 L0 7" fill="#5a6b7d"/></marker></defs>
+<rect width="1600" height="1136" fill="#ffffff"/>
+<text x="40" y="54.0" font-family="Arial, sans-serif" font-size="36" fill="#243449" font-weight="bold" text-anchor="start">Concept 03 / let the body contour lead</text>
+<text x="42" y="92.0" font-family="Arial, sans-serif" font-size="22" fill="#5a6b7d" font-weight="normal" text-anchor="start">Pelvic fit study: a low-profile base along the cleft, with clearance at the tailbone and perineum.</text>
+<text x="42" y="131.0" font-family="Arial, sans-serif" font-size="18" fill="#975d15" font-weight="bold" text-anchor="start">PRIMARY: awake wear with removal breaks     •     CONTINUOUS / SLEEP WEAR: unvalidated goal</text>
+<rect x="32" y="164" width="974" height="698" rx="18" fill="#f7f9fb" stroke="#dce4ec" stroke-width="1.5"/>
+<rect x="1032" y="164" width="536" height="698" rx="18" fill="#f7f9fb" stroke="#dce4ec" stroke-width="1.5"/>
+<text x="56" y="204.0" font-family="Arial, sans-serif" font-size="26" fill="#27745f" font-weight="bold" text-anchor="start">SIDE / front-to-back contour</text>
+<text x="56" y="236.0" font-family="Arial, sans-serif" font-size="19" fill="#5a6b7d" font-weight="normal" text-anchor="start">Proposed orientation: base long axis follows the cleft.</text>
+<text x="1056" y="204.0" font-family="Arial, sans-serif" font-size="26" fill="#27745f" font-weight="bold" text-anchor="start">REAR / base and neck</text>
+<text x="1056" y="236.0" font-family="Arial, sans-serif" font-size="19" fill="#5a6b7d" font-weight="normal" text-anchor="start">Looking from the tailbone side.</text>
+<path id="side-contour" d="M 0 -222 C 22 -222 48 -191 53 -154 C 59 -113 39 -79 22 -52 C 15 -41 14 -24 20 -15 C 38 -4 69 -11 100 -6 C 123 -3 141 11 145 21 C 151 32 148 40 135 42 C 99 47 49 38 5 31 C -28 26 -71 38 -120 37 C -144 36 -151 25 -140 11 C -128 -4 -94 -10 -63 -12 C -36 -14 -21 -16 -19 -30 C -18 -44 -27 -62 -39 -83 C -61 -124 -55 -166 -35 -194 C -23 -211 -9 -222 0 -222 Z" transform="translate(490 732) scale(1.65)" fill="#d9eee6" stroke="#27745f" stroke-width="2.3" stroke-linejoin="round"/>
+<path id="rear-contour" d="M -15 -72 L -15 -30 C -15 -16 -33 -13 -63 -8 C -84 -5 -99 4 -98 17 C -97 36 -55 36 0 36 C 55 36 97 36 98 17 C 99 4 84 -5 63 -8 C 33 -13 15 -16 15 -30 L 15 -72 Z" transform="translate(1300 536) scale(1.4)" fill="#d9eee6" stroke="#27745f" stroke-width="2.3" stroke-linejoin="round"/>
+<polyline points="264,293 732,293" fill="none" stroke="#5a6b7d" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="244" y="286.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="bold" text-anchor="end">FRONT</text>
+<text x="753" y="286.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="bold" text-anchor="start">TAILBONE SIDE</text>
+<text x="1300" y="292.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="middle">Across the cleft</text>
+<polyline points="1144,312 1456,312" fill="none" stroke="#5a6b7d" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="1129" y="318.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="bold" text-anchor="end">L</text>
+<text x="1471" y="318.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="bold" text-anchor="start">R</text>
+<text x="68" y="383.0" font-family="Arial, sans-serif" font-size="21" fill="#27745f" font-weight="bold" text-anchor="start">Rounded body</text>
+<text x="68" y="410.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">Size and angle stay open.</text>
+<polyline points="280,399 347,399 419,438" fill="none" stroke="#27745f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="68" y="554.0" font-family="Arial, sans-serif" font-size="21" fill="#27745f" font-weight="bold" text-anchor="start">Long neck blend</text>
+<text x="68" y="581.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">No abrupt shoulder.</text>
+<polyline points="253,565 358,565 458,684" fill="none" stroke="#27745f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="778" y="433.0" font-family="Arial, sans-serif" font-size="21" fill="#27745f" font-weight="bold" text-anchor="start">Posterior relief</text>
+<text x="778" y="460.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">Rear end falls away;</text>
+<text x="778" y="484.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">no upward hook.</text>
+<polyline points="792,505 792,683 729,766" fill="none" stroke="#27745f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="68" y="713.0" font-family="Arial, sans-serif" font-size="21" fill="#27745f" font-weight="bold" text-anchor="start">Anterior relief</text>
+<text x="68" y="740.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">Clear the perineum.</text>
+<polyline points="247,721 318,712 365,712" fill="none" stroke="#27745f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="778" y="745.0" font-family="Arial, sans-serif" font-size="21" fill="#27745f" font-weight="bold" text-anchor="start">Removal access</text>
+<text x="778" y="773.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">Preserve an exposed</text>
+<text x="778" y="797.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">rounded end to grip.</text>
+<polyline points="766,783 735,783" fill="none" stroke="#27745f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="500" y="836.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="middle">Smooth external stop • retention under flex is still to verify</text>
+<text x="1300" y="387.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="middle">Neck continues toward body</text>
+<polyline points="1279,435 1321,435" fill="none" stroke="#27745f" stroke-width="1.8" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<text x="1058" y="651.0" font-family="Arial, sans-serif" font-size="21" fill="#27745f" font-weight="bold" text-anchor="start">Round the lateral edges</text>
+<text x="1058" y="680.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">A shallow base instead of a flat slab.</text>
+<polyline points="1157,621 1167,575" fill="none" stroke="#27745f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="1058" y="746.0" font-family="Arial, sans-serif" font-size="21" fill="#27745f" font-weight="bold" text-anchor="start">Preserve the stop</text>
+<text x="1058" y="775.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">The base must remain outside and</text>
+<text x="1058" y="800.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">grippable when it bends or twists.</text>
+<rect x="32" y="888" width="1536" height="172" rx="18" fill="#eff4fa" stroke="#d8e3f0" stroke-width="1.5"/>
+<text x="56" y="926.0" font-family="Arial, sans-serif" font-size="25" fill="#35679d" font-weight="bold" text-anchor="start">Fit the electronics inside this contour</text>
+<text x="56" y="970.0" font-family="Arial, sans-serif" font-size="21" fill="#35679d" font-weight="bold" text-anchor="start">01  Outer form + fit range</text>
+<text x="56" y="1000.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">Resolve clearance, base profile</text>
+<text x="56" y="1025.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">and body-to-base alignment.</text>
+<text x="565" y="970.0" font-family="Arial, sans-serif" font-size="21" fill="#35679d" font-weight="bold" text-anchor="start">02  Carrier + component space</text>
+<text x="565" y="1000.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">Protect soft contact areas from</text>
+<text x="565" y="1025.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">rigid edges, cell loads and heat.</text>
+<text x="1090" y="970.0" font-family="Arial, sans-serif" font-size="21" fill="#35679d" font-weight="bold" text-anchor="start">03  One T-shaped PCB</text>
+<text x="1090" y="1000.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">Resize the XY outline to the cavity.</text>
+<text x="1090" y="1025.0" font-family="Arial, sans-serif" font-size="18" fill="#5a6b7d" font-weight="normal" text-anchor="start">Rigid FR4 stays flat inside.</text>
+<text x="42" y="1094.0" font-family="Arial, sans-serif" font-size="18" fill="#975d15" font-weight="bold" text-anchor="start">Editable contour study • no anatomical scale, finished dimensions or proven wear duration</text>
+<text x="42" y="1120.0" font-family="Arial, sans-serif" font-size="17" fill="#5a6b7d" font-weight="normal" text-anchor="start">Side and rear views express contour intentions; they are not projections of a common 3D solid.</text>
+</svg>

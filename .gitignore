@@ -8,3 +8,26 @@ site/
 .assemble-work/
 platformio_private.ini
 .pio/
+*.FCStd1
+*.FCBak
+*.kicad_prl
+~*.lck
+
+# Local browser captures and diagram-generation scratch files
+/artifacts/
+
+# WireViz review renders/child BOMs are regenerated from the editable sources.
+/hardware/cables/prototype-r0/*.svg
+/hardware/cables/prototype-r0/*.png
+/hardware/cables/prototype-r0/*.html
+/hardware/cables/prototype-r0/*.bom.tsv
+
+# Regenerable manufacturing-study view meshes
+/hardware/cad/manufacturing-layout/*-view.stl
+
+# Generated cable artifacts are rebuilt from WireViz recipes.
+/hardware/cables/**/*.svg
+/hardware/cables/**/*.png
+/hardware/cables/**/*.html
+/hardware/cables/**/*.bom.tsv
+/cable-export/

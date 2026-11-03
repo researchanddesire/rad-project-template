@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-01",
+  "reviewer_sha256": "0aaf7b8a41cfcf3fb0cd552c0ef099ce02a26437b9c57bf83560304a5f1ad1f8",
+  "recipe_sha256": "e8dcc21d328951ff420168b47843b434a518c7f1acdd41d32a4080a31d3913d0",
+  "current_full_native_XML_sha256": "2116645bd3688eb369dea170078d1e79748653443c962392c3bc7c32df667f99",
+  "reference_review_sha256": "9bbb28b5bc23ca92b75c2c39116574cdd6d13e5000e8dde85d627750cc2bbbcb",
+  "human_BOM_sha256": "d5424d0536840bd3b555c439a129c0271b19b1cfbb3b94f1e1709e57cd63f05c",
+  "all_10_numbered_nets_equal": [
+    {
+      "pin": 1,
+      "net": "GND",
+      "native_J6": "GND",
+      "native_J7": "GND"
+    },
+    {
+      "pin": 2,
+      "net": "VBUS_CHG",
+      "native_J6": "VBUS_CHG",
+      "native_J7": "VBUS_CHG"
+    },
+    {
+      "pin": 3,
+      "net": "3V3",
+      "native_J6": "3V3",
+      "native_J7": "3V3"
+    },
+    {
+      "pin": 4,
+      "net": "PACK_P",
+      "native_J6": "PACK_P",
+      "native_J7": "PACK_P"
+    },
+    {
+      "pin": 5,
+      "net": "MOTOR_ARM",
+      "native_J6": "MOTOR_ARM",
+      "native_J7": "MOTOR_ARM"
+    },
+    {
+      "pin": 6,
+      "net": "MOTOR_PWM",
+      "native_J6": "MOTOR_PWM",
+      "native_J7": "MOTOR_PWM"
+    },
+    {
+      "pin": 7,
+      "net": "DOCK_PRESENT_N",
+      "native_J6": "DOCK_PRESENT_N",
+      "native_J7": "DOCK_PRESENT_N"
+    },
+    {
+      "pin": 8,
+      "net": "I2C_SDA",
+      "native_J6": "I2C_SDA",
+      "native_J7": "I2C_SDA"
+    },
+    {
+      "pin": 9,
+      "net": "I2C_SCL",
+      "native_J6": "I2C_SCL",
+      "native_J7": "I2C_SCL"
+    },
+    {
+      "pin": 10,
+      "net": "ACCEL_INT_N",
+      "native_J6": "ACCEL_INT_N",
+      "native_J7": "ACCEL_INT_N"
+    }
+  ],
+  "candidate_parts": {
+    "housings": 2,
+    "crimp_contacts": 20,
+    "individual_starting_blanks": 10,
+    "each_blank_mm": 120,
+    "total_starting_wire_m": 1.2
+  },
+  "resistance_scenarios": [
+    {
+      "current_A": 0.3,
+      "contact_reference": "initial",
+      "assumed_each_wire_length_m": 0.12,
+      "loop_resistance_ohm": 0.13856,
+      "loop_drop_V": 0.041567999999999994,
+      "loop_loss_W": 0.012470399999999998
+    },
+    {
+      "current_A": 0.3,
+      "contact_reference": "after_environment_reference",
+      "assumed_each_wire_length_m": 0.12,
+      "loop_resistance_ohm": 0.21856,
+      "loop_drop_V": 0.065568,
+      "loop_loss_W": 0.0196704
+    },
+    {
+      "current_A": 0.5,
+      "contact_reference": "initial",
+      "assumed_each_wire_length_m": 0.12,
+      "loop_resistance_ohm": 0.13856,
+      "loop_drop_V": 0.06928,
+      "loop_loss_W": 0.03464
+    },
+    {
+      "current_A": 0.5,
+      "contact_reference": "after_environment_reference",
+      "assumed_each_wire_length_m": 0.12,
+      "loop_resistance_ohm": 0.21856,
+      "loop_drop_V": 0.10928,
+      "loop_loss_W": 0.05464
+    },
+    {
+      "current_A": 0.8,
+      "contact_reference": "initial",
+      "assumed_each_wire_length_m": 0.12,
+      "loop_resistance_ohm": 0.13856,
+      "loop_drop_V": 0.110848,
+      "loop_loss_W": 0.0886784
+    },
+    {
+      "current_A": 0.8,
+      "contact_reference": "after_environment_reference",
+      "assumed_each_wire_length_m": 0.12,
+      "loop_resistance_ohm": 0.21856,
+      "loop_drop_V": 0.174848,
+      "loop_loss_W": 0.13987840000000004
+    }
+  ],
+  "scope": "Numeric 1:1 map and illustrative power/return loop at 120mm per leg. Two mated interfaces per conductor are included. All currents are scenarios, not approved load or enclosed ratings; shared-ground current, supply minima, crimp spread, temperature rise, I2C/RF and produced wiring need bench review. Starting blanks are not finished lengths or retained service slack. No physical acceptance/purchase/human BOM edit."
+}

@@ -1,0 +1,42 @@
+{
+  "native_sha256": "2fdbc43a5dc58b0fb55874a33dc9c08fd9364c826c2c1118d70558731d64499c",
+  "geometry_report_sha256": "6b4a42f926582b6230d419d38ced1ee787f81cd1355b0ca8c28d2b582cbd7007",
+  "close_view_source_sha256": "5fb5693bef89e703e2aa6c7f612806f32c462fb231718f77d9fedba31f378e82",
+  "renderer_sha256": "1b8c8ba521cbec82f1a59f5c6768eadcc45f87252c8c5c77dbdb633c8fa6bddb",
+  "render_library_sha256": "6f53572a44b4ebc200c3e4593d17057385c7606c06d12878f88d3d2c615e7833",
+  "mesh_sha256": {
+    "KeyedOnePieceBody-section.stl": "1d9238f87db2e0f6ae599c84759cc4378de446679218cee572add68b5be0ca08",
+    "ClosingNoseCap-section.stl": "5c3be25be5499c2022a5a10baea398202bb92279ef71596e52479e3f7e8ffd5b",
+    "CarrierWithRetainingStem.stl": "ba95a41d1ffa7af5cfb1af04e58b595ac5ef976655b4c9230b61b6bcc5cd5ce0",
+    "RemovablePCBKeeper.stl": "8d877888807a8b50f65030dfef491d545809d20fa46e905b138dd43a22c5a85a",
+    "KeeperScrew_1.stl": "a754fc903dea9d257628d770f5c1ca7b112089b5ca27dd625b3cd3e3d5de252c",
+    "KeeperScrew1.stl": "7e72cc45d765aeb97ea32acd4563c2e5b98938011e65c72e9c274b24d5ad7819",
+    "BodyPCBStudy.stl": "815e6253ed332d9812e4321f89f672b92fdefae4f9cc7e95e2e74d96abfaf247",
+    "FrontComponentAllowance.stl": "3c2d4244b80f7187401f58974b47293eb1858e776eaba54b72fcb8c6fd42fac8",
+    "BackComponentAllowance.stl": "5e0c68d70108eb6365fa861183b5260df45879656f6f374b85f3ac1b31a82eb8",
+    "NarrowPackAllowance.stl": "ac246b80c25f361ae78a7ce77bb5e2f24b1a41161f208351c944659cb7a817a8",
+    "MotorMaxEnvelope.stl": "060f190715641d3f4c2ef405ef75628ce4bdb53347f6dcac29d725f2712d3ab4",
+    "TipPCB.stl": "31a34429eed0b9ed2a7f3a2d0823a56fb485ac7341b9310ea27f651699ce821b",
+    "TipComponentEnvelope.stl": "0ed31524b33fc7e19fee2ac467db08ba7e76a00f65e0f838e77d29e89ff33820",
+    "TipThermalShoe.stl": "56a6da6c666dc08152a6f053e6f393aca946b50ba0d7456c871292f3ddb2f9a3",
+    "HubLeft.stl": "72d7a1a6d163e6aba39e7a4155537e2ad272af339b058edc18e2c579597531f4",
+    "HubRight.stl": "5a0b0aef259edbc172a44b2b9140fc1394d4fb3ad5d299d7ba79191aaca9f08b",
+    "HubBolt_1.stl": "5d1496c76ed47745e1801c6aa30a8c46348dba50bc0e77bdb4427bc1972da7f5",
+    "HubBolt1.stl": "2dbac9ff36965e1b0ddbced6485b56e615deb9f21971b3cb85ec589fa817e59d",
+    "HubNut_1.stl": "b39b3895a74ee5821470094a37dd534f32790943ed2832c1f2ca59e4898c4a64",
+    "HubNut1.stl": "a68ef4d84b299f0c2b6f642adf9e2bc1d86274f6ef6ee25829f7c8b77b58add9",
+    "FlangePCBStudy.stl": "7c72e4d5209b380c047c0882e9e1649c281a453c83bcef5a4dff94a9645f0c8a",
+    "FlexibleLinkSpace.stl": "13966e22e3c51103624318861724c4f8ed0f48537eaecd6e04ce57dbf2e93f90",
+    "FlangeCoverLower.stl": "2b675cead69a5b4448be7c58fabbd7f3c566fea9196195bf63caf7f6bd850435",
+    "CloseMetalCollar.stl": "90d58d0544acc08132a2e23e7004f446e580e06afa3943d8c660947eb953571c",
+    "CloseCarrierHead.stl": "8f2b2d748a67eea747b5d37edb636c9dd3edf7525413c57b18911a4058dc9c26",
+    "CloseLinkSpace.stl": "dfdc9d8a23b7b7d706ccb26d19694a95ed32d6d94afbcc682bb48ddf088eb595"
+  },
+  "assembly_visibility_omitted": [
+    "FlangeCoverUpper",
+    "ServiceCoverReference"
+  ],
+  "close_view_omitted_hub_half": "HubRight",
+  "display_translations": {},
+  "scope": "Actual saved native meshes, native negativeZ sections and exact native close clips. No exploded offsets. Boards/components/pack/link remain budgets; nominal capture/material witnesses do not qualify loads or physical build."
+}

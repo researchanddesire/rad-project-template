@@ -1,0 +1,64 @@
+# Logical adapter topology, not a crimp-face or fabrication drawing.
+metadata:
+  title: R0 protected-pack and dual NTC adapter
+  description: PH4 main-board candidate to protected pack and two independent cell-coupled thermistors.
+  notes: Preserve PCM. Factory lead lengths are references, not final cut lengths. Shared GND splice and all terminations require a qualified assembly detail.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J2:
+    type: Main-board PH4 candidate
+    pincount: 4
+    pinlabels: [PACK_P, GND, PACK_NTC, PACK_GUARD]
+    notes: "Logical net map only.\nDo not infer mating-face orientation.\nGND fan-out needs an insulated qualified splice,\nnot three wires forced into one crimp."
+    ignore_in_bom: true
+  PACK:
+    type: Protected Bitcraze 350mAh candidate
+    pincount: 2
+    pinlabels: [Protected P+, Protected P-]
+    notes: "Retain supplied PCM and factory leads.\n51005-2P mate and polarity need received-part verification."
+    ignore_in_bom: true
+  TH1:
+    type: Vishay NTCLE413E2103F524A
+    pincount: 2
+    pinlabels: [BQ TS, GND]
+    notes: "Independent cell-coupled head.\nFactory leads52+/-5mm; preserve initially.\nAttachment/insulation/strain relief unqualified."
+    ignore_in_bom: true
+  TH2:
+    type: Vishay NTCLE413E2103F524A
+    pincount: 2
+    pinlabels: [Guard sense, GND]
+    notes: "Second independent cell-coupled head.\nFactory leads52+/-5mm; preserve initially.\nDo not substitute a fixed resistor."
+    ignore_in_bom: true
+cables:
+  W-PACK:
+    wirecount: 2
+    colors: [RD, BK]
+    type: Supplied protected-pack leads - reference only
+    length: 0.035
+    notes: "35mm factory cable INCLUDING CONNECTOR reference.\nNot a bare wire cut length or separate purchase.\nRetain supplied pair; adapter remains to detail."
+  W-TS:
+    wirecount: 2
+    colors: [WH, WH]
+    type: TH1 integral factory leads - included with thermistor
+    length: 0.052
+    notes: "Factory 52+/-5mm reference, not cut instruction.\nNonpolar head; function-label both ends."
+  W-GUARD:
+    wirecount: 2
+    colors: [WH, WH]
+    type: TH2 integral factory leads - included with thermistor
+    length: 0.052
+    notes: "Factory 52+/-5mm reference, not cut instruction.\nAdded extension/splice length remains unselected."
+connections:
+  - - J2: [1, 2]
+    - W-PACK: [1, 2]
+    - PACK: [1, 2]
+  - - J2: [3, 2]
+    - W-TS: [1, 2]
+    - TH1: [1, 2]
+  - - J2: [4, 2]
+    - W-GUARD: [1, 2]
+    - TH2: [1, 2]
+tweak:
+  append: 'graph [label="R0 / PROTECTED PACK + TWO CELL-COUPLED NTCs\nLogical topology only; JP1 remains OPEN pending bench qualification", labelloc=t, labeljust=l, fontsize=18, fontname="Arial"];'

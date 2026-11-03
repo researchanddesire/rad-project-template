@@ -1,0 +1,18 @@
+# Independent R2 layout review
+
+31 October 2026. Read-only review of board `5ba844fa…`, with its matching project and local footprint library. This is a digital layout check; fabrication and assembly remain gated.
+
+- Fresh native KiCad 7.0.7 report: **0 DRC violations, 0 unconnected items, 0 footprint errors**.
+- All **310 physical numbered pad entries**, 87 footprints and 48 nets match the connected circuit manifest.
+- USB remains on F.Cu without vias. All 5,703 sampled center/edge positions have In1 GND beneath them; In1 has no signal tracks. Impedance, ESD and physical USB operation remain unverified.
+- Frozen placement `79ea0fc6…` and all 76 recorded R0 source files remain unchanged. The copied footprint library matches R0.
+
+The relocated power clusters retain their local bypass components. **C52 has a 2.858 mm distance to its nearest GND stitch**, longer than the other converter HF bypasses. Both reviewers found no useful closer stitch without changing neighboring service/USB/power routing. This is a quantified layout limitation, without an invented numeric failure threshold; converter ripple, load steps and installed temperature still need bench checks.
+
+The complete [via/process inventory](independent-via-process-inventory-r2.json) covers 149 vias and 320 SMD copper shapes. Three drill-in-pad cases occur at **U1.17, U5.9 and U6.49**. Thirteen further annulus-only overlap pairs involve 12 other vias. The assembler must review treatment and stencil details by location; this is not an accepted fill/cap/tenting process. U7's device-specific land/stencil/reflow acceptance also remains open.
+
+The [separate full-01 antenna screen](mechanical-antenna-screen-r2.json) covers that archived CAD checkpoint only. Dock metal/magnets, actual wire copper, dielectric materials, body/clothing proximity and RF testing remain open. [CAD pose lineage](cad-pose-lineage-r2.json) preserves the physical reservation match but does not close its known static or assembly-path failures.
+
+The [wire screen](../../../design/wire-termination-screen-r2.json) identifies connector fanout and sensor-lead transition space still needed. **Battery selection remains OPEN**; a bay or PCM trip rating is not a qualified pack or continuous discharge rating. JP1 remains open and firmware motor output locked pending their documented acceptance.
+
+Full hashes, measurements, source links and scope are in the [review record](independent-electronics-review-r2.json); the [fresh native report](independent-electronics-drc-r2.rpt) and [plane geometry screen](independent-plane-geometry-r2.json) are retained alongside it. The repeatable read-only DRC runner is `tools/electronics_r2_review.py` at the repository root.

@@ -1,0 +1,116 @@
+{
+  "connector_centre_YZ_mm": [
+    -17.0,
+    -12.8
+  ],
+  "previous_connector_centre_YZ_mm": [
+    -18.8,
+    -12.4
+  ],
+  "paths": [
+    {
+      "pin": 1,
+      "role": "P1PackStockWire1",
+      "section": "stock",
+      "path_length_mm": 21.799999999999997,
+      "minimum_centreline_radius_mm": 11.0,
+      "start_xyz_mm": [
+        7.0,
+        -19.060307379214088,
+        -8.65797985667433
+      ],
+      "end_xyz_mm": [
+        -13.691755146291216,
+        -16.06030737921409,
+        -12.457979856674331
+      ]
+    },
+    {
+      "pin": 1,
+      "role": "P1PackMateWire1",
+      "section": "mate",
+      "path_length_mm": 18.028207164954477,
+      "minimum_centreline_radius_mm": 4.752871062006018,
+      "start_xyz_mm": [
+        -32.49175514629122,
+        -16.06030737921409,
+        -12.457979856674333
+      ],
+      "end_xyz_mm": [
+        -29.395132793194357,
+        -12.546491806742546,
+        -3.625526434726763
+      ]
+    },
+    {
+      "pin": 2,
+      "role": "P1PackStockWire2",
+      "section": "stock",
+      "path_length_mm": 21.799999999999997,
+      "minimum_centreline_radius_mm": 11.0,
+      "start_xyz_mm": [
+        7.0,
+        -20.939692620785905,
+        -9.34202014332567
+      ],
+      "end_xyz_mm": [
+        -13.691755146291216,
+        -17.93969262078591,
+        -13.14202014332567
+      ]
+    },
+    {
+      "pin": 2,
+      "role": "P1PackMateWire2",
+      "section": "mate",
+      "path_length_mm": 16.84664995923094,
+      "minimum_centreline_radius_mm": 4.376769722332516,
+      "start_xyz_mm": [
+        -32.49175514629122,
+        -17.939692620785912,
+        -13.142020143325668
+      ],
+      "end_xyz_mm": [
+        -29.395132793194357,
+        -15.553508193257455,
+        -4.719990893368904
+      ]
+    }
+  ],
+  "unexpected_intersections": [],
+  "named_connector_and_joint_interfaces": [
+    {
+      "a": "P1PackMateWire1",
+      "b": "PackPowerJointSpaceR37_1",
+      "intersection_mm3": 1.6964600329384885
+    },
+    {
+      "a": "P1PackMateWire2",
+      "b": "PackPowerJointSpaceR37_2",
+      "intersection_mm3": 1.6964600329384911
+    },
+    {
+      "a": "P1PackMateSpace",
+      "b": "P1PackMateWire1",
+      "intersection_mm3": 0.9091608075690786
+    },
+    {
+      "a": "P1PackMateSpace",
+      "b": "P1PackMateWire2",
+      "intersection_mm3": 0.9099701262522898
+    }
+  ],
+  "unchanged": [
+    "Metal body/cap",
+    "Boards",
+    "Hubs and retention parts",
+    "Pack body/lead roots",
+    "Body power wires",
+    "All bare tails and joints"
+  ],
+  "new_custom_parts": 0,
+  "new_fasteners": 0,
+  "scope": "Nominal revised dressing of existing conditional pack/mate envelopes. No connector or pack selected. Stock lead21.8mm / OD1.8, mating OD1.2, real bend limits, supplied usable length, insulation/termination and hand dressing need receiving/fit trials. No battery, BOM, wire rating, pull strength or physical assembly acceptance.",
+  "native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+  "builder_sha256": "8643f2455117b89304b31bdf12667cbc9b3b861128e5a33cfff0496b0e3c3b8f"
+}

@@ -1,0 +1,169 @@
+{
+  "native_sha256": "f1c0e2d0b2f5f40c52d311c62bfc8f8c66682b2e8e2aaae8b0eafbd9414ec06b",
+  "source_native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+  "builder_sha256": "e30418ec9427545222addb5d81ee6cb43b7f550b3620d98e3a052ba9ea8f7272",
+  "main_rigid_custom_parts": [
+    "MetalBody",
+    "MotorThermistorCap",
+    "FlangeTray",
+    "RearCover"
+  ],
+  "native_object_names": {
+    "MetalBody": "BodyPilot1",
+    "MotorThermistorCap": "CapCut2",
+    "FlangeTray": "TrayScrewPassage1",
+    "RearCover": "MagnetPocket1"
+  },
+  "separate_soft_part": "One silicone outer boot; detailed soft tooling not designed",
+  "standard_soft_goods": [
+    "Open-ended electrical insulation sleeve",
+    "Two cap-side foam spacers; final material and compression unqualified"
+  ],
+  "body_board_forward_shift_mm": 10,
+  "nominal_plastic_wall_mm": 1.6,
+  "shell_draft_degrees": 2,
+  "screw_boss_draft_degrees": 0.5,
+  "case_fasteners": "Two M2x20 concept, into blind rear metal pilots; thread/torque/material qualification pending",
+  "cap_thread_status": "Female thread shown as nominal clearance envelope, NOT detailed machining geometry; mating thread and seal drawing required before fabrication",
+  "clean_dome_profile": {
+    "outer_radial_mm": 18.669,
+    "outer_axial_mm": 43.1,
+    "centre_Y_mm": 55.0,
+    "tip_Y_mm": 98.1
+  },
+  "motor_pocket_diameter_mm": 11.1,
+  "motor_fit": "Nominal line-to-line reference only; actual interference not selected",
+  "tip_well_diameter_mm": 2.4,
+  "tip_well_end_Y_mm": 96.7,
+  "motor_seat_Y_mm": 93.3,
+  "minimum_potting_front_Y_mm": 94.3,
+  "magnet_axes_XZ_mm": [
+    [
+      -38.5,
+      9.5
+    ],
+    [
+      -21,
+      -10.5
+    ]
+  ],
+  "print_oriented_plastic_parts": [
+    "FlangeTray",
+    "RearCover"
+  ],
+  "unexpected_hard_part_intersections": [],
+  "electrical_changes_required": [
+    "Replace tip TMP117/I2C board with two-wire NTC analogue front end; choose part, calibration and fault handling",
+    "Add two mounting tabs/NPTHs to flange PCB and move island down1mm; route/DRC review pending",
+    "Prewire cap/body-board module; disconnect flange tails before rotation. Body board shifts10mm forward; harness/retention trial pending",
+    "Match external charging cable to revised magnet locations"
+  ],
+  "dfm_sources": [
+    "https://www.protolabs.com/resources/design-tips/improving-part-design-with-uniform-wall-thickness/",
+    "https://www.protolabs.com/resources/design-tips/improving-part-moldability-with-draft/",
+    "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135"
+  ],
+  "scope": "Manufacturing architecture study, not a build/tooling release. No old scaffold/keepers/button plungers/tip carrier/motor clamp selected. Casting/machining/fit, mould filling/ejection/fillets, material, boot/seals, full wire routing, actual printing, thermal motor bias and physical verification remain open.",
+  "part_readbacks": {
+    "MetalBody": {
+      "native_valid_single_solid": true,
+      "STEP_sha256": "896e2bccc2a51b20a83d5f0480512146497aae0a18b1c3293be2c8b74fce2a02",
+      "STEP_volume_difference_mm3": 0.003325224139189231,
+      "native_volume_mm3": 8288.318200850714
+    },
+    "MotorThermistorCap": {
+      "native_valid_single_solid": true,
+      "STEP_sha256": "f4aee171b2268130a0ec75cded44096eade637133b40442c4383ba9504996bad",
+      "STEP_volume_difference_mm3": -0.008337034947544453,
+      "native_volume_mm3": 8692.907024113403
+    },
+    "FlangeTray": {
+      "native_valid_single_solid": true,
+      "STEP_sha256": "7a7278e84de1886f74abe7f33524c1e97cd4422d784f003b44815de59fcbef92",
+      "STEP_volume_difference_mm3": 3.119566827081144e-09,
+      "native_volume_mm3": 9532.858802809327,
+      "STL_sha256": "2b8427b622d529ea51763b958b06d076dc6febadaf53cbf237d06b108c082b51",
+      "closed_mesh": true,
+      "downward_shelf_area_above_bed_mm2": 0.0,
+      "maximum_shelf_Z_mm": 0,
+      "screen_scope": "Triangle-normal screen, not slicing/printing. The small rear-cover contact-seat lips remain local bridges."
+    },
+    "RearCover": {
+      "native_valid_single_solid": true,
+      "STEP_sha256": "ca941817da56be1eace476120af514e574a801c13472ecaf5b2d17aa5ecb210b",
+      "STEP_volume_difference_mm3": 7.275957614183426e-12,
+      "native_volume_mm3": 4457.439649736819,
+      "STL_sha256": "5f9340749846e772032b670998da9e01571571b4a287a06edbcce0b9eb482c13",
+      "closed_mesh": true,
+      "downward_shelf_area_above_bed_mm2": 1.8874782803468406,
+      "maximum_shelf_Z_mm": 0.7599999904632568,
+      "screen_scope": "Triangle-normal screen, not slicing/printing. The small rear-cover contact-seat lips remain local bridges."
+    }
+  },
+  "native_readback_valid_single_solids": true,
+  "body_electronics_rotation_samples": [
+    {
+      "angle_degrees": 0,
+      "hits": []
+    },
+    {
+      "angle_degrees": 45,
+      "hits": []
+    },
+    {
+      "angle_degrees": 90,
+      "hits": []
+    },
+    {
+      "angle_degrees": 135,
+      "hits": []
+    },
+    {
+      "angle_degrees": 180,
+      "hits": []
+    },
+    {
+      "angle_degrees": 225,
+      "hits": []
+    },
+    {
+      "angle_degrees": 270,
+      "hits": []
+    },
+    {
+      "angle_degrees": 315,
+      "hits": []
+    }
+  ],
+  "rotation_scope": "Only PCB/sleeve/foam vs metal body at eight angles; no thread engagement, full loom motion, retention or physical assembly proof.",
+  "geometry_checked_native_sha256_before_view": "d4391531130ddd9daf1f07e95c26197626a5a53736bd25ef282c8ba73ac1fe2b",
+  "view_configuration": {
+    "configurator_sha256": "d0384c57a8e7770e68b559ab7f7a065e9f63707795e39d9c91ae815ed13b9a78",
+    "all_non_GUI_archive_entries_unchanged": true,
+    "visible_objects": [
+      "BodyElectronicsReference",
+      "BodyPilot1",
+      "CapCut2",
+      "ComponentReferences",
+      "FlangeElectronicsMechanicalProposal",
+      "GroundTargetReference",
+      "MagnetPocket1",
+      "MagnetReference0",
+      "MagnetReference1",
+      "MotorReferenceFitTBD",
+      "OpenEndedInsulatingSleeve",
+      "PackNTCReference1",
+      "PackNTCReference2",
+      "PositiveTargetReference",
+      "ProductParts",
+      "StandardFoamSpacerLeft",
+      "StandardFoamSpacerRight",
+      "StandardSoftGoods",
+      "TipPottingProcessSpace",
+      "TipThermistorHeadReference",
+      "TrayScrewPassage1",
+      "UnselectedPackReference"
+    ],
+    "construction_stock_and_cutters_hidden": true
+  }
+}

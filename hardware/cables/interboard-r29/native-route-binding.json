@@ -1,0 +1,68 @@
+{
+  "complete_plan_sha256": "8fceb187a68789c08da55bd3ec343397aa4a3b68d3a75f55cda3689fd28e0349",
+  "logical_review_sha256": "a8dce03a485fad0e76b5cf7af54be0de4551d37680390f03e7800f6916cefc2d",
+  "current_layout_sha256": "40e325a4760db7a84fa21f82fe97611d514cdc1e694d0d9708f398e7e0ec5c25",
+  "pins": [
+    {
+      "pin": "1",
+      "net": "GND",
+      "body_start_X_mm": -4.5,
+      "flange_end_X_mm": -33.0
+    },
+    {
+      "pin": "2",
+      "net": "VBUS_CHG",
+      "body_start_X_mm": -3.5,
+      "flange_end_X_mm": -32.0
+    },
+    {
+      "pin": "3",
+      "net": "3V3",
+      "body_start_X_mm": -2.5,
+      "flange_end_X_mm": -31.0
+    },
+    {
+      "pin": "4",
+      "net": "PACK_P",
+      "body_start_X_mm": -1.5,
+      "flange_end_X_mm": -30.0
+    },
+    {
+      "pin": "5",
+      "net": "MOTOR_ARM",
+      "body_start_X_mm": -0.5,
+      "flange_end_X_mm": -29.0
+    },
+    {
+      "pin": "6",
+      "net": "MOTOR_PWM",
+      "body_start_X_mm": 0.5,
+      "flange_end_X_mm": -28.0
+    },
+    {
+      "pin": "7",
+      "net": "DOCK_PRESENT_N",
+      "body_start_X_mm": 1.5,
+      "flange_end_X_mm": -27.0
+    },
+    {
+      "pin": "8",
+      "net": "I2C_SDA",
+      "body_start_X_mm": 2.5,
+      "flange_end_X_mm": -26.0
+    },
+    {
+      "pin": "9",
+      "net": "I2C_SCL",
+      "body_start_X_mm": 3.5,
+      "flange_end_X_mm": -25.0
+    },
+    {
+      "pin": "10",
+      "net": "ACCEL_INT_N",
+      "body_start_X_mm": 4.5,
+      "flange_end_X_mm": -24.0
+    }
+  ],
+  "scope": "All ten numeric path identities, nets and pitch-X positions match current native J6/J7; flangeX+1.5. Other exit coordinates remain the recorded mating-envelope assumptions."
+}

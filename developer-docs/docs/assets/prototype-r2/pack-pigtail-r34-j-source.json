@@ -1,0 +1,31 @@
+{
+  "native_sha256": "2e27ebfc60779b50dacf8774ee1bfd6b6bc1b72861dfe3ab52e34c6e2922fffb",
+  "geometry_report_sha256": "e06b642d86ddd7f1a9c31fd7065b246cfa2621e3a1b1d636fe33c33e3d28f9d7",
+  "saved_review_sha256": "20bf315425761ee7a545f4da530836d0cc00f95d01714b2a94394501f7d94d77",
+  "renderer_sha256": "f82d1ec95dc3ba13881f390d10fd7728079333172ed7c8e6bbcf80f324cccbc3",
+  "render_library_sha256": "6f53572a44b4ebc200c3e4593d17057385c7606c06d12878f88d3d2c615e7833",
+  "mesh_sha256": {
+    "BodyPCB_R17-body.stl": "7d4e4bfc6b8c1cc45a737aae00a898d18832f4d98aa466bbf3af728719fe2870",
+    "PCBOnlyKeeperR25-body.stl": "77afa94e31970f0a14b8902194faba4b36d6611e754fe2db7e8c888ded1a0e4c",
+    "PackWireCarrierR34-body.stl": "ef0f66205a5afe04993bbdadff67cca2de891a01979df762d2771666ba8d0293",
+    "PackPigtailWireR34_1-body.stl": "dad2736e2585ef569c51d73a5ff115ff0e8dd730b165de29642247a92ae57b90",
+    "PackBareLeadR34_1-body.stl": "b4d7af150124e199a289ca30c39a758f0333dc5e1eade1fc3c2bdaf0d1ce05d8",
+    "PackPigtailWireR34_2-body.stl": "71f87803abf3495b47d6d264e5128258120033ba1886bcd085c971ab3ea499db",
+    "PackBareLeadR34_2-body.stl": "c9efdec474dbaf763188e3f83df45e6bbc27af57977c0e0e2ff5aa9d8ce60dae",
+    "PackPigtailWireR34_3-body.stl": "8bfd266ce9fbdebe3ad1364000064786a8c7fde3868db1a66cda2954d9f776dd",
+    "PackBareLeadR34_3-body.stl": "9d750a1c6f57e1e77924182adc98ff8c530c122349f317255102f88c3b6471a6",
+    "PackPigtailWireR34_4-body.stl": "390fd657f4d4411b7e746f8eccee1602ed1d042c17de805bebdf4c515a25465e",
+    "PackBareLeadR34_4-body.stl": "1b701fedf1863eacb7d8435ce79f0105b0b5c176e5b52c905eec1d730000dcdb",
+    "PackPigtailWireR34_5-body.stl": "26c68bcce45f0bb2ca2b69990bbbddcbae31a295bd462339be23113509703946",
+    "PackBareLeadR34_5-body.stl": "5c5471dcf9a2c88a471edfb88ec38950729b7e532acc0b7be3c3ff373669bc96",
+    "PackTailLeftHubR34-neck.stl": "f2830ca0a66c16214cb5f62817b7a1a88fcdb78c6b7fa56a1c317c621964eb2a",
+    "PackTailRightHubR34-neck.stl": "89d1a226c4d23628513ca9f56907eed83d19bc04a3362955f4712f66b25c8732",
+    "PackPigtailWireR34_1-neck.stl": "a2a01423832350fa5415af90d13d50b0caf676b16cd46ba4e5dd4481554a4d98",
+    "PackPigtailWireR34_2-neck.stl": "fc9d2f0192ae7e4fee1a671dc44424c760804626cffb3fe49b2c40a807cfe60c",
+    "PackPigtailWireR34_3-neck.stl": "e18f9a23b5578cbbc3321331ee6f515a453a8a79a31c34b1f0f2d56fd519c88b",
+    "PackPigtailWireR34_4-neck.stl": "811eaee40304b559b35ddcd8642ca9f3c8d93c2869ff0a15e9ca18c3e74cd9af",
+    "PackPigtailWireR34_5-neck.stl": "3f9189bb7b66b3756cb6a94f53dcd3ac7335aafa68a34c0a4a63dbc9c4cb3fa4"
+  },
+  "display_transform": "(x,y,z)->(x,z,-y); no relative transforms",
+  "scope": "Actual native context clips. Component boxes and exterior omitted; wire swept allowances and bare-tail process envelopes only. Full harness and physical qualification unfinished."
+}

@@ -1,0 +1,225 @@
+(kicad_sch
+  (version 20230121)
+  (generator split_schematic_r14)
+  (uuid 2744a34a-d704-5736-aae7-23d77cfb07f3)
+  (paper "A3")
+  (title_block
+    (title "Cell-coupled dual NTCs")
+    (date "2026-11-01")
+    (rev "R28 candidate")
+    (company "Research and Desire")
+    (comment 1 "ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"))
+  (lib_symbols
+    (symbol
+      "PrototypeR0:AO3400A"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "AO3400A" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Charge-enable sink, not a power-path switch. SOT23 gate1 source2 drain3; candidate requires board-temperature off-state qualification"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "AO3400A_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "AO3400A_1_1"
+        (pin input line (at -20.32 2.54 0) (length 5.08) (name "G" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 20.32 2.54 180) (length 5.08) (name "D" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 20.32 -2.54 180) (length 5.08) (name "S" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:C"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "C" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol
+        "C_0_1"
+        (polyline (pts (xy -2.54 0.762) (xy 2.54 0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy -2.54 -0.762) (xy 2.54 -0.762)) (stroke (width 0.3) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 3.81) (xy 0 0.762)) (stroke (width 0.254) (type default)) (fill (type none)))
+        (polyline (pts (xy 0 -0.762) (xy 0 -3.81)) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "C_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:Conn2"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "Conn2" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Logical connector pin numbering; physical connector and footprint not selected"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "Conn2_0_1" (rectangle (start -15.24 7.62) (end 15.24 -7.62) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "Conn2_1_1"
+        (pin passive line (at -20.32 2.54 0) (length 5.08) (name "1" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -2.54 0) (length 5.08) (name "2" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:NTC"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "NTC" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.vishay.com/docs/29078/ntcle413.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "NTC_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "NTC_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:R"
+      (pin_names hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R" (at 3.81 1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "R" (at 3.81 -1.27 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (symbol "R_0_1" (rectangle (start -1.27 3.81) (end 1.27 -3.81) (stroke (width 0.254) (type default)) (fill (type none))))
+      (symbol
+        "R_1_1"
+        (pin passive line (at 0 5.08 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at 0 -5.08 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:TPS3700DDCR"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "TPS3700DDCR" (at 0 15.239999999999998 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3700.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Independent NTC window: OUTA low on hot/undervoltage; OUTB low on cold/overvoltage"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "TPS3700DDCR_0_1" (rectangle (start -15.24 12.7) (end 15.24 -12.7) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "TPS3700DDCR_1_1"
+        (pin input line (at -20.32 7.62 0) (length 5.08) (name "INA+" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 2.54 0) (length 5.08) (name "INB-" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 7.62 180)
+          (length 5.08)
+          (name "OUTA" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 2.54 180)
+          (length 5.08)
+          (name "OUTB" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -2.54 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -7.62 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))))
+    (symbol
+      "PrototypeR0:TPS3808G33DBVR"
+      (pin_names (offset 0.762))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U" (at 0 15.24 0) (effects (font (size 1.27 1.27))))
+      (property "Value" "TPS3808G33DBVR" (at 0 12.7 0) (effects (font (size 1.27 1.27))))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3808.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+      (property
+        "ki_description"
+        "Dock-powered 3V3 monitor; G33 3.07V threshold +/-1.5%; CT open gives12..28ms reset delay"
+        (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide))
+      (symbol "TPS3808G33DBVR_0_1" (rectangle (start -15.24 10.16) (end 15.24 -10.16) (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol
+        "TPS3808G33DBVR_1_1"
+        (pin input line (at -20.32 5.08 0) (length 5.08) (name "SENSE" (effects (font (size 1.016 1.016)))) (number "5" (effects (font (size 1.016 1.016)))))
+        (pin input line (at -20.32 0.0 0) (length 5.08) (name "~{MR}" (effects (font (size 1.016 1.016)))) (number "3" (effects (font (size 1.016 1.016)))))
+        (pin passive line (at -20.32 -5.08 0) (length 5.08) (name "CT" (effects (font (size 1.016 1.016)))) (number "4" (effects (font (size 1.016 1.016)))))
+        (pin
+          open_collector
+          line
+          (at 20.32 5.08 180)
+          (length 5.08)
+          (name "~{RESET}" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 0.0 180) (length 5.08) (name "VDD" (effects (font (size 1.016 1.016)))) (number "6" (effects (font (size 1.016 1.016)))))
+        (pin power_in line (at 20.32 -5.08 180) (length 5.08) (name "GND" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016))))))))
+  (sheet_instances (path "/" (page "1")))
+  (symbol
+    (lib_id "PrototypeR0:NTC")
+    (at 40.64 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid 02791fa6-4946-591a-98a2-89e445811c05)
+    (property "Reference" "TH1" (at 49.53 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "NTCLE413E2103F524A" (at 49.53 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/29078/ntcle413.pdf" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "EXTERNAL_PACK" (at 40.64 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "External dry sealed-cavity cell-mounted10k1% sensor. Native BQ TS backup, not sole0..45C guard; no immersion/hardpotting/overmolding per Vishay"
+      (at 40.64 350.52 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid f3fd8516-2b18-540c-9e8b-c1d4acd2cf61))
+    (pin "2" (uuid 2b862b7d-3676-5d5f-bcd8-0cd6526ac60c))
+    (instances (project "system-r35" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2744a34a-d704-5736-aae7-23d77cfb07f3" (reference "TH1") (unit 1)))))
+  (wire (pts (xy 40.64 345.44) (xy 40.64 340.36)) (stroke (width 0) (type default)) (uuid f28f4208-f066-56d3-82f9-2dbd2841eeeb))
+  (global_label "PACK_NTC" (shape input) (at 40.64 340.36 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 848d6777-f8cc-5573-9f0e-688e85130359))
+  (wire (pts (xy 40.64 355.6) (xy 40.64 360.68)) (stroke (width 0) (type default)) (uuid 90dfde03-24eb-5854-9473-4d6935979c39))
+  (global_label "GND" (shape input) (at 40.64 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid 8fb641f6-e427-52d7-8dae-8a04b0ec90ae))
+  (symbol
+    (lib_id "PrototypeR0:NTC")
+    (at 238.76 350.52 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid 90c0af08-4934-5412-a06f-fe8a0144ca88)
+    (property "Reference" "TH2" (at 247.64999999999998 349.25 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "NTCLE413E2103F524A" (at 247.64999999999998 351.78999999999996 0) (effects (font (size 1.016 1.016)) (justify left)))
+    (property "Footprint" "" (at 238.76 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.vishay.com/docs/29078/ntcle413.pdf" (at 238.76 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "DesignStatus" "CANDIDATE — NOT RELEASED" (at 238.76 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property "AssemblyDomain" "EXTERNAL_PACK" (at 238.76 350.52 0) (effects (font (size 1.27 1.27)) hide))
+    (property
+      "ReviewNote"
+      "Second independent cell-mounted sensor; published full Rmin/Rmax curve used. Same mechanical restrictions and physical bond review as TH1"
+      (at 238.76 350.52 0)
+      (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 1edee587-4ac3-5d84-b3b1-792b3ee27622))
+    (pin "2" (uuid 443ce3ae-1264-58d0-b5fc-0b44b4006154))
+    (instances (project "system-r35" (path "/b0765cff-5edc-5370-a16a-6618602c4cf4/2744a34a-d704-5736-aae7-23d77cfb07f3" (reference "TH2") (unit 1)))))
+  (wire (pts (xy 238.76 345.44) (xy 238.76 340.36)) (stroke (width 0) (type default)) (uuid 10eff76a-25a5-5d4c-b97a-7747b97b3c4d))
+  (global_label
+    "PACK_GUARD"
+    (shape input)
+    (at 238.76 340.36 0)
+    (effects (font (size 1.016 1.016)) (justify left))
+    (uuid 72fc478e-ec23-5de3-b241-70510dbc75b2))
+  (wire (pts (xy 238.76 355.6) (xy 238.76 360.68)) (stroke (width 0) (type default)) (uuid 2d622730-c302-5467-9976-b65724aa2eeb))
+  (global_label "GND" (shape input) (at 238.76 360.68 0) (effects (font (size 1.016 1.016)) (justify left)) (uuid cc8ea5cd-c8d8-55cc-aa44-7f074da2c37d))
+  (text
+    "Cell-coupled dual NTCs / partitioned native R0 circuit; physical placement R12I. No fabrication or operating release."
+    (at 15.24 15.24 0)
+    (effects (font (size 1.524 1.524)) (justify left top))
+    (uuid 6a2f89ea-7dc1-5d93-b55a-a43816a1b0a8)))

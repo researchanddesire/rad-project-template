@@ -1,0 +1,36 @@
+{
+  "native_sha256": "a1e9963c264933419c94defc74b6bccd25e6083ba9e621b15f1e31530ecf69fe",
+  "geometry_report_sha256": "cedc43c64d970087537a9c4f4696f2ec1fa9f50870c14e22639a4ee196b00fef",
+  "saved_review_sha256": "94db68688946efd6cc7be79228ba90468d97b281e8928c2cb4c986aed88f6e14",
+  "source_R27_native_sha256": "ba6c161cce1285996c7b354699b585e58fc1baab7ea102cc1132a9bf79f75b2d",
+  "source_meshes_sha256": {
+    "BodyPCB_R17.stl": "7d4e4bfc6b8c1cc45a737aae00a898d18832f4d98aa466bbf3af728719fe2870",
+    "R17_J6.stl": "069029dc8ba10e886bd987bb5444464c824f4a814ad7d52df69fca58157e3b1c",
+    "R17Mate_J6.stl": "e50725cc9b185e74a7958402ea6274344b1bd874b2d8dc907040e384c4d83abb",
+    "FlangePCB_R17.stl": "7181684043bac81323b99ceb0a1d29607cfe24099b1d434b8977763d1d5f1f01",
+    "R17_J7.stl": "803d7a1682570d3113b5737f2898b72961dc1df79898db77b93947e4d51c6225",
+    "R17Mate_J7.stl": "2a79473135bcc56c3335d3be93fe0ab9e545bc02e48701fb8fdebdf440bec00d",
+    "FlangeSupportHubR27.stl": "3f14daf8979b71814750e5e8589bc636981997b72689214d362f21aa09744f73",
+    "HubRight.stl": "ce2c18f30f4a44d6c78b110693c025b4f8cea138b2d0f9af0c63bafe4807b82d",
+    "R17_U6.stl": "684cda33e9a4fb1a7be09ddc00d0098111c8cb261330ef6cf38e872b01d8f6cf",
+    "FlangeEndKeeperR27.stl": "f409377ac8e1c54cb7266c27f893979083d1170aee28e74f16feacdf2f92c114",
+    "FlangeKeeperScrewEnvelopeR27.stl": "d22f6f997a5d59bb5faf4a35b9fe18e7ec77a541694c334470dfbb86fcd701b0"
+  },
+  "wire_meshes_sha256": {
+    "InterboardWireR29_1.stl": "183b1ba77e339b6bb2a06154db87e5a74cd37d3991ac147d67393ba8b5d008da",
+    "InterboardWireR29_2.stl": "b704f7d8e8ff1d3e3734925c0c29313fe06671cd5cfe78d12704fdc70c5d79f6",
+    "InterboardWireR29_3.stl": "e6e5473ac1d581a7f18a770fcc76d1121c608ea2848b4c4f01fd7e1bbe721bd9",
+    "InterboardWireR29_4.stl": "c5fcd200d8ff6ff173ea12fd91a0e803152d7637490f031730d3c6bf6e224c8a",
+    "InterboardWireR29_5.stl": "3f0191730396c521fa820c59d8084ff947675f0d46d79d794bbc321b9cbc41fa",
+    "InterboardWireR29_6.stl": "523065254cbb6427418d9b15c9fe7ebaefeedbecd745d607fdce6749d95ba838",
+    "InterboardWireR29_7.stl": "2c6602a74b593564e3651177878b5c3882912f583c79595b1749e8365e40d4ab",
+    "InterboardWireR29_8.stl": "d8bf3bb65894119b3913b71db4d659473ffe2009619c1da9db145ad1a9987c0c",
+    "InterboardWireR29_9.stl": "65c3b95f8b895ec4184ca8fb83ed0088a1fd275e0dfc8ce3e178d38bc817e338",
+    "InterboardWireR29_10.stl": "4ebd04b19112e62eb908cfce0dbe51cbf9d6d6423bea4c83b0356d7b723f9565"
+  },
+  "renderer_sha256": "71f89352a3d60b8dd6572d42a52cbd76851994ba78e902cf0566866cde7e230f",
+  "render_library_sha256": "6f53572a44b4ebc200c3e4593d17057385c7606c06d12878f88d3d2c615e7833",
+  "display_translations": {},
+  "flange_panel_wire_triangle_filter": "All vertices Y<-8mm; open crop without invented cap surfaces.",
+  "scope": "Actual native meshes in saved positions; body/covers omitted. Pin colours illustrative. No supported harness, physical or moving-assembly acceptance."
+}

@@ -1,0 +1,200 @@
+{
+  "builder_sha256": "5461f0ef72bd5f631f4dccfa8ae7507af2e7122ee929a62ddb51d6f75bac57d8",
+  "source_R28_body_sha256": "19f0c9b20d4b6e6c43636076531297af3eab12effb196b8ce46c807de477491b",
+  "native_body_sha256": "f5197510b9d01019345c8e17eaf2ab6aae7d94efe5426e61ad91dc2ad79fb88a",
+  "flange_byte_identical_to_R28": true,
+  "source_J2_original_pad_rows": {
+    "1": {
+      "xy_mm": [
+        -1.985,
+        42.75
+      ],
+      "net": "PACK_P",
+      "size_mm": [
+        0.6,
+        1.0
+      ]
+    },
+    "2": {
+      "xy_mm": [
+        -1.985,
+        41.25
+      ],
+      "net": "GND",
+      "size_mm": [
+        0.6,
+        1.0
+      ]
+    },
+    "3": {
+      "xy_mm": [
+        -1.985,
+        39.75
+      ],
+      "net": "PACK_NTC",
+      "size_mm": [
+        0.6,
+        1.0
+      ]
+    },
+    "4": {
+      "xy_mm": [
+        -1.985,
+        38.25
+      ],
+      "net": "PACK_GUARD",
+      "size_mm": [
+        0.6,
+        1.0
+      ]
+    }
+  },
+  "current_J2_pad_rows": [
+    {
+      "number": "1",
+      "xy_mm": [
+        -1.985,
+        42.75
+      ],
+      "net": "PACK_P",
+      "size_local_mm": [
+        0.6,
+        1.0
+      ],
+      "paste_present": false
+    },
+    {
+      "number": "2",
+      "xy_mm": [
+        -1.985,
+        41.25
+      ],
+      "net": "GND",
+      "size_local_mm": [
+        0.6,
+        1.0
+      ],
+      "paste_present": false
+    },
+    {
+      "number": "3",
+      "xy_mm": [
+        -1.985,
+        39.75
+      ],
+      "net": "PACK_NTC",
+      "size_local_mm": [
+        0.6,
+        1.0
+      ],
+      "paste_present": false
+    },
+    {
+      "number": "4",
+      "xy_mm": [
+        -1.985,
+        38.25
+      ],
+      "net": "PACK_GUARD",
+      "size_local_mm": [
+        0.6,
+        1.0
+      ],
+      "paste_present": false
+    },
+    {
+      "number": "2",
+      "xy_mm": [
+        -2.2,
+        41.9
+      ],
+      "net": "GND",
+      "size_local_mm": [
+        0.5,
+        0.5
+      ],
+      "paste_present": false
+    }
+  ],
+  "J2_position_mm": [
+    -4.78,
+    40.5
+  ],
+  "J2_angle_deg": -90.0,
+  "physical_lands": 5,
+  "logical_pins": 4,
+  "all_original_J2_electrical_pad_centres_and_nets_retained": true,
+  "original_route_count": 2458,
+  "added_GND_tracks": [
+    "{\"end\": [-1.985, 41.25], \"kind\": \"track\", \"layer\": \"F.Cu\", \"net\": \"GND\", \"start\": [-2.2, 41.9], \"width\": 0.3}"
+  ],
+  "all_other_footprint_IDs_before": {
+    "U1": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R44": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "R45": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "J3": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R47": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "R25": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R46": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C29": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "J5": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R5": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C44": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C3": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R4": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "U5": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "R1": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R41": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R3": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C28": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "J6": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C30": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "Q1": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R48": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "JP1": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C1": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C2": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R2": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C27": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C54": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C26": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C15": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C53": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C16": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C21": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C22": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C52": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C41": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C14": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R22": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "R12": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "U9": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "U3": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C11": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "U8": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C24": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C42": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R21": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "U2": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "L2": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R26": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R11": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "R24": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C25": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R23": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "L1": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "R42": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R13": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C51": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "U7": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "C43": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "C12": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C13": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >",
+    "R43": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1b0> >",
+    "U4": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d1e0> >",
+    "C23": "<pcbnew.LIB_ID; proxy of <Swig Object of type 'LIB_ID *' at 0x11322d150> >"
+  },
+  "native_library_sha256": "e3637bc8504f6e72526e7310f4afee1ff29486212ea1be20ff01dc80a3f11889",
+  "source_rules_changed": false,
+  "scope": "Local hand-solder interface variant only: header removed, four original electrical lands retained without paste, two unnetted MP lands removed, one second pad2 GND land plus one0.3mm GND track added. Header is not DNP hardware; J2 now represents copper lands and is excluded from component BOM. Existing circuit topology intended unchanged; fresh native netlist/DRC/footprint/pose/copper and solder/process/strain relief/loading checks still required. BatteryOPEN and humanBOMunchanged."
+}

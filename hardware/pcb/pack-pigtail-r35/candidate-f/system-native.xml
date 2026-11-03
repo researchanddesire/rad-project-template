@@ -1,0 +1,2721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/pack-pigtail-r35/candidate-f/system-r35.kicad_sch</source>
+    <date>2026 November 02, Monday 00:27:08</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Buttplug R28 / system</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>system-r35.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Body electronics/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/">
+      <title_block>
+        <title>Buttplug R28 / body</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>body-r35.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/">
+      <title_block>
+        <title>Body / dock and power interfaces</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>01-power.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/">
+      <title_block>
+        <title>Body / regulated motor and inhibit</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>02-motor.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Body electronics/Body / motion and tip connector/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9/">
+      <title_block>
+        <title>Body / motion and tip connector</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>04-sensors.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/">
+      <title_block>
+        <title>Body / independent charge permission</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>05-charge-guard.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Body electronics/Interboard connection/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/85304e0d-e789-5146-ac79-f7c2ec838d2a/">
+      <title_block>
+        <title>Body / interboard J6–J7 numeric mapping</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>06-interboard.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Flange electronics/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/">
+      <title_block>
+        <title>Buttplug R28 / flange</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>flange-r35.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Flange electronics/Flange / dock and power interfaces/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089/">
+      <title_block>
+        <title>Flange / dock and power interfaces</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>01-power.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/">
+      <title_block>
+        <title>Flange / radio, local controls and service</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>03-control.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Flange electronics/Interboard connection/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/dc32a3fb-37c9-5a8a-965e-060f668f25a1/">
+      <title_block>
+        <title>Flange / interboard J6–J7 numeric mapping</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>06-interboard.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/Remote tip/" tstamps="/f2e53901-fdd6-5e3c-8206-d72b72f8de5e/">
+      <title_block>
+        <title>Remote tip</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>external-04-sensors.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/Cell-coupled dual NTCs/" tstamps="/2744a34a-d704-5736-aae7-23d77cfb07f3/">
+      <title_block>
+        <title>Cell-coupled dual NTCs</title>
+        <company>Research and Desire</company>
+        <rev>R28 candidate</rev>
+        <date>2026-11-01</date>
+        <source>external-05-charge-guard.kicad_sch</source>
+        <comment number="1" value="ROUTED CANDIDATE / BENCH REVIEW / NOT FABRICATION RELEASE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF 10V X7R</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>c79ac9b5-e543-5575-be78-b1104662623e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>8808c81e-0c29-5d4d-8753-be6588fa9f9e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>1da1fa47-fec5-5ed1-84ed-a653ff9b208c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Paired input capacitors give2x10uF nominal total</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Paired input capacitors give2x10uF nominal total"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>6054ab88-2cb8-5cec-a9ac-5cbcafdc2f32</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>cc178f1a-c66e-50d4-8e39-6ec01b495b68</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>22uF 10V X7R</value>
+      <footprint>PrototypeR0:Murata_GRM31_1206_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">66uF nominal total; effective DC-biased output capacitance must meet TI requirements</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="66uF nominal total; effective DC-biased output capacitance must meet TI requirements"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>ec74d65d-ecd0-58ec-bee1-dc7aa28cdd4d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22uF 10V X7R</value>
+      <footprint>PrototypeR0:Murata_GRM31_1206_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">66uF nominal total; effective DC-biased output capacitance must meet TI requirements</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="66uF nominal total; effective DC-biased output capacitance must meet TI requirements"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>facc142b-2a58-5b4b-9f5e-2ff054e83ca2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22uF 10V X7R</value>
+      <footprint>PrototypeR0:Murata_GRM31_1206_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">66uF nominal total; effective DC-biased output capacitance must meet TI requirements</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="66uF nominal total; effective DC-biased output capacitance must meet TI requirements"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>c156fef1-4be1-5485-af55-389960796c59</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>a486063e-72e9-5b41-b2c6-fb1fca2bb3d3</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>10uF 10V X5R 0603 HF</value>
+      <footprint>PrototypeR0:TDK_C1608_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review."/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>9e0d2477-c2c4-5c51-aeac-611601a0db81</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>10uF 10V X5R 0603 HF</value>
+      <footprint>PrototypeR0:TDK_C1608_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review."/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>38c6b0c6-83bd-5555-aaab-3e08caa96bce</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PACK_PIGTAIL_4NET_5LAND</value>
+      <footprint>PackPigtailR35:Pack_Pigtail_4Net_5Land</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Copper-only hand-solder interface; do not populate the former Pico-Lock header. Original logical pins1PACK_P,2GND,3PACK_NTC,4PACK_GUARD preserved. Two distinct pad2 lands: original2P power return; new2S at mechanicalXY[-2.2,41.9] for separate NTC return. Join returns only on body PCB. Actual wire, solder/strain relief/loading qualification required; batteryOPEN.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn4" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Copper-only hand-solder interface; do not populate the former Pico-Lock header. Original logical pins1PACK_P,2GND,3PACK_NTC,4PACK_GUARD preserved. Two distinct pad2 lands: original2P power return; new2S at mechanicalXY[-2.2,41.9] for separate NTC return. Join returns only on body PCB. Actual wire, solder/strain relief/loading qualification required; batteryOPEN."/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>d1d75cc9-9f0d-5f68-9d00-f1809366b186</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1.5uH / Isat&gt;=4A candidate</value>
+      <footprint>PrototypeR0:L_Coilcraft_XxL4020</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Select vendor part and validate saturation, DCR and converter transient response</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="L" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Select vendor part and validate saturation, DCR and converter transient response"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>7c26fd71-ff5e-5650-b2f2-2b1e5a3f6e13</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>8.87k 1% / ~100mA</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW04028K87BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW04028K87BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>149a2210-cc5e-57e8-92fa-ae0c880aee38</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>3.24k 1%</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">ILIM resistor required; fixed USB500 mode selected by EN pins; TNPW04023K24BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="ILIM resistor required; fixed USB500 mode selected by EN pins; TNPW04023K24BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>60c17179-0f38-5488-8be8-97c4e82e6e42</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW040210K0BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW040210K0BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>d4562c68-4ab7-517c-85f3-d2ef605af66c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW040210K0BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW040210K0BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>444fe257-d0e1-568a-9b9d-50d55cdd63e8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW040210K0BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW040210K0BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>adf987a6-e90d-5cf9-974d-cf2d603e6fc9</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>312k 0.1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>a619768f-91cf-5974-9a57-52d6edea3330</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100k 0.1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>cae750e7-449a-57e8-8a3a-83a78bfdcf35</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">10k supply tie per TPS63070 §11; U2 EN shares REG1_PS after R13. U3 EN is GPIO-driven separately. High permits power save</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="10k supply tie per TPS63070 §11; U2 EN shares REG1_PS after R13. U3 EN is GPIO-driven separately. High permits power save"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>cc033917-10d9-5f07-816c-987e3b1bc4d4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BQ24074RGT candidate</value>
+      <footprint>PrototypeR0:TI_RGT0016C_3x3mm_BQ24074_EP1.68mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq24074.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">EN1=1 EN2=0 USB500 input limit; TMR/ITERM intentionally open for factory defaults; CE high disables charge</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="BQ24074RGT" description="1S 4.2V charger with power path; not a substitute for pack protection"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="EN1=1 EN2=0 USB500 input limit; TMR/ITERM intentionally open for factory defaults; CE high disables charge"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <property name="ki_description" value="1S 4.2V charger with power path; not a substitute for pack protection"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>8f8d4bd8-ed1a-5da3-8553-372e47c0a63c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS63070RNM candidate</value>
+      <footprint>PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps63070.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">PS/SYNC high enables PFM; FB2 open, VSEL low. RNM15 candidate land pattern reviewed; common7/8 and12/13 copper pairs share nets; layout not released</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="TPS63070RNM" description="Adjustable buck boost; 3.6A switch is not guaranteed motor current"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="PS/SYNC high enables PFM; FB2 open, VSEL low. RNM15 candidate land pattern reviewed; common7/8 and12/13 copper pairs share nets; layout not released"/>
+      <property name="Sheetname" value="Body / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <property name="ki_description" value="Adjustable buck boost; 3.6A switch is not guaranteed motor current"/>
+      <sheetpath names="/Body electronics/Body / dock and power interfaces/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>d3a46587-73f6-5318-aacf-f49f581af9a9</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Paired input capacitors give2x10uF nominal total</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Paired input capacitors give2x10uF nominal total"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>315fa297-a9a3-5f38-b04a-1e742ed8447d</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>e4700383-66f2-5b13-936d-72e1ffcaf5c0</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>22uF 10V X7R</value>
+      <footprint>PrototypeR0:Murata_GRM31_1206_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">66uF nominal total; effective DC-biased output capacitance must meet TI requirements</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="66uF nominal total; effective DC-biased output capacitance must meet TI requirements"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>c6ba685d-4631-58ce-9d0a-1911b7368563</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>22uF 10V X7R</value>
+      <footprint>PrototypeR0:Murata_GRM31_1206_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">66uF nominal total; effective DC-biased output capacitance must meet TI requirements</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="66uF nominal total; effective DC-biased output capacitance must meet TI requirements"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>e0fa58fc-5072-5fbf-96ce-230c464bbe2a</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>22uF 10V X7R</value>
+      <footprint>PrototypeR0:Murata_GRM31_1206_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">66uF nominal total; effective DC-biased output capacitance must meet TI requirements</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="66uF nominal total; effective DC-biased output capacitance must meet TI requirements"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>caa392b1-7175-57fe-bac1-f21bd85c6148</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100nF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>10cf9935-eec3-5b93-a4c0-9b70572bbdc9</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>476aef07-6610-5b29-97cb-c3115df05e54</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>PrototypeR0:C_0402_1005Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&amp;partno=GRM155R71C104KA88%23</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">GRM155R71C104KA88D 0402 candidate; same100nF/16V/X7R/10percent nominal; installed bias/assembly/availability review pending</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="GRM155R71C104KA88D 0402 candidate; same100nF/16V/X7R/10percent nominal; installed bias/assembly/availability review pending"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>9b3cb04a-7a19-53c2-95a9-4a6b622bca6a</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100nF</value>
+      <footprint>PrototypeR0:C_0402_1005Metric</footprint>
+      <datasheet>https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&amp;partno=GRM155R71C104KA88%23</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">GRM155R71C104KA88D 0402 candidate; same100nF/16V/X7R/10percent nominal; installed bias/assembly/availability review pending</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="GRM155R71C104KA88D 0402 candidate; same100nF/16V/X7R/10percent nominal; installed bias/assembly/availability review pending"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>3617a50e-1531-5f2e-9be6-484b2e92ad59</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>47uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM32_1210_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>20dac788-1a20-55f2-823a-20bfa2310323</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>10uF 10V X5R 0603 HF</value>
+      <footprint>PrototypeR0:TDK_C1608_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review."/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>c9239726-9dbc-5a1b-b22f-09555b6bb1d9</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>10uF 10V X5R 0603 HF</value>
+      <footprint>PrototypeR0:TDK_C1608_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TDK C1608X5R1A106K080AC production candidate; 10uF10VX5R10%. Separate small-case HF bypass per TI§11; place directly VIN/PGND or VOUT/PGND. DC bias/effective C and mounted loop need review."/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>250f2576-d668-5a81-ab85-2c1715d8d737</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>MOTOR_2PIN</value>
+      <footprint>PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Motor part/polarity, connector, wire gauge and startup/stall behavior unconfirmed</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn2" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Motor part/polarity, connector, wire gauge and startup/stall behavior unconfirmed"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>d491b418-e0cb-523f-a4b2-5055773ffba2</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>1.5uH / Isat&gt;=4A candidate</value>
+      <footprint>PrototypeR0:L_Coilcraft_XxL4020</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Select vendor part and validate saturation, DCR and converter transient response</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="L" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Select vendor part and validate saturation, DCR and converter transient response"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>c7f801b1-bc89-5d6b-bd99-946ce397af5c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>362k 0.1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0805_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>dedb8688-4dd1-571d-a159-21ee3c4ea12b</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100k 0.1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>bfb0c229-ea99-5479-8241-fb0cef810340</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100k</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW0402100KBEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW0402100KBEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>9c149955-3c62-5b6e-a7ab-91de92795b36</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW0402100KBEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW0402100KBEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>8414a7fc-8de0-5b42-b391-b7c9520fc30f</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100k</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW0402100KBEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW0402100KBEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>1c99e9f9-440b-5614-819b-df70120e14f6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">10k supply tie per TPS63070 §11; U2 EN shares REG1_PS after R13. U3 EN is GPIO-driven separately. High permits power save</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="10k supply tie per TPS63070 §11; U2 EN shares REG1_PS after R13. U3 EN is GPIO-driven separately. High permits power save"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>fcb637fb-3056-5977-960d-2868ae2609dd</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS63070RNM candidate</value>
+      <footprint>PrototypeR0:TI_RNM0015A_2.5x3mm_TPS63070</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps63070.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">PS/SYNC high enables PFM; FB2 open, VSEL low. RNM15 candidate land pattern reviewed; common7/8 and12/13 copper pairs share nets; layout not released</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="TPS63070RNM" description="Adjustable buck boost; 3.6A switch is not guaranteed motor current"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="PS/SYNC high enables PFM; FB2 open, VSEL low. RNM15 candidate land pattern reviewed; common7/8 and12/13 copper pairs share nets; layout not released"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <property name="ki_description" value="Adjustable buck boost; 3.6A switch is not guaranteed motor current"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>d7a5e305-ba87-5f6c-8c85-183a4bf24cd6</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC1G11DBV candidate</value>
+      <footprint>PrototypeR0:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="SN74LVC1G11DBV" description="Hardware motor PWM AND arm AND valid-input-absent"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <property name="ki_description" value="Hardware motor PWM AND arm AND valid-input-absent"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>0ce2e7b9-7794-5e62-9b32-6dd14957fa55</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>DRV8212DSG candidate</value>
+      <footprint>PrototypeR0:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/drv8212.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">PWM mode, IN2 low. IN1 low=&gt;coast/HiZ/autosleep; high=&gt;forward. No fault/status output or adjustable motor-current limit</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="DRV8212DSG" description="DSG package; PWM mode MODE=0; both inputs0 coast/autosleep"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="PWM mode, IN2 low. IN1 low=&gt;coast/HiZ/autosleep; high=&gt;forward. No fault/status output or adjustable motor-current limit"/>
+      <property name="Sheetname" value="Body / regulated motor and inhibit"/>
+      <property name="Sheetfile" value="02-motor.kicad_sch"/>
+      <property name="ki_description" value="DSG package; PWM mode MODE=0; both inputs0 coast/autosleep"/>
+      <sheetpath names="/Body electronics/Body / regulated motor and inhibit/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b8c43e72-8c22-5c36-9d80-3221cde0c8a3/"/>
+      <tstamps>124db40c-57f7-5a02-a642-d3df7be57ab5</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>100nF</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Local VDD bypass; place at U7</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Local VDD bypass; place at U7"/>
+      <property name="Sheetname" value="Body / motion and tip connector"/>
+      <property name="Sheetfile" value="04-sensors.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / motion and tip connector/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9/"/>
+      <tstamps>a7e863d8-4595-5e2a-8ae3-99509518953c</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>100nF</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Local VDDIO bypass; place at U7</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Local VDDIO bypass; place at U7"/>
+      <property name="Sheetname" value="Body / motion and tip connector"/>
+      <property name="Sheetfile" value="04-sensors.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / motion and tip connector/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9/"/>
+      <tstamps>8e309858-07aa-50a9-b195-d0cd18ac8722</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>MAIN_TIP_HARNESS</value>
+      <footprint>PrototypeR0:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Physical connector and cable specification open; pin numbering matches remoteJ101</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn4" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Physical connector and cable specification open; pin numbering matches remoteJ101"/>
+      <property name="Sheetname" value="Body / motion and tip connector"/>
+      <property name="Sheetfile" value="04-sensors.kicad_sch"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Body electronics/Body / motion and tip connector/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9/"/>
+      <tstamps>0b01805a-df79-5e18-8e00-dee44995a74f</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>4.7k</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW04024K70BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW04024K70BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / motion and tip connector"/>
+      <property name="Sheetfile" value="04-sensors.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / motion and tip connector/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9/"/>
+      <tstamps>48f33282-d074-5a24-ab0d-c320a211c892</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>MC3635 candidate /0x4C</value>
+      <footprint>PrototypeR0:MEMSIC_MC3635_LGA10_1.6x1.6mm_P0.4mm</footprint>
+      <datasheet>https://www.memsic.com/Public/Uploads/uploadfile/files/20220119/MC3635Datasheet.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Firmware must perform required startup writes; INT polarity/open-drain configurable, default not assumed</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="MC3635" description="I2C address0x4C; VPP grounded; CSN high; configure active-low open-drain INTN"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Firmware must perform required startup writes; INT polarity/open-drain configurable, default not assumed"/>
+      <property name="Sheetname" value="Body / motion and tip connector"/>
+      <property name="Sheetfile" value="04-sensors.kicad_sch"/>
+      <property name="ki_description" value="I2C address0x4C; VPP grounded; CSN high; configure active-low open-drain INTN"/>
+      <sheetpath names="/Body electronics/Body / motion and tip connector/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/b15d875f-146d-5544-a6ac-9749a7465aa9/"/>
+      <tstamps>9b7ab773-0d49-5547-9cb5-d9d0f0a61fb1</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>100nF</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>eed631ad-6365-53f5-981a-16dd36d4f6da</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>100nF</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>947b1e60-818d-52bd-825e-d00becad3da0</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>CHARGE_PERMISSION / OPEN</value>
+      <footprint>PrototypeR0:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Series permission only. Closing cannot bypass temperature/supply guard; leave open until documented bench acceptance</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn2" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Series permission only. Closing cannot bypass temperature/supply guard; leave open until documented bench acceptance"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>aae94d4b-a9b9-5996-b33a-5b15857d7a0e</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>PrototypeR0:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">At25C RDSon&lt;=48mOhm atVGS2.5V. Fault VGS&lt;=0.4V below25C minimumthreshold0.65V; all-temperature residual current requires bench qualification, not inferred from threshold typical plot</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="AO3400A" description="Charge-enable sink, not a power-path switch. SOT23 gate1 source2 drain3; candidate requires board-temperature off-state qualification"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="At25C RDSon&lt;=48mOhm atVGS2.5V. Fault VGS&lt;=0.4V below25C minimumthreshold0.65V; all-temperature residual current requires bench qualification, not inferred from threshold typical plot"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <property name="ki_description" value="Charge-enable sink, not a power-path switch. SOT23 gate1 source2 drain3; candidate requires board-temperature off-state qualification"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>75beb5e0-119c-5e9b-8d2c-99bfd3ad97f8</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>10.0k 0.1%</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW040210K0BEED; independent NTC bias</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW040210K0BEED; independent NTC bias"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>2d1b0912-5aa3-5f61-9ee5-3128735630a7</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>715k 0.1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0805_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW0805715KBEEA;0805 because0603 family max332k</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW0805715KBEEA;0805 because0603 family max332k"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>8b7b839e-cb4f-58bb-86a8-7733eea10c3f</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>110k 0.1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW0603110KBEEA</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW0603110KBEEA"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>f3873ac2-a8df-5183-8334-c35a138340b8</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>200k 0.1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">TNPW0603200KBEEA</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="TNPW0603200KBEEA"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>b30f105a-3bb5-5a36-8740-0f8d14d1fab5</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>11k 1%</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Dock pullup avoids undocked3V3 drain. Minimum10.89k respects TPS3808&gt;=10k guidance; outputs independently sink permission; TNPW040211K0BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Dock pullup avoids undocked3V3 drain. Minimum10.89k respects TPS3808&gt;=10k guidance; outputs independently sink permission; TNPW040211K0BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>46876b43-82aa-523b-84d2-1b01d2f91dc5</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>1k 1%</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Gate series resistor; TNPW04021K00BEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Gate series resistor; TNPW04021K00BEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>b7b37f82-797e-5156-884c-c6b08199e0ff</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>100k 1%</value>
+      <footprint>PrototypeR0:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">External gate pulldown defaults charge disabled when JP1 open; TNPW0402100KBEED / 0402 candidate</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="External gate pulldown defaults charge disabled when JP1 open; TNPW0402100KBEED / 0402 candidate"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>b42c4f7d-de08-5732-be8a-39b9d78a5666</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TPS3700DDCR</value>
+      <footprint>PrototypeR0:TSOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3700.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">DDC thin-SOT23-6 package; compare exact land drawing before release. Both fault outputs wired AND with supervisor RESET</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="TPS3700DDCR" description="Independent NTC window: OUTA low on hot/undervoltage; OUTB low on cold/overvoltage"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="DDC thin-SOT23-6 package; compare exact land drawing before release. Both fault outputs wired AND with supervisor RESET"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <property name="ki_description" value="Independent NTC window: OUTA low on hot/undervoltage; OUTB low on cold/overvoltage"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>06f05130-3715-597f-8bf2-bcdfc985f1ba</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TPS3808G33DBVR</value>
+      <footprint>PrototypeR0:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3808.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">VDD from dock, not monitored rail. MR high. CT deliberately open: minimum12ms exceeds TPS3700 maximum450us startup. Overvoltage above3.6V is not covered</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="TPS3808G33DBVR" description="Dock-powered 3V3 monitor; G33 3.07V threshold +/-1.5%; CT open gives12..28ms reset delay"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="VDD from dock, not monitored rail. MR high. CT deliberately open: minimum12ms exceeds TPS3700 maximum450us startup. Overvoltage above3.6V is not covered"/>
+      <property name="Sheetname" value="Body / independent charge permission"/>
+      <property name="Sheetfile" value="05-charge-guard.kicad_sch"/>
+      <property name="ki_description" value="Dock-powered 3V3 monitor; G33 3.07V threshold +/-1.5%; CT open gives12..28ms reset delay"/>
+      <sheetpath names="/Body electronics/Body / independent charge permission/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/73bb72e9-ad73-5626-8514-271b13769d6c/"/>
+      <tstamps>6be9574b-6290-5b73-8100-4403695c7169</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SM10B-SRSS-TB candidate</value>
+      <footprint>PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Passive numeric header; not an active source. Match every pin to the other board; harness is unqualified.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn10" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Passive numeric header; not an active source. Match every pin to the other board; harness is unqualified."/>
+      <property name="Sheetname" value="Interboard connection"/>
+      <property name="Sheetfile" value="06-interboard.kicad_sch"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Body electronics/Interboard connection/" tstamps="/7b0971b8-4aea-59dd-87e7-df9ceba65eb5/85304e0d-e789-5146-ac79-f7c2ec838d2a/"/>
+      <tstamps>a1c177bd-0fba-55c3-821c-fc7eab0d833d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Schottky 1A/20V candidate</value>
+      <footprint>PrototypeR0:Diodes_B140HW_SOD123_A1_K2</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Generic symbol pin1 anode, pin2 cathode; select manufacturer part and map its package pads before PCB transfer</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="D" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Generic symbol pin1 anode, pin2 cathode; select manufacturer part and map its package pads before PCB transfer"/>
+      <property name="Sheetname" value="Flange / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / dock and power interfaces/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>3bcfa747-9282-5797-8531-805741f91841</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>PTC 500mA candidate</value>
+      <footprint>PrototypeR0:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">PTC is not a precise current limiter; bench supply must be current limited</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="F" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="PTC is not a precise current limiter; bench supply must be current limited"/>
+      <property name="Sheetname" value="Flange / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / dock and power interfaces/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>66f2d06c-df4c-5b7b-bef6-fd40f93ea81d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>MAGNETIC_DOCK_5V</value>
+      <footprint>PrototypeR0:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>https://www.jst.com/wp-content/uploads/2021/01/eSH-new.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Logical contacts only; polarity, mechanical dock and exposed-contact fault review open; internal SM02B-SRSS-TB SH2 header candidate, separate from exposed dock contacts; legacy PCB PH2 value corrected in R28</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn2" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Logical contacts only; polarity, mechanical dock and exposed-contact fault review open; internal SM02B-SRSS-TB SH2 header candidate, separate from exposed dock contacts; legacy PCB PH2 value corrected in R28"/>
+      <property name="Sheetname" value="Flange / dock and power interfaces"/>
+      <property name="Sheetfile" value="01-power.kicad_sch"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Flange electronics/Flange / dock and power interfaces/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/da544d5a-8b4e-53d9-80a3-b45e226fb089/"/>
+      <tstamps>185532d7-69c7-53f4-86e8-a4d995108387</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10uF 10V</value>
+      <footprint>PrototypeR0:Murata_GRM21_0805_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>bf59e295-5729-5738-8685-9dc57775e7ba</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>58712490-13b6-5fdd-a875-1b7bf6920631</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>1uF</value>
+      <footprint>PrototypeR0:TDK_C1608_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>35255bb8-d3cf-5e61-b59f-1bbadc3159e8</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>PrototypeR0:Murata_GRM18_0603_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">DividerThevenin500k; RC50ms. Firmware acquisition/calibration required.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="DividerThevenin500k; RC50ms. Firmware acquisition/calibration required."/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>06077165-7884-5bdd-a26a-e5c64a71dc3d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>SERVICE_USB_BOOT</value>
+      <footprint>PrototypeR0:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Self-powered debug interface; no USB VBUS input. Actual connector/ESD and flashing fixture open.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn6" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Self-powered debug interface; no USB VBUS input. Actual connector/ESD and flashing fixture open."/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>816f94d0-672f-5c28-9b5e-799e80ca83c1</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>e96a7afc-18af-5818-ad41-742543fa0841</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>99dd7bc1-bdde-5449-96fa-851a1861d097</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>82df1f1c-99e2-53b5-80b6-57eecdfd21bc</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>4d7f6caf-a0aa-56d0-b3d3-b3d1143300f6</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>6b3df65b-9c3d-540b-ba8c-72d820be304f</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>b5997e96-f057-57af-8c5e-71fa1d45fac0</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>4.7k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>9f2efe07-4c45-5922-b3ea-e410c096d1a5</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>4.7k</value>
+      <footprint>PrototypeR0:Vishay_TNPW0603_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>213ec481-9351-5153-a702-5b4c8f241751</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>1.00M 1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0805_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>e3b14bb1-e25f-5a87-b89d-3bf29fa00cba</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>1.00M 1%</value>
+      <footprint>PrototypeR0:Vishay_TNPW0805_IEC_Reflow</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="R" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>79e8d1b7-2c0b-5e72-91ca-f927d986947a</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>POWER / momentary</value>
+      <footprint>PrototypeR0:SW_SPST_B3U-1000P</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Local silicone actuation. Soft off/deep sleep only; not battery isolation.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="SW" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Local silicone actuation. Soft off/deep sleep only; not battery isolation."/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>10fca963-6a11-5102-a3c5-d1e1f731a9c9</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MODE / momentary</value>
+      <footprint>PrototypeR0:SW_SPST_B3U-1000P</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="SW" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>6b3b7b27-f870-53ec-ba00-170f63e89792</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>RESET / service</value>
+      <footprint>PrototypeR0:SW_SPST_B3U-1000P</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="SW" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>53f05630-19d0-5b41-a8ae-0501b87c2dad</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>BOOT / service</value>
+      <footprint>PrototypeR0:SW_SPST_B3U-1000P</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="SW" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value=""/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>3b289640-a8d8-5839-a4c6-cf83aee1d346</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>ESP32-C3-MINI-1-N4X candidate</value>
+      <footprint>PrototypeR0:Espressif_ESP32-C3-MINI-1_53Pads</footprint>
+      <datasheet>https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html</datasheet>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Full module53pads represented; NC intentionally isolated. Official-dimension candidate footprint; EPAD solder/paste, vias, RF clearances and assembly process remain review items.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="ESP32_C3_MINI_1_N4X" description="53-pad module; antenna lives in outward polymer flange; exact land pattern review required"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Full module53pads represented; NC intentionally isolated. Official-dimension candidate footprint; EPAD solder/paste, vias, RF clearances and assembly process remain review items."/>
+      <property name="Sheetname" value="Flange / radio, local controls and service"/>
+      <property name="Sheetfile" value="03-control.kicad_sch"/>
+      <property name="ki_description" value="53-pad module; antenna lives in outward polymer flange; exact land pattern review required"/>
+      <sheetpath names="/Flange electronics/Flange / radio, local controls and service/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/80c41dc5-f63e-56b6-9421-a3743fe139a2/"/>
+      <tstamps>de6fd163-c3d3-5721-a3a0-6bc7eea1c9a7</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>SM10B-SRSS-TB candidate</value>
+      <footprint>PrototypeR0:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="AssemblyDomain">MAIN_T</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Passive numeric header; not an active source. Match every pin to the other board; harness is unqualified.</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn10" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="MAIN_T"/>
+      <property name="ReviewNote" value="Passive numeric header; not an active source. Match every pin to the other board; harness is unqualified."/>
+      <property name="Sheetname" value="Interboard connection"/>
+      <property name="Sheetfile" value="06-interboard.kicad_sch"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Flange electronics/Interboard connection/" tstamps="/2bb7fabd-f8c8-5413-8135-97a69a66eb42/dc32a3fb-37c9-5a8a-965e-060f668f25a1/"/>
+      <tstamps>d7fa6dd4-4d87-5784-8c38-0cd8933e5873</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>100nF</value>
+      <fields>
+        <field name="AssemblyDomain">REMOTE_TIP</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Place directly at remote sensor supply pins</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="C" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="REMOTE_TIP"/>
+      <property name="ReviewNote" value="Place directly at remote sensor supply pins"/>
+      <property name="Sheetname" value="Remote tip"/>
+      <property name="Sheetfile" value="external-04-sensors.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Remote tip/" tstamps="/f2e53901-fdd6-5e3c-8206-d72b72f8de5e/"/>
+      <tstamps>198b8c46-5845-52c2-92e4-11e20709f12f</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>REMOTE_TIP_HARNESS</value>
+      <fields>
+        <field name="AssemblyDomain">REMOTE_TIP</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Remote tip assembly; not another rigid main-board topology</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="Conn4" description="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="REMOTE_TIP"/>
+      <property name="ReviewNote" value="Remote tip assembly; not another rigid main-board topology"/>
+      <property name="Sheetname" value="Remote tip"/>
+      <property name="Sheetfile" value="external-04-sensors.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Logical connector pin numbering; physical connector and footprint not selected"/>
+      <sheetpath names="/Remote tip/" tstamps="/f2e53901-fdd6-5e3c-8206-d72b72f8de5e/"/>
+      <tstamps>a6d37717-837f-5b47-ab58-cafa4998247a</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>TMP117AIDRVR /0x48</value>
+      <footprint>TipR1:TI_TMP117_DRV0006B_NoEP</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tmp117.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">REMOTE_TIP</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Six electrical pins; mechanical thermal pad deliberately unsoldered with no copper/paste per TI rigid-PCB accuracy guidance. Remote board is separate; physical thermal bond unqualified</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="TMP117AIDRVR" description="TMP117 WSON6; address0x48 ADD0=GND. Mechanical thermal pad is unsoldered, no copper/paste; not an electrical seventh pin"/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="REMOTE_TIP"/>
+      <property name="ReviewNote" value="Six electrical pins; mechanical thermal pad deliberately unsoldered with no copper/paste per TI rigid-PCB accuracy guidance. Remote board is separate; physical thermal bond unqualified"/>
+      <property name="Sheetname" value="Remote tip"/>
+      <property name="Sheetfile" value="external-04-sensors.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="TMP117 WSON6; address0x48 ADD0=GND. Mechanical thermal pad is unsoldered, no copper/paste; not an electrical seventh pin"/>
+      <sheetpath names="/Remote tip/" tstamps="/f2e53901-fdd6-5e3c-8206-d72b72f8de5e/"/>
+      <tstamps>b17d5952-18fd-50c0-a4f3-a7f4b918d273</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>NTCLE413E2103F524A</value>
+      <datasheet>https://www.vishay.com/docs/29078/ntcle413.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">EXTERNAL_PACK</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">External dry sealed-cavity cell-mounted10k1% sensor. Native BQ TS backup, not sole0..45C guard; no immersion/hardpotting/overmolding per Vishay</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="NTC" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="EXTERNAL_PACK"/>
+      <property name="ReviewNote" value="External dry sealed-cavity cell-mounted10k1% sensor. Native BQ TS backup, not sole0..45C guard; no immersion/hardpotting/overmolding per Vishay"/>
+      <property name="Sheetname" value="Cell-coupled dual NTCs"/>
+      <property name="Sheetfile" value="external-05-charge-guard.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Cell-coupled dual NTCs/" tstamps="/2744a34a-d704-5736-aae7-23d77cfb07f3/"/>
+      <tstamps>02791fa6-4946-591a-98a2-89e445811c05</tstamps>
+    </comp>
+    <comp ref="TH2">
+      <value>NTCLE413E2103F524A</value>
+      <datasheet>https://www.vishay.com/docs/29078/ntcle413.pdf</datasheet>
+      <fields>
+        <field name="AssemblyDomain">EXTERNAL_PACK</field>
+        <field name="DesignStatus">CANDIDATE — NOT RELEASED</field>
+        <field name="ReviewNote">Second independent cell-mounted sensor; published full Rmin/Rmax curve used. Same mechanical restrictions and physical bond review as TH1</field>
+      </fields>
+      <libsource lib="PrototypeR0" part="NTC" description=""/>
+      <property name="DesignStatus" value="CANDIDATE — NOT RELEASED"/>
+      <property name="AssemblyDomain" value="EXTERNAL_PACK"/>
+      <property name="ReviewNote" value="Second independent cell-mounted sensor; published full Rmin/Rmax curve used. Same mechanical restrictions and physical bond review as TH1"/>
+      <property name="Sheetname" value="Cell-coupled dual NTCs"/>
+      <property name="Sheetfile" value="external-05-charge-guard.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Cell-coupled dual NTCs/" tstamps="/2744a34a-d704-5736-aae7-23d77cfb07f3/"/>
+      <tstamps>90c0af08-4934-5412-a06f-fe8a0144ca88</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PrototypeR0" part="AO3400A">
+      <description>Charge-enable sink, not a power-path switch. SOT23 gate1 source2 drain3; candidate requires board-temperature off-state qualification</description>
+      <docs>https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AO3400A</field>
+        <field name="Datasheet">https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="BQ24074RGT">
+      <description>1S 4.2V charger with power path; not a substitute for pack protection</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq24074.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24074RGT</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq24074.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TS" type="input"/>
+        <pin num="2" name="BAT" type="power_out"/>
+        <pin num="3" name="BAT" type="passive"/>
+        <pin num="4" name="~{CE}" type="input"/>
+        <pin num="5" name="EN2" type="input"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="~{PGOOD}" type="open_collector"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="~{CHG}" type="open_collector"/>
+        <pin num="10" name="OUT" type="power_out"/>
+        <pin num="11" name="OUT" type="passive"/>
+        <pin num="12" name="ILIM" type="input"/>
+        <pin num="13" name="IN" type="power_in"/>
+        <pin num="14" name="TMR" type="input"/>
+        <pin num="15" name="ITERM" type="input"/>
+        <pin num="16" name="ISET" type="passive"/>
+        <pin num="17" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Conn10">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Conn2">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Conn4">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="Conn6">
+      <description>Logical connector pin numbering; physical connector and footprint not selected</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conn6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="D">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="DRV8212DSG">
+      <description>DSG package; PWM mode MODE=0; both inputs0 coast/autosleep</description>
+      <docs>https://www.ti.com/lit/ds/symlink/drv8212.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8212DSG</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/drv8212.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VM" type="power_in"/>
+        <pin num="2" name="OUT1" type="output"/>
+        <pin num="3" name="OUT2" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="IN2_EN" type="input"/>
+        <pin num="6" name="IN1_PH" type="input"/>
+        <pin num="7" name="MODE" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="ESP32_C3_MINI_1_N4X">
+      <description>53-pad module; antenna lives in outward polymer flange; exact land pattern review required</description>
+      <docs>https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32_C3_MINI_1_N4X</field>
+        <field name="Datasheet">https://documentation.espressif.com/esp32-c3-mini-1_datasheet_en.html</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="3V3" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="GPIO2_STRAP" type="bidirectional"/>
+        <pin num="6" name="GPIO3" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="EN" type="input"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GPIO0_ADC" type="bidirectional"/>
+        <pin num="13" name="GPIO1" type="bidirectional"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="NC" type="no_connect"/>
+        <pin num="16" name="GPIO10" type="bidirectional"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="GPIO4" type="bidirectional"/>
+        <pin num="19" name="GPIO5" type="bidirectional"/>
+        <pin num="20" name="GPIO6" type="bidirectional"/>
+        <pin num="21" name="GPIO7" type="bidirectional"/>
+        <pin num="22" name="GPIO8_STRAP" type="bidirectional"/>
+        <pin num="23" name="GPIO9_BOOT" type="bidirectional"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="NC" type="no_connect"/>
+        <pin num="26" name="GPIO18_USB_D-" type="bidirectional"/>
+        <pin num="27" name="GPIO19_USB_D+" type="bidirectional"/>
+        <pin num="28" name="NC" type="no_connect"/>
+        <pin num="29" name="NC" type="no_connect"/>
+        <pin num="30" name="GPIO20_RXD" type="bidirectional"/>
+        <pin num="31" name="GPIO21_TXD" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="NC" type="no_connect"/>
+        <pin num="34" name="NC" type="no_connect"/>
+        <pin num="35" name="NC" type="no_connect"/>
+        <pin num="36" name="GND" type="passive"/>
+        <pin num="37" name="GND" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="GND" type="passive"/>
+        <pin num="41" name="GND" type="passive"/>
+        <pin num="42" name="GND" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="GND" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
+        <pin num="46" name="GND" type="passive"/>
+        <pin num="47" name="GND" type="passive"/>
+        <pin num="48" name="GND" type="passive"/>
+        <pin num="49" name="GND" type="passive"/>
+        <pin num="50" name="GND" type="passive"/>
+        <pin num="51" name="GND" type="passive"/>
+        <pin num="52" name="GND" type="passive"/>
+        <pin num="53" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="F">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="MC3635">
+      <description>I2C address0x4C; VPP grounded; CSN high; configure active-low open-drain INTN</description>
+      <docs>https://www.memsic.com/Public/Uploads/uploadfile/files/20220119/MC3635Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC3635</field>
+        <field name="Datasheet">https://www.memsic.com/Public/Uploads/uploadfile/files/20220119/MC3635Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT_A1" type="input"/>
+        <pin num="2" name="DIN_SDA" type="bidirectional"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="VPP" type="power_in"/>
+        <pin num="5" name="INTN" type="open_collector"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="CSN" type="input"/>
+        <pin num="10" name="SCK_SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="NTC">
+      <docs>https://www.vishay.com/docs/29078/ntcle413.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">NTC</field>
+        <field name="Datasheet">https://www.vishay.com/docs/29078/ntcle413.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="SN74LVC1G11DBV">
+      <description>Hardware motor PWM AND arm AND valid-input-absent</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G11DBV</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="B" type="input"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="SW">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="TMP117AIDRVR">
+      <description>TMP117 WSON6; address0x48 ADD0=GND. Mechanical thermal pad is unsoldered, no copper/paste; not an electrical seventh pin</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tmp117.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMP117AIDRVR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tmp117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ALERT" type="open_collector"/>
+        <pin num="4" name="ADD0" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="6" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="TPS3700DDCR">
+      <description>Independent NTC window: OUTA low on hot/undervoltage; OUTB low on cold/overvoltage</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps3700.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3700DDCR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3700.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="INA+" type="input"/>
+        <pin num="4" name="INB-" type="input"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="OUTB" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="TPS3808G33DBVR">
+      <description>Dock-powered 3V3 monitor; G33 3.07V threshold +/-1.5%; CT open gives12..28ms reset delay</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps3808.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3808G33DBVR</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3808.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{MR}" type="input"/>
+        <pin num="4" name="CT" type="passive"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PrototypeR0" part="TPS63070RNM">
+      <description>Adjustable buck boost; 3.6A switch is not guaranteed motor current</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps63070.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63070RNM</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps63070.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PS_SYNC" type="input"/>
+        <pin num="2" name="PG" type="open_collector"/>
+        <pin num="3" name="VAUX" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="FB2" type="open_collector"/>
+        <pin num="7" name="VOUT" type="power_out"/>
+        <pin num="8" name="VOUT" type="passive"/>
+        <pin num="9" name="L2" type="passive"/>
+        <pin num="10" name="PGND" type="power_in"/>
+        <pin num="11" name="L1" type="passive"/>
+        <pin num="12" name="VIN" type="power_in"/>
+        <pin num="13" name="VIN" type="passive"/>
+        <pin num="14" name="EN" type="input"/>
+        <pin num="15" name="VSEL" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PrototypeR0">
+      <uri>/Users/lucianchapar/Documents/ChatGPT/buttplug-compass/hardware/pcb/pack-pigtail-r35/candidate-f/PrototypeR0.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="C101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U2" pin="8" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="CSN" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="SENSE" pintype="input"/>
+    </net>
+    <net code="2" name="ACCEL_INT_N">
+      <node ref="J6" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="GPIO10" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="INTN" pintype="open_collector"/>
+    </net>
+    <net code="3" name="BOOT_N">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R34" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="23" pinfunction="GPIO9_BOOT" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="CHARGE_CE_N">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~{CE}" pintype="input"/>
+    </net>
+    <net code="5" name="CHARGE_GATE">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R47" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R48" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="CHARGE_PERMIT">
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R47" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="CHARGE_STATUS_N">
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{CHG}" pintype="open_collector"/>
+    </net>
+    <net code="8" name="CHARGE_TEMP_OK">
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R46" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="OUTA" pintype="open_collector"/>
+      <node ref="U8" pin="6" pinfunction="OUTB" pintype="open_collector"/>
+      <node ref="U9" pin="1" pinfunction="~{RESET}" pintype="open_collector"/>
+    </net>
+    <net code="9" name="CHG_ILIM">
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="ILIM" pintype="input"/>
+    </net>
+    <net code="10" name="CHG_ISET">
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="ISET" pintype="passive"/>
+    </net>
+    <net code="11" name="DOCK_5V">
+      <node ref="F1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="DOCK_FUSED">
+      <node ref="D1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="DOCK_PRESENT_N">
+      <node ref="J6" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="~{PGOOD}" pintype="open_collector"/>
+      <node ref="U4" pin="6" pinfunction="C" pintype="input"/>
+      <node ref="U6" pin="30" pinfunction="GPIO20_RXD" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C30" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C32" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C33" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C34" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C42" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C43" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C44" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C51" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C52" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C53" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C54" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R45" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R48" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TH1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TH2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="EN2" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U101" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U101" pin="4" pinfunction="ADD0" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="VSEL" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="VSEL" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="IN2_EN" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="MODE" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="EP" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="36" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="37" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="40" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="41" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="42" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="43" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="44" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="45" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="46" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="47" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="48" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="49" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="50" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="51" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="52" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="53" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="DOUT_A1" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="VPP" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="I2C_SCL">
+      <node ref="J101" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="R38" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="SCL" pintype="input"/>
+      <node ref="U6" pin="19" pinfunction="GPIO5" pintype="bidirectional"/>
+      <node ref="U7" pin="10" pinfunction="SCK_SCL" pintype="input"/>
+    </net>
+    <net code="16" name="I2C_SDA">
+      <node ref="J101" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R37" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="6" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U6" pin="18" pinfunction="GPIO4" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="DIN_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="MCU_EN">
+      <node ref="C33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="18" name="MODE_N">
+      <node ref="R36" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="MOTOR_3V7">
+      <node ref="C23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C54" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U3" pin="8" pinfunction="VOUT" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="20" name="MOTOR_ARM">
+      <node ref="J6" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="U6" pin="21" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="MOTOR_IN1">
+      <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="Y" pintype="output"/>
+      <node ref="U5" pin="6" pinfunction="IN1_PH" pintype="input"/>
+    </net>
+    <net code="22" name="MOTOR_N">
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="23" name="MOTOR_P">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="24" name="MOTOR_PWM">
+      <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="U6" pin="20" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="PACK_GUARD">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R42" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TH2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="PACK_NTC">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="TH1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TS" pintype="input"/>
+    </net>
+    <net code="27" name="PACK_P">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="BAT" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="BAT" pintype="passive"/>
+    </net>
+    <net code="28" name="POWER_N">
+      <node ref="R35" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="REG1_AUX">
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VAUX" pintype="passive"/>
+    </net>
+    <net code="30" name="REG1_FB">
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="31" name="REG1_L1">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="L1" pintype="passive"/>
+    </net>
+    <net code="32" name="REG1_L2">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="L2" pintype="passive"/>
+    </net>
+    <net code="33" name="REG1_PS">
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="PS_SYNC" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="34" name="REG2_AUX">
+      <node ref="C26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VAUX" pintype="passive"/>
+    </net>
+    <net code="35" name="REG2_FB">
+      <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="36" name="REG2_L1">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="L1" pintype="passive"/>
+    </net>
+    <net code="37" name="REG2_L2">
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="L2" pintype="passive"/>
+    </net>
+    <net code="38" name="REG2_PS">
+      <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="PS_SYNC" pintype="input"/>
+    </net>
+    <net code="39" name="STRAP2">
+      <node ref="R32" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="GPIO2_STRAP" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="STRAP8">
+      <node ref="R33" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="22" pinfunction="GPIO8_STRAP" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="SYS">
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C53" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U1" pin="11" pinfunction="OUT" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="VIN" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="42" name="TEMP_COLD_IN">
+      <node ref="R44" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="INB-" pintype="input"/>
+    </net>
+    <net code="43" name="TEMP_HOT_IN">
+      <node ref="R43" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="INA+" pintype="input"/>
+    </net>
+    <net code="44" name="UART_TX">
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U6" pin="31" pinfunction="GPIO21_TXD" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="USB_DM">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="26" pinfunction="GPIO18_USB_D-" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="USB_DP">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U6" pin="27" pinfunction="GPIO19_USB_D+" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="VBAT_ADC">
+      <node ref="C34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R39" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="GPIO0_ADC" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="VBUS_CHG">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IN" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="EN1" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="~{MR}" pintype="input"/>
+      <node ref="U9" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="49" name="unconnected-(U1-ITERM-Pad15)">
+      <node ref="U1" pin="15" pinfunction="ITERM" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-TMR-Pad14)">
+      <node ref="U1" pin="14" pinfunction="TMR" pintype="input+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U2-FB2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="FB2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U2-PG-Pad2)">
+      <node ref="U2" pin="2" pinfunction="PG" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U3-FB2-Pad6)">
+      <node ref="U3" pin="6" pinfunction="FB2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U3-PG-Pad2)">
+      <node ref="U3" pin="2" pinfunction="PG" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U6-NC-Pad4)">
+      <node ref="U6" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U6-NC-Pad7)">
+      <node ref="U6" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U6-NC-Pad9)">
+      <node ref="U6" pin="9" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U6-NC-Pad10)">
+      <node ref="U6" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U6-NC-Pad15)">
+      <node ref="U6" pin="15" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U6-NC-Pad17)">
+      <node ref="U6" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U6-NC-Pad24)">
+      <node ref="U6" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U6-NC-Pad25)">
+      <node ref="U6" pin="25" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U6-NC-Pad28)">
+      <node ref="U6" pin="28" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U6-NC-Pad29)">
+      <node ref="U6" pin="29" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U6-NC-Pad32)">
+      <node ref="U6" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U6-NC-Pad33)">
+      <node ref="U6" pin="33" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U6-NC-Pad34)">
+      <node ref="U6" pin="34" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U6-NC-Pad35)">
+      <node ref="U6" pin="35" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U7-NC-Pad3)">
+      <node ref="U7" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U9-CT-Pad4)">
+      <node ref="U9" pin="4" pinfunction="CT" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U101-ALERT-Pad3)">
+      <node ref="U101" pin="3" pinfunction="ALERT" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,44 @@
+{
+  "cover_valid_single_solid": true,
+  "source_cover_solids": 5,
+  "added_material_mm3": 148.94897852909756,
+  "unexpected_intersections": [],
+  "inherited_cover_interfaces": [
+    {
+      "a": "P1FlangeCover",
+      "b": "ButtonStopScrewR31_SW1",
+      "intersection_mm3": 2.714336052701582
+    },
+    {
+      "a": "P1FlangeCover",
+      "b": "ButtonStopScrewR31_SW2",
+      "intersection_mm3": 2.7143360527015803
+    }
+  ],
+  "named_unmodeled_screw_pilot_interfaces": [
+    {
+      "a": "P1FlangeCover",
+      "b": "ButtonRetainerScrewR31_1",
+      "intersection_mm3": 2.3503040039668615
+    },
+    {
+      "a": "P1FlangeCover",
+      "b": "ButtonRetainerScrewR31_2",
+      "intersection_mm3": 2.3503040039668597
+    }
+  ],
+  "contact_face_xyz_mm": {
+    "GND": [
+      -32,
+      -30,
+      8
+    ],
+    "DOCK_5V": [
+      -32,
+      -30,
+      12
+    ]
+  },
+  "new_retention_fasteners": 0,
+  "scope": "Nominal installed hard-part check only. Contacts and magnets are dimensional references. Potting/seal shapes are process allowances, not qualified materials, bond, force, leakage or magnetic holding results."
+}

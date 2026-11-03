@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1040" viewBox="0 0 1400 1040">
+<title>Concept 02 — one T-shaped PCB in the toy XY plane</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8" fill="context-stroke"/></marker></defs>
+<rect width="1400" height="1040" fill="white"/>
+<text x="34" y="56.0" font-family="Arial, sans-serif" font-size="36" fill="#213047" font-weight="bold" text-anchor="start">Concept 02 / PCB follows the toy’s XY silhouette</text>
+<text x="36" y="95.0" font-family="Arial, sans-serif" font-size="21" fill="#57657a" font-weight="normal" text-anchor="start">One continuous T-shaped board · X across the handle · Y toward the tip · Z normal to the board</text>
+<rect x="30" y="135" width="690" height="730" rx="15" fill="#f5f7fa" fill-opacity="1" stroke="#d8dfeb" stroke-width="2"/>
+<rect x="750" y="135" width="620" height="730" rx="15" fill="#f5f7fa" fill-opacity="1" stroke="#d8dfeb" stroke-width="2"/>
+<text x="55" y="178.0" font-family="Arial, sans-serif" font-size="26" fill="#176bc1" font-weight="bold" text-anchor="start">XY plan — look along Z</text>
+<text x="776" y="178.0" font-family="Arial, sans-serif" font-size="26" fill="#176bc1" font-weight="bold" text-anchor="start">YZ section — look along X</text>
+<text x="776" y="208.0" font-family="Arial, sans-serif" font-size="18" fill="#213047" font-weight="normal" text-anchor="start">Board, pack and motor occupy separate Z volumes.</text>
+<polygon points="130,235 530,235 530,375 380,375 380,430 420,500 420,630 370,735 290,735 240,630 240,500 280,430 280,375 130,375" fill="#f4effa" stroke="#7652ad" stroke-width="2" stroke-dasharray="7 5"/>
+<path d="M167.5000,340.0000 L167.5000,270.0000 A10.0000,10.0000 0 0 1 177.5000,260.0000 L482.5000,260.0000 A10.0000,10.0000 0 0 1 492.5000,270.0000 L492.5000,340.0000 A10.0000,10.0000 0 0 1 482.5000,350.0000 L365.0000,350.0000 A10.0000,10.0000 0 0 0 355.0000,360.0000 L355.0000,407.6393 A10.0000,10.0000 0 0 0 356.0557,412.1115 L378.9443,457.8885 A10.0000,10.0000 0 0 1 380.0000,462.3607 L380.0000,583.3772 A10.0000,10.0000 0 0 1 379.4868,586.5395 L352.2792,668.1623 A10.0000,10.0000 0 0 1 342.7924,675.0000 L317.2076,675.0000 A10.0000,10.0000 0 0 1 307.7208,668.1623 L280.5132,586.5395 A10.0000,10.0000 0 0 1 280.0000,583.3772 L280.0000,462.3607 A10.0000,10.0000 0 0 1 281.0557,457.8885 L303.9443,412.1115 A10.0000,10.0000 0 0 0 305.0000,407.6393 L305.0000,360.0000 A10.0000,10.0000 0 0 0 295.0000,350.0000 L177.5000,350.0000 A10.0000,10.0000 0 0 1 167.5000,340.0000 Z" fill="#c6e1ff" stroke="#176bc1" stroke-width="3"/>
+<rect x="190" y="250" width="220" height="110" rx="7" fill="#b3dfc8" fill-opacity="0.48" stroke="#26755b" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="300" y="306.0" font-family="Arial, sans-serif" font-size="17" fill="#26755b" font-weight="bold" text-anchor="middle">PACK IN +Z</text>
+<rect x="430" y="260" width="62.5" height="90" rx="5" fill="none" fill-opacity="1" stroke="#b56612" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="461" y="302.0" font-family="Arial, sans-serif" font-size="18" fill="#b56612" font-weight="bold" text-anchor="start">RF</text>
+<rect x="297.5" y="470" width="65" height="170" rx="16" fill="#f5cca0" fill-opacity="0.38" stroke="#b56612" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="330" y="555.0" font-family="Arial, sans-serif" font-size="15" fill="#b56612" font-weight="bold" text-anchor="middle">MOTOR</text>
+<text x="330" y="578.0" font-family="Arial, sans-serif" font-size="15" fill="#b56612" font-weight="normal" text-anchor="middle">IN +Z</text>
+<rect x="315" y="690" width="30" height="40" rx="4" fill="#f5dba9" fill-opacity="1" stroke="#b56612" stroke-width="2"/>
+<polyline points="330,675 338,684 323,689 330,690" fill="none" stroke="#b56612" stroke-width="2"/>
+<text x="534" y="274.0" font-family="Arial, sans-serif" font-size="20" fill="#176bc1" font-weight="bold" text-anchor="start">Crossbar</text>
+<text x="534" y="301.0" font-family="Arial, sans-serif" font-size="17" fill="#213047" font-weight="normal" text-anchor="start">Radio, power,</text>
+<text x="534" y="324.0" font-family="Arial, sans-serif" font-size="17" fill="#213047" font-weight="normal" text-anchor="start">controls</text>
+<polyline points="493,285 522,285" fill="none" stroke="#176bc1" stroke-width="2"/>
+<text x="534" y="400.0" font-family="Arial, sans-serif" font-size="19" fill="#176bc1" font-weight="bold" text-anchor="start">Supported neck</text>
+<text x="534" y="425.0" font-family="Arial, sans-serif" font-size="16" fill="#213047" font-weight="normal" text-anchor="start">10 mm study width</text>
+<polyline points="356,390 519,390" fill="none" stroke="#176bc1" stroke-width="2"/>
+<text x="534" y="502.0" font-family="Arial, sans-serif" font-size="18" fill="#b56612" font-weight="bold" text-anchor="start">Motor projection</text>
+<text x="534" y="526.0" font-family="Arial, sans-serif" font-size="16" fill="#213047" font-weight="normal" text-anchor="start">Above the PCB in Z</text>
+<polyline points="364,500 521,500" fill="none" stroke="#b56612" stroke-width="2"/>
+<text x="534" y="606.0" font-family="Arial, sans-serif" font-size="18" fill="#176bc1" font-weight="bold" text-anchor="start">Blue = PCB tongue</text>
+<text x="534" y="631.0" font-family="Arial, sans-serif" font-size="16" fill="#213047" font-weight="normal" text-anchor="start">No motor cutout</text>
+<polyline points="379,605 520,605" fill="none" stroke="#176bc1" stroke-width="2"/>
+<text x="534" y="716.0" font-family="Arial, sans-serif" font-size="18" fill="#b56612" font-weight="bold" text-anchor="start">Wired tip island</text>
+<polyline points="347,710 520,710" fill="none" stroke="#b56612" stroke-width="2"/>
+<polyline points="167.5,225 492.5,225" fill="none" stroke="#213047" stroke-width="2"/>
+<polyline points="167.5,218 167.5,231" fill="none" stroke="#213047" stroke-width="2"/>
+<polyline points="492.5,218 492.5,231" fill="none" stroke="#213047" stroke-width="2"/>
+<text x="330" y="216.0" font-family="Arial, sans-serif" font-size="16" fill="#213047" font-weight="normal" text-anchor="middle">65 mm PCB crossbar — provisional</text>
+<polyline points="108,260 108,675" fill="none" stroke="#213047" stroke-width="2"/>
+<polyline points="101,260 115,260" fill="none" stroke="#213047" stroke-width="2"/>
+<polyline points="101,675 115,675" fill="none" stroke="#213047" stroke-width="2"/>
+<text x="64" y="470.0" font-family="Arial, sans-serif" font-size="16" fill="#213047" font-weight="normal" text-anchor="middle">83 mm</text>
+<text x="64" y="494.0" font-family="Arial, sans-serif" font-size="14" fill="#213047" font-weight="normal" text-anchor="middle">PCB length</text>
+<text x="55" y="789.0" font-family="Arial, sans-serif" font-size="17" fill="#57657a" font-weight="normal" text-anchor="start">Dashed green/orange shapes are projections of parts in +Z.</text>
+<text x="55" y="817.0" font-family="Arial, sans-serif" font-size="17" fill="#57657a" font-weight="normal" text-anchor="start">Purple contour is illustrative; it is not a released toy outline.</text>
+<rect x="915.5" y="260" width="5" height="415" rx="0" fill="#c6e1ff" fill-opacity="1" stroke="#176bc1" stroke-width="2"/>
+<rect x="895.5" y="260" width="20" height="90" rx="2" fill="#9ac4ef" fill-opacity="1" stroke="#176bc1" stroke-width="2"/>
+<rect x="930.5" y="250" width="50" height="110" rx="6" fill="#b3dfc8" fill-opacity="1" stroke="#26755b" stroke-width="2"/>
+<rect x="930.5" y="470" width="65" height="170" rx="17" fill="#f5cca0" fill-opacity="1" stroke="#b56612" stroke-width="2"/>
+<polyline points="918,232 1058,232" fill="none" stroke="#213047" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1064" y="238.0" font-family="Arial, sans-serif" font-size="18" fill="#213047" font-weight="normal" text-anchor="start">+Z</text>
+<polyline points="918,260 918,744" fill="none" stroke="#176bc1" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="1050" y="280.0" font-family="Arial, sans-serif" font-size="22" fill="#26755b" font-weight="bold" text-anchor="start">Battery bay</text>
+<text x="778" y="286.0" font-family="Arial, sans-serif" font-size="17" fill="#176bc1" font-weight="bold" text-anchor="start">4 mm parts</text>
+<text x="778" y="311.0" font-family="Arial, sans-serif" font-size="16" fill="#213047" font-weight="normal" text-anchor="start">on −Z side</text>
+<polyline points="873,295 893,295" fill="none" stroke="#176bc1" stroke-width="2"/>
+<text x="1050" y="309.0" font-family="Arial, sans-serif" font-size="19" fill="#213047" font-weight="normal" text-anchor="start">10 mm in Z</text>
+<text x="1050" y="336.0" font-family="Arial, sans-serif" font-size="18" fill="#213047" font-weight="normal" text-anchor="start">2 mm gap to board</text>
+<polyline points="981,300 1035,300" fill="none" stroke="#26755b" stroke-width="2"/>
+<text x="1050" y="470.0" font-family="Arial, sans-serif" font-size="22" fill="#b56612" font-weight="bold" text-anchor="start">Motor sleeve</text>
+<text x="1050" y="499.0" font-family="Arial, sans-serif" font-size="18" fill="#213047" font-weight="normal" text-anchor="start">Ø13 mm reservation</text>
+<text x="1050" y="526.0" font-family="Arial, sans-serif" font-size="18" fill="#213047" font-weight="normal" text-anchor="start">2 mm separation</text>
+<polyline points="997,520 1035,520" fill="none" stroke="#b56612" stroke-width="2"/>
+<text x="780" y="645.0" font-family="Arial, sans-serif" font-size="18" fill="#176bc1" font-weight="bold" text-anchor="start">1 mm PCB</text>
+<polyline points="890,638 914,638" fill="none" stroke="#176bc1" stroke-width="2"/>
+<text x="776" y="721.0" font-family="Arial, sans-serif" font-size="20" fill="#213047" font-weight="bold" text-anchor="start">Motor overlap:</text>
+<text x="776" y="750.0" font-family="Arial, sans-serif" font-size="19" fill="#213047" font-weight="normal" text-anchor="start">13 motor + 2 gap + 1 PCB = 16 mm internal Z</text>
+<text x="776" y="792.0" font-family="Arial, sans-serif" font-size="20" fill="#213047" font-weight="bold" text-anchor="start">Base overlap:</text>
+<text x="776" y="821.0" font-family="Arial, sans-serif" font-size="19" fill="#213047" font-weight="normal" text-anchor="start">10 pack + 2 gap + 5 PCB assembly = 17 mm</text>
+<rect x="30" y="892" width="1340" height="114" rx="15" fill="#fff5e6" fill-opacity="1" stroke="#efcf98" stroke-width="2"/>
+<text x="54" y="925.0" font-family="Arial, sans-serif" font-size="23" fill="#b56612" font-weight="bold" text-anchor="start">The board follows an inward-offset carrier cavity, not the outer silicone skin.</text>
+<text x="54" y="955.0" font-family="Arial, sans-serif" font-size="19" fill="#213047" font-weight="normal" text-anchor="start">All dimensions are study inputs. Z totals exclude carrier, silicone, adhesives, tolerances and actual part clearances.</text>
+<text x="54" y="983.0" font-family="Arial, sans-serif" font-size="19" fill="#213047" font-weight="normal" text-anchor="start">KiCad / DXF outputs contain a rounded board outline only. No electrical layout, fit or fabrication validation.</text>
+</svg>

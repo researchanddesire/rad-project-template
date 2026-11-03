@@ -1,0 +1,41 @@
+{
+  "native_sha256": "a786b3e81783249adb7f2cb0cb1bdcfcee1ff1d10fbc2ca34527864d54d0cb9e",
+  "geometry_report_sha256": "b58cc6a6350e7b9a8257cfe1e6af14a2b3f5292f585c5418e9bf5181be361990",
+  "saved_review_sha256": "80758a2f078368f8d7b9e3d8d558dd0567b5aacb7e164b8e89c30882eafb1919",
+  "source_R29_native_sha256": "a1e9963c264933419c94defc74b6bccd25e6083ba9e621b15f1e31530ecf69fe",
+  "changed_meshes_sha256": {
+    "HarnessLeftHubR30.stl": "3b5f318c70a4fd97a92d127bf54e2ae10a4ecd2308e925bf14cfc92aafeb4172",
+    "CentralAnchorPadR30.stl": "b87695ed1dfd2eeb38551b8e3db5bd023f61d607df3da29e585686a2ad71e4d9",
+    "HarnessKeeperR30.stl": "ddc6588a1d7b2883c9742d2a8be4ef0df67b14d066c21fe603715ded754ac404",
+    "FlangeAnchorPadR30.stl": "70c50ab2521e5d2c39474b97e5a3f6feee121d202227e27a647faba3291c35db"
+  },
+  "R29_wire_meshes_sha256": {
+    "InterboardWireR29_1.stl": "183b1ba77e339b6bb2a06154db87e5a74cd37d3991ac147d67393ba8b5d008da",
+    "InterboardWireR29_2.stl": "b704f7d8e8ff1d3e3734925c0c29313fe06671cd5cfe78d12704fdc70c5d79f6",
+    "InterboardWireR29_3.stl": "e6e5473ac1d581a7f18a770fcc76d1121c608ea2848b4c4f01fd7e1bbe721bd9",
+    "InterboardWireR29_4.stl": "c5fcd200d8ff6ff173ea12fd91a0e803152d7637490f031730d3c6bf6e224c8a",
+    "InterboardWireR29_5.stl": "3f0191730396c521fa820c59d8084ff947675f0d46d79d794bbc321b9cbc41fa",
+    "InterboardWireR29_6.stl": "523065254cbb6427418d9b15c9fe7ebaefeedbecd745d607fdce6749d95ba838",
+    "InterboardWireR29_7.stl": "2c6602a74b593564e3651177878b5c3882912f583c79595b1749e8365e40d4ab",
+    "InterboardWireR29_8.stl": "d8bf3bb65894119b3913b71db4d659473ffe2009619c1da9db145ad1a9987c0c",
+    "InterboardWireR29_9.stl": "65c3b95f8b895ec4184ca8fb83ed0088a1fd275e0dfc8ce3e178d38bc817e338",
+    "InterboardWireR29_10.stl": "4ebd04b19112e62eb908cfce0dbe51cbf9d6d6423bea4c83b0356d7b723f9565"
+  },
+  "R27_context_meshes_sha256": {
+    "R17Mate_J7.stl": "2a79473135bcc56c3335d3be93fe0ab9e545bc02e48701fb8fdebdf440bec00d"
+  },
+  "display_translations": {
+    "HarnessKeeperR30": [
+      0,
+      -6,
+      0
+    ]
+  },
+  "mesh_triangle_crops": {
+    "central": "Left hub all triangle verticesX>-8; wires-17<Y<-10 and|X|<5.",
+    "flange_wires": "All triangle verticesZ>7,Y<-14,X<-20. Open crops without invented cap surfaces."
+  },
+  "renderer_sha256": "e50ca2c73ce6577a4d7c48a084935a6c116a54f975f63af3e6a3e403cc17d177",
+  "render_library_sha256": "6f53572a44b4ebc200c3e4593d17057385c7606c06d12878f88d3d2c615e7833",
+  "scope": "Saved native mesh geometry. Right hub/covers/body omitted; keeper display displacement stated. No material/bond, actual fixture/connected motion or physical acceptance."
+}

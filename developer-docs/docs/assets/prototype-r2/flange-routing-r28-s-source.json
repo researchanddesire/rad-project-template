@@ -1,0 +1,15 @@
+{
+  "native_boards_sha256": {
+    "body": "19f0c9b20d4b6e6c43636076531297af3eab12effb196b8ce46c807de477491b",
+    "flange": "521bbffad5ad2ea960973a6650904ff64e906639b86408db8227b640d531e542"
+  },
+  "native_plot_sha256": {
+    "native-front.svg": "2bee62fd73359f5a45ca2e49f33db00c4e67207103a882e6d3680a72ff2d4a56",
+    "native-back.svg": "96154ffea046e69c6c07b8e27e0120c0a0e99157822f40e8ba9ddcd9252d286c"
+  },
+  "saved_circuit_review_sha256": "9ba5aa457fb93ce926bedaee05f048d0821ddccb1e39d2e6948e089ed8929df7",
+  "drill_review_sha256": "cf7046700c44518975ca9157c97980773767f5d700438abaa72ba2a52ff8e1a7",
+  "renderer_sha256": "2c639446e5956c7a578f27eda241eafa24a426eaa56bc8a70882b39d20dabc67",
+  "figure_sha256": "3a94724d61e87222a6ed5178c4f92c27a30b3c41a9c2535eed5de873b2f6e366",
+  "method": "Actual native SVG plots framed without moving copper/footprints. Back is shown in the same top-coordinate frame, not a mirrored assembly drawing."
+}

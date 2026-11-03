@@ -1,0 +1,270 @@
+{
+  "geometry_report_sha256": "1ce32287e131ea23fc8eec8948a32b2aa01eadff6ada2aa8ff2619c043b890d2",
+  "route_report_sha256": "b2a3ebd64c3461032fbfa65518f285fc92b43e26a830e58c6548f5521b0152ef",
+  "reviewer_sha256": "13f77a9da438f84a26cb63358c0b06121ec727acf46a4e39585ef328fc45c980",
+  "recipe_sha256": "4c05473991ef79401df8c2ceb6eb5925b1eff60874607ca93c107c01d9085bf9",
+  "native_system_XML_sha256": "69acf12f410f49a0de6c972a85a08350d0eacdf4007bc7d4219f649d128d0a94",
+  "native_binding_count": 11,
+  "electrical_groups": [
+    {
+      "native_net": "GND",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "2"
+        ],
+        [
+          "cable",
+          "W-RETURN-LEGS",
+          "1"
+        ],
+        [
+          "cable",
+          "W-RETURN-LEGS",
+          "2"
+        ],
+        [
+          "cable",
+          "W-TH1-FACTORY",
+          "2"
+        ],
+        [
+          "cable",
+          "W-TH2-FACTORY",
+          "2"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "2S"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "3"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "4"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "3"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "4"
+        ],
+        [
+          "connector",
+          "TH1",
+          "2"
+        ],
+        [
+          "connector",
+          "TH2",
+          "2"
+        ],
+        [
+          "connector",
+          "Y-RETURN",
+          "1"
+        ],
+        [
+          "connector",
+          "Y-RETURN",
+          "2"
+        ],
+        [
+          "connector",
+          "Y-RETURN",
+          "3"
+        ]
+      ]
+    },
+    {
+      "native_net": "PACK_NTC",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "4"
+        ],
+        [
+          "cable",
+          "W-TH1-FACTORY",
+          "1"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "3"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "1"
+        ],
+        [
+          "connector",
+          "LAP-TH1",
+          "2"
+        ],
+        [
+          "connector",
+          "TH1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "native_net": "PACK_GUARD",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "5"
+        ],
+        [
+          "cable",
+          "W-TH2-FACTORY",
+          "1"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "4"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "1"
+        ],
+        [
+          "connector",
+          "LAP-TH2",
+          "2"
+        ],
+        [
+          "connector",
+          "TH2",
+          "1"
+        ]
+      ]
+    },
+    {
+      "native_net": "PACK_P",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "1"
+        ],
+        [
+          "cable",
+          "W-OEM",
+          "1"
+        ],
+        [
+          "cable",
+          "W-PACK",
+          "1"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "1"
+        ],
+        [
+          "connector",
+          "LAP-POWER",
+          "1"
+        ],
+        [
+          "connector",
+          "LAP-POWER",
+          "2"
+        ],
+        [
+          "connector",
+          "OEM-MATE",
+          "1"
+        ],
+        [
+          "connector",
+          "OEM-MATE",
+          "3"
+        ],
+        [
+          "connector",
+          "PACK-REF",
+          "P+"
+        ]
+      ]
+    },
+    {
+      "native_net": "GND",
+      "nodes": [
+        [
+          "cable",
+          "W-BODY",
+          "3"
+        ],
+        [
+          "cable",
+          "W-OEM",
+          "2"
+        ],
+        [
+          "cable",
+          "W-PACK",
+          "2"
+        ],
+        [
+          "connector",
+          "J2-R35",
+          "2P"
+        ],
+        [
+          "connector",
+          "LAP-POWER",
+          "3"
+        ],
+        [
+          "connector",
+          "LAP-POWER",
+          "4"
+        ],
+        [
+          "connector",
+          "OEM-MATE",
+          "2"
+        ],
+        [
+          "connector",
+          "OEM-MATE",
+          "4"
+        ],
+        [
+          "connector",
+          "PACK-REF",
+          "P-"
+        ]
+      ]
+    }
+  ],
+  "separate_external_power_and_sensor_returns": true,
+  "candidate_child_BOM": {
+    "one_prewired_mate_candidate": true,
+    "two_sensors": true,
+    "starting_wire_m": 0.81,
+    "factory_leads_not_double_counted": true,
+    "generated_tsv_path": "/private/tmp/r39-wireviz/pack-adapter-r39.bom.tsv",
+    "generated_tsv_sha256": "84628b8368d541865c959cb4410150aa9cd75ed0a2e7992538123fa7379aab7a"
+  },
+  "scope": "Logical native-net and source recipe verification only. Returns join on body PCB, not in the long harness. Conditional power mate; receiving dimensions, materials/strain relief/assembly and current/thermal/physical qualification remain open. Starting blanks are not finished lengths or procurement approval."
+}

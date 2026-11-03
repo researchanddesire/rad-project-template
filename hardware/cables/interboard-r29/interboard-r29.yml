@@ -1,0 +1,50 @@
+metadata:
+  title: R29 body to flange harness - prototype starting blanks
+  description: Ten numbered conductors, J6 to J7, following the unchanged R28S native net map.
+  notes: 120 mm starting blanks; trim on the assembly fixture. This is not a finished cable length or order release.
+options:
+  fontname: Arial
+  color_mode: FULL
+connectors:
+  J6:
+    type: Wire-side JST SH10 candidate
+    subtype: Without protrusions - 11 mm housing width
+    manufacturer: JST
+    mpn: SHR-10V-S
+    pincount: 10
+    pinlabels: [GND, VBUS_CHG, 3V3, PACK_P, MOTOR_ARM, MOTOR_PWM, DOCK_PRESENT_N, I2C_SDA, I2C_SCL, ACCEL_INT_N]
+    notes: "Body header SM10B-SRSS-TB candidate. Numeric pin view, not a mating-face drawing.\nUse SSH-003T-P0.2-H contacts with reviewed tooling/crimp.\nThe 13 mm SHR-10V-S-B is not interchangeable with the modeled 11 mm allowance."
+  J7:
+    type: Wire-side JST SH10 candidate
+    subtype: Without protrusions - 11 mm housing width
+    manufacturer: JST
+    mpn: SHR-10V-S
+    pincount: 10
+    pinlabels: [GND, VBUS_CHG, 3V3, PACK_P, MOTOR_ARM, MOTOR_PWM, DOCK_PRESENT_N, I2C_SDA, I2C_SCL, ACCEL_INT_N]
+    notes: "Flange header SM10B-SRSS-TB candidate. Verify pin 1 independently at both ends.\nDo not assume visual left-to-right order stays the same on the rotated board."
+cables:
+  W-INTERBOARD-R29:
+    category: bundle
+    type: Ten independent wires - fixture trim
+    manufacturer: Accu-Glass
+    mpn: '100690'
+    gauge: 28
+    gauge_unit: AWG
+    wirecount: 10
+    colors: [BN, BN, BN, BN, BN, BN, BN, BN, BN, BN]
+    wirelabels: ['1/GND', '2/VBUS_CHG', '3/3V3', '4/PACK_P', '5/MOTOR_ARM', '6/MOTOR_PWM', '7/DOCK_PRESENT_N', '8/I2C_SDA', '9/I2C_SCL', '10/ACCEL_INT_N']
+    length: 0.120
+    length_unit: m
+    notes: "120 mm STARTING BLANK each; trim using the route fixture. Removed excess is not service slack.\nAmber Kapton candidate; labels identify nets, not supplied jacket colours.\nOD0.60 and centerline R4.0 are separate design allowances, not controlled maker maxima.\nStatic routing and supported assembly/service movement must be reviewed before finishing both ends."
+connections:
+  - - J6: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    - W-INTERBOARD-R29: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    - J7: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+additional_bom_items:
+  - description: SH crimp contact candidate - verify produced crimp
+    qty: 20
+    unit: pcs
+    manufacturer: JST
+    mpn: SSH-003T-P0.2-H
+tweak:
+  append: 'graph [label="R29 / PROTOTYPE STARTING MATERIAL\n120 mm blanks trimmed to fixture; no finished length or physical fit acceptance", labelloc=t, labeljust=l, fontsize=18, fontname="Arial"];'

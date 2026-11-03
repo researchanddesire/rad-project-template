@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-01",
+  "status": "Candidate reference, not a purchase or human BOM selection",
+  "JST": {
+    "source": "https://www.jst.com/wp-content/uploads/2025/06/eSH.pdf",
+    "local_pdf": "references/jst-sh.pdf",
+    "sha256": "ea3071ca5ee5a6069eba534fa39a10f34c9fb742ee42135a69ab4156bfa0f5de",
+    "pages_visually_inspected": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "renderer_note": "Poppler lacked Japanese CMap labels; MuPDF rendering was visually checked with dimensions visible.",
+    "housing": "SHR-10V-S without protrusions",
+    "housing_width_mm": 11,
+    "B_variant_width_mm": 13,
+    "pitch_mm": 1,
+    "contact": "SSH-003T-P0.2-H",
+    "AWG_range": [
+      28,
+      32
+    ],
+    "insulation_OD_range_mm": [
+      0.4,
+      0.8
+    ],
+    "rated_current_A_at_AWG28": 1,
+    "initial_contact_resistance_max_ohm": 0.02,
+    "after_environment_contact_resistance_max_ohm": 0.04,
+    "geometry_boundary": "Catalogue reference outlines; current nominal mating boxes/wire axes are not controlled whole housing/contact exit geometry. Do not claim exact egress or positive latch fit."
+  },
+  "wire": {
+    "candidate": "Accu-Glass100690",
+    "source": "https://www.accuglassproducts.com/wire-and-cable/kapton-insulated/stranded-wires/28-awg",
+    "catalogue": "https://www.accuglassproducts.com/sites/default/files/catalog/kapton_insulated_uhv_wire.pdf",
+    "AWG": 28,
+    "construction": "7x0.005inch silver-plated copper, Kapton",
+    "catalogue_nominal_OD_mm": 0.508,
+    "published_OD_tolerance": null,
+    "current_long_term_min_radius_mm": 3.302,
+    "radius_measurement_basis": null,
+    "max_resistance_ohm_per_m_at_20C": 0.244,
+    "design_OD_allowance_mm": 0.6,
+    "design_centerline_R_min_mm": 4,
+    "inside_radius_conservative_centerline_requirement_mm": 3.602,
+    "current_and_flex_boundary": "Maker headline current is not an enclosed harness rating or dynamic flex-life specification. Confirm actual wire OD/stripping/crimp/strain relief, lead resistance and heat in the assembled bench prototype."
+  },
+  "unadopted_alternative": {
+    "candidate": "Alpha Wire2842/7",
+    "source": "https://www.alphawire.com/en/products/wire/hook-up-wire/premium/2842_7",
+    "secondary_primary_source": "https://www.belden.com/products/cable/electronic-wire-cable/lead-wire-hook-up-wire/2842-7",
+    "OD_max_mm": 0.7366,
+    "maker_radius_10OD_mm": 7.3660000000000005,
+    "Belden_stationary_radius_mm": 7.6,
+    "reason": "Compatible AWG/OD range, but larger bend target than the current R4 route. Not adopted; no smaller radius assumed."
+  },
+  "scope": "Source and dimensional compatibility review only. No supplier selection, purchase, received measurements, crimp, load/temperature or flex validation."
+}

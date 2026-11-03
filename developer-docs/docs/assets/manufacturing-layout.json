@@ -1,0 +1,25 @@
+{
+  "native_sha256": "63a01f9fcf914b916b1394dc012b9321595c5a6dfd283339231015eaabfd14c9",
+  "renderer_sha256": "f73965168e579f9cd8ca4d5b18a81e52c12415fcfed01f99396db1cf6703d5a7",
+  "meshes_sha256": {
+    "MetalBody-half-view.stl": "43d9fbc6d8119123447ce8f3db820d05119257b03987b56c92ca6d4e2a204352",
+    "MotorThermistorCap-half-view.stl": "1dd5d77c3c444d3538bd950c1f85e99132b0570c3980c8eb4e055a645e6ea9b9",
+    "FlangeTray-view.stl": "3fb361cd0584ff26fe704485c02323c63848d26b4e3f9fab725a7504d9cd727f",
+    "BodyElectronicsReference-view.stl": "aa78c5a2033a90cacddf05c524abf731b01736717f851c14f15daf4031dc594e",
+    "FlangeElectronicsMechanicalProposal-view.stl": "f24d04c58ed76879393065c9c120e3a778d368d622e71cea6826c4265b0f9c53",
+    "UnselectedPackReference-view.stl": "dd6b43bd1978350d00868612f1d593e71b153ef32d94ec40dad29a96781ea95c",
+    "MotorReferenceFitTBD-view.stl": "a66b0f677b49570d63ae4c187c8944c9cdbe5e4b06dc930e11fd71d720f4ca12",
+    "MetalBody-rear-half-view.stl": "1a30bce797d94cff4e0861f7cdac15e6ad358de1c34db022f63079acbed6b80f",
+    "FlangeTray-rear-half-view.stl": "720ca7d12b28d1c1429865dd848ea092f048aab436cef4914e444c1ad115918c",
+    "StandardRetainingRingEnvelope-half-view.stl": "95fec6b5b5107bb75694f0557473ba67b4e76c52e9fa2405d55da70255f41dc3",
+    "RootSocketBondProcessSpace-half-view.stl": "9bedaec6aae8de35c15249b8ac5aa462c3a29b52ea4a486619b6c4ed08edb04e",
+    "BondedBootCuffProcessSpace-half-view.stl": "c4c3754fc17ddfbb41ce6ba5c819c05a1d0c18541302285cb4182648d5fe661f",
+    "FlangeTray.stl": "f432d409dbb4c84ddee50bd1c920e26e2d921c38283a7c8572b18b6f028d6085",
+    "RearCover.stl": "497a467dae4157519aec1400d8397eb190551391c2f578c11fc445d86a6965c0",
+    "MetalBody-front-half-view.stl": "75c9bfca64bf1fcea8fa05b654c71123b3bab8f61bc06dd928fa1f5c64850461",
+    "TipPottingProcessSpace-view.stl": "d43710346f84b85cd3d96b2a8324e53b7129737257b2c3f9cb13e62b7ba3ea67",
+    "TipThermistorHeadReference-view.stl": "5d3837a2546cacd5ac6a6cf31a9fafa9a20c9c3bb03cfa567f8252111f24d14e",
+    "CapFaceSealProcessSpace-half-view.stl": "870eb2dcfec1f41941f8f8e56c88ef5e485ad6ecbec0aaf34f4d508ec090fc1e"
+  },
+  "scope": "Actual native solids/half sections. Rear clip excludes wings for close view; ring outline/lugs and cuff/bond/seal are engineering reservations. Plastic panel uses exported print poses; cover translated99mm. No photorealistic or inferred geometry."
+}

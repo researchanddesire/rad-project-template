@@ -1,0 +1,17 @@
+{
+  "native_sha256": "77abefb32608279d34c37d6b2a6d7ac7926b7a6816d1008ff9e487aebc9a6483",
+  "open_mouth_evidence_sha256": "d5ba915d8a44e1ed949bf9770572f20a70a31a58c4c3bf1d366cbbd690cc746e",
+  "geometry_report_sha256": "9d2f4343dba552e77ccb03d24ca6f29fc5d1d99adfa8b0ce9f1e24e43a0d6350",
+  "renderer_sha256": "e916f85a98b06db99f515cda7aa238e368d8b0b5eee5efffbf86e2fac36ba220",
+  "mesh_sha256": {
+    "open-mouth-evidence/OpenPipeShellNoseSegment.stl": "7db7bb5de212ee9a928e19d4d9bd58aef0d33f387dabffd1f0c87bc36f60908a",
+    "open-mouth-evidence/InternalMotorSupportNoseSegment.stl": "111eb73abd643a7b6f3d21f57c9fa101f134f0c617c59a294839b8a3cdbf2063",
+    "open-mouth-evidence/InternalMotorLinerCapsTapeSegment.stl": "0e5cf518d12663dce60a46c013ffb99610815c195189e3b745bf387a0b829799",
+    "FemaleNoseCap.stl": "be839c3729159d97290a19f9953f8b0d457315a865e776c2539b5a780cbe8218"
+  },
+  "cap_display_translation_xyz_mm": [
+    0,
+    18,
+    0
+  ]
+}

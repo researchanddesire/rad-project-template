@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<title>Plan A selected — hollow metal body and polymer flange</title>
+<desc>Editable non-dimensional material comparison. Left: selected Plan A, hollow metal body and polymer flange. Right: unselected Plan B, local metal tip and insulating body. Both retain a nonmetal antenna region in the flange.</desc>
+<defs><path id="profile" d="M 0 -222 C 22 -222 48 -191 53 -154 C 59 -113 39 -79 22 -52 C 15 -41 14 -24 20 -15 C 38 -4 69 -11 100 -6 C 123 -3 141 11 145 21 C 151 32 148 40 135 42 C 99 47 49 38 5 31 C -28 26 -71 38 -120 37 C -144 36 -151 25 -140 11 C -128 -4 -94 -10 -63 -12 C -36 -14 -21 -16 -19 -30 C -18 -44 -27 -62 -39 -83 C -61 -124 -55 -166 -35 -194 C -23 -211 -9 -222 0 -222 Z"/><clipPath id="flange"><rect x="-160" y="-15" width="320" height="100"/></clipPath><clipPath id="tip"><rect x="-90" y="-240" width="180" height="55"/></clipPath><clipPath id="silhouette"><use href="#profile"/></clipPath></defs>
+<rect width="1500" height="1000" fill="white"/>
+<text x="36" y="52.0" fill="#243449" font-family="Arial,sans-serif" font-size="34" font-weight="bold">Material study / conductivity where the sensor needs it</text>
+<text x="38" y="90.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="22" font-weight="normal">Goal: better tip temperature sensing, with an easy-to-clean finished surface.</text>
+<rect x="28" y="136" width="708" height="640" rx="18" fill="#f7f9fb" stroke="#dae3ec" stroke-width="1.5"/>
+<rect x="764" y="136" width="708" height="640" rx="18" fill="#f7f9fb" stroke="#dae3ec" stroke-width="1.5"/>
+<text x="52" y="177.0" fill="#243449" font-family="Arial,sans-serif" font-size="25" font-weight="bold">A / SELECTED: metal body + polymer flange</text>
+<text x="788" y="177.0" fill="#243449" font-family="Arial,sans-serif" font-size="25" font-weight="bold">B / Alternative: local metal sensing tip</text>
+<text x="52" y="210.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">Hollow cast body with a finished metal contact surface.</text>
+<text x="788" y="210.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">Unselected comparison for a localized sensing path.</text>
+<g transform="translate(355 615) scale(1.35)">
+<use href="#profile" fill="#d1d8e1" stroke="#5b6f85" stroke-width="2"/>
+<use href="#profile" fill="#c6e1ff" clip-path="url(#flange)"/>
+<path d="M-35 -15 H35" clip-path="url(#silhouette)" stroke="#35679d" stroke-width="1.6" stroke-dasharray="3 3"/>
+<circle cx="0" cy="-204" r="5" fill="#d28b2b" stroke="#8f5913" stroke-width="1.2"/>
+<rect x="89" y="7" width="36" height="21" rx="4" fill="none" stroke="#35679d" stroke-width="2" stroke-dasharray="3 2"/>
+</g>
+<g transform="translate(1091 615) scale(1.35)">
+<use href="#profile" fill="#d9eee6" stroke="#5b6f85" stroke-width="2"/>
+<use href="#profile" fill="#d1d8e1" clip-path="url(#tip)"/>
+<path d="M-65 -185 H65" clip-path="url(#silhouette)" stroke="#5b6f85" stroke-width="1.6" stroke-dasharray="3 3"/>
+<circle cx="0" cy="-204" r="5" fill="#d28b2b" stroke="#8f5913" stroke-width="1.2"/>
+<rect x="89" y="7" width="36" height="21" rx="4" fill="none" stroke="#35679d" stroke-width="2" stroke-dasharray="3 2"/>
+</g>
+<text x="70" y="283.0" fill="#975d15" font-family="Arial,sans-serif" font-size="19" font-weight="bold">Tip sensor</text>
+<polyline points="167,292 266,292 348,340" fill="none" stroke="#975d15" stroke-width="2"/>
+<text x="807" y="283.0" fill="#975d15" font-family="Arial,sans-serif" font-size="19" font-weight="bold">Tip sensor</text>
+<polyline points="904,292 1003,292 1084,340" fill="none" stroke="#975d15" stroke-width="2"/>
+<text x="52" y="420.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">Shared shell can</text>
+<text x="52" y="446.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">carry motor heat</text>
+<text x="52" y="472.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">toward the tip.</text>
+<polyline points="218,440 281,440" fill="none" stroke="#975d15" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="788" y="420.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">Limit conduction</text>
+<text x="788" y="446.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">along the body;</text>
+<text x="788" y="472.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">control tip contact.</text>
+<polyline points="956,440 1018,440" fill="none" stroke="#27745f" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="510" y="510.0" fill="#35679d" font-family="Arial,sans-serif" font-size="18" font-weight="bold">Antenna volume</text>
+<text x="510" y="535.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="17" font-weight="normal">at outward end</text>
+<polyline points="536,550 536,598 510,632" fill="none" stroke="#35679d" stroke-width="2"/>
+<text x="1246" y="510.0" fill="#35679d" font-family="Arial,sans-serif" font-size="18" font-weight="bold">Antenna volume</text>
+<text x="1246" y="535.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="17" font-weight="normal">at outward end</text>
+<polyline points="1272,550 1272,598 1246,632" fill="none" stroke="#35679d" stroke-width="2"/>
+<text x="52" y="718.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">Watch: shared heat paths, mass and the flange joint.</text>
+<text x="788" y="718.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="18" font-weight="normal">Watch: retention and cleaning at the tip joint.</text>
+<text x="52" y="748.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="17" font-weight="normal">Metal casting grade, surface finish and sealing TBD.</text>
+<text x="788" y="748.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="17" font-weight="normal">Material, thermal bond and sealing TBD.</text>
+<rect x="28" y="802" width="1444" height="131" rx="16" fill="#eff4fa" stroke="#d8e3f0"/>
+<text x="52" y="841.0" fill="#35679d" font-family="Arial,sans-serif" font-size="24" font-weight="bold">RF window: reserve real space around the antenna</text>
+<text x="52" y="875.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="19" font-weight="normal">Use the whole polymer flange for the antenna region. Keep nearby metal and component clutter away.</text>
+<text x="52" y="904.0" fill="#596a7b" font-family="Arial,sans-serif" font-size="19" font-weight="normal">A plastic patch alone does not establish radio performance; window size and final WiFi/BLE testing remain open.</text>
+<text x="38" y="970.0" fill="#975d15" font-family="Arial,sans-serif" font-size="18" font-weight="normal">Plan A selected • material colors only • alloy, wall section, dimensions, sensing accuracy and cleaning remain unvalidated</text>
+</svg>

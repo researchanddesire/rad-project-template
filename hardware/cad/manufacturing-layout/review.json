@@ -1,0 +1,484 @@
+{
+  "native_sha256": "63a01f9fcf914b916b1394dc012b9321595c5a6dfd283339231015eaabfd14c9",
+  "source_native_sha256": "6e9a5f3594c5628ba84675f2e3a2ac10b5b7cee52fe410d78996141e90d18571",
+  "builder_sha256": "a1ffebb7ea8f839d5e91ae5198121b2e572e8c490ef862b013965d2c943a3e20",
+  "main_rigid_custom_parts": [
+    "MetalBody",
+    "MotorThermistorCap",
+    "FlangeTray",
+    "RearCover"
+  ],
+  "native_object_names": {
+    "MetalBody": "FaceGlandBottomRadii",
+    "MotorThermistorCap": "CapCut2",
+    "FlangeTray": "PCBPostFrontCore1",
+    "RearCover": "MagnetPocket1"
+  },
+  "manufacturing_intent": "Exactly two custom metal parts: CNC-turned body and cap. One offset axial sensor drill on cap, not pure two-axis turning.",
+  "body_bore": "12mm neck through bore, conical transition Y26..33, 28mm straight front bore; no internal bulge undercut",
+  "cap_joint": {
+    "seam_Y_mm": 64,
+    "thread_callout": "M30x1.5 proposed6H/6g, body female/cap male;6mm nominal full male length/four pitches; strength/galling/fit/gaging not validated",
+    "CAD_representation": "Female pilot28.5mm and male BASIC root28.1597mm envelopes, NO helical teeth; callout controls, never machine envelopes as finished thread",
+    "seal": "Candidate32x1 face O-ring; metal faces set closure. Nominal22percent squeeze/63percent cross-section fill; full tolerance/material/closure review pending",
+    "seal_dimensions_mm": {
+      "candidate_ID": 32,
+      "candidate_section": 1,
+      "gland_ID": 31.6,
+      "gland_OD": 34.8,
+      "depth": 0.7800000000000011,
+      "face_Y": 64
+    },
+    "reliefs": "BodyID30.4x2.25 atY53.5..55.75; cap rootOD27.6x2.25 atY61.75..64. Indicative tool runout, NOT DIN76 compliance claim",
+    "lead_ins": "Cap leadY54.75..55.75; body entryY62.95..63.7. Exact radii/tool exits to supplier review"
+  },
+  "rear_joint": {
+    "shoulder_OD_mm": 24,
+    "spigot_OD_mm": 18,
+    "bore_mm": 12,
+    "tray_socket_ID_mm": 18.2,
+    "socket_bearing_thickness_mm": 2,
+    "ring_groove_diameter_mm": 17,
+    "ring_groove_width_mm": 1.3,
+    "ring_groove_Y_mm": [
+      -11.4,
+      -10.1
+    ],
+    "ring_candidate": "DIN 471 18x1.2 / Rotor Clip DSH18; material/finish/load qualification pending",
+    "ring_geometry": "Approximate installed envelope/lugs; not vendor CAD",
+    "status": "Catalog dimensions matched at nominal only; tolerances, groove edge radius, material/load and installation review pending",
+    "axial_path": "Body shoulder/tray root pad/standard retaining ring; rear cover does not retain metal",
+    "torsion_path": "Bonded spigot/socket; ring is NOT antirotation",
+    "wet_boundary": "Continuous silicone boot bonded over recessed root OD19.5mm bond land Y-7..-3, flush to OD21mm upper shoulder; only cuff section modeled, full boot/contact seals pending",
+    "nominal_geometric_axial_freeplay_mm": 0.2,
+    "groove_rear_edge_margin_mm": 1.6
+  },
+  "cap_motor": {
+    "pocket_diameter_mm": 11.1,
+    "motor_end_stop_Y_mm": 93.3,
+    "pocket_entry_Y_mm": 78,
+    "status": "Actual press/retention fit and force pending; metal shoulder, independent of thermistor"
+  },
+  "cap_sensor": {
+    "drill_diameter_mm": 2.5,
+    "axis_XZ_mm": [
+      7.8,
+      0
+    ],
+    "entry_Y_mm": 78,
+    "cylindrical_end_Y_mm": 90.5,
+    "drill_tip_Y_mm": 90.95496279283276,
+    "cylindrical_depth_mm": 12.5,
+    "depth_to_diameter": 5,
+    "web_to_motor_bore_mm": 1,
+    "radial_wall_at_cylinder_end_mm": 1.536730428217596,
+    "status": "140deg drill point modeled; agree remaining wall/tool wander and offset sensor thermal response",
+    "minimum_distance_drill_to_outer_dome_mm": 1.2886999134196322
+  },
+  "separate_soft_part": "Silicone outer boot incomplete; root cuff only process reference",
+  "body_board_forward_shift_mm": 10,
+  "body_board_support": "Insulating sleeve and two foam pads spanY59..69 into cap counterbore; retention/adhesive/assembly jig still to trial",
+  "plastic_post_coring": "Front-access cores: case posts9.2mm deep, PCB seats9.4mm deep,0.5deg core draft; closed webs remain behind pilots/seats. Screw engagement/strip/creep still unqualified",
+  "nominal_plastic_wall_mm": 1.6,
+  "shell_draft_degrees": 2,
+  "case_fasteners": "Two M2x6 concept into cored plastic pilots atX6,Z+/-13; final thread form/material/torque/engagement pending. Cover closure only.",
+  "magnet_axes_XZ_mm": [
+    [
+      -38.5,
+      9.5
+    ],
+    [
+      -21,
+      -10.5
+    ]
+  ],
+  "print_oriented_plastic_parts": [
+    "FlangeTray",
+    "RearCover"
+  ],
+  "unexpected_hard_part_intersections": [],
+  "noncritical_tool_radii_mm": {
+    "body_bore_transitions": 0.4,
+    "rear_spigot_root": 0.3,
+    "gland_bottom": 0.1,
+    "tray_socket_front_chamfer": 0.5,
+    "limits": "Ring/gland and thread relief corner radii require matched catalog/tool callouts; motor-seat corner awaits actual case edge"
+  },
+  "metal_volumes_mm3": {
+    "MetalBody": 17902.128403262137,
+    "MotorThermistorCap": 14927.009355141925
+  },
+  "electrical_changes_required": [
+    "Two-wire offset tip NTC analogue front end/calibration/fault handling",
+    "Flange PCB tabs/NPTHs and placement need actual layout/DRC",
+    "Cap/body-board loom with flange tails free during threading; actual insertion/service trial",
+    "Revised charging magnet mate"
+  ],
+  "dfm_sources": [
+    "https://www.protolabs.com/en-gb/services/cnc-machining/cnc-turning/",
+    "https://www.protolabs.com/resources/design-tips/mastering-complex-features-on-machined-parts/",
+    "https://www.smalley.com/engineering-support/ring-design",
+    "https://www.rotorclip.com/product/dsh-18/",
+    "https://www.applerubber.com/seal-design-guide/seal-types-and-gland-design/o-ring-installation/",
+    "https://www.fictiv.com/articles/fictiv-cnc-machining-design-guide",
+    "https://hlhrapid.com/wp-content/uploads/2022/07/CNC-Machining-Design-Guide.pdf",
+    "https://www.hlhprototypes.com/design-tips-for-cnc-machining/",
+    "https://www.sandvik.coromant.com/en-gb/tools/silent-tools/what-is-silent-tools/application-guide-silent-tools/turning-appl-guide",
+    "https://books.industrialpress.com/9780831139322/machinerys-handbook-32-digital-edition/",
+    "https://guhring.com/Downloads/Item/9064050025000",
+    "https://www.haimer.com/shop/catalog/downloads/files/Tool-holders/Tool-holders_US.pdf"
+  ],
+  "scope": "DFM review study only. No material/stock supplier selected. Thread/ring fits, seal/boot, root bond qualification, case creep, actual loom, tip drilling, machining tooling, mass/wear and physical tests outstanding. Eight angular/nine axial rigid-module samples and approximate closed plier envelope are finite screens; no full thread/elastic ring/harness motion proof. Eight angular/nine axial rigid-module samples and approximate closed plier envelope are finite screens; no full thread/elastic ring/harness motion proof.",
+  "ring_installation_reservation_samples": {
+    "samples": [
+      {
+        "radial_scale": 1,
+        "Y_translation_mm": 0,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1,
+        "Y_translation_mm": -1,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1,
+        "Y_translation_mm": -2,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1,
+        "Y_translation_mm": -4,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1,
+        "Y_translation_mm": -8,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1,
+        "Y_translation_mm": -12,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.035,
+        "Y_translation_mm": 0,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.035,
+        "Y_translation_mm": -1,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.035,
+        "Y_translation_mm": -2,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.035,
+        "Y_translation_mm": -4,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.035,
+        "Y_translation_mm": -8,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.035,
+        "Y_translation_mm": -12,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.0705882352941176,
+        "Y_translation_mm": 0,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.0705882352941176,
+        "Y_translation_mm": -1,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.0705882352941176,
+        "Y_translation_mm": -2,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.0705882352941176,
+        "Y_translation_mm": -4,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.0705882352941176,
+        "Y_translation_mm": -8,
+        "intersection_with_tray_mm3": 0.0
+      },
+      {
+        "radial_scale": 1.0705882352941176,
+        "Y_translation_mm": -12,
+        "intersection_with_tray_mm3": 0.0
+      }
+    ],
+    "limits": "Conservative scaled approximate catalog outline. Not actual ring strain, plier kinematics, vendor CAD or full continuous-path certification."
+  },
+  "sensor_tooling_candidate": {
+    "drill": "Guhring9064050025000:2.5mm diameter,4mm shank,20mm flute,62mmOAL,140deg; catalogtmax16.25mm",
+    "holder": "Haimer77.160.04 extra-slim:4mm clamp,7mm nose,3deg taper; simplified taper envelope only",
+    "tool_projection_mm": 25,
+    "holder_nose_Y_mm": 65.95496279283276,
+    "total_entry_to_drill_tip_mm": 36.20496279283276,
+    "minimum_holder_to_cap_mm": 0.36227561558733606,
+    "bit_to_cap_intersection_mm3": 0.0,
+    "limits": "Candidate envelope at final depth, not vendor CAD/full toolpath/fixture/live-holder collision approval; grip depth, runout, spot/drill cycle and coolant must be agreed with supplier"
+  },
+  "design_budget_calculations": {
+    "status": "Proposed budgets only, not released limits or supplier agreement",
+    "seal": {
+      "cross_section_mm": [
+        0.92,
+        1.08
+      ],
+      "gland_width_mm": [
+        1.55,
+        1.65
+      ],
+      "gland_depth_mm": [
+        0.76,
+        0.8
+      ],
+      "residual_closure_gap_mm": [
+        0,
+        0.02
+      ],
+      "squeeze_fraction_min": 0.10869565217391314,
+      "squeeze_fraction_max": 0.29629629629629634,
+      "maximum_simple_area_fill_fraction": 0.7776641916695956,
+      "nominal_simple_area_fill_fraction": 0.629325451440263,
+      "limits": "Cross-section approximation; does not include gland corner volumes, diameter/volume tolerances, stretch, pressure direction or swell"
+    },
+    "root_bond_radial_gap_mm": [
+      0.0649999999999995,
+      0.1349999999999998
+    ],
+    "root_axial_capture_clearance_mm": [
+      0.050000000000000044,
+      0.41000000000000036
+    ],
+    "tool_bar_candidates": {
+      "large_bore": {
+        "diameter_mm": 12,
+        "assumed_overhang_mm": 42,
+        "overhang_to_diameter": 3.5,
+        "type": "steel, supplier confirmation"
+      },
+      "cone_small_end": {
+        "diameter_mm": 8,
+        "assumed_overhang_mm": 42,
+        "overhang_to_diameter": 5.25,
+        "type": "carbide, minimum cutting diameter/holder/chip clearance not validated"
+      }
+    },
+    "mass": {
+      "net_metal_cm3": 32.79735449547013,
+      "illustrative_density_g_cm3": 8,
+      "illustrative_metal_only_mass_g": 262.37883596376105,
+      "limits": "Illustrative density only, no alloy selected; excludes electronics/pack/soft goods"
+    }
+  },
+  "verifier_sha256": "7a122db5923d3aacea76820bdfb45c298fe81f36655e701a540ca2cf2b5595d8",
+  "verified_parts": {
+    "MetalBody": {
+      "native_adaptive_volume_mm3": 17870.34222812343,
+      "STEP_adaptive_volume_delta_mm3": 2.264554495923221e-05,
+      "optimal_bounds_xyz_mm": [
+        -18.669085398110735,
+        -13.0000001,
+        -18.669085398110735,
+        18.669085398110735,
+        64.0000001,
+        18.669085398110735
+      ],
+      "valid_single_solid": true,
+      "native_default_volume_mm3": 17902.128403262133,
+      "STEP_volume_delta_mm3": 2.353831587242894e-05,
+      "STEP_sha256": "17791152a014f5133537aa80646399557d2752985828926b105396c491751fb5"
+    },
+    "MotorThermistorCap": {
+      "native_adaptive_volume_mm3": 14927.0122673467,
+      "STEP_adaptive_volume_delta_mm3": -2.486995072104037e-07,
+      "optimal_bounds_xyz_mm": [
+        -18.257438191802706,
+        54.75,
+        -18.257438191802706,
+        18.257438191802706,
+        98.10000015649776,
+        18.257438191802706
+      ],
+      "valid_single_solid": true,
+      "native_default_volume_mm3": 14927.009355141925,
+      "STEP_volume_delta_mm3": 0.0029062613139103632,
+      "STEP_sha256": "827e5f7ad4463fac6f9eb3884124e2773261102e501cef3697c94b11ed74c9ba"
+    },
+    "FlangeTray": {
+      "native_adaptive_volume_mm3": 9210.414927941256,
+      "STEP_adaptive_volume_delta_mm3": 7.71524355513975e-08,
+      "optimal_bounds_xyz_mm": [
+        -44.0000001,
+        -22.9000001,
+        -16.0000001,
+        44.0000001,
+        -7.9999999,
+        16.0000001
+      ],
+      "valid_single_solid": true,
+      "native_default_volume_mm3": 9210.41492794128,
+      "STEP_volume_delta_mm3": 8.163442544173449e-08,
+      "STEP_sha256": "932dd3d8e0eedc8cc405874ee55184ed3b57297ddb4c845df3658434cb6ed5dc",
+      "STL_closed": true,
+      "STL_sha256": "f432d409dbb4c84ddee50bd1c920e26e2d921c38283a7c8572b18b6f028d6085"
+    },
+    "RearCover": {
+      "native_adaptive_volume_mm3": 4457.439649736814,
+      "STEP_adaptive_volume_delta_mm3": 1.000444171950221e-11,
+      "optimal_bounds_xyz_mm": [
+        -44.0,
+        -24.5,
+        -16.0,
+        44.0,
+        -19.5125,
+        16.0
+      ],
+      "valid_single_solid": true,
+      "native_default_volume_mm3": 4457.439649736819,
+      "STEP_volume_delta_mm3": 6.366462912410498e-12,
+      "STEP_sha256": "f514c9ee4a43add145d6f32dce39cf6ea04a7769cd5d44dae4e85efc9456bb83",
+      "STL_closed": true,
+      "STL_sha256": "497a467dae4157519aec1400d8397eb190551391c2f578c11fc445d86a6965c0"
+    }
+  },
+  "rigid_module_rotation_samples": [
+    {
+      "angle_deg": 0,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "angle_deg": 45,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "angle_deg": 90,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "angle_deg": 135,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "angle_deg": 180,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "angle_deg": 225,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "angle_deg": 270,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "angle_deg": 315,
+      "intersection_with_body_mm3": 0.0
+    }
+  ],
+  "rigid_module_loading_samples": [
+    {
+      "Y_translation_mm": 0,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 1,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 2,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 4,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 8,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 16,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 24,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 36,
+      "intersection_with_body_mm3": 0.0
+    },
+    {
+      "Y_translation_mm": 48,
+      "intersection_with_body_mm3": 0.0
+    }
+  ],
+  "body_rotational_invariance_symmetric_difference_mm3": 0.0,
+  "approximate_ring_plier_access": {
+    "geometry": "X10..27,Y-22..-12,Z+/-4.5 plus0.75radius pins; closed tool clearance only before board/pack installation",
+    "intersections_mm3": {
+      "body": 0.0,
+      "tray": 0.0
+    },
+    "limits": "Not vendor tool geometry, not ring expansion, not physical access acceptance"
+  },
+  "geometry_checked_native_sha256_before_view": "eff41678ae1c5d37f14439bc93cebcfafd1c55c2bb47c79d0cb5f7b8abc3cbf2",
+  "view_configuration": {
+    "configurator_sha256": "d0384c57a8e7770e68b559ab7f7a065e9f63707795e39d9c91ae815ed13b9a78",
+    "all_non_GUI_archive_entries_unchanged": true,
+    "visible_objects": [
+      "BodyElectronicsReference",
+      "BootCuffBlank",
+      "CapCut2",
+      "CapFaceSealProcessSpace",
+      "ComponentReferences",
+      "FaceGlandBottomRadii",
+      "FlangeElectronicsMechanicalProposal",
+      "GroundTargetReference",
+      "MagnetPocket1",
+      "MagnetReference0",
+      "MagnetReference1",
+      "MotorReferenceFitTBD",
+      "OpenEndedInsulatingSleeve",
+      "PCBPostFrontCore1",
+      "PackNTCReference1",
+      "PackNTCReference2",
+      "PositiveTargetReference",
+      "ProductParts",
+      "RootSocketBondProcessSpace",
+      "StandardFoamSpacerLeft",
+      "StandardFoamSpacerRight",
+      "StandardRetainingRingEnvelope",
+      "StandardSoftGoods",
+      "TipPottingProcessSpace",
+      "TipThermistorHeadReference",
+      "UnselectedPackReference"
+    ],
+    "construction_stock_and_cutters_hidden": true
+  },
+  "gland_fillet_partition_check": {
+    "method": "OCCT BRepGProp VolumePropertiesGK, eps1e-10",
+    "added_adaptive_mm3": 0.44766319140285304,
+    "removed_mm3": 0.0,
+    "partition_residual_mm3": -6.626312369917287e-07,
+    "limits": "Default Volume on spline surfaces drifts; use adaptive masses for weight estimates. Geometry/STEP acceptance still separate from physical production."
+  }
+}

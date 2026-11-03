@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860">
+<rect width="1600" height="860" fill="white"/>
+<text x="28" y="45" font-family="Arial,sans-serif" font-size="34" fill="#24364a" font-weight="bold">A flange board can stand upright</text>
+<text x="29" y="84" font-family="Arial,sans-serif" font-size="22" fill="#56677b" font-weight="normal">R24B: complete populated envelopes, including radio overhang and nominal connector mates</text>
+<rect x="20" y="117" width="375" height="613" rx="14" fill="#f4f7fa" stroke="#d6e0e8"/>
+<text x="38" y="151" font-family="Arial,sans-serif" font-size="24" fill="#24364a" font-weight="bold">Flat reference</text>
+<text x="38" y="185" font-family="Arial,sans-serif" font-size="20" fill="#56677b" font-weight="normal">28.95 × 15.62 × 7.40 mm</text>
+<text x="38" y="225" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">TOP · X / Y</text>
+<rect x="45" y="249" width="174.9" height="169.6" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="56.925" y="293.3875" width="153.435" height="82.8125" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="38" y="453" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">FRONT · X / Z</text>
+<rect x="45" y="477" width="174.9" height="201.4" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="56.925" y="558.09" width="153.435" height="39.22" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="38" y="710" font-family="Arial,sans-serif" font-size="19" fill="#207b69" font-weight="bold">0 fixed-context intersections</text>
+<rect x="415" y="117" width="375" height="613" rx="14" fill="#f4f7fa" stroke="#d6e0e8"/>
+<text x="433" y="151" font-family="Arial,sans-serif" font-size="24" fill="#24364a" font-weight="bold">90° about X</text>
+<text x="433" y="185" font-family="Arial,sans-serif" font-size="20" fill="#56677b" font-weight="normal">28.95 × 7.40 × 15.62 mm</text>
+<text x="433" y="225" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">TOP · X / Y</text>
+<rect x="440" y="249" width="174.9" height="169.6" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="451.925" y="315.18375" width="153.435" height="39.22000000000002" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="433" y="453" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">FRONT · X / Z</text>
+<rect x="440" y="477" width="174.9" height="201.4" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="451.925" y="536.29375" width="153.435" height="82.8125" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="433" y="710" font-family="Arial,sans-serif" font-size="19" fill="#936125" font-weight="bold">1 fixed-context intersection</text>
+<rect x="810" y="117" width="375" height="613" rx="14" fill="#f4f7fa" stroke="#d6e0e8"/>
+<text x="828" y="151" font-family="Arial,sans-serif" font-size="24" fill="#24364a" font-weight="bold">90° about Y</text>
+<text x="828" y="185" font-family="Arial,sans-serif" font-size="20" fill="#56677b" font-weight="normal">7.40 × 15.62 × 28.95 mm</text>
+<text x="828" y="225" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">TOP · X / Y</text>
+<rect x="835" y="249" width="174.9" height="169.6" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="904.0325" y="293.3875" width="39.22000000000005" height="82.8125" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="828" y="453" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">FRONT · X / Z</text>
+<rect x="835" y="477" width="174.9" height="201.4" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="904.0325" y="500.9825" width="39.22000000000005" height="153.435" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="828" y="710" font-family="Arial,sans-serif" font-size="19" fill="#207b69" font-weight="bold">0 fixed-context intersections</text>
+<rect x="1205" y="117" width="375" height="613" rx="14" fill="#f4f7fa" stroke="#d6e0e8"/>
+<text x="1223" y="151" font-family="Arial,sans-serif" font-size="24" fill="#24364a" font-weight="bold">90° in XY plane</text>
+<text x="1223" y="185" font-family="Arial,sans-serif" font-size="20" fill="#56677b" font-weight="normal">15.63 × 28.95 × 7.40 mm</text>
+<text x="1223" y="225" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">TOP · X / Y</text>
+<rect x="1230" y="249" width="174.9" height="169.6" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="1277.23625" y="258.07624999999996" width="82.81250000000001" height="153.43500000000006" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="1223" y="453" font-family="Arial,sans-serif" font-size="18" fill="#56677b" font-weight="normal">FRONT · X / Z</text>
+<rect x="1230" y="477" width="174.9" height="201.4" fill="none" stroke="#adbaca" stroke-dasharray="5,4"/>
+<rect x="1277.23625" y="558.09" width="82.81250000000001" height="39.22" fill="#399b8760" stroke="#207b69" stroke-width="2"/>
+<text x="1223" y="710" font-family="Arial,sans-serif" font-size="19" fill="#936125" font-weight="bold">8 fixed-context intersections</text>
+<text x="29" y="751" font-family="Arial,sans-serif" font-size="21" fill="#56677b" font-weight="normal">Green: populated bounding envelope. Dashed: fixed outer wing bounding window; not its surface.</text>
+<text x="29" y="792" font-family="Arial,sans-serif" font-size="21" fill="#56677b" font-weight="normal">Y-rotation clears the saved fixed context. Antenna, buttons, flex, assembly route and physical fit remain open.</text>
+<text x="29" y="831" font-family="Arial,sans-serif" font-size="21" fill="#56677b" font-weight="normal">All exterior shapes unchanged. Dimensions alone do not qualify comfort or flange motion.</text>
+</svg>

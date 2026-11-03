@@ -1,0 +1,8 @@
+{
+  "board_sha256": "5ba844fad77f58a8a5dfcb67f50e9070cf021048c29ed45a2751a9b8067f0bd4",
+  "native_details_sha256": "5d11ead9020c6fd737530a9206a55f1a135c67fb3026c79c1f5c0a1a8a242008",
+  "renderer_sha256": "a59526771658027e8ecb4468ce41cc4f19b3f93481b4955c5017c2a5234d310b",
+  "scope": "Four native pad/paste detail plots. U6 shows only actual pad49 islands; other footprints show all source pads. No mask/fill/etch/volume/yield acceptance. Nominal U5 area ratio excludes drill subtraction and paste transfer effects.",
+  "image_sha256": "d497d97406ba7b77b306d4bd8978700f3a44403c3932ba459a770b199cd6ffc3",
+  "svg_sha256": "e6d06fe3e9c7cd893a6b3e10821efaa7dc715692b9d17b0eee0a64d85c812769"
+}

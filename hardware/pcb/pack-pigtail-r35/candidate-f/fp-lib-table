@@ -1,0 +1,14 @@
+(fp_lib_table
+  (lib
+    (name "PrototypeR0")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../stackup-r23/candidate-d/body/PrototypeR0.pretty")
+    (options "")
+    (descr "System review; physical boards are separate"))
+  (lib
+    (name "TipR1")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../../stackup-r23/candidate-d/../../tip-r1/TipR1.pretty")
+    (options "")
+    (descr "Preserved remote tip"))
+  (lib (name "PackPigtailR35") (type "KiCad") (uri "${KIPRJMOD}/body/PackPigtailR35.pretty") (options "") (descr "Copper-only prototype solder lands")))

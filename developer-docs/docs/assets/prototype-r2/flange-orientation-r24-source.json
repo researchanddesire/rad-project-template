@@ -1,0 +1,12 @@
+{
+  "report_sha256": "4154957fa7ba2432f13a977b871d5361ddd4cd5e081bed5d806a95ccdd82e872",
+  "renderer_sha256": "1b5e243e068e89e11c785ab76ad933f6546c4c9ed186c3f28429cc5b07cf2e7c",
+  "SVG_sha256": "de2a829c7f3e44a28f7e74af7e71a50e1b442c87eddd68d913467736780cf4b9",
+  "native_files_sha256": {
+    "flat.FCStd": "63dcbc55f63afbf25fed6c40faaffc39916dd1e9154272c5e0bd926bd3ca5154",
+    "roll-x-90.FCStd": "0b87b19755ed7683acc228de279afe1c1d1f68cb3e737e563863aa33f6059438",
+    "pitch-y-90.FCStd": "dd3313bb302c9b75181972f3f6fdb71f7418c43ce94b8577b88ad25764026a87",
+    "in-plane-z-90.FCStd": "d13ea33c9bc2432ab85391b95154c57913f5594b2379006dad1fafe8bf8a911a"
+  },
+  "scope": "Projections of complete populated native bounding envelopes only; dashed rectangles are fixed outer wing bounding windows, not surfaces or clearance proofs."
+}

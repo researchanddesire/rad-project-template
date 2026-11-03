@@ -1,0 +1,53 @@
+{
+  "native_sha256": "b77ac8e14adba236f2824a9ad762ef02373632114d694178f8db3f3011430841",
+  "geometry_report_sha256": "f0134122b98c9f16e7e8d2e1ab01e56037c3dcc5408b5e701fe0fb6ebae62372",
+  "renderer_sha256": "fc8c2e9634429d6eb0f986965713753eb62aefca4a4edb457b2f6ece9d26f48b",
+  "render_library_sha256": "6f53572a44b4ebc200c3e4593d17057385c7606c06d12878f88d3d2c615e7833",
+  "R10_meshes_sha256": {
+    "OnePieceBody-section.stl": "dd77779fff52e0c1c442cecc04d56a8c8f9941d38d9a4dd260f979d5564f7f62",
+    "ClosingNoseCap-section.stl": "1bb4e62c5eef12d9cd0c99fd06914b1cff7d2dfcaa318471dfd7723ba8650f8b",
+    "ConnectedCarrier.stl": "62a9d881c696f3204230fb9f7ff40f5e5e0383fa4108f24a8b8b179cd405af3f",
+    "RemovablePCBKeeper.stl": "dad17b475d0682d7b6e625edf096a45d46ab98f033d2e15fd7f7c115caafc286",
+    "KeeperScrew_1.stl": "86c20b0a6e443f3e0d2fffac0326c30fc1de43529cc5c38199f2566c7a548418",
+    "KeeperScrew1.stl": "8ba693201ccdce3e28ea822722c2606b74c041454a130c933035d96973fe26b4",
+    "BodyPCBStudy.stl": "815e6253ed332d9812e4321f89f672b92fdefae4f9cc7e95e2e74d96abfaf247",
+    "FrontComponentAllowance.stl": "3c2d4244b80f7187401f58974b47293eb1858e776eaba54b72fcb8c6fd42fac8",
+    "BackComponentAllowance.stl": "5e0c68d70108eb6365fa861183b5260df45879656f6f374b85f3ac1b31a82eb8",
+    "NarrowPackAllowance.stl": "ac246b80c25f361ae78a7ce77bb5e2f24b1a41161f208351c944659cb7a817a8",
+    "MotorMaxEnvelope.stl": "060f190715641d3f4c2ef405ef75628ce4bdb53347f6dcac29d725f2712d3ab4",
+    "FlexibleLinkSpace.stl": "0c0db8b5841c30b988de1de8072b0479a94dfc6e28837e7c5832e42c95f8bd41",
+    "FlangePCBStudy.stl": "20c6edc17ba6d4b85f3d5a63f0cc7bdce79cc23124a7228e89f310acd9a79b0c",
+    "TipPCB.stl": "31a34429eed0b9ed2a7f3a2d0823a56fb485ac7341b9310ea27f651699ce821b",
+    "TipComponentEnvelope.stl": "0ed31524b33fc7e19fee2ac467db08ba7e76a00f65e0f838e77d29e89ff33820",
+    "TipThermalShoe.stl": "56a6da6c666dc08152a6f053e6f393aca946b50ba0d7456c871292f3ddb2f9a3",
+    "OnePieceBody.stl": "8f86091b6d4a7d5f646a579ca5eed2d9dd2438af207759f14821f005eb90aed1",
+    "ClosingNoseCap.stl": "2117a0836bbcec96b214eaf670d0725a90b1749c816fb5682b689f44ca463657"
+  },
+  "preserved_flange_meshes_sha256": {
+    "ElastomerFlangeCoverLower.stl": "816db6d092254d14573565029ed4a2ecf6d8dd2ba4c62037a9cab1f901f54b04"
+  },
+  "display_translation_mm": {
+    "ClosingNoseCap": [
+      0,
+      22,
+      0
+    ],
+    "carrier_group": [
+      35,
+      0,
+      0
+    ]
+  },
+  "carrier_group": [
+    "ConnectedCarrier",
+    "RemovablePCBKeeper",
+    "KeeperScrew_1",
+    "KeeperScrew1",
+    "BodyPCBStudy",
+    "FrontComponentAllowance",
+    "BackComponentAllowance",
+    "NarrowPackAllowance",
+    "MotorMaxEnvelope"
+  ],
+  "scope": "Actual native carrier/metal meshes and half-sections, explicit display offsets. PCB/component/pack budgets only; no actual flange retention, tip load path or physical assembly acceptance."
+}

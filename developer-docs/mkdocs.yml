@@ -1,7 +1,15 @@
-site_name: PRODUCT_NAME Developer Docs
+site_name: Buttplug Compass Developer Docs
+site_description: Current prototype requirements, design, hardware and bench firmware.
+repo_url: https://github.com/researchanddesire/buttplug
+edit_uri: edit/main/developer-docs/docs/
 use_directory_urls: false
 theme:
   name: material
+  features:
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
 plugins:
   - search
   - awesome-pages

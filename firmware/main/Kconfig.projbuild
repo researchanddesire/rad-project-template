@@ -1,0 +1,68 @@
+menu "Buttplug R0 bench prototype"
+config R0_MOTOR_BENCH_ENABLE
+    bool "Permit bench motor arming after engineering limits are configured"
+    default n
+    help
+        Bench fixture only. No human-contact use approval. Default build cannot
+        energize the motor. Real hardware gate and pulldowns are still required.
+config R0_TEMPERATURE_TRIP_MILLIC
+    int "Unvalidated bench tip-sensor trip in milli-Celsius (0 locks motor)"
+    range 0 100000
+    default 0
+config R0_BATTERY_MIN_MV
+    int "Unvalidated bench minimum battery mV (0 locks motor)"
+    range 0 4500
+    default 0
+config R0_MAX_DUTY_PERCENT
+    int "Bench PWM ceiling percent; not a motor voltage/current rating"
+    range 1 25
+    default 25
+config R0_SAMPLE_PERIOD_MS
+    int "Telemetry sensor polling period (ms)"
+    range 250 1000
+    default 1000
+config R0_TMP117_ADDRESS
+    hex "TMP117 ADD0-strapped 7-bit I2C address"
+    range 0x48 0x4b
+    default 0x48
+config R0_MC3635_ADDRESS
+    hex "MC3635 strapped 7-bit I2C address"
+    range 0x4c 0x6c
+    default 0x4c
+config R0_VBAT_DIVIDER_NUMERATOR
+    int "VBAT divider scaling numerator (1M/1M candidate = 2)"
+    range 1 10
+    default 2
+config R0_VBAT_DIVIDER_DENOMINATOR
+    int "VBAT divider scaling denominator"
+    range 1 10
+    default 1
+config R0_PIN_VBAT
+    int "VBAT ADC GPIO (R0 requires ADC1 GPIO0)"
+    range 0 0
+    default 0
+config R0_PIN_POWER_N
+    int "Active-low momentary power GPIO"
+    default 1
+config R0_PIN_MODE_N
+    int "Active-low momentary mode GPIO"
+    default 3
+config R0_PIN_SDA
+    int "I2C SDA GPIO"
+    default 4
+config R0_PIN_SCL
+    int "I2C SCL GPIO"
+    default 5
+config R0_PIN_PWM
+    int "Motor PWM GPIO"
+    default 6
+config R0_PIN_ARM
+    int "Motor hardware ARM GPIO"
+    default 7
+config R0_PIN_ACCEL_INT_N
+    int "MC3635 active-low interrupt GPIO"
+    default 10
+config R0_PIN_DOCK_N
+    int "BQ24074 /PGOOD GPIO (low = docked)"
+    default 20
+endmenu

@@ -1,0 +1,12 @@
+{
+  "native_board_sha256": "f5197510b9d01019345c8e17eaf2ab6aae7d94efe5426e61ad91dc2ad79fb88a",
+  "project_sha256": "e1594b2a2f70fac07098b1b12a210325b6232cd5f5226b78a8a4c49c6a99b3ed",
+  "reviewer_sha256": "f6a887ff7056daca098e85c99693bf308130e2857b3c2c454de3e32a552dafc9",
+  "native_report_sha256": "c35c225e0b88e49b14028dbbfd79bcb311ec6ddbde71d5539c942a96ca131405",
+  "counts": {
+    "violations": 0,
+    "unconnected": 0,
+    "footprint_errors": 0
+  },
+  "scope": "Fresh native KiCad 7 DRC. Findings are not waived; no electrical, thermal or physical qualification inferred."
+}

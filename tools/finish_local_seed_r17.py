@@ -1,0 +1,11 @@
+"""Finish the pin-escaped local seed before rebuilding global routes."""
+from pathlib import Path
+import sys,json
+import pcb_r2_route as R
+K=R.k;ROOT=Path(__file__).resolve().parents[1];source=ROOT/'hardware/pcb/route-r17/candidate-w';P=Path(sys.argv[1]).resolve();P.mkdir(parents=True,exist_ok=True);assert not any(P.iterdir());records=['fp-lib-table','sym-lib-table','body-seed.json','local-power.json','power-refinement.json','local-interfaces.json','compact-driver.json','signal-first-seed.json','ground-rework.json','fresh-fill.json','ground-plan.json','ground-application.json','signal-ports.json','signal-application.json']
+for p in source.rglob('*'):
+ if p.is_file()and((p.suffix in ['.kicad_pro','.kicad_sch','.kicad_sym','.kicad_mod']or p.suffix=='.kicad_pcb'and p.name!='source-seed.kicad_pcb')or p.name in records):
+  q=P/p.relative_to(source);q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes(p.read_bytes())
+bp=P/'body/body-r17.kicad_pcb';b=K.LoadBoard(str(bp));before=R.sha(bp);parent_geometry=ROOT/'hardware/pcb/route-r17/candidate-q/body-native-geometry-all-layers.json';g=json.loads(parent_geometry.read_text());reused=next(t for t in g['routes']if t['kind']=='via'and t['net']=='MOTOR_ARM'and t['position']==[-.7,31.9]);assert not any(t['kind']=='via'and t['position']==reused['position']for t in R.route_records(b))
+routes=[reused]+[{'kind':'track','net':'GND','layer':'B.Cu','width':.15,'start':a,'end':c}for a,c in zip([[3.65,46.125],[3.25,46.3],[2.25,46.5]],[[3.25,46.3],[2.25,46.5],[2.25,46.7]])]
+R.apply_routes(b,routes);K.SaveBoard(str(bp),b);R.fill_save(bp);R.write(P/'local-seed-final.json',{'date':'2026-11-01','builder_sha256':R.sha(Path(__file__)),'source_W_body_sha256':before,'Q_parent_native_geometry_sha256':R.sha(parent_geometry),'added_routes':routes,'native_body_sha256':R.sha(bp),'regulator_pin15_function':'VSEL logic input held low; local .15mm link to existing control-GND neck, not a high-current power-ground return','primary_source':'https://www.ti.com/lit/ds/symlink/tps63070.pdf','scope':'Restore shared header motor-arm via that a Q port referenced before global-route removal. Tie U3 VSEL locally to the existing control-ground neck without a new via. Preserve all other local critical copper and pin escapes; no poses/circuit/rule changes. Fresh native DRC/drill/reference checks required.'});print(P,flush=True)

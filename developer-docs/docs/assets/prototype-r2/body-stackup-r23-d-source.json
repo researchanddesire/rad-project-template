@@ -1,0 +1,10 @@
+{
+  "native_board_sha256": "19f0c9b20d4b6e6c43636076531297af3eab12effb196b8ce46c807de477491b",
+  "geometry_sha256": "6360b0d1a394db4f879e9c12ca0799d168d2586e0f13a23ea1c377533ef61d59",
+  "inspection_sha256": "cab36212190ca33e0d49d115d5f32973683a6527f948ce2c3b06457b40e610a6",
+  "native_DRC_sha256": "432e19f48af8babe704f854277f3f39921d77ddebdabaf8d027ef6db31ccb749",
+  "renderer_sha256": "3d536cc143203cb7a1cd11f490c8f960ba0d47784f17e762b8af8998ee563695",
+  "SVG_sha256": "73fd72a42f881e96953491015ccf36b9f35a05c6acf9f2651797d6587d29d70e",
+  "planes_omitted": true,
+  "scope": "Actual native pad polygons, tracks, through-via Cu/drills, board outline and rule areas. No electrical/physical or complete-return-path validation."
+}
