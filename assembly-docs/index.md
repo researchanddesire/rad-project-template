@@ -1,17 +1,15 @@
-# Assembly documentation
+# PRODUCT_NAME Assembly
 
-The current manufacturing direction uses two CNC-turned metal parts—body and motor/thermistor cap—plus an
-open flange tray and rear cover, plus a silicone outer boot. Start with the
-[assembly direction](assembly-guide.md) and the native CAD/README under
-`hardware/cad/manufacturing-layout/`.
+Use this page for the product-specific assembly overview, expected skill level,
+required safety notes, and links to the build sequence.
 
-This is not a released build. The earlier scaffold/P1 fit kit is superseded.
-The NTC circuit/firmware, PCB tabs, rotating module loom, cap thread/seals,
-boot/buttons and matching charger still need integration and validation.
+## Source Files
 
-- [PCB reference](pcb-overview.md)
-- [Harness reference](cable-harnesses.md)
-- [Human-owned BOM](bom.md)
+- BOM source: [`hardware/bom.csv`](../hardware/bom.csv)
+- CAD source: [`hardware/cad/`](../hardware/cad/)
+- PCB source: [`hardware/pcb/`](../hardware/pcb/)
 
-Earlier module pages are historical/reference studies, not current build steps.
-No component is approved for purchase by appearing in a diagram or CAD model.
+## Next Steps
+
+- [Bill of Materials](bom.md)
+- [Assembly Guide](assembly-guide.md)

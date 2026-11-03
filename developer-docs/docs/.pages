@@ -1,9 +1,5 @@
+title: PRODUCT_NAME
 nav:
-  - Overview: index.md
-  - Build proposal: prototype-build-handoff.md
-  - Requirements: prd.md
-  - Architecture: architecture.md
-  - Hardware: hardware.md
-  - Firmware: firmware.md
-  - Validation: testing.md
-  - Archive: archive
+  - index.md
+  - architecture.md
+  - testing.md

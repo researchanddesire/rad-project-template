@@ -1,12 +1,7 @@
-Buttplug Compass: license selection pending.
+Replace this file with the product's license text before publishing.
 
-No product-specific hardware, firmware or documentation license has been
-selected for this draft. Preserve upstream notices when adding source assets.
+Recommended defaults for R+D hardware/firmware product repos:
 
-The RAD project template recommends these defaults for consideration:
 - Hardware: CERN-OHL-S v2
 - Firmware: MPL-2.0
-- Documentation: CC BY-SA 4.0
-
-These are recommendations, not adopted license grants. Replace this file with
-the selected license texts before distributing a product release.
+- Documentation: CC BY-SA 4.0, unless product-specific terms say otherwise
